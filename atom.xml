@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.ehlxr.me/"/>
-  <updated>2016-08-04T10:40:47.565Z</updated>
+  <updated>2016-08-22T06:37:55.244Z</updated>
   <id>http://www.ehlxr.me/</id>
   
   <author>
@@ -14,6 +14,64 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[转]Java程序员情书</title>
+    <link href="http://www.ehlxr.me/2016/08/22/%E8%BD%AC-Java%E7%A8%8B%E5%BA%8F%E5%91%98%E6%83%85%E4%B9%A6/"/>
+    <id>http://www.ehlxr.me/2016/08/22/转-Java程序员情书/</id>
+    <published>2016-08-22T06:24:15.000Z</published>
+    <updated>2016-08-22T06:37:55.244Z</updated>
+    
+    <content type="html"><![CDATA[<p>我能抽象出整个世界．．． </p>
+<p>但是我却不能抽象出你．．． </p>
+<p>你肯定是一个单例，因为你是那样的独一无二… </p>
+<p>所以我的世界并不完整．．． </p>
+<p>我可以重载甚至覆盖这个世界里的任何一种方法．．． </p>
+<p>但是却不能覆盖对你的思念．．． </p>
+<p>也许命中注定了 你与我存在于不同的包里… </p>
+<p>在你的世界里，你被烙上了私有的属性… </p>
+<a id="more"></a>
+<p>我用尽全身力气，也找不到访问你的接口… </p>
+<p>我不愿就此甘心，找到了藏身在神殿的巫师，教会了我穿越时空的方法… </p>
+<p>终于，我用反射这把利剑，打开了你空间的缺口… </p>
+<p>并发现了接近你的秘密… </p>
+<p><img src="http://oapjp6spr.bkt.clouddn.com/222wqklkmlqej5-lp.jpg" alt="enter description here"></p>
+<p>当我迫不及待地调用了爱你这个方法．．． </p>
+<p>并义无返顾的把自己作为参数传进这个方法时．．． </p>
+<p>我才发现爱上你是一个没有终止条件的递归．．． </p>
+<p>它不停的返回我对你的思念并压入我心里的堆栈．．． </p>
+<p>在这无尽的黑夜中 ，终于体验到你对我爱的回调… </p>
+<p>我的内存里已经再也装不下别人… </p>
+<p>当我以为将与你在这个死循环中天荒地老时… </p>
+<p>万恶的系统抛出了爱的异常… </p>
+<p>此刻我才发现，我不过是操纵于虚拟机下的一个线程，你也是… </p>
+<p>但我毫不后悔，因为在爱的洗礼之后… </p>
+<p>我看见了一个新的生命，那是我们的, 继承</p>
+<hr>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="110" src="http://music.163.com/outchain/player?type=0&id=448161195&auto=1&height=90"></iframe>
+
+
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我能抽象出整个世界．．． &lt;/p&gt;
+&lt;p&gt;但是我却不能抽象出你．．． &lt;/p&gt;
+&lt;p&gt;你肯定是一个单例，因为你是那样的独一无二… &lt;/p&gt;
+&lt;p&gt;所以我的世界并不完整．．． &lt;/p&gt;
+&lt;p&gt;我可以重载甚至覆盖这个世界里的任何一种方法．．． &lt;/p&gt;
+&lt;p&gt;但是却不能覆盖对你的思念．．． &lt;/p&gt;
+&lt;p&gt;也许命中注定了 你与我存在于不同的包里… &lt;/p&gt;
+&lt;p&gt;在你的世界里，你被烙上了私有的属性… &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="杂谈" scheme="http://www.ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="杂谈" scheme="http://www.ehlxr.me/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
   
   <entry>
     <title>CentOS 系统下 GitLab 搭建与基本配置</title>
@@ -110,9 +168,9 @@
       <category term="Liunx" scheme="http://www.ehlxr.me/categories/Liunx/"/>
     
     
-      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
       <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
@@ -160,9 +218,9 @@
       <category term="Liunx" scheme="http://www.ehlxr.me/categories/Liunx/"/>
     
     
-      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
       <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
@@ -232,11 +290,11 @@
       <category term="Liunx" scheme="http://www.ehlxr.me/categories/Liunx/"/>
     
     
+      <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
       <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
       <category term="Node.js" scheme="http://www.ehlxr.me/tags/Node-js/"/>
-    
-      <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
@@ -288,9 +346,9 @@
       <category term="Liunx" scheme="http://www.ehlxr.me/categories/Liunx/"/>
     
     
-      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
   </entry>
   
