@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.ehlxr.me/"/>
-  <updated>2016-08-22T06:37:55.244Z</updated>
+  <updated>2016-08-30T06:42:48.381Z</updated>
   <id>http://www.ehlxr.me/</id>
   
   <author>
@@ -14,6 +14,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Hexo基于GitHub Pages搭建个人博客（三）</title>
+    <link href="http://www.ehlxr.me/2016/08/30/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89/"/>
+    <id>http://www.ehlxr.me/2016/08/30/使用Hexo基于GitHub-Pages搭建个人博客（三）/</id>
+    <published>2016-08-30T06:23:52.000Z</published>
+    <updated>2016-08-30T06:42:48.381Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>生命不息，折腾不休。搭建 blog 以来，博文虽没写几篇，但折腾的时间花了不少，走过不少弯路，也踩过不少坑，虽然很懒，但本着好记性不如烂笔头的宗旨，打算在折腾记忆尚未磨灭之际记录一下走过的路和踩过的坑…</p>
+</blockquote>
+<p>接着前两篇使用 Hexo 基于 GitHub Pages 搭建个人博客之上，本文记录了在使用非常漂亮简洁的 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Next</a> 主题过程中的各种折腾，再次衷心的感谢 Hexo 的作者 Next 主题作者的无私奉献。</p>
+<h1 id="一、"><a href="#一、" class="headerlink" title="一、"></a>一、</h1><h1 id="一、-1"><a href="#一、-1" class="headerlink" title="一、"></a>一、</h1><h1 id="一、-2"><a href="#一、-2" class="headerlink" title="一、"></a>一、</h1><h1 id="一、-3"><a href="#一、-3" class="headerlink" title="一、"></a>一、</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;生命不息，折腾不休。搭建 blog 以来，博文虽没写几篇，但折腾的时间花了不少，走过不少弯路，也踩过不少坑，虽然很懒，但本着好记性不如烂笔头的宗旨，打算在折腾记忆尚未磨灭之际记录一下走过的路和踩过的坑…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;接
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://www.ehlxr.me/categories/Hexo/"/>
+    
+    
+      <category term="GitHub" scheme="http://www.ehlxr.me/tags/GitHub/"/>
+    
+      <category term="Hexo" scheme="http://www.ehlxr.me/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>[转]Java程序员情书</title>
@@ -170,9 +201,9 @@
     
       <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
-      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -220,9 +251,9 @@
     
       <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
-      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -292,9 +323,9 @@
     
       <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
-      <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
-    
       <category term="Node.js" scheme="http://www.ehlxr.me/tags/Node-js/"/>
+    
+      <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
     
   </entry>
   

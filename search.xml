@@ -4,6 +4,16 @@
   
     
     <entry>
+      <title><![CDATA[使用Hexo基于GitHub Pages搭建个人博客（三）]]></title>
+      <url>http://www.ehlxr.me/2016/08/30/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89/</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>生命不息，折腾不休。搭建 blog 以来，博文虽没写几篇，但折腾的时间花了不少，走过不少弯路，也踩过不少坑，虽然很懒，但本着好记性不如烂笔头的宗旨，打算在折腾记忆尚未磨灭之际记录一下走过的路和踩过的坑…</p>
+</blockquote>
+<p>接着前两篇使用 Hexo 基于 GitHub Pages 搭建个人博客之上，本文记录了在使用非常漂亮简洁的 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Next</a> 主题过程中的各种折腾，再次衷心的感谢 Hexo 的作者 Next 主题作者的无私奉献。</p>
+<h1 id="一、"><a href="#一、" class="headerlink" title="一、"></a>一、</h1><h1 id="一、-1"><a href="#一、-1" class="headerlink" title="一、"></a>一、</h1><h1 id="一、-2"><a href="#一、-2" class="headerlink" title="一、"></a>一、</h1><h1 id="一、-3"><a href="#一、-3" class="headerlink" title="一、"></a>一、</h1>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[[转]Java程序员情书]]></title>
       <url>http://www.ehlxr.me/2016/08/22/%E8%BD%AC-Java%E7%A8%8B%E5%BA%8F%E5%91%98%E6%83%85%E4%B9%A6/</url>
       <content type="html"><![CDATA[<p>我能抽象出整个世界．．． </p>
