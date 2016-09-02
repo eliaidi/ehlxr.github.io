@@ -4,6 +4,12 @@
   
     
     <entry>
+      <title><![CDATA[Naruto 图集]]></title>
+      <url>http://www.ehlxr.me/2016/09/02/Naruto-%E5%9B%BE%E9%9B%86/</url>
+      <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/18210.jpg" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/196232.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/224147.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/199301.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/213318.jpg" alt=""></div></div></div></div>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[使用Hexo基于GitHub Pages搭建个人博客（三）]]></title>
       <url>http://www.ehlxr.me/2016/08/30/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89/</url>
       <content type="html"><![CDATA[<blockquote>
@@ -18,6 +24,7 @@
 <h1 id="五、内容分享"><a href="#五、内容分享" class="headerlink" title="五、内容分享"></a>五、内容分享</h1><p>JiaThis 插件</p>
 <h1 id="六、搜索服务"><a href="#六、搜索服务" class="headerlink" title="六、搜索服务"></a>六、搜索服务</h1><p>Local Search 插件</p>
 <h1 id="七、其它设置"><a href="#七、其它设置" class="headerlink" title="七、其它设置"></a>七、其它设置</h1><p>背景动态效果图设置、点击小红心效果设置</p>
+<h1 id="八、图片模式"><a href="#八、图片模式" class="headerlink" title="八、图片模式"></a>八、图片模式</h1><p>设置图片博文展示<br>样式js：theme/next/scripts/tags/group-pictures.js</p>
 ]]></content>
     </entry>
     

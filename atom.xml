@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.ehlxr.me/"/>
-  <updated>2016-08-31T10:37:56.955Z</updated>
+  <updated>2016-09-02T07:22:14.454Z</updated>
   <id>http://www.ehlxr.me/</id>
   
   <author>
@@ -16,11 +16,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Naruto 图集</title>
+    <link href="http://www.ehlxr.me/2016/09/02/Naruto-%E5%9B%BE%E9%9B%86/"/>
+    <id>http://www.ehlxr.me/2016/09/02/Naruto-图集/</id>
+    <published>2016-09-02T06:36:04.000Z</published>
+    <updated>2016-09-02T07:22:14.454Z</updated>
+    
+    <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/18210.jpg" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/196232.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/224147.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/199301.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/213318.jpg" alt=""></div></div></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;widt
+    
+    </summary>
+    
+      <category term="图片" scheme="http://www.ehlxr.me/categories/%E5%9B%BE%E7%89%87/"/>
+    
+    
+      <category term="picture" scheme="http://www.ehlxr.me/tags/picture/"/>
+    
+      <category term="naruto" scheme="http://www.ehlxr.me/tags/naruto/"/>
+    
+  </entry>
+  
+  <entry>
     <title>使用Hexo基于GitHub Pages搭建个人博客（三）</title>
     <link href="http://www.ehlxr.me/2016/08/30/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89/"/>
     <id>http://www.ehlxr.me/2016/08/30/使用Hexo基于GitHub-Pages搭建个人博客（三）/</id>
     <published>2016-08-30T06:23:52.000Z</published>
-    <updated>2016-08-31T10:37:56.955Z</updated>
+    <updated>2016-09-02T06:59:57.965Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>生命不息，折腾不休。从搭建 blog 以来，博文虽没有写几篇，但折腾的时间花了不少，走过了不少弯路，也踩过了不少的坑，虽然很懒，但本着好记性不如烂笔头的宗旨，打算在折腾记忆尚未磨灭之际记录一下走过的路和踩过的坑…</p>
@@ -34,6 +58,7 @@
 <h1 id="五、内容分享"><a href="#五、内容分享" class="headerlink" title="五、内容分享"></a>五、内容分享</h1><p>JiaThis 插件</p>
 <h1 id="六、搜索服务"><a href="#六、搜索服务" class="headerlink" title="六、搜索服务"></a>六、搜索服务</h1><p>Local Search 插件</p>
 <h1 id="七、其它设置"><a href="#七、其它设置" class="headerlink" title="七、其它设置"></a>七、其它设置</h1><p>背景动态效果图设置、点击小红心效果设置</p>
+<h1 id="八、图片模式"><a href="#八、图片模式" class="headerlink" title="八、图片模式"></a>八、图片模式</h1><p>设置图片博文展示<br>样式js：theme/next/scripts/tags/group-pictures.js</p>
 ]]></content>
     
     <summary type="html">
@@ -208,9 +233,9 @@
       <category term="Liunx" scheme="http://www.ehlxr.me/categories/Liunx/"/>
     
     
-      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
       <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
@@ -258,9 +283,9 @@
       <category term="Liunx" scheme="http://www.ehlxr.me/categories/Liunx/"/>
     
     
-      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
       <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
@@ -330,11 +355,11 @@
       <category term="Liunx" scheme="http://www.ehlxr.me/categories/Liunx/"/>
     
     
+      <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
       <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
       <category term="Node.js" scheme="http://www.ehlxr.me/tags/Node-js/"/>
-    
-      <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
@@ -386,9 +411,9 @@
       <category term="Liunx" scheme="http://www.ehlxr.me/categories/Liunx/"/>
     
     
-      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
   </entry>
   
