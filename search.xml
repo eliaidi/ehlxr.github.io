@@ -6,889 +6,103 @@
     <entry>
       <title><![CDATA[Naruto 图集]]></title>
       <url>http://www.ehlxr.me/2016/09/02/Naruto-%E5%9B%BE%E9%9B%86/</url>
-      <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/18210.jpg" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/196232.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/224147.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/199301.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/213318.jpg" alt=""></div></div></div></div>]]></content>
+      <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width:50%"><img src="http://oapjp6spr.bkt.clouddn.com/18210.jpg" alt=""></div><div class="group-picture-column" style="width:50%"><img src="http://oapjp6spr.bkt.clouddn.com/196232.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width:33.333333333333336%"><img src="http://oapjp6spr.bkt.clouddn.com/224147.jpg" alt=""></div><div class="group-picture-column" style="width:33.333333333333336%"><img src="http://oapjp6spr.bkt.clouddn.com/199301.jpg" alt=""></div><div class="group-picture-column" style="width:33.333333333333336%"><img src="http://oapjp6spr.bkt.clouddn.com/213318.jpg" alt=""></div></div></div></div>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[使用Hexo基于GitHub Pages搭建个人博客（三）]]></title>
       <url>http://www.ehlxr.me/2016/08/30/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89/</url>
-      <content type="html"><![CDATA[<blockquote>
-<p>生命不息，折腾不休。从搭建 blog 以来，博文虽没有写几篇，但折腾的时间花了不少，走过了不少弯路，也踩过了不少的坑，虽然很懒，但本着好记性不如烂笔头的宗旨，打算在折腾记忆尚未磨灭之际记录一下走过的路和踩过的坑…</p>
-</blockquote>
-<p>接着前两篇使用 Hexo 基于 GitHub Pages 搭建个人博客之上，本文记录了在使用非常漂亮简洁的 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Next</a> 主题过程中的各种折腾，其它主题的相关设置大同小异。再次衷心的感谢 Hexo 的作者和 Next 主题作者的无私奉献。</p>
-<h1 id="一、主题安装"><a href="#一、主题安装" class="headerlink" title="一、主题安装"></a>一、主题安装</h1><p>记录一下 Next 主题的基本配置、设置「阅读全文」、关闭新建页面的评论功能、页面文章的篇数、宽度调节、设置「JavaScript 第三方库」等内容、在线字体替换（选择关闭，加快访问速度）</p>
-<a id="more"></a>
-<h1 id="二、多说评论"><a href="#二、多说评论" class="headerlink" title="二、多说评论"></a>二、多说评论</h1><p>多说热评文章、多说评论样式调整</p>
-<h1 id="三、统计"><a href="#三、统计" class="headerlink" title="三、统计"></a>三、统计</h1><p>文章阅读次数统计（LeanCloud) 、不蒜子统计站点访问统计</p>
-<h1 id="四、设置-RSS"><a href="#四、设置-RSS" class="headerlink" title="四、设置 RSS"></a>四、设置 RSS</h1><p>RSS的使用</p>
-<h1 id="五、内容分享"><a href="#五、内容分享" class="headerlink" title="五、内容分享"></a>五、内容分享</h1><p>JiaThis 插件</p>
-<h1 id="六、搜索服务"><a href="#六、搜索服务" class="headerlink" title="六、搜索服务"></a>六、搜索服务</h1><p>Local Search 插件</p>
-<h1 id="七、其它设置"><a href="#七、其它设置" class="headerlink" title="七、其它设置"></a>七、其它设置</h1><p>背景动态效果图设置、点击小红心效果设置</p>
-<h1 id="八、图片模式"><a href="#八、图片模式" class="headerlink" title="八、图片模式"></a>八、图片模式</h1><p>设置图片博文展示<br>样式js：theme/next/scripts/tags/group-pictures.js</p>
-]]></content>
+      <content type="html"><![CDATA[<blockquote><p>生命不息，折腾不休。从搭建 blog 以来，博文虽没有写几篇，但折腾的时间花了不少，走过了不少弯路，也踩过了不少的坑，虽然很懒，但本着好记性不如烂笔头的宗旨，打算在折腾记忆尚未磨灭之际记录一下走过的路和踩过的坑…</p></blockquote><p>接着前两篇使用 Hexo 基于 GitHub Pages 搭建个人博客之上，本文记录了在使用非常漂亮简洁的 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Next</a> 主题过程中的各种折腾，其它主题的相关设置大同小异。再次衷心的感谢 Hexo 的作者和 Next 主题作者的无私奉献。</p><h1 id="一、主题安装"><a href="#一、主题安装" class="headerlink" title="一、主题安装"></a>一、主题安装</h1><p>记录一下 Next 主题的基本配置、设置「阅读全文」、关闭新建页面的评论功能、页面文章的篇数、宽度调节、设置「JavaScript 第三方库」等内容、在线字体替换（选择关闭，加快访问速度）</p><a id="more"></a><h1 id="二、多说评论"><a href="#二、多说评论" class="headerlink" title="二、多说评论"></a>二、多说评论</h1><p>多说热评文章、多说评论样式调整</p><h1 id="三、统计"><a href="#三、统计" class="headerlink" title="三、统计"></a>三、统计</h1><p>文章阅读次数统计（LeanCloud) 、不蒜子统计站点访问统计</p><h1 id="四、设置-RSS"><a href="#四、设置-RSS" class="headerlink" title="四、设置 RSS"></a>四、设置 RSS</h1><p>RSS的使用</p><h1 id="五、内容分享"><a href="#五、内容分享" class="headerlink" title="五、内容分享"></a>五、内容分享</h1><p>JiaThis 插件</p><h1 id="六、搜索服务"><a href="#六、搜索服务" class="headerlink" title="六、搜索服务"></a>六、搜索服务</h1><p>Local Search 插件</p><h1 id="七、其它设置"><a href="#七、其它设置" class="headerlink" title="七、其它设置"></a>七、其它设置</h1><p>背景动态效果图设置、点击小红心效果设置</p><h1 id="八、图片模式"><a href="#八、图片模式" class="headerlink" title="八、图片模式"></a>八、图片模式</h1><p>设置图片博文展示<br>样式js：theme/next/scripts/tags/group-pictures.js</p><h1 id="九、博文压缩"><a href="#九、博文压缩" class="headerlink" title="九、博文压缩"></a>九、博文压缩</h1><p>hexo-all-minifier插件。地址：<a href="https://github.com/unhealthy/hexo-all-minifier" target="_blank" rel="external">https://github.com/unhealthy/hexo-all-minifier</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[[转]Java程序员情书]]></title>
       <url>http://www.ehlxr.me/2016/08/22/%E8%BD%AC-Java%E7%A8%8B%E5%BA%8F%E5%91%98%E6%83%85%E4%B9%A6/</url>
-      <content type="html"><![CDATA[<p>我能抽象出整个世界．．． </p>
-<p>但是我却不能抽象出你．．． </p>
-<p>你肯定是一个单例，因为你是那样的独一无二… </p>
-<p>所以我的世界并不完整．．． </p>
-<p>我可以重载甚至覆盖这个世界里的任何一种方法．．． </p>
-<p>但是却不能覆盖对你的思念．．． </p>
-<p>也许命中注定了 你与我存在于不同的包里… </p>
-<p>在你的世界里，你被烙上了私有的属性… </p>
-<a id="more"></a>
-<p>我用尽全身力气，也找不到访问你的接口… </p>
-<p>我不愿就此甘心，找到了藏身在神殿的巫师，教会了我穿越时空的方法… </p>
-<p>终于，我用反射这把利剑，打开了你空间的缺口… </p>
-<p>并发现了接近你的秘密… </p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/222wqklkmlqej5-lp.jpg" alt="enter description here"></p>
-<p>当我迫不及待地调用了爱你这个方法．．． </p>
-<p>并义无返顾的把自己作为参数传进这个方法时．．． </p>
-<p>我才发现爱上你是一个没有终止条件的递归．．． </p>
-<p>它不停的返回我对你的思念并压入我心里的堆栈．．． </p>
-<p>在这无尽的黑夜中 ，终于体验到你对我爱的回调… </p>
-<p>我的内存里已经再也装不下别人… </p>
-<p>当我以为将与你在这个死循环中天荒地老时… </p>
-<p>万恶的系统抛出了爱的异常… </p>
-<p>此刻我才发现，我不过是操纵于虚拟机下的一个线程，你也是… </p>
-<p>但我毫不后悔，因为在爱的洗礼之后… </p>
-<p>我看见了一个新的生命，那是我们的, 继承</p>
-<hr>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="110" src="http://music.163.com/outchain/player?type=0&id=448161195&auto=1&height=90"></iframe>
-
-
-]]></content>
+      <content type="html"><![CDATA[<p>我能抽象出整个世界．．．</p><p>但是我却不能抽象出你．．．</p><p>你肯定是一个单例，因为你是那样的独一无二…</p><p>所以我的世界并不完整．．．</p><p>我可以重载甚至覆盖这个世界里的任何一种方法．．．</p><p>但是却不能覆盖对你的思念．．．</p><p>也许命中注定了 你与我存在于不同的包里…</p><p>在你的世界里，你被烙上了私有的属性…</p><a id="more"></a><p>我用尽全身力气，也找不到访问你的接口…</p><p>我不愿就此甘心，找到了藏身在神殿的巫师，教会了我穿越时空的方法…</p><p>终于，我用反射这把利剑，打开了你空间的缺口…</p><p>并发现了接近你的秘密…</p><p><img src="http://oapjp6spr.bkt.clouddn.com/222wqklkmlqej5-lp.jpg" alt="enter description here"></p><p>当我迫不及待地调用了爱你这个方法．．．</p><p>并义无返顾的把自己作为参数传进这个方法时．．．</p><p>我才发现爱上你是一个没有终止条件的递归．．．</p><p>它不停的返回我对你的思念并压入我心里的堆栈．．．</p><p>在这无尽的黑夜中 ，终于体验到你对我爱的回调…</p><p>我的内存里已经再也装不下别人…</p><p>当我以为将与你在这个死循环中天荒地老时…</p><p>万恶的系统抛出了爱的异常…</p><p>此刻我才发现，我不过是操纵于虚拟机下的一个线程，你也是…</p><p>但我毫不后悔，因为在爱的洗礼之后…</p><p>我看见了一个新的生命，那是我们的, 继承</p><hr><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="110" src="http://music.163.com/outchain/player?type=0&id=448161195&auto=1&height=90"></iframe>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[CentOS 系统下 GitLab 搭建与基本配置]]></title>
       <url>http://www.ehlxr.me/2016/07/31/CentOS-%E7%B3%BB%E7%BB%9F%E4%B8%8B-GitLab-%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</url>
-      <content type="html"><![CDATA[<blockquote>
-<p><a href="https://about.gitlab.com/" target="_blank" rel="external">GitLab 是一个开源的版本管理系统，提供了类似于 GitHub 的源代码浏览，管理缺陷和注释等功能，你可以将代码免费托管到 GitLab.com，而且不限项目数量和成员数。最吸引人的一点是，可以在自己的服务器上搭建 GitLab CE （社区免费版）版本，方便内部团队协作开发和代码管理。</a></p>
-</blockquote>
-<p>下面介绍如何在 CentOS 服务器上搭建 GitLab CE 版本，以及一些基本的配置。</p>
-<h3 id="1-安装"><a href="#1-安装" class="headerlink" title="1. 安装"></a>1. 安装</h3><p>　GitLab 提供了两种安装方式：源码手动编译安装和软件包管理安装。</p>
-<p>　源码手动编译安装虽然配置灵活，但过程比较麻烦，不容易安装成功，所以我这里选择软件包管理安装的形式。</p>
-<ul>
-<li><h4 id="使用-GitLab-提供仓库在线安装"><a href="#使用-GitLab-提供仓库在线安装" class="headerlink" title="使用 GitLab 提供仓库在线安装"></a>使用 GitLab 提供仓库在线安装</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash</div><div class="line">yum install gitlab-ce</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<p>　　国外的 GitLab 仓库访问速度较慢，可以使用国内的站点：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">curl -sS http://packages.gitlab.cc/install/gitlab-ce/script.rpm.sh | sudo bash</div><div class="line">yum install gitlab-ce</div></pre></td></tr></table></figure>
-<ul>
-<li><h4 id="下载离线软件包安装"><a href="#下载离线软件包安装" class="headerlink" title="下载离线软件包安装"></a>下载离线软件包安装</h4><p>  如果网络速度不理想，可以使用离线软件包 rpm 的方式进行安装，下面提供了几个站点的下载地址。</p>
-<ul>
-<li><h5 id="GitLab-官方：https-packages-gitlab-com-gitlab-gitlab-ce-filter-rpms"><a href="#GitLab-官方：https-packages-gitlab-com-gitlab-gitlab-ce-filter-rpms" class="headerlink" title="GitLab 官方：https://packages.gitlab.com/gitlab/gitlab-ce?filter=rpms"></a>GitLab 官方：<a href="https://packages.gitlab.com/gitlab/gitlab-ce?filter=rpms" target="_blank" rel="external">https://packages.gitlab.com/gitlab/gitlab-ce?filter=rpms</a></h5></li>
-<li><h5 id="清华大学TUNA开源镜像站：https-mirrors-tuna-tsinghua-edu-cn-gitlab-ce-yum-el7"><a href="#清华大学TUNA开源镜像站：https-mirrors-tuna-tsinghua-edu-cn-gitlab-ce-yum-el7" class="headerlink" title="清华大学TUNA开源镜像站：https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/"></a>清华大学TUNA开源镜像站：<a href="https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/" target="_blank" rel="external">https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/</a></h5></li>
-<li><h5 id="浙大开源镜像站：http-mirrors-lifetoy-org-gitlab-ce-yum-el7"><a href="#浙大开源镜像站：http-mirrors-lifetoy-org-gitlab-ce-yum-el7" class="headerlink" title="浙大开源镜像站：http://mirrors.lifetoy.org/gitlab-ce/yum/el7/"></a>浙大开源镜像站：<a href="http://mirrors.lifetoy.org/gitlab-ce/yum/el7/" target="_blank" rel="external">http://mirrors.lifetoy.org/gitlab-ce/yum/el7/</a></h5></li>
-</ul>
-</li>
-</ul>
-<p>　　下载好 rpm 软件安装包后上传到服务器指定的目录下，通过以下命令进行安装：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rpm -ivh　gitlab-ce-8.9.6-ce.0.el7.x86_64.rpm</div></pre></td></tr></table></figure>
-<p>　　记录一下 rpm 卸载软件安装包命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rpm -e --nodeps gitlab-ce-8.9.6-ce.0.el7.x86_64</div></pre></td></tr></table></figure>
-<h3 id="2-启动-GitLab"><a href="#2-启动-GitLab" class="headerlink" title="2. 启动 GitLab"></a>2. 启动 GitLab</h3><p>　安装完成之后，打开配置文件 <code>/etc/gitlab/gitlab.rb</code> 将 <code>external_url = &#39;http://git.example.com&#39;</code> 修改为自己的 IP 地址：<code>external_url &#39;http://ip_address&#39;</code> ，然后执行下面的命令，对 GitLab 进行编译：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl reconfigure</div></pre></td></tr></table></figure>
-<p>　完成后，使用浏览器访问：<a href="http://ip_address" target="_blank" rel="external">http://ip_address</a> 可进入 GitLab 登录页面，首次访问系统会让你重新设置管理员的密码，默认的管理员账号是 root，如果你想更改默认管理员账号，登录系统后可以修改帐号名。</p>
-<h3 id="3-GitLab-基本配置"><a href="#3-GitLab-基本配置" class="headerlink" title="3. GitLab 基本配置"></a>3. GitLab 基本配置</h3><p>　GitLab 的相关参数配置都存在 <code>/etc/gitlab/gitlab.rb</code> 文件里。自 GitLab 7.6 开始的新安装包, 已经默认将所有的参数写入到 <code>/etc/gitlab/gitlab.rb</code> 配置文件中。</p>
-<ul>
-<li><h4 id="配置端口"><a href="#配置端口" class="headerlink" title="配置端口"></a>配置端口</h4></li>
-</ul>
-<p>　　GitLab 默认使用 80 端口对外提供服务，因为 80 端口被其他服务占用，所以需要更改。打开 <code>/etc/gitlab/gitlab.rb</code> 配置文件，修改 <code>external_url &#39;http://ip_address&#39;</code> 为 <code>external_url &#39;http://ip_address:new-port&#39;</code>， </p>
-<p>　　重新编译配置：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl reconfigure</div></pre></td></tr></table></figure>
-<p>　　这时候就可以通更改后的 IP + 端口号码进行访问了。</p>
-<ul>
-<li><h4 id="邮箱配置"><a href="#邮箱配置" class="headerlink" title="邮箱配置"></a>邮箱配置</h4></li>
-</ul>
-<p>　　以下是 163 邮箱的配置参考，打开　<code>/etc/gitlab/gitlab.rb</code> 配置文件，添加以下内容：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">gitlab_rails[&apos;smtp_enable&apos;] = true</div><div class="line">gitlab_rails[&apos;smtp_address&apos;] = &quot;smtp.163.com&quot;</div><div class="line">gitlab_rails[&apos;smtp_port&apos;] = 25</div><div class="line">gitlab_rails[&apos;smtp_user_name&apos;] = &quot;test@163.com&quot;</div><div class="line">gitlab_rails[&apos;smtp_password&apos;] = &quot;password&quot;</div><div class="line">gitlab_rails[&apos;smtp_authentication&apos;] = &quot;login&quot;</div><div class="line">gitlab_rails[&apos;smtp_enable_starttls_auto&apos;] = true</div><div class="line">gitlab_rails[&apos;gitlab_email_from&apos;] = &quot;test@163.com&quot;</div></pre></td></tr></table></figure>
-<p>　　<strong>注意：</strong> <code>test@163.com</code> 和 <code>password</code> 更新为自己邮箱地址和密码；邮箱需要开启 SMTP 协议。</p>
-<p>　　重新编译配置即可生效：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl reconfigure</div></pre></td></tr></table></figure>
-<p>　　其它邮箱的配置可参考：<a href="https://doc.gitlab.cc/omnibus/settings/smtp.html" target="_blank" rel="external">https://doc.gitlab.cc/omnibus/settings/smtp.html</a></p>
-<ul>
-<li><h4 id="头像配置"><a href="#头像配置" class="headerlink" title="头像配置"></a>头像配置</h4></li>
-</ul>
-<p>　　GitLab 默认使用的是 Gravatar 头像服务，不过现在貌似 Gravatar 国内好像访问不了，导致 GitLab 默认头像破裂，无法显示，可以替换为多说 Gravatar 服务器。打开 <code>/etc/gitlab/gitlab.rb</code> 配置文件，增加下面这一行：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab_rails[&apos;gravatar_plain_url&apos;] = &apos;http://gravatar.duoshuo.com/avatar/%&#123;hash&#125;?s=%&#123;size&#125;&amp;d=identicon&apos;</div></pre></td></tr></table></figure>
-<p>　　再分别执行以下命令即可</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl reconfigure </div><div class="line">gitlab-rake cache:clear RAILS_ENV=production</div></pre></td></tr></table></figure>
-<p>　　也可以关闭 Gravatar 头像显示配置，登录 GitLab 管理员账户，进入设置界面（路径地址：<a href="http://ip:port/admin/application_settings" target="_blank" rel="external">http://ip:port/admin/application_settings</a> ），取消以下选项即可。</p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160731201717.png" alt=""></p>
-<ul>
-<li><h4 id="用户注册配置"><a href="#用户注册配置" class="headerlink" title="用户注册配置"></a>用户注册配置</h4></li>
-</ul>
-<p>　　管理员设置界面（路径地址：<a href="http://ip:port/admin/application_settings" target="_blank" rel="external">http://ip:port/admin/application_settings</a> ）以下选项可以控制用户注册配置，包括是否允许登录、注册和注册邮箱验证等选项。</p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160731202214.png" alt=""></p>
-<ul>
-<li><h4 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h4></li>
-</ul>
-<p>　　GitLab 服务启动、停止、状态查询、修改配置生效等命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl start/stop/status/reconfigure  # 服务启动、停止、状态查询、修改配置生效</div></pre></td></tr></table></figure>
-<p>　　也可以查看帮助文档获取更多命令信息：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl --help</div></pre></td></tr></table></figure>
-<hr>
-]]></content>
+      <content type="html"><![CDATA[<blockquote><p><a href="https://about.gitlab.com/" target="_blank" rel="external">GitLab 是一个开源的版本管理系统，提供了类似于 GitHub 的源代码浏览，管理缺陷和注释等功能，你可以将代码免费托管到 GitLab.com，而且不限项目数量和成员数。最吸引人的一点是，可以在自己的服务器上搭建 GitLab CE （社区免费版）版本，方便内部团队协作开发和代码管理。</a></p></blockquote><p>下面介绍如何在 CentOS 服务器上搭建 GitLab CE 版本，以及一些基本的配置。</p><h3 id="1-安装"><a href="#1-安装" class="headerlink" title="1. 安装"></a>1. 安装</h3><p>GitLab 提供了两种安装方式：源码手动编译安装和软件包管理安装。</p><p>源码手动编译安装虽然配置灵活，但过程比较麻烦，不容易安装成功，所以我这里选择软件包管理安装的形式。</p><ul><li><h4 id="使用-GitLab-提供仓库在线安装"><a href="#使用-GitLab-提供仓库在线安装" class="headerlink" title="使用 GitLab 提供仓库在线安装"></a>使用 GitLab 提供仓库在线安装</h4></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash</div><div class="line">yum install gitlab-ce</div></pre></td></tr></table></figure><a id="more"></a><p>国外的 GitLab 仓库访问速度较慢，可以使用国内的站点：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">curl -sS http://packages.gitlab.cc/install/gitlab-ce/script.rpm.sh | sudo bash</div><div class="line">yum install gitlab-ce</div></pre></td></tr></table></figure><ul><li><h4 id="下载离线软件包安装"><a href="#下载离线软件包安装" class="headerlink" title="下载离线软件包安装"></a>下载离线软件包安装</h4><p>如果网络速度不理想，可以使用离线软件包 rpm 的方式进行安装，下面提供了几个站点的下载地址。</p><ul><li><h5 id="GitLab-官方：https-packages-gitlab-com-gitlab-gitlab-ce-filter-rpms"><a href="#GitLab-官方：https-packages-gitlab-com-gitlab-gitlab-ce-filter-rpms" class="headerlink" title="GitLab 官方：https://packages.gitlab.com/gitlab/gitlab-ce?filter=rpms"></a>GitLab 官方：<a href="https://packages.gitlab.com/gitlab/gitlab-ce?filter=rpms" target="_blank" rel="external">https://packages.gitlab.com/gitlab/gitlab-ce?filter=rpms</a></h5></li><li><h5 id="清华大学TUNA开源镜像站：https-mirrors-tuna-tsinghua-edu-cn-gitlab-ce-yum-el7"><a href="#清华大学TUNA开源镜像站：https-mirrors-tuna-tsinghua-edu-cn-gitlab-ce-yum-el7" class="headerlink" title="清华大学TUNA开源镜像站：https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/"></a>清华大学TUNA开源镜像站：<a href="https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/" target="_blank" rel="external">https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/</a></h5></li><li><h5 id="浙大开源镜像站：http-mirrors-lifetoy-org-gitlab-ce-yum-el7"><a href="#浙大开源镜像站：http-mirrors-lifetoy-org-gitlab-ce-yum-el7" class="headerlink" title="浙大开源镜像站：http://mirrors.lifetoy.org/gitlab-ce/yum/el7/"></a>浙大开源镜像站：<a href="http://mirrors.lifetoy.org/gitlab-ce/yum/el7/" target="_blank" rel="external">http://mirrors.lifetoy.org/gitlab-ce/yum/el7/</a></h5></li></ul></li></ul><p>下载好 rpm 软件安装包后上传到服务器指定的目录下，通过以下命令进行安装：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rpm -ivh　gitlab-ce-8.9.6-ce.0.el7.x86_64.rpm</div></pre></td></tr></table></figure><p>记录一下 rpm 卸载软件安装包命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rpm -e --nodeps gitlab-ce-8.9.6-ce.0.el7.x86_64</div></pre></td></tr></table></figure><h3 id="2-启动-GitLab"><a href="#2-启动-GitLab" class="headerlink" title="2. 启动 GitLab"></a>2. 启动 GitLab</h3><p>安装完成之后，打开配置文件 <code>/etc/gitlab/gitlab.rb</code> 将 <code>external_url = &#39;http://git.example.com&#39;</code> 修改为自己的 IP 地址：<code>external_url &#39;http://ip_address&#39;</code> ，然后执行下面的命令，对 GitLab 进行编译：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl reconfigure</div></pre></td></tr></table></figure><p>完成后，使用浏览器访问：<a href="http://ip_address" target="_blank" rel="external">http://ip_address</a> 可进入 GitLab 登录页面，首次访问系统会让你重新设置管理员的密码，默认的管理员账号是 root，如果你想更改默认管理员账号，登录系统后可以修改帐号名。</p><h3 id="3-GitLab-基本配置"><a href="#3-GitLab-基本配置" class="headerlink" title="3. GitLab 基本配置"></a>3. GitLab 基本配置</h3><p>GitLab 的相关参数配置都存在 <code>/etc/gitlab/gitlab.rb</code> 文件里。自 GitLab 7.6 开始的新安装包, 已经默认将所有的参数写入到 <code>/etc/gitlab/gitlab.rb</code> 配置文件中。</p><ul><li><h4 id="配置端口"><a href="#配置端口" class="headerlink" title="配置端口"></a>配置端口</h4></li></ul><p>GitLab 默认使用 80 端口对外提供服务，因为 80 端口被其他服务占用，所以需要更改。打开 <code>/etc/gitlab/gitlab.rb</code> 配置文件，修改 <code>external_url &#39;http://ip_address&#39;</code> 为 <code>external_url &#39;http://ip_address:new-port&#39;</code>，</p><p>重新编译配置：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl reconfigure</div></pre></td></tr></table></figure><p>这时候就可以通更改后的 IP + 端口号码进行访问了。</p><ul><li><h4 id="邮箱配置"><a href="#邮箱配置" class="headerlink" title="邮箱配置"></a>邮箱配置</h4></li></ul><p>以下是 163 邮箱的配置参考，打开　<code>/etc/gitlab/gitlab.rb</code> 配置文件，添加以下内容：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">gitlab_rails[&apos;smtp_enable&apos;] = true</div><div class="line">gitlab_rails[&apos;smtp_address&apos;] = &quot;smtp.163.com&quot;</div><div class="line">gitlab_rails[&apos;smtp_port&apos;] = 25</div><div class="line">gitlab_rails[&apos;smtp_user_name&apos;] = &quot;test@163.com&quot;</div><div class="line">gitlab_rails[&apos;smtp_password&apos;] = &quot;password&quot;</div><div class="line">gitlab_rails[&apos;smtp_authentication&apos;] = &quot;login&quot;</div><div class="line">gitlab_rails[&apos;smtp_enable_starttls_auto&apos;] = true</div><div class="line">gitlab_rails[&apos;gitlab_email_from&apos;] = &quot;test@163.com&quot;</div></pre></td></tr></table></figure><p><strong>注意：</strong> <code>test@163.com</code> 和 <code>password</code> 更新为自己邮箱地址和密码；邮箱需要开启 SMTP 协议。</p><p>重新编译配置即可生效：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl reconfigure</div></pre></td></tr></table></figure><p>其它邮箱的配置可参考：<a href="https://doc.gitlab.cc/omnibus/settings/smtp.html" target="_blank" rel="external">https://doc.gitlab.cc/omnibus/settings/smtp.html</a></p><ul><li><h4 id="头像配置"><a href="#头像配置" class="headerlink" title="头像配置"></a>头像配置</h4></li></ul><p>GitLab 默认使用的是 Gravatar 头像服务，不过现在貌似 Gravatar 国内好像访问不了，导致 GitLab 默认头像破裂，无法显示，可以替换为多说 Gravatar 服务器。打开 <code>/etc/gitlab/gitlab.rb</code> 配置文件，增加下面这一行：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab_rails[&apos;gravatar_plain_url&apos;] = &apos;http://gravatar.duoshuo.com/avatar/%&#123;hash&#125;?s=%&#123;size&#125;&amp;d=identicon&apos;</div></pre></td></tr></table></figure><p>再分别执行以下命令即可</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl reconfigure </div><div class="line">gitlab-rake cache:clear RAILS_ENV=production</div></pre></td></tr></table></figure><p>也可以关闭 Gravatar 头像显示配置，登录 GitLab 管理员账户，进入设置界面（路径地址：<a href="http://ip:port/admin/application_settings" target="_blank" rel="external">http://ip:port/admin/application_settings</a> ），取消以下选项即可。</p><p><img src="http://oapjp6spr.bkt.clouddn.com/20160731201717.png" alt=""></p><ul><li><h4 id="用户注册配置"><a href="#用户注册配置" class="headerlink" title="用户注册配置"></a>用户注册配置</h4></li></ul><p>管理员设置界面（路径地址：<a href="http://ip:port/admin/application_settings" target="_blank" rel="external">http://ip:port/admin/application_settings</a> ）以下选项可以控制用户注册配置，包括是否允许登录、注册和注册邮箱验证等选项。</p><p><img src="http://oapjp6spr.bkt.clouddn.com/20160731202214.png" alt=""></p><ul><li><h4 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h4></li></ul><p>GitLab 服务启动、停止、状态查询、修改配置生效等命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl start/stop/status/reconfigure  # 服务启动、停止、状态查询、修改配置生效</div></pre></td></tr></table></figure><p>也可以查看帮助文档获取更多命令信息：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl --help</div></pre></td></tr></table></figure><hr>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[CentOS 7 安装最新的 Git]]></title>
       <url>http://www.ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84-Git/</url>
-      <content type="html"><![CDATA[<blockquote>
-<p>yum 源仓库里的 Git 版本更新不及时，最新版本的 Git 是 1.8.3.1，但是官方最新版本已经到了 2.9.2。想要安装最新版本的的 Git，只能下载源码进行安装。</p>
-</blockquote>
-<h3 id="1-查看-yum-源仓库的-Git-信息："><a href="#1-查看-yum-源仓库的-Git-信息：" class="headerlink" title="1. 查看 yum 源仓库的 Git 信息："></a>1. 查看 yum 源仓库的 Git 信息：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># yum info git</div></pre></td></tr></table></figure>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160730222608.png" alt=""></p>
-<p>　　可以看出，截至目前，yum 源仓库中最新的 Git 版本才 1.8.3.1，而查看最<a href="https://github.com/git/git/releases" target="_blank" rel="external">新的 Git 发布版本</a>，已经 2.9.2 了。</p>
-<a id="more"></a>
-<h3 id="2-依赖库安装"><a href="#2-依赖库安装" class="headerlink" title="2. 依赖库安装"></a>2. 依赖库安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel</div><div class="line"># yum install  gcc perl-ExtUtils-MakeMaker</div></pre></td></tr></table></figure>
-<h3 id="3-卸载低版本的-Git"><a href="#3-卸载低版本的-Git" class="headerlink" title="3. 卸载低版本的 Git"></a>3. 卸载低版本的 Git</h3><p>　　通过命令：<code>git –-version</code> 查看系统带的版本，Git 版本是： <code>1.8.3.1</code>，所以先要卸载低版本的 Git，命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># yum remove git</div></pre></td></tr></table></figure>
-<h3 id="4-下载新版的-Git-源码包"><a href="#4-下载新版的-Git-源码包" class="headerlink" title="4. 下载新版的 Git 源码包"></a>4. 下载新版的 Git 源码包</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># wget https://github.com/git/git/archive/v2.9.2.tar.gz</div></pre></td></tr></table></figure>
-<p>　　也可以离线下载，然后传到 CentOS 系统中指定的目录下。</p>
-<h3 id="5-解压到指定目录"><a href="#5-解压到指定目录" class="headerlink" title="5. 解压到指定目录"></a>5. 解压到指定目录</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># tar -xzvf v2.9.2.tar.gz -C ~/app/</div></pre></td></tr></table></figure>
-<h3 id="6-安装-Git"><a href="#6-安装-Git" class="headerlink" title="6. 安装 Git"></a>6. 安装 Git</h3><p>　　分别执行以下命令进行编译安装，编译过程可能比较漫长，请耐心等待完成。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># cd git-2.9.2</div><div class="line"># make prefix=/usr/local/git all</div><div class="line"># make prefix=/usr/local/git install</div></pre></td></tr></table></figure>
-<h3 id="7-添加到环境变量"><a href="#7-添加到环境变量" class="headerlink" title="7. 添加到环境变量"></a>7. 添加到环境变量</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># echo &quot;export PATH=$PATH:/usr/local/git/bin&quot; &gt;&gt; /etc/bashrc</div><div class="line"># source /etc/bashrc # 实时生效</div></pre></td></tr></table></figure>
-<h4 id="8-查看版本号"><a href="#8-查看版本号" class="headerlink" title="8. 查看版本号"></a>8. 查看版本号</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># git --version</div><div class="line">git version 2.9.2</div></pre></td></tr></table></figure>
-<p>至此，CentOS 就安装上了最新版本的 Git。</p>
-<hr>
-]]></content>
+      <content type="html"><![CDATA[<blockquote><p>yum 源仓库里的 Git 版本更新不及时，最新版本的 Git 是 1.8.3.1，但是官方最新版本已经到了 2.9.2。想要安装最新版本的的 Git，只能下载源码进行安装。</p></blockquote><h3 id="1-查看-yum-源仓库的-Git-信息："><a href="#1-查看-yum-源仓库的-Git-信息：" class="headerlink" title="1. 查看 yum 源仓库的 Git 信息："></a>1. 查看 yum 源仓库的 Git 信息：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># yum info git</div></pre></td></tr></table></figure><p><img src="http://oapjp6spr.bkt.clouddn.com/20160730222608.png" alt=""></p><p>可以看出，截至目前，yum 源仓库中最新的 Git 版本才 1.8.3.1，而查看最<a href="https://github.com/git/git/releases" target="_blank" rel="external">新的 Git 发布版本</a>，已经 2.9.2 了。</p><a id="more"></a><h3 id="2-依赖库安装"><a href="#2-依赖库安装" class="headerlink" title="2. 依赖库安装"></a>2. 依赖库安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel</div><div class="line"># yum install  gcc perl-ExtUtils-MakeMaker</div></pre></td></tr></table></figure><h3 id="3-卸载低版本的-Git"><a href="#3-卸载低版本的-Git" class="headerlink" title="3. 卸载低版本的 Git"></a>3. 卸载低版本的 Git</h3><p>通过命令：<code>git –-version</code> 查看系统带的版本，Git 版本是： <code>1.8.3.1</code>，所以先要卸载低版本的 Git，命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># yum remove git</div></pre></td></tr></table></figure><h3 id="4-下载新版的-Git-源码包"><a href="#4-下载新版的-Git-源码包" class="headerlink" title="4. 下载新版的 Git 源码包"></a>4. 下载新版的 Git 源码包</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># wget https://github.com/git/git/archive/v2.9.2.tar.gz</div></pre></td></tr></table></figure><p>也可以离线下载，然后传到 CentOS 系统中指定的目录下。</p><h3 id="5-解压到指定目录"><a href="#5-解压到指定目录" class="headerlink" title="5. 解压到指定目录"></a>5. 解压到指定目录</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># tar -xzvf v2.9.2.tar.gz -C ~/app/</div></pre></td></tr></table></figure><h3 id="6-安装-Git"><a href="#6-安装-Git" class="headerlink" title="6. 安装 Git"></a>6. 安装 Git</h3><p>分别执行以下命令进行编译安装，编译过程可能比较漫长，请耐心等待完成。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># cd git-2.9.2</div><div class="line"># make prefix=/usr/local/git all</div><div class="line"># make prefix=/usr/local/git install</div></pre></td></tr></table></figure><h3 id="7-添加到环境变量"><a href="#7-添加到环境变量" class="headerlink" title="7. 添加到环境变量"></a>7. 添加到环境变量</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># echo &quot;export PATH=$PATH:/usr/local/git/bin&quot; &gt;&gt; /etc/bashrc</div><div class="line"># source /etc/bashrc # 实时生效</div></pre></td></tr></table></figure><h4 id="8-查看版本号"><a href="#8-查看版本号" class="headerlink" title="8. 查看版本号"></a>8. 查看版本号</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># git --version</div><div class="line">git version 2.9.2</div></pre></td></tr></table></figure><p>至此，CentOS 就安装上了最新版本的 Git。</p><hr>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[CentOS 7 安装 Node.js]]></title>
       <url>http://www.ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85-Node-js/</url>
-      <content type="html"><![CDATA[<blockquote>
-<p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js® is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js’ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.</a></p>
-</blockquote>
-<h3 id="1-下载源码安装文件"><a href="#1-下载源码安装文件" class="headerlink" title="1. 下载源码安装文件"></a>1. 下载源码安装文件</h3><ul>
-<li><h4 id="方式一：在线安装"><a href="#方式一：在线安装" class="headerlink" title="方式一：在线安装"></a>方式一：在线安装</h4><p>  通过以下命令下载源文件：</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget https://nodejs.org/dist/v4.4.7/node-v4.4.7.tar.gz</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<ul>
-<li><h4 id="方法二：离线安装"><a href="#方法二：离线安装" class="headerlink" title="方法二：离线安装"></a>方法二：离线安装</h4><p>  如果网络不好，可以通过<a href="https://nodejs.org/en/download/" target="_blank" rel="external">官方网站</a>下载，然后上传到 CentOS 系统中，下载如图所示：</p>
-</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160730163835.png" alt=""></p>
-<p>　　我这儿官方网站是无法正常访问的，需要一些手段（大家懂得），所以在网盘备份一份，地址：<a href="http://pan.baidu.com/s/1bpIAUAz" target="_blank" rel="external">http://pan.baidu.com/s/1bpIAUAz</a></p>
-<h3 id="2-编译安装"><a href="#2-编译安装" class="headerlink" title="2. 编译安装"></a>2. 编译安装</h3><ul>
-<li><h4 id="解压文件到指定的目录"><a href="#解压文件到指定的目录" class="headerlink" title="解压文件到指定的目录"></a>解压文件到指定的目录</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tar -xzvf node-v4.4.7.tar.gz -C app/</div></pre></td></tr></table></figure>
-<ul>
-<li><h4 id="安装依赖包"><a href="#安装依赖包" class="headerlink" title="安装依赖包"></a>安装依赖包</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum install gcc gcc-c++</div></pre></td></tr></table></figure>
-<ul>
-<li><h4 id="配置安装"><a href="#配置安装" class="headerlink" title="配置安装"></a>配置安装</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./configure</div></pre></td></tr></table></figure>
-<p>　　./configure 是源代码安装的第一步，主要的作用是对即将安装的软件进行配置，检查当前的环境是否满足要安装软件的依赖关系，生成 makefile文件，以便你可以用 make 和 make install 来编译和安装程序。</p>
-<ul>
-<li><h4 id="编译安装"><a href="#编译安装" class="headerlink" title="编译安装"></a>编译安装</h4><p>编译命令：</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">make</div></pre></td></tr></table></figure>
-<p>　　编译的过程会花很长一段时间，等编译完成再执行安装命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">make install</div></pre></td></tr></table></figure>
-<h3 id="3-检查安装"><a href="#3-检查安装" class="headerlink" title="3. 检查安装"></a>3. 检查安装</h3><p>　　运行以下命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">node --version</div></pre></td></tr></table></figure>
-<p>　　若输出对应的版本号，则安装成功。</p>
-<hr>
-]]></content>
+      <content type="html"><![CDATA[<blockquote><p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js® is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js’ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.</a></p></blockquote><h3 id="1-下载源码安装文件"><a href="#1-下载源码安装文件" class="headerlink" title="1. 下载源码安装文件"></a>1. 下载源码安装文件</h3><ul><li><h4 id="方式一：在线安装"><a href="#方式一：在线安装" class="headerlink" title="方式一：在线安装"></a>方式一：在线安装</h4><p>通过以下命令下载源文件：</p></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget https://nodejs.org/dist/v4.4.7/node-v4.4.7.tar.gz</div></pre></td></tr></table></figure><a id="more"></a><ul><li><h4 id="方法二：离线安装"><a href="#方法二：离线安装" class="headerlink" title="方法二：离线安装"></a>方法二：离线安装</h4><p>如果网络不好，可以通过<a href="https://nodejs.org/en/download/" target="_blank" rel="external">官方网站</a>下载，然后上传到 CentOS 系统中，下载如图所示：</p></li></ul><p><img src="http://oapjp6spr.bkt.clouddn.com/20160730163835.png" alt=""></p><p>我这儿官方网站是无法正常访问的，需要一些手段（大家懂得），所以在网盘备份一份，地址：<a href="http://pan.baidu.com/s/1bpIAUAz" target="_blank" rel="external">http://pan.baidu.com/s/1bpIAUAz</a></p><h3 id="2-编译安装"><a href="#2-编译安装" class="headerlink" title="2. 编译安装"></a>2. 编译安装</h3><ul><li><h4 id="解压文件到指定的目录"><a href="#解压文件到指定的目录" class="headerlink" title="解压文件到指定的目录"></a>解压文件到指定的目录</h4></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tar -xzvf node-v4.4.7.tar.gz -C app/</div></pre></td></tr></table></figure><ul><li><h4 id="安装依赖包"><a href="#安装依赖包" class="headerlink" title="安装依赖包"></a>安装依赖包</h4></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum install gcc gcc-c++</div></pre></td></tr></table></figure><ul><li><h4 id="配置安装"><a href="#配置安装" class="headerlink" title="配置安装"></a>配置安装</h4></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./configure</div></pre></td></tr></table></figure><p>./configure 是源代码安装的第一步，主要的作用是对即将安装的软件进行配置，检查当前的环境是否满足要安装软件的依赖关系，生成 makefile文件，以便你可以用 make 和 make install 来编译和安装程序。</p><ul><li><h4 id="编译安装"><a href="#编译安装" class="headerlink" title="编译安装"></a>编译安装</h4><p>编译命令：</p></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">make</div></pre></td></tr></table></figure><p>编译的过程会花很长一段时间，等编译完成再执行安装命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">make install</div></pre></td></tr></table></figure><h3 id="3-检查安装"><a href="#3-检查安装" class="headerlink" title="3. 检查安装"></a>3. 检查安装</h3><p>运行以下命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">node --version</div></pre></td></tr></table></figure><p>若输出对应的版本号，则安装成功。</p><hr>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[[转]将 Centos 的 yum 源更改为国内的阿里云源]]></title>
       <url>http://www.ehlxr.me/2016/07/30/%E8%BD%AC-%E5%B0%86-Centos-%E7%9A%84-yum-%E6%BA%90%E6%9B%B4%E6%94%B9%E4%B8%BA%E5%9B%BD%E5%86%85%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E6%BA%90/</url>
-      <content type="html"><![CDATA[<p>阿里云Linux安装镜像源地址：<a href="http://mirrors.aliyun.com/" target="_blank" rel="external">http://mirrors.aliyun.com/</a></p>
-<p>CentOS系统更换软件安装源</p>
-<ul>
-<li><h3 id="一-备份你的原镜像文件，以免出错后可以恢复。"><a href="#一-备份你的原镜像文件，以免出错后可以恢复。" class="headerlink" title="一. 备份你的原镜像文件，以免出错后可以恢复。"></a>一. 备份你的原镜像文件，以免出错后可以恢复。</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<ul>
-<li><h3 id="二-下载新的-CentOS-Base-repo-到-etc-yum-repos-d"><a href="#二-下载新的-CentOS-Base-repo-到-etc-yum-repos-d" class="headerlink" title="二. 下载新的 CentOS-Base.repo 到 /etc/yum.repos.d/"></a>二. 下载新的 CentOS-Base.repo 到 /etc/yum.repos.d/</h3></li>
-<li><h4 id="CentOS-5"><a href="#CentOS-5" class="headerlink" title="CentOS 5"></a>CentOS 5</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-5.repo</div></pre></td></tr></table></figure>
-<ul>
-<li><h4 id="CentOS-6"><a href="#CentOS-6" class="headerlink" title="CentOS 6"></a>CentOS 6</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-6.repo</div></pre></td></tr></table></figure>
-<ul>
-<li><h4 id="CentOS-7"><a href="#CentOS-7" class="headerlink" title="CentOS 7"></a>CentOS 7</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="三-运行-yum-makecache-生成缓存"><a href="#三-运行-yum-makecache-生成缓存" class="headerlink" title="三. 运行 yum makecache 生成缓存"></a>三. 运行 yum makecache 生成缓存</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">yum clean all</div><div class="line">yum makecache</div></pre></td></tr></table></figure>
-<hr>
-]]></content>
+      <content type="html"><![CDATA[<p>阿里云Linux安装镜像源地址：<a href="http://mirrors.aliyun.com/" target="_blank" rel="external">http://mirrors.aliyun.com/</a></p><p>CentOS系统更换软件安装源</p><ul><li><h3 id="一-备份你的原镜像文件，以免出错后可以恢复。"><a href="#一-备份你的原镜像文件，以免出错后可以恢复。" class="headerlink" title="一. 备份你的原镜像文件，以免出错后可以恢复。"></a>一. 备份你的原镜像文件，以免出错后可以恢复。</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup</div></pre></td></tr></table></figure><a id="more"></a><ul><li><h3 id="二-下载新的-CentOS-Base-repo-到-etc-yum-repos-d"><a href="#二-下载新的-CentOS-Base-repo-到-etc-yum-repos-d" class="headerlink" title="二. 下载新的 CentOS-Base.repo 到 /etc/yum.repos.d/"></a>二. 下载新的 CentOS-Base.repo 到 /etc/yum.repos.d/</h3></li><li><h4 id="CentOS-5"><a href="#CentOS-5" class="headerlink" title="CentOS 5"></a>CentOS 5</h4></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-5.repo</div></pre></td></tr></table></figure><ul><li><h4 id="CentOS-6"><a href="#CentOS-6" class="headerlink" title="CentOS 6"></a>CentOS 6</h4></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-6.repo</div></pre></td></tr></table></figure><ul><li><h4 id="CentOS-7"><a href="#CentOS-7" class="headerlink" title="CentOS 7"></a>CentOS 7</h4></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo</div></pre></td></tr></table></figure><ul><li><h3 id="三-运行-yum-makecache-生成缓存"><a href="#三-运行-yum-makecache-生成缓存" class="headerlink" title="三. 运行 yum makecache 生成缓存"></a>三. 运行 yum makecache 生成缓存</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">yum clean all</div><div class="line">yum makecache</div></pre></td></tr></table></figure><hr>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Oracle 与 MySQL 知识总结]]></title>
       <url>http://www.ehlxr.me/2016/07/28/Oracle-%E4%B8%8E-MySQL-%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</url>
-      <content type="html"><![CDATA[<blockquote>
-<p>对日常工作中使用 Oracle 和 MySQL 数据库知识对比总结。</p>
-</blockquote>
-<h2 id="1-SQLPlus-连接数据库的方式"><a href="#1-SQLPlus-连接数据库的方式" class="headerlink" title="1. SQLPlus 连接数据库的方式"></a>1. SQLPlus 连接数据库的方式</h2><ul>
-<li><h3 id="cmd-中输入：sqlplus-用户名-密码-数据库实例"><a href="#cmd-中输入：sqlplus-用户名-密码-数据库实例" class="headerlink" title="cmd 中输入：sqlplus 用户名/密码@数据库实例"></a>cmd 中输入：sqlplus 用户名/密码@数据库实例</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sqlplus system/lxr316@oracle</div><div class="line">sqlplus sys/admin as sysdba</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="打开-SQLPlus-直接输入用户名和密码"><a href="#打开-SQLPlus-直接输入用户名和密码" class="headerlink" title="打开 SQLPlus 直接输入用户名和密码"></a>打开 SQLPlus 直接输入用户名和密码</h3></li>
-<li><h3 id="使用命令："><a href="#使用命令：" class="headerlink" title="使用命令："></a>使用命令：</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">connect sys/admin as sysdba</div><div class="line">connect system/lxr316</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<ul>
-<li><h3 id="超级管理员登录："><a href="#超级管理员登录：" class="headerlink" title="超级管理员登录："></a>超级管理员登录：</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sys as sysdba</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="断开数据库："><a href="#断开数据库：" class="headerlink" title="断开数据库："></a>断开数据库：</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">disconnect; # 可简写 disconn</div></pre></td></tr></table></figure>
-<h2 id="2-MySQL-连接"><a href="#2-MySQL-连接" class="headerlink" title="2. MySQL 连接"></a>2. MySQL 连接</h2><p>　<strong>命令：</strong> mysql [–h 服务器地址] –u 用户名 –p [密码]（<em>需要配置 mysql 数据库的 bin 到环境变量中</em>）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mysql -h localhost –u root –p root</div><div class="line">mysql –u root -p</div></pre></td></tr></table></figure>
-<h2 id="3-用户操作"><a href="#3-用户操作" class="headerlink" title="3. 用户操作"></a>3. 用户操作</h2><ul>
-<li><h3 id="Oracle"><a href="#Oracle" class="headerlink" title="Oracle"></a>Oracle</h3></li>
-<li><p>创建用户</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">create user [username] identified by [password];</div></pre></td></tr></table></figure>
-<ul>
-<li>修改用户密码</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter user [username] identified by [password];</div></pre></td></tr></table></figure>
-<ul>
-<li>账户上锁、解锁</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter user [username] account lock|unlock;</div></pre></td></tr></table></figure>
-<ul>
-<li>用户首次登录时直接修改密码–密码失效</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter user [username] password expire;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h3></li>
-<li><p>创建用户:</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">CREATE USER &apos;username&apos;@&apos;host&apos; IDENTIFIED BY &apos;password&apos;;</div></pre></td></tr></table></figure>
-<p>　　<strong>备注：</strong><br>　　<strong>username</strong>：你将创建的用户名。<br>　　<strong>host</strong>：指定该用户在哪个主机上可以登陆,如果是本地用户可用localhost, 如果想让该用户可以从任意远程主机登陆,可以使用通配符%。<br>　　<strong>password</strong>：该用户的登陆密码,密码可以为空,如果为空则该用户可以不需要密码登陆服务器。</p>
-<p>　　例如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">CREATE USER &apos;dog&apos;@&apos;localhost&apos;IDENTIFIED BY &apos;123456&apos;;</div><div class="line">CREATE USER &apos;pig&apos;@&apos;192.168.1.101_&apos;IDENDIFIED BY &apos;123456&apos;;</div><div class="line">CREATE USER &apos;pig&apos;@&apos;%&apos; IDENTIFIED BY &apos;123456&apos;;</div><div class="line">CREATE USER &apos;pig&apos;@&apos;%&apos; IDENTIFIED BY &apos;&apos;;</div><div class="line">CREATE USER &apos;pig&apos;@&apos;%&apos;;</div></pre></td></tr></table></figure>
-<ul>
-<li>设置与更改用户密码</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">SET PASSWORD FOR &apos;username&apos;@&apos;host&apos; = PASSWORD(&apos;newpassword&apos;);</div></pre></td></tr></table></figure>
-<p>　　如果是当前登陆用户</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">SET PASSWORD = PASSWORD(&quot;newpassword&quot;);</div></pre></td></tr></table></figure>
-<ul>
-<li>删除用户</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">DROP USER &apos;username&apos;@&apos;host&apos;;</div></pre></td></tr></table></figure>
-<h2 id="4-权限管理"><a href="#4-权限管理" class="headerlink" title="4. 权限管理"></a>4. 权限管理</h2><ul>
-<li><h3 id="Oracle-1"><a href="#Oracle-1" class="headerlink" title="Oracle"></a>Oracle</h3></li>
-<li><p>授权</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">grant 权限 to 用户名;</div><div class="line">grant all on 表名 to用户/角色</div></pre></td></tr></table></figure>
-<ul>
-<li>收回权限</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">revoke 权限from 用户名;</div></pre></td></tr></table></figure>
-<p>　　对象权限可以级联收回，但是系统权限不可以级联收回。</p>
-<p>　　<strong>(1) 系统权限：</strong> A 赋予一个系统权限给 B，B 再授予 C。然后A将该权限从 B 回收，此后 C 仍然有该权限。</p>
-<p>　　<strong>(2) 对象权限：</strong> A 赋予一个对象权限给 B，B 再授予 C。然后A将该权限从 B 回收，此后 C 也失去了该权限。</p>
-<ul>
-<li>常用系统权限</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">create session --用户登录</div><div class="line">create table     --创建表</div><div class="line">unlimited tablespace   --无限表空间</div></pre></td></tr></table></figure>
-<ul>
-<li>常用对象权限</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">select on 表名; -- 查询权限</div><div class="line">update on 表名; -- 更新权限</div><div class="line">delete on 表名; -- 删除权限</div><div class="line">insert on 表名; -- 插入权限</div></pre></td></tr></table></figure>
-<ul>
-<li>权限的级联授予</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grant 权限 to 用户名 with admin option|with grant option;</div></pre></td></tr></table></figure>
-<p>　　<strong>with admin option</strong>：系统权限<br>　　<br>　　<strong>with grant option</strong>：对象权限</p>
-<ul>
-<li><h3 id="MySQL-1"><a href="#MySQL-1" class="headerlink" title="MySQL"></a>MySQL</h3></li>
-<li><p>授权:</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">GRANT privileges ON databasename.tablename TO &apos;username&apos;@&apos;host&apos;</div></pre></td></tr></table></figure>
-<p>　　<strong>备注：</strong><br>　　<strong>privileges</strong>：用户的操作权限,如 SELECT , INSERT , UPDATE 等；如果要授予所的权限则使用 ALL。<br>　　<strong>databasename</strong>：数据库名。<br>　　<strong>tablename</strong>：表名<br>　<br>　　如果要授予该用户对所有数据库和表的相应操作权限则可用 <code>*</code> 表示, 如 <code>*.*</code> 。</p>
-<p>　　例如:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">GRANT SELECT, INSERT ON test.user TO &apos;pig&apos;@&apos;%&apos;;</div><div class="line"> </div><div class="line">GRANT ALL ON *.* TO &apos;pig&apos;@&apos;%&apos;;</div></pre></td></tr></table></figure>
-<p>　　<strong>注意：</strong> 用以上命令授权的用户不能给其它用户授权，如果想让该用户可以授权，用以下命令:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">GRANT privileges ON databasename.tablename TO &apos;username&apos;@&apos;host&apos; WITH GRANT OPTION;</div></pre></td></tr></table></figure>
-<ul>
-<li>撤销用户权限</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">REVOKE privilege ON databasename.tablename FROM &apos;username&apos;@&apos;host&apos;;</div></pre></td></tr></table></figure>
-<p>　　<strong>说明：</strong> privilege, databasename, tablename - 同授权部分。</p>
-<p>　　例如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">REVOKE SELECT ON *.* FROM &apos;pig&apos;@&apos;%&apos;;</div></pre></td></tr></table></figure>
-<p>　　<strong>注意：</strong> 假如你在给用户 <code>&#39;pig&#39;@&#39;%&#39;</code> 授权的时候是这样的（或类似的）：<code>GRANT SELECT ON test.user TO &#39;pig&#39;@&#39;%&#39;;</code> 则在使用：<code>REVOKE SELECT ON *.* FROM&#39;pig&#39;@&#39;%&#39;;</code> 命令并不能撤销该用户对 test 数据库中 user 表的 SELECT 操作；相反，如果授权使用的是：<code>GRANT SELECT ON *.* TO&#39;pig&#39;@&#39;%&#39;;</code> 则：<code>REVOKE SELECT ONtest.user FROM &#39;pig&#39;@&#39;%&#39;;</code> 命令也不能撤销该用户对 test 数据库中 user 表的 SELECT 权限。</p>
-<p>　　具体信息可以用命令：<code>SHOW GRANTS FOR &#39;pig&#39;@&#39;%&#39;;</code> 查看。</p>
-<h2 id="5-Oracle角色-role"><a href="#5-Oracle角色-role" class="headerlink" title="5. Oracle角色 role"></a>5. Oracle角色 role</h2><p>　角色：权限的集合</p>
-<ul>
-<li><h3 id="角色数据字典表"><a href="#角色数据字典表" class="headerlink" title="角色数据字典表"></a>角色数据字典表</h3></li>
-</ul>
-<p>　　查看当前用户中的角色：<code>user_role_privs</code></p>
-<p>　　查看角色中的系统权限：<code>role_sys_privs</code></p>
-<p>　　查看角色中的对象权限：<code>role_tab_privs</code></p>
-<ul>
-<li><h3 id="建一个角色"><a href="#建一个角色" class="headerlink" title="建一个角色"></a>建一个角色</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">create role role1;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="授权给角色"><a href="#授权给角色" class="headerlink" title="授权给角色"></a>授权给角色</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grant create any table, create procedure to role1;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="授予-回收用户角色"><a href="#授予-回收用户角色" class="headerlink" title="授予/回收用户角色"></a>授予/回收用户角色</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">grant role1 to user1;</div><div class="line"></div><div class="line">revoke role1 from user1;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="创建带有口令以角色"><a href="#创建带有口令以角色" class="headerlink" title="创建带有口令以角色"></a>创建带有口令以角色</h3></li>
-</ul>
-<p>　　在生效带有口令的角色时必须提供口令</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">create role role1 identified by password1;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="修改角色：是否需要口令"><a href="#修改角色：是否需要口令" class="headerlink" title="修改角色：是否需要口令"></a>修改角色：是否需要口令</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">alter role role1 not identified;</div><div class="line"></div><div class="line">alter role role1 identified by password1;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="设置当前用户要生效的角色"><a href="#设置当前用户要生效的角色" class="headerlink" title="设置当前用户要生效的角色"></a>设置当前用户要生效的角色</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">set role role1; -- 使 role1 生效</div><div class="line"></div><div class="line">set role role1, role2; -- 使 role1, role2 生效</div><div class="line"></div><div class="line">set role role1 identified by password1; -- 使用带有口令的 role1 生效</div><div class="line"></div><div class="line">set role all; -- 使用该用户的所有角色生效</div><div class="line"></div><div class="line">set role none; -- 设置所有角色失效</div><div class="line"></div><div class="line">set role all except role1; -- 除 role1 外的该用户的所有其它角色生效</div><div class="line"></div><div class="line">select * from SESSION_ROLES; -- 查看当前用户的生效的角色。</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="修改指定用户，设置其默认角色"><a href="#修改指定用户，设置其默认角色" class="headerlink" title="修改指定用户，设置其默认角色"></a>修改指定用户，设置其默认角色</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">alter user user1 default role role1;</div><div class="line"></div><div class="line">alter user user1 default role all except role1;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="删除角色"><a href="#删除角色" class="headerlink" title="删除角色"></a>删除角色</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">drop role role1;</div></pre></td></tr></table></figure>
-<p>　　<strong>注意：</strong> 角色删除后，原来拥用该角色的用户就不再拥有该角色了，相应的权限也就没有了。</p>
-<ul>
-<li><h3 id="系统角色"><a href="#系统角色" class="headerlink" title="系统角色"></a>系统角色</h3></li>
-</ul>
-<p>　　<strong>DBA:</strong> 拥有全部特权，是系统最高权限角色</p>
-<p>　　<strong>RESOURCE</strong>：拥有 RESOURCE 角色权限的用户只可以创建实体</p>
-<p>　　<strong>CONNECT</strong>：拥有 CONNECT 角色权限的用户只可以登录 Oracle</p>
-<p>　　对于普通用户：授予 CONNECT，RESOURCE 角色权限；对于DBA管理用户：授予 CONNECT，RESOURCE， DBA 角色权限。</p>
-<h2 id="6-查看表结构信息命令"><a href="#6-查看表结构信息命令" class="headerlink" title="6. 查看表结构信息命令"></a>6. 查看表结构信息命令</h2><ul>
-<li><h3 id="Oracle-2"><a href="#Oracle-2" class="headerlink" title="Oracle"></a>Oracle</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">desc(ribe) 表名; -- 如：desc lxr</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="MySQL-2"><a href="#MySQL-2" class="headerlink" title="MySQL"></a>MySQL</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">desc(ribe) 表名;</div></pre></td></tr></table></figure>
-<h2 id="7-显示当前登录用户："><a href="#7-显示当前登录用户：" class="headerlink" title="7. 显示当前登录用户："></a>7. 显示当前登录用户：</h2><ul>
-<li><h3 id="Oracle-3"><a href="#Oracle-3" class="headerlink" title="Oracle"></a>Oracle</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">show user;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="MySQL-3"><a href="#MySQL-3" class="headerlink" title="MySQL"></a>MySQL</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">select user();</div></pre></td></tr></table></figure>
-<h2 id="8-MySQL-查看用户下的数据库"><a href="#8-MySQL-查看用户下的数据库" class="headerlink" title="8. MySQL 查看用户下的数据库"></a>8. MySQL 查看用户下的数据库</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">show databases;</div></pre></td></tr></table></figure>
-<p>　查看表</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">show tables;</div></pre></td></tr></table></figure>
-<h2 id="9-Oracle-用户锁定与解锁"><a href="#9-Oracle-用户锁定与解锁" class="headerlink" title="9. Oracle 用户锁定与解锁"></a>9. Oracle 用户锁定与解锁</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ALTER USER username ACCOUNT LOCK; -- 锁定用户</div><div class="line"></div><div class="line">ALTER USER username ACCOUNT UNLOCK; -- 解锁用户</div></pre></td></tr></table></figure>
-<h2 id="10-清屏命令"><a href="#10-清屏命令" class="headerlink" title="10. 清屏命令"></a>10. 清屏命令</h2><ul>
-<li><h3 id="SQLPlus"><a href="#SQLPlus" class="headerlink" title="SQLPlus"></a>SQLPlus</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">clear screen -- 简写：cl scr</div><div class="line"></div><div class="line">cls -- dos 清屏命令</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="MySQL-4"><a href="#MySQL-4" class="headerlink" title="MySQL"></a>MySQL</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">system clear; -- Linux 环境下</div><div class="line"></div><div class="line">system cls; -- dos 环境下</div></pre></td></tr></table></figure>
-<h2 id="11-Oracle-更改当前用户日期格式命令"><a href="#11-Oracle-更改当前用户日期格式命令" class="headerlink" title="11. Oracle 更改当前用户日期格式命令"></a>11. Oracle 更改当前用户日期格式命令</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter session set nls_date_format = &apos;yyyy-mm-dd&apos;;</div></pre></td></tr></table></figure>
-<h2 id="12-Oracle-中的基本数据类型"><a href="#12-Oracle-中的基本数据类型" class="headerlink" title="12. Oracle 中的基本数据类型"></a>12. Oracle 中的基本数据类型</h2><p>　<strong>数值</strong>：number(5,2)，int</p>
-<p>　<strong>字符</strong>：char，varchar2(4000)</p>
-<p>　<strong>日期</strong>：date</p>
-<p>　<strong>图片</strong>：BLOB (binaryLargeObject) 4G</p>
-<p>　<strong>文本</strong>：CLOB (Character LargeObject) 4G</p>
-<h2 id="13-Oracle-表结构操作"><a href="#13-Oracle-表结构操作" class="headerlink" title="13. Oracle 表结构操作"></a>13. Oracle 表结构操作</h2><ul>
-<li><h3 id="表重命名"><a href="#表重命名" class="headerlink" title="表重命名"></a>表重命名</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 rename to 新表名;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="给表增加注释"><a href="#给表增加注释" class="headerlink" title="给表增加注释"></a>给表增加注释</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">comment on table 表名 is &apos;注释内容&apos;;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="添加约束方式"><a href="#添加约束方式" class="headerlink" title="添加约束方式"></a>添加约束方式</h3></li>
-<li><h4 id="方式一"><a href="#方式一" class="headerlink" title="方式一"></a>方式一</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 add constraint 约束名 约束类型(约束的字段名);</div></pre></td></tr></table></figure>
-<p>　　constraint 约束类型：</p>
-<table>
-<thead>
-<tr>
-<th>值</th>
-<th>名称</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>primary key</td>
-<td>主键</td>
-</tr>
-<tr>
-<td>unique</td>
-<td>唯一</td>
-</tr>
-<tr>
-<td>check</td>
-<td>限制</td>
-</tr>
-<tr>
-<td>not null</td>
-<td>不能为null</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li><h4 id="方式二"><a href="#方式二" class="headerlink" title="方式二"></a>方式二</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 add constraint 约束名 foreign key(字段名) references 表名(字段名);</div></pre></td></tr></table></figure>
-<p>　　<strong>foreign key 外键：</strong> 参照主键中存在的值，可以插入重复的记录、可以插入重复的空值</p>
-<ul>
-<li><h3 id="删除约束方式"><a href="#删除约束方式" class="headerlink" title="删除约束方式"></a>删除约束方式</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 drop constraint 约束名;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="删除表结构"><a href="#删除表结构" class="headerlink" title="删除表结构"></a>删除表结构</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">drop table 表名; -- 此操作属DDL，会自动提交且不可回滚</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="表中增加字段"><a href="#表中增加字段" class="headerlink" title="表中增加字段"></a>表中增加字段</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 add 字段名 类型;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="删除字段"><a href="#删除字段" class="headerlink" title="删除字段"></a>删除字段</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 drop 字段名;</div></pre></td></tr></table></figure>
-<p>　　通常在系统不忙的时候删除不使用的字段，可以先设置字段为 unused</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table test3 set unused column address;</div></pre></td></tr></table></figure>
-<p>　　再执行删除</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table test3 unused column;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="字段重命名"><a href="#字段重命名" class="headerlink" title="字段重命名"></a>字段重命名</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 rename column 字段名 to 新字段名;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="修改字段"><a href="#修改字段" class="headerlink" title="修改字段"></a>修改字段</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 modify 字段名 新类型;</div></pre></td></tr></table></figure>
-<p>　　添加 not null</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 modify 字段名 not null</div></pre></td></tr></table></figure>
-<p>　　删除 not null</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 modify 字段名 null;</div></pre></td></tr></table></figure>
-<h2 id="14-Oracle-备份表"><a href="#14-Oracle-备份表" class="headerlink" title="14. Oracle 备份表"></a>14. Oracle 备份表</h2><ul>
-<li><h3 id="在当前的数据库之内进行备份"><a href="#在当前的数据库之内进行备份" class="headerlink" title="在当前的数据库之内进行备份"></a>在当前的数据库之内进行备份</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">create table 表名(字段) as select 查询语句;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="数据的移动"><a href="#数据的移动" class="headerlink" title="数据的移动"></a>数据的移动</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">insert into 表名（字段列表）select 字段列表 from 表名;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="数据库服务器之间拷贝表"><a href="#数据库服务器之间拷贝表" class="headerlink" title="数据库服务器之间拷贝表"></a>数据库服务器之间拷贝表</h3></li>
-</ul>
-<p>　　<strong>知识点：</strong> 客户端连接服务器</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">copy from system/hhl@hhl create hhl_table using select * from scott.emp;</div></pre></td></tr></table></figure>
-<p>　　从A服务器拷贝到自己的数据库中</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">copy from 用户名/密码@主机字符串 create 表名 using 查询语句;</div></pre></td></tr></table></figure>
-<p>　　从自己的数据库中拷贝到A服务器</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">copy to 用户用/密码@主机字符串 create 表名 using 查询语句;</div></pre></td></tr></table></figure>
-<p>　　从A服务器拷贝表到B服务器</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">copy from 用户用/密码@主机字符串 to 用户用/密码@主机字符串 create 表名 using 查询语句;</div></pre></td></tr></table></figure>
-<h2 id="15-OracleDBLINK-数据库连接"><a href="#15-OracleDBLINK-数据库连接" class="headerlink" title="15. OracleDBLINK 数据库连接"></a>15. OracleDBLINK 数据库连接</h2><p>　在当前的数据库内直接操作其他服务器中的表做增删改查，格式如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">create database link 名 connect to 用户名 identified by 密码 using &apos;主机字符串&apos;;</div></pre></td></tr></table></figure>
-<h2 id="16-MySQL-查看数据库字符集"><a href="#16-MySQL-查看数据库字符集" class="headerlink" title="16. MySQL 查看数据库字符集"></a>16. MySQL 查看数据库字符集</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">show variables like &apos;character%&apos;;</div><div class="line"></div><div class="line">show variables like &apos;%collation%&apos;;</div></pre></td></tr></table></figure>
-<h2 id="17-truncate-与-delete"><a href="#17-truncate-与-delete" class="headerlink" title="17. truncate 与 delete"></a>17. truncate 与 delete</h2><ul>
-<li><h3 id="使用格式"><a href="#使用格式" class="headerlink" title="使用格式"></a>使用格式</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">truncate table 表名; -- 删除表中全部记录</div><div class="line"></div><div class="line">delete from 表名;</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="truncate-与-delete-的区别"><a href="#truncate-与-delete-的区别" class="headerlink" title="truncate 与 delete 的区别"></a>truncate 与 delete 的区别</h3></li>
-</ul>
-<p>　　truncate 删除速度比 delete 删除速度快；</p>
-<p>　　truncate 不可以回滚，delete 可以回滚。</p>
-<hr>
-]]></content>
+      <content type="html"><![CDATA[<blockquote><p>对日常工作中使用 Oracle 和 MySQL 数据库知识对比总结。</p></blockquote><h2 id="1-SQLPlus-连接数据库的方式"><a href="#1-SQLPlus-连接数据库的方式" class="headerlink" title="1. SQLPlus 连接数据库的方式"></a>1. SQLPlus 连接数据库的方式</h2><ul><li><h3 id="cmd-中输入：sqlplus-用户名-密码-数据库实例"><a href="#cmd-中输入：sqlplus-用户名-密码-数据库实例" class="headerlink" title="cmd 中输入：sqlplus 用户名/密码@数据库实例"></a>cmd 中输入：sqlplus 用户名/密码@数据库实例</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sqlplus system/lxr316@oracle</div><div class="line">sqlplus sys/admin as sysdba</div></pre></td></tr></table></figure><ul><li><h3 id="打开-SQLPlus-直接输入用户名和密码"><a href="#打开-SQLPlus-直接输入用户名和密码" class="headerlink" title="打开 SQLPlus 直接输入用户名和密码"></a>打开 SQLPlus 直接输入用户名和密码</h3></li><li><h3 id="使用命令："><a href="#使用命令：" class="headerlink" title="使用命令："></a>使用命令：</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">connect sys/admin as sysdba</div><div class="line">connect system/lxr316</div></pre></td></tr></table></figure><a id="more"></a><ul><li><h3 id="超级管理员登录："><a href="#超级管理员登录：" class="headerlink" title="超级管理员登录："></a>超级管理员登录：</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sys as sysdba</div></pre></td></tr></table></figure><ul><li><h3 id="断开数据库："><a href="#断开数据库：" class="headerlink" title="断开数据库："></a>断开数据库：</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">disconnect; # 可简写 disconn</div></pre></td></tr></table></figure><h2 id="2-MySQL-连接"><a href="#2-MySQL-连接" class="headerlink" title="2. MySQL 连接"></a>2. MySQL 连接</h2><p><strong>命令：</strong> mysql [–h 服务器地址] –u 用户名 –p [密码]（<em>需要配置 mysql 数据库的 bin 到环境变量中</em>）</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mysql -h localhost –u root –p root</div><div class="line">mysql –u root -p</div></pre></td></tr></table></figure><h2 id="3-用户操作"><a href="#3-用户操作" class="headerlink" title="3. 用户操作"></a>3. 用户操作</h2><ul><li><h3 id="Oracle"><a href="#Oracle" class="headerlink" title="Oracle"></a>Oracle</h3></li><li><p>创建用户</p></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">create user [username] identified by [password];</div></pre></td></tr></table></figure><ul><li>修改用户密码</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter user [username] identified by [password];</div></pre></td></tr></table></figure><ul><li>账户上锁、解锁</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter user [username] account lock|unlock;</div></pre></td></tr></table></figure><ul><li>用户首次登录时直接修改密码–密码失效</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter user [username] password expire;</div></pre></td></tr></table></figure><ul><li><h3 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h3></li><li><p>创建用户:</p></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">CREATE USER &apos;username&apos;@&apos;host&apos; IDENTIFIED BY &apos;password&apos;;</div></pre></td></tr></table></figure><p><strong>备注：</strong><br><strong>username</strong>：你将创建的用户名。<br><strong>host</strong>：指定该用户在哪个主机上可以登陆,如果是本地用户可用localhost, 如果想让该用户可以从任意远程主机登陆,可以使用通配符%。<br><strong>password</strong>：该用户的登陆密码,密码可以为空,如果为空则该用户可以不需要密码登陆服务器。</p><p>例如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">CREATE USER &apos;dog&apos;@&apos;localhost&apos;IDENTIFIED BY &apos;123456&apos;;</div><div class="line">CREATE USER &apos;pig&apos;@&apos;192.168.1.101_&apos;IDENDIFIED BY &apos;123456&apos;;</div><div class="line">CREATE USER &apos;pig&apos;@&apos;%&apos; IDENTIFIED BY &apos;123456&apos;;</div><div class="line">CREATE USER &apos;pig&apos;@&apos;%&apos; IDENTIFIED BY &apos;&apos;;</div><div class="line">CREATE USER &apos;pig&apos;@&apos;%&apos;;</div></pre></td></tr></table></figure><ul><li>设置与更改用户密码</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">SET PASSWORD FOR &apos;username&apos;@&apos;host&apos; = PASSWORD(&apos;newpassword&apos;);</div></pre></td></tr></table></figure><p>如果是当前登陆用户</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">SET PASSWORD = PASSWORD(&quot;newpassword&quot;);</div></pre></td></tr></table></figure><ul><li>删除用户</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">DROP USER &apos;username&apos;@&apos;host&apos;;</div></pre></td></tr></table></figure><h2 id="4-权限管理"><a href="#4-权限管理" class="headerlink" title="4. 权限管理"></a>4. 权限管理</h2><ul><li><h3 id="Oracle-1"><a href="#Oracle-1" class="headerlink" title="Oracle"></a>Oracle</h3></li><li><p>授权</p></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">grant 权限 to 用户名;</div><div class="line">grant all on 表名 to用户/角色</div></pre></td></tr></table></figure><ul><li>收回权限</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">revoke 权限from 用户名;</div></pre></td></tr></table></figure><p>对象权限可以级联收回，但是系统权限不可以级联收回。</p><p><strong>(1) 系统权限：</strong> A 赋予一个系统权限给 B，B 再授予 C。然后A将该权限从 B 回收，此后 C 仍然有该权限。</p><p><strong>(2) 对象权限：</strong> A 赋予一个对象权限给 B，B 再授予 C。然后A将该权限从 B 回收，此后 C 也失去了该权限。</p><ul><li>常用系统权限</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">create session --用户登录</div><div class="line">create table     --创建表</div><div class="line">unlimited tablespace   --无限表空间</div></pre></td></tr></table></figure><ul><li>常用对象权限</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">select on 表名; -- 查询权限</div><div class="line">update on 表名; -- 更新权限</div><div class="line">delete on 表名; -- 删除权限</div><div class="line">insert on 表名; -- 插入权限</div></pre></td></tr></table></figure><ul><li>权限的级联授予</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grant 权限 to 用户名 with admin option|with grant option;</div></pre></td></tr></table></figure><p><strong>with admin option</strong>：系统权限<br><br><strong>with grant option</strong>：对象权限</p><ul><li><h3 id="MySQL-1"><a href="#MySQL-1" class="headerlink" title="MySQL"></a>MySQL</h3></li><li><p>授权:</p></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">GRANT privileges ON databasename.tablename TO &apos;username&apos;@&apos;host&apos;</div></pre></td></tr></table></figure><p><strong>备注：</strong><br><strong>privileges</strong>：用户的操作权限,如 SELECT , INSERT , UPDATE 等；如果要授予所的权限则使用 ALL。<br><strong>databasename</strong>：数据库名。<br><strong>tablename</strong>：表名<br><br>如果要授予该用户对所有数据库和表的相应操作权限则可用 <code>*</code> 表示, 如 <code>*.*</code> 。</p><p>例如:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">GRANT SELECT, INSERT ON test.user TO &apos;pig&apos;@&apos;%&apos;;</div><div class="line"> </div><div class="line">GRANT ALL ON *.* TO &apos;pig&apos;@&apos;%&apos;;</div></pre></td></tr></table></figure><p><strong>注意：</strong> 用以上命令授权的用户不能给其它用户授权，如果想让该用户可以授权，用以下命令:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">GRANT privileges ON databasename.tablename TO &apos;username&apos;@&apos;host&apos; WITH GRANT OPTION;</div></pre></td></tr></table></figure><ul><li>撤销用户权限</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">REVOKE privilege ON databasename.tablename FROM &apos;username&apos;@&apos;host&apos;;</div></pre></td></tr></table></figure><p><strong>说明：</strong> privilege, databasename, tablename - 同授权部分。</p><p>例如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">REVOKE SELECT ON *.* FROM &apos;pig&apos;@&apos;%&apos;;</div></pre></td></tr></table></figure><p><strong>注意：</strong> 假如你在给用户 <code>&#39;pig&#39;@&#39;%&#39;</code> 授权的时候是这样的（或类似的）：<code>GRANT SELECT ON test.user TO &#39;pig&#39;@&#39;%&#39;;</code> 则在使用：<code>REVOKE SELECT ON *.* FROM&#39;pig&#39;@&#39;%&#39;;</code> 命令并不能撤销该用户对 test 数据库中 user 表的 SELECT 操作；相反，如果授权使用的是：<code>GRANT SELECT ON *.* TO&#39;pig&#39;@&#39;%&#39;;</code> 则：<code>REVOKE SELECT ONtest.user FROM &#39;pig&#39;@&#39;%&#39;;</code> 命令也不能撤销该用户对 test 数据库中 user 表的 SELECT 权限。</p><p>具体信息可以用命令：<code>SHOW GRANTS FOR &#39;pig&#39;@&#39;%&#39;;</code> 查看。</p><h2 id="5-Oracle角色-role"><a href="#5-Oracle角色-role" class="headerlink" title="5. Oracle角色 role"></a>5. Oracle角色 role</h2><p>角色：权限的集合</p><ul><li><h3 id="角色数据字典表"><a href="#角色数据字典表" class="headerlink" title="角色数据字典表"></a>角色数据字典表</h3></li></ul><p>查看当前用户中的角色：<code>user_role_privs</code></p><p>查看角色中的系统权限：<code>role_sys_privs</code></p><p>查看角色中的对象权限：<code>role_tab_privs</code></p><ul><li><h3 id="建一个角色"><a href="#建一个角色" class="headerlink" title="建一个角色"></a>建一个角色</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">create role role1;</div></pre></td></tr></table></figure><ul><li><h3 id="授权给角色"><a href="#授权给角色" class="headerlink" title="授权给角色"></a>授权给角色</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grant create any table, create procedure to role1;</div></pre></td></tr></table></figure><ul><li><h3 id="授予-回收用户角色"><a href="#授予-回收用户角色" class="headerlink" title="授予/回收用户角色"></a>授予/回收用户角色</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">grant role1 to user1;</div><div class="line"></div><div class="line">revoke role1 from user1;</div></pre></td></tr></table></figure><ul><li><h3 id="创建带有口令以角色"><a href="#创建带有口令以角色" class="headerlink" title="创建带有口令以角色"></a>创建带有口令以角色</h3></li></ul><p>在生效带有口令的角色时必须提供口令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">create role role1 identified by password1;</div></pre></td></tr></table></figure><ul><li><h3 id="修改角色：是否需要口令"><a href="#修改角色：是否需要口令" class="headerlink" title="修改角色：是否需要口令"></a>修改角色：是否需要口令</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">alter role role1 not identified;</div><div class="line"></div><div class="line">alter role role1 identified by password1;</div></pre></td></tr></table></figure><ul><li><h3 id="设置当前用户要生效的角色"><a href="#设置当前用户要生效的角色" class="headerlink" title="设置当前用户要生效的角色"></a>设置当前用户要生效的角色</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">set role role1; -- 使 role1 生效</div><div class="line"></div><div class="line">set role role1, role2; -- 使 role1, role2 生效</div><div class="line"></div><div class="line">set role role1 identified by password1; -- 使用带有口令的 role1 生效</div><div class="line"></div><div class="line">set role all; -- 使用该用户的所有角色生效</div><div class="line"></div><div class="line">set role none; -- 设置所有角色失效</div><div class="line"></div><div class="line">set role all except role1; -- 除 role1 外的该用户的所有其它角色生效</div><div class="line"></div><div class="line">select * from SESSION_ROLES; -- 查看当前用户的生效的角色。</div></pre></td></tr></table></figure><ul><li><h3 id="修改指定用户，设置其默认角色"><a href="#修改指定用户，设置其默认角色" class="headerlink" title="修改指定用户，设置其默认角色"></a>修改指定用户，设置其默认角色</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">alter user user1 default role role1;</div><div class="line"></div><div class="line">alter user user1 default role all except role1;</div></pre></td></tr></table></figure><ul><li><h3 id="删除角色"><a href="#删除角色" class="headerlink" title="删除角色"></a>删除角色</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">drop role role1;</div></pre></td></tr></table></figure><p><strong>注意：</strong> 角色删除后，原来拥用该角色的用户就不再拥有该角色了，相应的权限也就没有了。</p><ul><li><h3 id="系统角色"><a href="#系统角色" class="headerlink" title="系统角色"></a>系统角色</h3></li></ul><p><strong>DBA:</strong> 拥有全部特权，是系统最高权限角色</p><p><strong>RESOURCE</strong>：拥有 RESOURCE 角色权限的用户只可以创建实体</p><p><strong>CONNECT</strong>：拥有 CONNECT 角色权限的用户只可以登录 Oracle</p><p>对于普通用户：授予 CONNECT，RESOURCE 角色权限；对于DBA管理用户：授予 CONNECT，RESOURCE， DBA 角色权限。</p><h2 id="6-查看表结构信息命令"><a href="#6-查看表结构信息命令" class="headerlink" title="6. 查看表结构信息命令"></a>6. 查看表结构信息命令</h2><ul><li><h3 id="Oracle-2"><a href="#Oracle-2" class="headerlink" title="Oracle"></a>Oracle</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">desc(ribe) 表名; -- 如：desc lxr</div></pre></td></tr></table></figure><ul><li><h3 id="MySQL-2"><a href="#MySQL-2" class="headerlink" title="MySQL"></a>MySQL</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">desc(ribe) 表名;</div></pre></td></tr></table></figure><h2 id="7-显示当前登录用户："><a href="#7-显示当前登录用户：" class="headerlink" title="7. 显示当前登录用户："></a>7. 显示当前登录用户：</h2><ul><li><h3 id="Oracle-3"><a href="#Oracle-3" class="headerlink" title="Oracle"></a>Oracle</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">show user;</div></pre></td></tr></table></figure><ul><li><h3 id="MySQL-3"><a href="#MySQL-3" class="headerlink" title="MySQL"></a>MySQL</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">select user();</div></pre></td></tr></table></figure><h2 id="8-MySQL-查看用户下的数据库"><a href="#8-MySQL-查看用户下的数据库" class="headerlink" title="8. MySQL 查看用户下的数据库"></a>8. MySQL 查看用户下的数据库</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">show databases;</div></pre></td></tr></table></figure><p>查看表</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">show tables;</div></pre></td></tr></table></figure><h2 id="9-Oracle-用户锁定与解锁"><a href="#9-Oracle-用户锁定与解锁" class="headerlink" title="9. Oracle 用户锁定与解锁"></a>9. Oracle 用户锁定与解锁</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ALTER USER username ACCOUNT LOCK; -- 锁定用户</div><div class="line"></div><div class="line">ALTER USER username ACCOUNT UNLOCK; -- 解锁用户</div></pre></td></tr></table></figure><h2 id="10-清屏命令"><a href="#10-清屏命令" class="headerlink" title="10. 清屏命令"></a>10. 清屏命令</h2><ul><li><h3 id="SQLPlus"><a href="#SQLPlus" class="headerlink" title="SQLPlus"></a>SQLPlus</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">clear screen -- 简写：cl scr</div><div class="line"></div><div class="line">cls -- dos 清屏命令</div></pre></td></tr></table></figure><ul><li><h3 id="MySQL-4"><a href="#MySQL-4" class="headerlink" title="MySQL"></a>MySQL</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">system clear; -- Linux 环境下</div><div class="line"></div><div class="line">system cls; -- dos 环境下</div></pre></td></tr></table></figure><h2 id="11-Oracle-更改当前用户日期格式命令"><a href="#11-Oracle-更改当前用户日期格式命令" class="headerlink" title="11. Oracle 更改当前用户日期格式命令"></a>11. Oracle 更改当前用户日期格式命令</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter session set nls_date_format = &apos;yyyy-mm-dd&apos;;</div></pre></td></tr></table></figure><h2 id="12-Oracle-中的基本数据类型"><a href="#12-Oracle-中的基本数据类型" class="headerlink" title="12. Oracle 中的基本数据类型"></a>12. Oracle 中的基本数据类型</h2><p><strong>数值</strong>：number(5,2)，int</p><p><strong>字符</strong>：char，varchar2(4000)</p><p><strong>日期</strong>：date</p><p><strong>图片</strong>：BLOB (binaryLargeObject) 4G</p><p><strong>文本</strong>：CLOB (Character LargeObject) 4G</p><h2 id="13-Oracle-表结构操作"><a href="#13-Oracle-表结构操作" class="headerlink" title="13. Oracle 表结构操作"></a>13. Oracle 表结构操作</h2><ul><li><h3 id="表重命名"><a href="#表重命名" class="headerlink" title="表重命名"></a>表重命名</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 rename to 新表名;</div></pre></td></tr></table></figure><ul><li><h3 id="给表增加注释"><a href="#给表增加注释" class="headerlink" title="给表增加注释"></a>给表增加注释</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">comment on table 表名 is &apos;注释内容&apos;;</div></pre></td></tr></table></figure><ul><li><h3 id="添加约束方式"><a href="#添加约束方式" class="headerlink" title="添加约束方式"></a>添加约束方式</h3></li><li><h4 id="方式一"><a href="#方式一" class="headerlink" title="方式一"></a>方式一</h4></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 add constraint 约束名 约束类型(约束的字段名);</div></pre></td></tr></table></figure><p>constraint 约束类型：</p><table><thead><tr><th>值</th><th>名称</th></tr></thead><tbody><tr><td>primary key</td><td>主键</td></tr><tr><td>unique</td><td>唯一</td></tr><tr><td>check</td><td>限制</td></tr><tr><td>not null</td><td>不能为null</td></tr></tbody></table><ul><li><h4 id="方式二"><a href="#方式二" class="headerlink" title="方式二"></a>方式二</h4></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 add constraint 约束名 foreign key(字段名) references 表名(字段名);</div></pre></td></tr></table></figure><p><strong>foreign key 外键：</strong> 参照主键中存在的值，可以插入重复的记录、可以插入重复的空值</p><ul><li><h3 id="删除约束方式"><a href="#删除约束方式" class="headerlink" title="删除约束方式"></a>删除约束方式</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 drop constraint 约束名;</div></pre></td></tr></table></figure><ul><li><h3 id="删除表结构"><a href="#删除表结构" class="headerlink" title="删除表结构"></a>删除表结构</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">drop table 表名; -- 此操作属DDL，会自动提交且不可回滚</div></pre></td></tr></table></figure><ul><li><h3 id="表中增加字段"><a href="#表中增加字段" class="headerlink" title="表中增加字段"></a>表中增加字段</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 add 字段名 类型;</div></pre></td></tr></table></figure><ul><li><h3 id="删除字段"><a href="#删除字段" class="headerlink" title="删除字段"></a>删除字段</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 drop 字段名;</div></pre></td></tr></table></figure><p>通常在系统不忙的时候删除不使用的字段，可以先设置字段为 unused</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table test3 set unused column address;</div></pre></td></tr></table></figure><p>再执行删除</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table test3 unused column;</div></pre></td></tr></table></figure><ul><li><h3 id="字段重命名"><a href="#字段重命名" class="headerlink" title="字段重命名"></a>字段重命名</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 rename column 字段名 to 新字段名;</div></pre></td></tr></table></figure><ul><li><h3 id="修改字段"><a href="#修改字段" class="headerlink" title="修改字段"></a>修改字段</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 modify 字段名 新类型;</div></pre></td></tr></table></figure><p>添加 not null</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 modify 字段名 not null</div></pre></td></tr></table></figure><p>删除 not null</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alter table 表名 modify 字段名 null;</div></pre></td></tr></table></figure><h2 id="14-Oracle-备份表"><a href="#14-Oracle-备份表" class="headerlink" title="14. Oracle 备份表"></a>14. Oracle 备份表</h2><ul><li><h3 id="在当前的数据库之内进行备份"><a href="#在当前的数据库之内进行备份" class="headerlink" title="在当前的数据库之内进行备份"></a>在当前的数据库之内进行备份</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">create table 表名(字段) as select 查询语句;</div></pre></td></tr></table></figure><ul><li><h3 id="数据的移动"><a href="#数据的移动" class="headerlink" title="数据的移动"></a>数据的移动</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">insert into 表名（字段列表）select 字段列表 from 表名;</div></pre></td></tr></table></figure><ul><li><h3 id="数据库服务器之间拷贝表"><a href="#数据库服务器之间拷贝表" class="headerlink" title="数据库服务器之间拷贝表"></a>数据库服务器之间拷贝表</h3></li></ul><p><strong>知识点：</strong> 客户端连接服务器</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">copy from system/hhl@hhl create hhl_table using select * from scott.emp;</div></pre></td></tr></table></figure><p>从A服务器拷贝到自己的数据库中</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">copy from 用户名/密码@主机字符串 create 表名 using 查询语句;</div></pre></td></tr></table></figure><p>从自己的数据库中拷贝到A服务器</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">copy to 用户用/密码@主机字符串 create 表名 using 查询语句;</div></pre></td></tr></table></figure><p>从A服务器拷贝表到B服务器</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">copy from 用户用/密码@主机字符串 to 用户用/密码@主机字符串 create 表名 using 查询语句;</div></pre></td></tr></table></figure><h2 id="15-OracleDBLINK-数据库连接"><a href="#15-OracleDBLINK-数据库连接" class="headerlink" title="15. OracleDBLINK 数据库连接"></a>15. OracleDBLINK 数据库连接</h2><p>在当前的数据库内直接操作其他服务器中的表做增删改查，格式如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">create database link 名 connect to 用户名 identified by 密码 using &apos;主机字符串&apos;;</div></pre></td></tr></table></figure><h2 id="16-MySQL-查看数据库字符集"><a href="#16-MySQL-查看数据库字符集" class="headerlink" title="16. MySQL 查看数据库字符集"></a>16. MySQL 查看数据库字符集</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">show variables like &apos;character%&apos;;</div><div class="line"></div><div class="line">show variables like &apos;%collation%&apos;;</div></pre></td></tr></table></figure><h2 id="17-truncate-与-delete"><a href="#17-truncate-与-delete" class="headerlink" title="17. truncate 与 delete"></a>17. truncate 与 delete</h2><ul><li><h3 id="使用格式"><a href="#使用格式" class="headerlink" title="使用格式"></a>使用格式</h3></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">truncate table 表名; -- 删除表中全部记录</div><div class="line"></div><div class="line">delete from 表名;</div></pre></td></tr></table></figure><ul><li><h3 id="truncate-与-delete-的区别"><a href="#truncate-与-delete-的区别" class="headerlink" title="truncate 与 delete 的区别"></a>truncate 与 delete 的区别</h3></li></ul><p>truncate 删除速度比 delete 删除速度快；</p><p>truncate 不可以回滚，delete 可以回滚。</p><hr>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[GitHub 更新已经 fork 的项目]]></title>
       <url>http://www.ehlxr.me/2016/07/28/GitHub-%E6%9B%B4%E6%96%B0%E5%B7%B2%E7%BB%8F-fork-%E7%9A%84%E9%A1%B9%E7%9B%AE/</url>
-      <content type="html"><![CDATA[<p>GitHub 上有个很方便的功能叫 fork，将别人的工程一键复制到自己账号下。这个功能很方便，但有点不足的是，当源项目更新后，你 fork 的分支并不会一起更新，需要自己手动去更新，下面记录下网上找到的更新的开发方法。</p>
-<h3 id="1-在本地装好-GitHub-客户端，或者-Git-客户端"><a href="#1-在本地装好-GitHub-客户端，或者-Git-客户端" class="headerlink" title="1. 在本地装好 GitHub 客户端，或者 Git 客户端"></a>1. 在本地装好 GitHub 客户端，或者 Git 客户端</h3><h3 id="2-clone-自己的-fork-分支到本地"><a href="#2-clone-自己的-fork-分支到本地" class="headerlink" title="2. clone 自己的 fork 分支到本地"></a>2. clone 自己的 fork 分支到本地</h3><p>　可以直接使用 GitHub 客户端，clone 到本地，如果使用命令行，命令为：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone git@github.com:ehlxr/strman-java.git</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<h3 id="3-增加源分支地址到你项目远程分支列表中"><a href="#3-增加源分支地址到你项目远程分支列表中" class="headerlink" title="3. 增加源分支地址到你项目远程分支列表中"></a>3. 增加源分支地址到你项目远程分支列表中</h3><p>　此处是关键，先得将原来的仓库指定为 upstream，命令为：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git remote add upstream git@github.com:shekhargulati/strman-java.git</div></pre></td></tr></table></figure>
-<p>　此处可使用 git remote -v 查看远程分支列表</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ git remote -v</div><div class="line">origin  git@github.com:ehlxr/strman-java.git (fetch)</div><div class="line">origin  git@github.com:ehlxr/strman-java.git (push)</div><div class="line">upstream  git@github.com:shekhargulati/strman-java.git (fetch)</div><div class="line">upstream  git@github.com:shekhargulati/strman-java.git (push)</div></pre></td></tr></table></figure>
-<h3 id="4-fetch-源分支的新版本到本地"><a href="#4-fetch-源分支的新版本到本地" class="headerlink" title="4. fetch 源分支的新版本到本地"></a>4. fetch 源分支的新版本到本地</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git fetch upstream</div></pre></td></tr></table></figure>
-<h3 id="5-合并两个版本的代码"><a href="#5-合并两个版本的代码" class="headerlink" title="5. 合并两个版本的代码"></a>5. 合并两个版本的代码</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git merge upstream/master</div></pre></td></tr></table></figure>
-<h3 id="6-将合并后的代码-push-到-GitHub-上去"><a href="#6-将合并后的代码-push-到-GitHub-上去" class="headerlink" title="6. 将合并后的代码 push 到 GitHub 上去"></a>6. 将合并后的代码 push 到 GitHub 上去</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git push origin master</div></pre></td></tr></table></figure>
-<hr>
-<p>参考网址：</p>
-<p><a href="https://help.github.com/articles/fork-a-repo" target="_blank" rel="external">https://help.github.com/articles/fork-a-repo</a></p>
-<p><a href="http://www.makaidong.com/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%89%9B/14167.shtml" target="_blank" rel="external">原文出处</a></p>
-]]></content>
+      <content type="html"><![CDATA[<p>GitHub 上有个很方便的功能叫 fork，将别人的工程一键复制到自己账号下。这个功能很方便，但有点不足的是，当源项目更新后，你 fork 的分支并不会一起更新，需要自己手动去更新，下面记录下网上找到的更新的开发方法。</p><h3 id="1-在本地装好-GitHub-客户端，或者-Git-客户端"><a href="#1-在本地装好-GitHub-客户端，或者-Git-客户端" class="headerlink" title="1. 在本地装好 GitHub 客户端，或者 Git 客户端"></a>1. 在本地装好 GitHub 客户端，或者 Git 客户端</h3><h3 id="2-clone-自己的-fork-分支到本地"><a href="#2-clone-自己的-fork-分支到本地" class="headerlink" title="2. clone 自己的 fork 分支到本地"></a>2. clone 自己的 fork 分支到本地</h3><p>可以直接使用 GitHub 客户端，clone 到本地，如果使用命令行，命令为：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone git@github.com:ehlxr/strman-java.git</div></pre></td></tr></table></figure><a id="more"></a><h3 id="3-增加源分支地址到你项目远程分支列表中"><a href="#3-增加源分支地址到你项目远程分支列表中" class="headerlink" title="3. 增加源分支地址到你项目远程分支列表中"></a>3. 增加源分支地址到你项目远程分支列表中</h3><p>此处是关键，先得将原来的仓库指定为 upstream，命令为：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git remote add upstream git@github.com:shekhargulati/strman-java.git</div></pre></td></tr></table></figure><p>此处可使用 git remote -v 查看远程分支列表</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ git remote -v</div><div class="line">origin  git@github.com:ehlxr/strman-java.git (fetch)</div><div class="line">origin  git@github.com:ehlxr/strman-java.git (push)</div><div class="line">upstream  git@github.com:shekhargulati/strman-java.git (fetch)</div><div class="line">upstream  git@github.com:shekhargulati/strman-java.git (push)</div></pre></td></tr></table></figure><h3 id="4-fetch-源分支的新版本到本地"><a href="#4-fetch-源分支的新版本到本地" class="headerlink" title="4. fetch 源分支的新版本到本地"></a>4. fetch 源分支的新版本到本地</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git fetch upstream</div></pre></td></tr></table></figure><h3 id="5-合并两个版本的代码"><a href="#5-合并两个版本的代码" class="headerlink" title="5. 合并两个版本的代码"></a>5. 合并两个版本的代码</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git merge upstream/master</div></pre></td></tr></table></figure><h3 id="6-将合并后的代码-push-到-GitHub-上去"><a href="#6-将合并后的代码-push-到-GitHub-上去" class="headerlink" title="6. 将合并后的代码 push 到 GitHub 上去"></a>6. 将合并后的代码 push 到 GitHub 上去</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git push origin master</div></pre></td></tr></table></figure><hr><p>参考网址：</p><p><a href="https://help.github.com/articles/fork-a-repo" target="_blank" rel="external">https://help.github.com/articles/fork-a-repo</a></p><p><a href="http://www.makaidong.com/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%89%9B/14167.shtml" target="_blank" rel="external">原文出处</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Sublime Text 插件安装]]></title>
       <url>http://www.ehlxr.me/2016/07/25/Sublime-Text-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</url>
-      <content type="html"><![CDATA[<blockquote>
-<p>Sublime Text 官方介绍：</p>
-<blockquote>
-<p>“Sublime Text is a sophisticated text editor for code, markup and prose.You’ll love the slick user interface, extraordinary features and amazing performance.”</p>
-</blockquote>
-</blockquote>
-<p>Sublime Text 是一款优秀的轻量级编辑器，而且支持跨平台，支持Windows、Linux、Mac OS X 等主流操作系统。虽然是一款收费软件，但也允许人们<strong>无限期免费使用</strong>。（<a href="http://www.sublimetext.com/3" target="_blank" rel="external">官方下载地址</a>）</p>
-<p>Sublime Text 具有漂亮的用户界面和强大可扩展插件功能，本文介绍如何安装 Sublime Text 插件。</p>
-<a id="more"></a>
-<p>打开 Sublime Text 编辑器的 Console（控制台）使用快捷键 <code>ctrl+`</code> 或者点击菜单 <code> View &gt; Show Console menu </code> 打开 Console，如图：</p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160725212921.png" alt=""></p>
-<p>Sublime Text 2 粘贴以下代码：</p>
-<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">import urllib2,os,hashlib; h = <span class="string">'2915d1851351e5ee549c20394736b442'</span> + <span class="string">'8bc59f460fa1548d1514676163dafc88'</span>; pf = <span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) <span class="keyword">if</span> <span class="keyword">not</span> os.path.exists(ipp) <span class="keyword">else</span> None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); <span class="keyword">by</span> = urllib2.urlopen( <span class="string">'http://packagecontrol.io/'</span> + pf.<span class="built_in">replace</span>(<span class="string">' '</span>, <span class="string">'%20'</span>)).<span class="built_in">read</span>(); dh = hashlib.sha256(<span class="keyword">by</span>).hexdigest(); <span class="built_in">open</span>( os.path.join( ipp, pf), <span class="string">'wb'</span> ).<span class="built_in">write</span>(<span class="keyword">by</span>) <span class="keyword">if</span> dh == h <span class="keyword">else</span> None; print(<span class="string">'Error validating download (got %s instead of %s), please try manual install'</span> % (dh, h) <span class="keyword">if</span> dh != h <span class="keyword">else</span> <span class="string">'Please restart Sublime Text to finish installation'</span>)</div></pre></td></tr></table></figure>
-<p>Sublime Text 3 粘贴以下代码：</p>
-<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">import urllib.request,os,hashlib; h = <span class="string">'2915d1851351e5ee549c20394736b442'</span> + <span class="string">'8bc59f460fa1548d1514676163dafc88'</span>; pf = <span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); <span class="keyword">by</span> = urllib.request.urlopen( <span class="string">'http://packagecontrol.io/'</span> + pf.<span class="built_in">replace</span>(<span class="string">' '</span>, <span class="string">'%20'</span>)).<span class="built_in">read</span>(); dh = hashlib.sha256(<span class="keyword">by</span>).hexdigest(); print(<span class="string">'Error validating download (got %s instead of %s), please try manual install'</span> % (dh, h)) <span class="keyword">if</span> dh != h <span class="keyword">else</span> <span class="built_in">open</span>(os.path.join( ipp, pf), <span class="string">'wb'</span> ).<span class="built_in">write</span>(<span class="keyword">by</span>)</div></pre></td></tr></table></figure>
-<p>敲回车等待安装完成后重启 Sublime Text 即可，按下快捷键 <code> ctrl + shift + p </code> ,输入 <code>pci</code>（Package Control Install 简写）如图：</p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160725213757.png" alt=""></p>
-<p>敲回车即可打开插件安装界面，输入想要安装插件的名称即可开始安装，如图：</p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160725214353.png" alt=""></p>
-<p>Sublime Text 插件安装介绍完了，需要注意的是安装过程中要保持网络畅通。</p>
-<p><a href="https://packagecontrol.io/installation" target="_blank" rel="external">参考网址</a></p>
-<hr>
-]]></content>
+      <content type="html"><![CDATA[<blockquote><p>Sublime Text 官方介绍：</p><blockquote><p>“Sublime Text is a sophisticated text editor for code, markup and prose.You’ll love the slick user interface, extraordinary features and amazing performance.”</p></blockquote></blockquote><p>Sublime Text 是一款优秀的轻量级编辑器，而且支持跨平台，支持Windows、Linux、Mac OS X 等主流操作系统。虽然是一款收费软件，但也允许人们<strong>无限期免费使用</strong>。（<a href="http://www.sublimetext.com/3" target="_blank" rel="external">官方下载地址</a>）</p><p>Sublime Text 具有漂亮的用户界面和强大可扩展插件功能，本文介绍如何安装 Sublime Text 插件。</p><a id="more"></a><p>打开 Sublime Text 编辑器的 Console（控制台）使用快捷键 <code>ctrl+`</code> 或者点击菜单 <code>View &gt; Show Console menu</code> 打开 Console，如图：</p><p><img src="http://oapjp6spr.bkt.clouddn.com/20160725212921.png" alt=""></p><p>Sublime Text 2 粘贴以下代码：</p><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">import urllib2,os,hashlib; h = <span class="string">'2915d1851351e5ee549c20394736b442'</span> + <span class="string">'8bc59f460fa1548d1514676163dafc88'</span>; pf = <span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) <span class="keyword">if</span> <span class="keyword">not</span> os.path.exists(ipp) <span class="keyword">else</span> None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); <span class="keyword">by</span> = urllib2.urlopen( <span class="string">'http://packagecontrol.io/'</span> + pf.<span class="built_in">replace</span>(<span class="string">' '</span>, <span class="string">'%20'</span>)).<span class="built_in">read</span>(); dh = hashlib.sha256(<span class="keyword">by</span>).hexdigest(); <span class="built_in">open</span>( os.path.join( ipp, pf), <span class="string">'wb'</span> ).<span class="built_in">write</span>(<span class="keyword">by</span>) <span class="keyword">if</span> dh == h <span class="keyword">else</span> None; print(<span class="string">'Error validating download (got %s instead of %s), please try manual install'</span> % (dh, h) <span class="keyword">if</span> dh != h <span class="keyword">else</span> <span class="string">'Please restart Sublime Text to finish installation'</span>)</div></pre></td></tr></table></figure><p>Sublime Text 3 粘贴以下代码：</p><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">import urllib.request,os,hashlib; h = <span class="string">'2915d1851351e5ee549c20394736b442'</span> + <span class="string">'8bc59f460fa1548d1514676163dafc88'</span>; pf = <span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); <span class="keyword">by</span> = urllib.request.urlopen( <span class="string">'http://packagecontrol.io/'</span> + pf.<span class="built_in">replace</span>(<span class="string">' '</span>, <span class="string">'%20'</span>)).<span class="built_in">read</span>(); dh = hashlib.sha256(<span class="keyword">by</span>).hexdigest(); print(<span class="string">'Error validating download (got %s instead of %s), please try manual install'</span> % (dh, h)) <span class="keyword">if</span> dh != h <span class="keyword">else</span> <span class="built_in">open</span>(os.path.join( ipp, pf), <span class="string">'wb'</span> ).<span class="built_in">write</span>(<span class="keyword">by</span>)</div></pre></td></tr></table></figure><p>敲回车等待安装完成后重启 Sublime Text 即可，按下快捷键 <code>ctrl + shift + p</code> ,输入 <code>pci</code>（Package Control Install 简写）如图：</p><p><img src="http://oapjp6spr.bkt.clouddn.com/20160725213757.png" alt=""></p><p>敲回车即可打开插件安装界面，输入想要安装插件的名称即可开始安装，如图：</p><p><img src="http://oapjp6spr.bkt.clouddn.com/20160725214353.png" alt=""></p><p>Sublime Text 插件安装介绍完了，需要注意的是安装过程中要保持网络畅通。</p><p><a href="https://packagecontrol.io/installation" target="_blank" rel="external">参考网址</a></p><hr>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Git 同时 push 到多个远程仓库]]></title>
       <url>http://www.ehlxr.me/2016/07/24/Git-%E5%90%8C%E6%97%B6-push-%E5%88%B0%E5%A4%9A%E4%B8%AA%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/</url>
-      <content type="html"><![CDATA[<ul>
-<li><h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3></li>
-</ul>
-<p>　　如果一个本地仓库添加多个远程仓库，不想 git push 多次，可以修改 .git/config 文件</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim .git/config</div></pre></td></tr></table></figure>
-<p>　　比如以下信息表示在 git@OSC 和 GitHub 两个远程托管</p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160724193534.png" alt=""></p>
-<a id="more"></a>
-<p>　　修改为以下信息</p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160724190056.png" alt=""></p>
-<p>　　则可同时 push 到两个远程仓库</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ git push origin master</div><div class="line">Everything up-to-date</div><div class="line">Everything up-to-date</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3></li>
-</ul>
-<p>　　添加第二个远程地址时使用以下命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git remote set-url --add origin git@github.com:ehlxr/ehlxr-Hexo.git</div></pre></td></tr></table></figure>
-<p>　　查看远程分支 origin：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ git remote -v</div><div class="line">origin  git@git.oschina.net:ehlxr/ehlxr-Hexo.git (fetch)</div><div class="line">origin  git@git.oschina.net:ehlxr/ehlxr-Hexo.git (push)</div><div class="line">origin  git@github.com:ehlxr/ehlxr-Hexo.git (push)</div></pre></td></tr></table></figure>
-<p>　　也可以同时 push 到多个远程地址</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ git push origin master</div><div class="line">Everything up-to-date</div><div class="line">Everything up-to-date</div></pre></td></tr></table></figure>
-<hr>
-]]></content>
+      <content type="html"><![CDATA[<ul><li><h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3></li></ul><p>如果一个本地仓库添加多个远程仓库，不想 git push 多次，可以修改 .git/config 文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim .git/config</div></pre></td></tr></table></figure><p>比如以下信息表示在 git@OSC 和 GitHub 两个远程托管</p><p><img src="http://oapjp6spr.bkt.clouddn.com/20160724193534.png" alt=""></p><a id="more"></a><p>修改为以下信息</p><p><img src="http://oapjp6spr.bkt.clouddn.com/20160724190056.png" alt=""></p><p>则可同时 push 到两个远程仓库</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ git push origin master</div><div class="line">Everything up-to-date</div><div class="line">Everything up-to-date</div></pre></td></tr></table></figure><ul><li><h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3></li></ul><p>添加第二个远程地址时使用以下命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git remote set-url --add origin git@github.com:ehlxr/ehlxr-Hexo.git</div></pre></td></tr></table></figure><p>查看远程分支 origin：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ git remote -v</div><div class="line">origin  git@git.oschina.net:ehlxr/ehlxr-Hexo.git (fetch)</div><div class="line">origin  git@git.oschina.net:ehlxr/ehlxr-Hexo.git (push)</div><div class="line">origin  git@github.com:ehlxr/ehlxr-Hexo.git (push)</div></pre></td></tr></table></figure><p>也可以同时 push 到多个远程地址</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ git push origin master</div><div class="line">Everything up-to-date</div><div class="line">Everything up-to-date</div></pre></td></tr></table></figure><hr>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[使用Hexo基于GitHub Pages搭建个人博客（二）]]></title>
       <url>http://www.ehlxr.me/2016/07/23/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-      <content type="html"><![CDATA[<blockquote>
-<p>上一篇介绍了 GitHub Pages 服务开启，这篇文章将介绍 Hexo 的安装和使用以及将博客部署到 GitHub Pages 的操作。</p>
-<blockquote>
-<p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</a></p>
-</blockquote>
-</blockquote>
-<h1 id="一、Node-js-安装"><a href="#一、Node-js-安装" class="headerlink" title="一、Node.js 安装"></a>一、Node.js 安装</h1><p>　　Hexo 是基于 Node.js 安装，所以安装 Hexo 之前首先要安装 Node.js。下载地址：<a href="https://nodejs.org/en/download/" target="_blank" rel="external">https://nodejs.org/en/download/</a> 根据自己的操作系统，下载对应版本即可。安装过程比较简单，一直下一步即可安装完成。</p>
-<a id="more"></a>
-<h1 id="二、Hexo-安装"><a href="#二、Hexo-安装" class="headerlink" title="二、Hexo 安装"></a>二、Hexo 安装</h1><ul>
-<li>打开 Git Bash 输入以下命令开始安装 Hexo</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-cli -g</div></pre></td></tr></table></figure>
-<ul>
-<li>出现以下界面表示安装完成</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723214644.png" alt=""></p>
-<h1 id="三、Hexo-建站"><a href="#三、Hexo-建站" class="headerlink" title="三、Hexo 建站"></a>三、Hexo 建站</h1><p>　　安装 Hexo 完成后，在本地磁盘创建一个目录用于存放 Hexo 配置文件和博客源代码，我的 Hexo 存放在 <code>D:/ehlxr</code> 目录下。</p>
-<ul>
-<li>分别执行下列命令，Hexo 将会在 <code>D:/ehlxr/Hexo</code> 新建所需要的文件</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"># 进入 D:/ehlxr 目录</div><div class="line">cd /d/ehlxr/</div><div class="line"></div><div class="line"># 初始化所需要的文件到 Hexo 文件夹</div><div class="line">hexo init Hexo</div><div class="line"></div><div class="line"># 进入 Hexo 文件夹</div><div class="line">cd Hexo</div><div class="line"></div><div class="line"># 安装</div><div class="line">npm install</div></pre></td></tr></table></figure>
-<ul>
-<li>分别执行以下命令在本地进行预览</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># 编译生成博文</div><div class="line">hexo generate</div><div class="line"></div><div class="line"># 启动Hexo服务器</div><div class="line">hexo server</div></pre></td></tr></table></figure>
-<ul>
-<li>出现以下画面表示服务启动成功</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723225446.png" alt=""></p>
-<ul>
-<li>打开浏览器输入 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 便可以看到最原始的博客了</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160724123205.png" alt=""></p>
-<h1 id="四、Hexo-部署到-GitHub-Pages"><a href="#四、Hexo-部署到-GitHub-Pages" class="headerlink" title="四、Hexo 部署到 GitHub Pages"></a>四、Hexo 部署到 GitHub Pages</h1><ul>
-<li>更新 Hexo 安装文件夹中 <code>_config.yml</code> 文件，如图</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723231000.png" alt=""></p>
-<ul>
-<li>更新 <code>_config.yml</code> 文件中的 <code>deploy</code> 节点，如图所示，可添加多个地址（如一个 GitHub、Coding、oschina）</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160724182310.png" alt=""></p>
-<ul>
-<li>分别执行以下命令即可完成部署</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save # 安装 hexo-deployer-git</div><div class="line"></div><div class="line">hexo clean # 可简写为 hexo cl</div><div class="line">hexo generate # 可简写为 hexo g</div><div class="line">hexo deploy # 可简写为 hexo d</div></pre></td></tr></table></figure>
-<ul>
-<li><p>访问 <a href="https://ehlxr.github.io/" target="_blank" rel="external">yourname.github.io</a> 即可看到博客模板的内容，对于 Hexo 的一些详细设置可以参考<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo官方文档</a> 。本站使用的 Hexo 主题是 NexT，详细设置可参考<a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Next主题官方网站</a>。</p>
-</li>
-<li><p>使用以下命令就可以新建一篇博客文章</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new &quot;开始blog，哈哈&quot;</div></pre></td></tr></table></figure>
-<ul>
-<li>打开 Hexo 目录下的 <code>source\_posts</code> 目录就可以看见创建的文章了，如图所示</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160724093526.png" alt="enter description here"></p>
-<ul>
-<li><p>文章是 MarkDown 格式文件（关于 Markdown 语法可参考<a href="http://www.appinn.com/markdown/basic.html" target="_blank" rel="external">Markdown 语法说明(简体中文版)</a>），编辑文章后保存，可以先启动本地 Hexo Server 查看效果，然后执行部署命令就完成了博客文章的发布</p>
-</li>
-<li><p>Markdown 编辑器我推荐使用 <a href="http://soft.xiaoshujiang.com/" target="_blank" rel="external">小书匠</a></p>
-</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160724100055.png" alt="enter description here"></p>
-<p>　　至此，使用 Hexo 基于 GitHub Pages 搭建个人博客就介绍完了。</p>
-<hr>
-]]></content>
+      <content type="html"><![CDATA[<blockquote><p>上一篇介绍了 GitHub Pages 服务开启，这篇文章将介绍 Hexo 的安装和使用以及将博客部署到 GitHub Pages 的操作。</p><blockquote><p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</a></p></blockquote></blockquote><h1 id="一、Node-js-安装"><a href="#一、Node-js-安装" class="headerlink" title="一、Node.js 安装"></a>一、Node.js 安装</h1><p>Hexo 是基于 Node.js 安装，所以安装 Hexo 之前首先要安装 Node.js。下载地址：<a href="https://nodejs.org/en/download/" target="_blank" rel="external">https://nodejs.org/en/download/</a> 根据自己的操作系统，下载对应版本即可。安装过程比较简单，一直下一步即可安装完成。</p><a id="more"></a><h1 id="二、Hexo-安装"><a href="#二、Hexo-安装" class="headerlink" title="二、Hexo 安装"></a>二、Hexo 安装</h1><ul><li>打开 Git Bash 输入以下命令开始安装 Hexo</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-cli -g</div></pre></td></tr></table></figure><ul><li>出现以下界面表示安装完成</li></ul><p><img src="http://oapjp6spr.bkt.clouddn.com/20160723214644.png" alt=""></p><h1 id="三、Hexo-建站"><a href="#三、Hexo-建站" class="headerlink" title="三、Hexo 建站"></a>三、Hexo 建站</h1><p>安装 Hexo 完成后，在本地磁盘创建一个目录用于存放 Hexo 配置文件和博客源代码，我的 Hexo 存放在 <code>D:/ehlxr</code> 目录下。</p><ul><li>分别执行下列命令，Hexo 将会在 <code>D:/ehlxr/Hexo</code> 新建所需要的文件</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"># 进入 D:/ehlxr 目录</div><div class="line">cd /d/ehlxr/</div><div class="line"></div><div class="line"># 初始化所需要的文件到 Hexo 文件夹</div><div class="line">hexo init Hexo</div><div class="line"></div><div class="line"># 进入 Hexo 文件夹</div><div class="line">cd Hexo</div><div class="line"></div><div class="line"># 安装</div><div class="line">npm install</div></pre></td></tr></table></figure><ul><li>分别执行以下命令在本地进行预览</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># 编译生成博文</div><div class="line">hexo generate</div><div class="line"></div><div class="line"># 启动Hexo服务器</div><div class="line">hexo server</div></pre></td></tr></table></figure><ul><li>出现以下画面表示服务启动成功</li></ul><p><img src="http://oapjp6spr.bkt.clouddn.com/20160723225446.png" alt=""></p><ul><li>打开浏览器输入 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 便可以看到最原始的博客了</li></ul><p><img src="http://oapjp6spr.bkt.clouddn.com/20160724123205.png" alt=""></p><h1 id="四、Hexo-部署到-GitHub-Pages"><a href="#四、Hexo-部署到-GitHub-Pages" class="headerlink" title="四、Hexo 部署到 GitHub Pages"></a>四、Hexo 部署到 GitHub Pages</h1><ul><li>更新 Hexo 安装文件夹中 <code>_config.yml</code> 文件，如图</li></ul><p><img src="http://oapjp6spr.bkt.clouddn.com/20160723231000.png" alt=""></p><ul><li>更新 <code>_config.yml</code> 文件中的 <code>deploy</code> 节点，如图所示，可添加多个地址（如一个 GitHub、Coding、oschina）</li></ul><p><img src="http://oapjp6spr.bkt.clouddn.com/20160724182310.png" alt=""></p><ul><li>分别执行以下命令即可完成部署</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save # 安装 hexo-deployer-git</div><div class="line"></div><div class="line">hexo clean # 可简写为 hexo cl</div><div class="line">hexo generate # 可简写为 hexo g</div><div class="line">hexo deploy # 可简写为 hexo d</div></pre></td></tr></table></figure><ul><li><p>访问 <a href="https://ehlxr.github.io/" target="_blank" rel="external">yourname.github.io</a> 即可看到博客模板的内容，对于 Hexo 的一些详细设置可以参考<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo官方文档</a> 。本站使用的 Hexo 主题是 NexT，详细设置可参考<a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Next主题官方网站</a>。</p></li><li><p>使用以下命令就可以新建一篇博客文章</p></li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new &quot;开始blog，哈哈&quot;</div></pre></td></tr></table></figure><ul><li>打开 Hexo 目录下的 <code>source\_posts</code> 目录就可以看见创建的文章了，如图所示</li></ul><p><img src="http://oapjp6spr.bkt.clouddn.com/20160724093526.png" alt="enter description here"></p><ul><li><p>文章是 MarkDown 格式文件（关于 Markdown 语法可参考<a href="http://www.appinn.com/markdown/basic.html" target="_blank" rel="external">Markdown 语法说明(简体中文版)</a>），编辑文章后保存，可以先启动本地 Hexo Server 查看效果，然后执行部署命令就完成了博客文章的发布</p></li><li><p>Markdown 编辑器我推荐使用 <a href="http://soft.xiaoshujiang.com/" target="_blank" rel="external">小书匠</a></p></li></ul><p><img src="http://oapjp6spr.bkt.clouddn.com/20160724100055.png" alt="enter description here"></p><p>至此，使用 Hexo 基于 GitHub Pages 搭建个人博客就介绍完了。</p><hr>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[使用Hexo基于GitHub Pages搭建个人博客（一）]]></title>
       <url>http://www.ehlxr.me/2016/07/23/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-      <content type="html"><![CDATA[<blockquote>
-<p>GitHub Pages 是 GitHub 提供的免费开源的静态站点托管服务，利用这个服务可以搭建轻量级的博客系统，本文介绍了如何使用 Hexo 结合 GitHub Pages 服务搭建个人博客。</p>
-</blockquote>
-<h1 id="一、安装配置-Git"><a href="#一、安装配置-Git" class="headerlink" title="一、安装配置 Git"></a>一、安装配置 Git</h1><ul>
-<li>安装 Git</li>
-</ul>
-<p>　　使用 GitHub 首先要安装 Git，可根据操作系统下载不同版本的Git，Windows下载地址：<a href="https://git-scm.com/download/win" target="_blank" rel="external">https://git-scm.com/download/win</a> 安装过程比较简单，选择默认选项配置即可下一步，不再叙述。</p>
-<ul>
-<li>配置 Git</li>
-</ul>
-<p>　　设置本地机器默认 commit 的昵称与 Email，姓名与 Email 只用于日志标识，实际推送到远程仓库时，要用有操作权限的账号登录。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name &quot;ehlxr&quot;  </div><div class="line">git config --global user.email &quot;ehlxr@qq.com&quot;</div></pre></td></tr></table></figure>
-<h1 id="二、生成-SSH-keys"><a href="#二、生成-SSH-keys" class="headerlink" title="二、生成 SSH keys"></a>二、生成 SSH keys</h1><p>　　SSH Keys 是 GitHub 推荐的公钥、秘钥形式验证用户合法性的机制，添加 SSH Keys 可以省去每次都要输入密码的步骤，下面将演示如何在本地计算机生成 SSH Keys 的公钥、秘钥。</p>
-<a id="more"></a>
-<ul>
-<li>首先打开安装的 Git Bash</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723141920.png" alt=""></p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723142100.png" alt=""></p>
-<ul>
-<li>输入以下命令：（替换 <code>&quot;your_email@example.com&quot;</code> 为注册时候的邮箱）</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot;</div></pre></td></tr></table></figure>
-<ul>
-<li>当出现以下提示时，直接敲回车键选择默认地址即可（保存私钥文件位置，默认保存在当前用户文件夹下的 <code>.ssh</code> 文件夹中，文件名称为 <code>id_rsa</code> ）</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter file in which to save the key (/c/Users/lt/.ssh/id_rsa):</div></pre></td></tr></table></figure>
-<ul>
-<li>如果已经存在会提示，输入：y 敲回车替换即可</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">/c/Users/lt/.ssh/id_rsa already exists.</div><div class="line">Overwrite (y/n)?</div></pre></td></tr></table></figure>
-<ul>
-<li>出现以下提示设置密码提示，不用设置密码，敲回车键即可</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter passphrase (empty for no passphrase):</div></pre></td></tr></table></figure>
-<ul>
-<li>再次确认密码提示，不用设密码敲回车即可</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter same passphrase again:</div></pre></td></tr></table></figure>
-<ul>
-<li>出现以下提示，表明已经成功生成了 SSH Keys</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">Your identification has been saved in /c/Users/lt/.ssh/id_rsa.</div><div class="line">Your public key has been saved in /c/Users/lt/.ssh/id_rsa.pub.</div><div class="line">The key fingerprint is:</div><div class="line">SHA256:dBtq6OOJs1JQat630kGqh420Y0JSb7smaR6c9jjo7h0 your_email@example.com</div><div class="line">The key&apos;s randomart image is:</div><div class="line">+---[RSA 4096]----+</div><div class="line">|                 |</div><div class="line">|    .            |</div><div class="line">|   o    . o      |</div><div class="line">|  =   .o o o     |</div><div class="line">| + + o. S .      |</div><div class="line">|.oo.*.o.         |</div><div class="line">|oo=E +oo         |</div><div class="line">|o.#+Oooo         |</div><div class="line">|+OoO==o          |</div><div class="line">+----[SHA256]-----+</div></pre></td></tr></table></figure>
-<p>　　<a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/" target="_blank" rel="external">Github 官网 SSH Keys 生成教程</a></p>
-<h1 id="三、开启-GitHub-Pages-服务"><a href="#三、开启-GitHub-Pages-服务" class="headerlink" title="三、开启 GitHub Pages 服务"></a>三、开启 GitHub Pages 服务</h1><p>　　GitHub 账户注册比较简单，注册免费使用的账户就可以了，这里就不细说了，需要注意的是尽量不要使用 126/163 邮箱注册，我在测试的时候收不到验证码，等收到验证码的时候已经第二天了，早就过期了，我使用 Gmail 和 QQ 邮箱都能很快收到验证码。</p>
-<h2 id="1-添加生成的-SSH-Keys-到-GitHub"><a href="#1-添加生成的-SSH-Keys-到-GitHub" class="headerlink" title="1.添加生成的 SSH Keys 到 GitHub"></a>1.添加生成的 SSH Keys 到 GitHub</h2><ul>
-<li>打开生成的 SSH Keys 公钥</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723144829.png" alt=""></p>
-<ul>
-<li>登录注册的 GitHub 账户，按照以下图示 1、 2、 3、 4、 5、6、 7 步骤操作，复制公钥内容粘贴到下图步骤 5 的 Key 输入框中，在步骤6输入一个标题，点击步骤 7 <code>Add SSH key</code>，这时候会提示你输入 GitHub 密码，输入密码确认即可添加成功。</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723142019.png" alt=""></p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723142036.png" alt=""></p>
-<h2 id="2-创建-GitHub-仓库"><a href="#2-创建-GitHub-仓库" class="headerlink" title="2.创建 GitHub 仓库"></a>2.创建 GitHub 仓库</h2><ul>
-<li>按照下图所示操作，仓库名称按照：<code>yourname.github.io</code> 格式创建，这样就可以通过 <code>yourname.github.io</code> 方式访问你的博客。如果创建名称为：<code>myblog</code> ,则博客的访问路径为 <code>yourname.github.io/myblog</code> </li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723165328.png" alt=""></p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723171101.png" alt=""></p>
-<ul>
-<li>填写完仓库名称，其他选项默认，点击 <code>Create repository</code> 即可完成创建。</li>
-</ul>
-<h2 id="3-测试-GitHub-Pages-服务"><a href="#3-测试-GitHub-Pages-服务" class="headerlink" title="3.测试 GitHub Pages 服务"></a>3.测试 GitHub Pages 服务</h2><ul>
-<li>接下来在仓库根目录下创建一个 <code>index.html</code> 文件测试 GitHub Pages 服务是否开启成功。打开刚才创建的仓库，因为我们之前已经添加了 SSH Keys，所以选择复制如下图所示的 SSH 仓库连接</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723190223.png" alt=""></p>
-<ul>
-<li>在电脑磁盘创建一个文件夹（我创建在：D:/lxr）在 Git Bash 分别输入以下两条命令</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">cd /d/lxr/ # 进入创建的文件夹</div><div class="line"></div><div class="line">git init # 初始化本地仓库</div></pre></td></tr></table></figure>
-<ul>
-<li>在本地文件夹中创建 <code>index.html</code> 文件，随便输入一些内容即可，命令如下</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">echo &quot;&lt;h1&gt;Hello World&lt;/h1&gt;&quot; &gt;&gt; index.html # 创建 index.html 文件</div></pre></td></tr></table></figure>
-<ul>
-<li>然后分别执行以下命令</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">git add index.html # 添加文件</div><div class="line">git commit -m &quot;create index.html&quot; # 提交文件</div><div class="line">git remote add origin git@github.com:ehlxr/ehlxr.github.io.git # 添加 GitHub 仓库地址，注意地址填写自己注册的 GitHub 仓库地址</div><div class="line">git push -u origin master # push 到 GitHub</div></pre></td></tr></table></figure>
-<ul>
-<li>浏览器访问：<a href="http://ehlxr.github.io" target="_blank" rel="external">yourname.github.io</a> 如果出现 <code>index.html</code> 输入的内容，即 GitHub Pages 服务开启成功</li>
-</ul>
-<hr>
-]]></content>
+      <content type="html"><![CDATA[<blockquote><p>GitHub Pages 是 GitHub 提供的免费开源的静态站点托管服务，利用这个服务可以搭建轻量级的博客系统，本文介绍了如何使用 Hexo 结合 GitHub Pages 服务搭建个人博客。</p></blockquote><h1 id="一、安装配置-Git"><a href="#一、安装配置-Git" class="headerlink" title="一、安装配置 Git"></a>一、安装配置 Git</h1><ul><li>安装 Git</li></ul><p>使用 GitHub 首先要安装 Git，可根据操作系统下载不同版本的Git，Windows下载地址：<a href="https://git-scm.com/download/win" target="_blank" rel="external">https://git-scm.com/download/win</a> 安装过程比较简单，选择默认选项配置即可下一步，不再叙述。</p><ul><li>配置 Git</li></ul><p>设置本地机器默认 commit 的昵称与 Email，姓名与 Email 只用于日志标识，实际推送到远程仓库时，要用有操作权限的账号登录。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name &quot;ehlxr&quot;  </div><div class="line">git config --global user.email &quot;ehlxr@qq.com&quot;</div></pre></td></tr></table></figure><h1 id="二、生成-SSH-keys"><a href="#二、生成-SSH-keys" class="headerlink" title="二、生成 SSH keys"></a>二、生成 SSH keys</h1><p>SSH Keys 是 GitHub 推荐的公钥、秘钥形式验证用户合法性的机制，添加 SSH Keys 可以省去每次都要输入密码的步骤，下面将演示如何在本地计算机生成 SSH Keys 的公钥、秘钥。</p><a id="more"></a><ul><li>首先打开安装的 Git Bash</li></ul><p><img src="http://oapjp6spr.bkt.clouddn.com/20160723141920.png" alt=""></p><p><img src="http://oapjp6spr.bkt.clouddn.com/20160723142100.png" alt=""></p><ul><li>输入以下命令：（替换 <code>&quot;your_email@example.com&quot;</code> 为注册时候的邮箱）</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot;</div></pre></td></tr></table></figure><ul><li>当出现以下提示时，直接敲回车键选择默认地址即可（保存私钥文件位置，默认保存在当前用户文件夹下的 <code>.ssh</code> 文件夹中，文件名称为 <code>id_rsa</code> ）</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter file in which to save the key (/c/Users/lt/.ssh/id_rsa):</div></pre></td></tr></table></figure><ul><li>如果已经存在会提示，输入：y 敲回车替换即可</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">/c/Users/lt/.ssh/id_rsa already exists.</div><div class="line">Overwrite (y/n)?</div></pre></td></tr></table></figure><ul><li>出现以下提示设置密码提示，不用设置密码，敲回车键即可</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter passphrase (empty for no passphrase):</div></pre></td></tr></table></figure><ul><li>再次确认密码提示，不用设密码敲回车即可</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter same passphrase again:</div></pre></td></tr></table></figure><ul><li>出现以下提示，表明已经成功生成了 SSH Keys</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">Your identification has been saved in /c/Users/lt/.ssh/id_rsa.</div><div class="line">Your public key has been saved in /c/Users/lt/.ssh/id_rsa.pub.</div><div class="line">The key fingerprint is:</div><div class="line">SHA256:dBtq6OOJs1JQat630kGqh420Y0JSb7smaR6c9jjo7h0 your_email@example.com</div><div class="line">The key&apos;s randomart image is:</div><div class="line">+---[RSA 4096]----+</div><div class="line">|                 |</div><div class="line">|    .            |</div><div class="line">|   o    . o      |</div><div class="line">|  =   .o o o     |</div><div class="line">| + + o. S .      |</div><div class="line">|.oo.*.o.         |</div><div class="line">|oo=E +oo         |</div><div class="line">|o.#+Oooo         |</div><div class="line">|+OoO==o          |</div><div class="line">+----[SHA256]-----+</div></pre></td></tr></table></figure><p><a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/" target="_blank" rel="external">Github 官网 SSH Keys 生成教程</a></p><h1 id="三、开启-GitHub-Pages-服务"><a href="#三、开启-GitHub-Pages-服务" class="headerlink" title="三、开启 GitHub Pages 服务"></a>三、开启 GitHub Pages 服务</h1><p>GitHub 账户注册比较简单，注册免费使用的账户就可以了，这里就不细说了，需要注意的是尽量不要使用 126/163 邮箱注册，我在测试的时候收不到验证码，等收到验证码的时候已经第二天了，早就过期了，我使用 Gmail 和 QQ 邮箱都能很快收到验证码。</p><h2 id="1-添加生成的-SSH-Keys-到-GitHub"><a href="#1-添加生成的-SSH-Keys-到-GitHub" class="headerlink" title="1.添加生成的 SSH Keys 到 GitHub"></a>1.添加生成的 SSH Keys 到 GitHub</h2><ul><li>打开生成的 SSH Keys 公钥</li></ul><p><img src="http://oapjp6spr.bkt.clouddn.com/20160723144829.png" alt=""></p><ul><li>登录注册的 GitHub 账户，按照以下图示 1、 2、 3、 4、 5、6、 7 步骤操作，复制公钥内容粘贴到下图步骤 5 的 Key 输入框中，在步骤6输入一个标题，点击步骤 7 <code>Add SSH key</code>，这时候会提示你输入 GitHub 密码，输入密码确认即可添加成功。</li></ul><p><img src="http://oapjp6spr.bkt.clouddn.com/20160723142019.png" alt=""></p><p><img src="http://oapjp6spr.bkt.clouddn.com/20160723142036.png" alt=""></p><h2 id="2-创建-GitHub-仓库"><a href="#2-创建-GitHub-仓库" class="headerlink" title="2.创建 GitHub 仓库"></a>2.创建 GitHub 仓库</h2><ul><li>按照下图所示操作，仓库名称按照：<code>yourname.github.io</code> 格式创建，这样就可以通过 <code>yourname.github.io</code> 方式访问你的博客。如果创建名称为：<code>myblog</code> ,则博客的访问路径为 <code>yourname.github.io/myblog</code></li></ul><p><img src="http://oapjp6spr.bkt.clouddn.com/20160723165328.png" alt=""></p><p><img src="http://oapjp6spr.bkt.clouddn.com/20160723171101.png" alt=""></p><ul><li>填写完仓库名称，其他选项默认，点击 <code>Create repository</code> 即可完成创建。</li></ul><h2 id="3-测试-GitHub-Pages-服务"><a href="#3-测试-GitHub-Pages-服务" class="headerlink" title="3.测试 GitHub Pages 服务"></a>3.测试 GitHub Pages 服务</h2><ul><li>接下来在仓库根目录下创建一个 <code>index.html</code> 文件测试 GitHub Pages 服务是否开启成功。打开刚才创建的仓库，因为我们之前已经添加了 SSH Keys，所以选择复制如下图所示的 SSH 仓库连接</li></ul><p><img src="http://oapjp6spr.bkt.clouddn.com/20160723190223.png" alt=""></p><ul><li>在电脑磁盘创建一个文件夹（我创建在：D:/lxr）在 Git Bash 分别输入以下两条命令</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">cd /d/lxr/ # 进入创建的文件夹</div><div class="line"></div><div class="line">git init # 初始化本地仓库</div></pre></td></tr></table></figure><ul><li>在本地文件夹中创建 <code>index.html</code> 文件，随便输入一些内容即可，命令如下</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">echo &quot;&lt;h1&gt;Hello World&lt;/h1&gt;&quot; &gt;&gt; index.html # 创建 index.html 文件</div></pre></td></tr></table></figure><ul><li>然后分别执行以下命令</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">git add index.html # 添加文件</div><div class="line">git commit -m &quot;create index.html&quot; # 提交文件</div><div class="line">git remote add origin git@github.com:ehlxr/ehlxr.github.io.git # 添加 GitHub 仓库地址，注意地址填写自己注册的 GitHub 仓库地址</div><div class="line">git push -u origin master # push 到 GitHub</div></pre></td></tr></table></figure><ul><li>浏览器访问：<a href="http://ehlxr.github.io" target="_blank" rel="external">yourname.github.io</a> 如果出现 <code>index.html</code> 输入的内容，即 GitHub Pages 服务开启成功</li></ul><hr>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[[转]JMS基本概念]]></title>
       <url>http://www.ehlxr.me/2016/07/21/%E8%BD%AC-JMS%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</url>
-      <content type="html"><![CDATA[<p>JMS（JAVA Message Service,java消息服务）API是一个消息服务的标准或者说是规范，允许应用程序组件基于JavaEE平台创建、发送、接收和读取消息。它使分布式通信耦合度更低，消息服务更加可靠以及异步性。</p>
-<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>JMS是java的消息服务，JMS的客户端之间可以通过JMS服务进行异步的消息传输。</p>
-<h2 id="消息模型"><a href="#消息模型" class="headerlink" title="消息模型"></a>消息模型</h2><ul>
-<li>Point-to-Point(P2P) </li>
-<li>Publish/Subscribe(Pub/Sub)</li>
-</ul>
-<p>即点对点和发布订阅模型<br><a id="more"></a></p>
-<h2 id="P2P模型"><a href="#P2P模型" class="headerlink" title="P2P模型"></a>P2P模型</h2><h3 id="P2P模式图"><a href="#P2P模式图" class="headerlink" title="P2P模式图"></a>P2P模式图</h3><p><img src="/images/post/1469075459852.jpg" alt="P2P模式图"></p>
-<h3 id="涉及到的概念"><a href="#涉及到的概念" class="headerlink" title="涉及到的概念"></a>涉及到的概念</h3><ul>
-<li>消息队列（Queue） </li>
-<li>发送者(Sender) </li>
-<li>接收者(Receiver)</li>
-</ul>
-<p>每个消息都被发送到一个特定的队列，接收者从队列中获取消息。队列保留着消息，直到他们被消费或超时。</p>
-<h3 id="P2P模型的特点"><a href="#P2P模型的特点" class="headerlink" title="P2P模型的特点"></a>P2P模型的特点</h3><ul>
-<li>每个消息只有一个消费者（Consumer）(即一旦被消费，消息就不再在消息队列中)</li>
-<li>发送者和接收者之间在时间上没有依赖性，也就是说当发送者发送了消息之后，不管接收者有没有正在运行，它不会影响到消息被发送到队列</li>
-<li>接收者在成功接收消息之后需向队列应答成功</li>
-</ul>
-<p>如果你希望发送的每个消息都应该被成功处理的话，那么你需要P2P模式。</p>
-<h2 id="Pub-Sub模型"><a href="#Pub-Sub模型" class="headerlink" title="Pub/Sub模型"></a>Pub/Sub模型</h2><h3 id="Pub-Sub模式图"><a href="#Pub-Sub模式图" class="headerlink" title="Pub/Sub模式图"></a>Pub/Sub模式图</h3><p><img src="/images/post/20150630221227522.jpg" alt="Pub/Sub模式图"></p>
-<h3 id="涉及到的概念-1"><a href="#涉及到的概念-1" class="headerlink" title="涉及到的概念"></a>涉及到的概念</h3><ul>
-<li>主题（Topic） </li>
-<li>发布者（Publisher） </li>
-<li>订阅者（Subscriber）</li>
-</ul>
-<p>客户端将消息发送到主题。多个发布者将消息发送到Topic,系统将这些消息传递给多个订阅者。</p>
-<h3 id="Pub-Sub模型的特点"><a href="#Pub-Sub模型的特点" class="headerlink" title="Pub/Sub模型的特点"></a>Pub/Sub模型的特点</h3><ul>
-<li>每个消息可以有多个消费者</li>
-<li>发布者和订阅者之间有时间上的依赖性。针对某个主题（Topic）的订阅者，它必须创建一个订阅者之后，才能消费发布者的消息，而且为了消费消息，订阅者必须保持运行的状态。</li>
-<li>为了缓和这样严格的时间相关性，JMS允许订阅者创建一个可持久化的订阅。这样，即使订阅者没有被激活（运行），它也能接收到发布者的消息。</li>
-</ul>
-<p>如果你希望发送的消息可以不被做任何处理、或者被一个消息者处理、或者可以被多个消费者处理的话，那么可以采用Pub/Sub模型。</p>
-<h2 id="消息的消费"><a href="#消息的消费" class="headerlink" title="消息的消费"></a>消息的消费</h2><p>在JMS中，消息的产生和消息是异步的。对于消费来说，JMS的消息者可以通过两种方式来消费消息。 </p>
-<ul>
-<li>同步<br>订阅者或接收者调用receive方法来接收消息，receive方法在能够接收到消息之前（或超时之前）将一直阻塞 </li>
-<li>异步<br>订阅者或接收者可以注册为一个消息监听器。当消息到达之后，系统自动调用监听器的onMessage方法</li>
-</ul>
-<h2 id="JMS编程模型"><a href="#JMS编程模型" class="headerlink" title="JMS编程模型"></a>JMS编程模型</h2><ul>
-<li><h3 id="ConnectionFactory"><a href="#ConnectionFactory" class="headerlink" title="ConnectionFactory"></a>ConnectionFactory</h3></li>
-</ul>
-<p>创建Connection对象的工厂，针对两种不同的jms消息模型，分别有QueueConnectionFactory和TopicConnectionFactory两种。可以通过JNDI来查找ConnectionFactory对象。</p>
-<ul>
-<li><h3 id="Destination"><a href="#Destination" class="headerlink" title="Destination"></a>Destination</h3></li>
-</ul>
-<p>Destination的意思是消息生产者的消息发送目标或者说消息消费者的消息来源。对于消息生产者来说，它的Destination是某个队列（Queue）或某个主题（Topic）;对于消息消费者来说，它的Destination也是某个队列或主题（即消息来源）。</p>
-<p>所以，Destination实际上就是两种类型的对象：Queue、Topic可以通过JNDI来查找Destination。</p>
-<ul>
-<li><h3 id="Connection"><a href="#Connection" class="headerlink" title="Connection"></a>Connection</h3></li>
-</ul>
-<p>Connection表示在客户端和JMS系统之间建立的链接（对TCP/IP socket的包装）。Connection可以产生一个或多个Session。跟ConnectionFactory一样，Connection也有两种类型：QueueConnection和TopicConnection。</p>
-<ul>
-<li><h3 id="Session"><a href="#Session" class="headerlink" title="Session"></a>Session</h3></li>
-</ul>
-<p>Session是我们操作消息的接口。可以通过session创建生产者、消费者、消息等。Session提供了事务的功能。当我们需要使用session发送/接收多个消息时，可以将这些发送/接收动作放到一个事务中。同样，也分QueueSession和TopicSession。</p>
-<ul>
-<li><h3 id="消息的生产者"><a href="#消息的生产者" class="headerlink" title="消息的生产者"></a>消息的生产者</h3></li>
-</ul>
-<p>消息生产者由Session创建，并用于将消息发送到Destination。同样，消息生产者分两种类型：QueueSender和TopicPublisher。可以调用消息生产者的方法（send或publish方法）发送消息。</p>
-<ul>
-<li><h3 id="消息消费者"><a href="#消息消费者" class="headerlink" title="消息消费者"></a>消息消费者</h3></li>
-</ul>
-<p>消息消费者由Session创建，用于接收被发送到Destination的消息。两种类型：QueueReceiver和TopicSubscriber。可分别通过session的createReceiver(Queue)或createSubscriber(Topic)来创建。当然，也可以session的creatDurableSubscriber方法来创建持久化的订阅者。</p>
-<ul>
-<li><h3 id="MessageListener"><a href="#MessageListener" class="headerlink" title="MessageListener"></a>MessageListener</h3></li>
-</ul>
-<p>消息监听器。如果注册了消息监听器，一旦消息到达，将自动调用监听器的onMessage方法。EJB中的MDB（Message-Driven Bean）就是一种MessageListener。</p>
-<h2 id="企业消息系统的好处"><a href="#企业消息系统的好处" class="headerlink" title="企业消息系统的好处"></a>企业消息系统的好处</h2><p>我们先来看看下图，应用程序A将Message发送到服务器上，然后应用程序B从服务器中接收A发来的消息，通过这个图我们一起来分析一下JMS的好处： </p>
-<p><img src="/images/post/20150630221818616.jpg" alt="企业消息系统的好处"></p>
-<ul>
-<li>提供消息灵活性</li>
-<li>松散耦合</li>
-<li>异步性</li>
-</ul>
-<hr>
-<p><a href="http://blog.csdn.net/jiuqiyuliang/article/details/46701559" target="_blank" rel="external">原文地址</a></p>
-]]></content>
+      <content type="html"><![CDATA[<p>JMS（JAVA Message Service,java消息服务）API是一个消息服务的标准或者说是规范，允许应用程序组件基于JavaEE平台创建、发送、接收和读取消息。它使分布式通信耦合度更低，消息服务更加可靠以及异步性。</p><h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>JMS是java的消息服务，JMS的客户端之间可以通过JMS服务进行异步的消息传输。</p><h2 id="消息模型"><a href="#消息模型" class="headerlink" title="消息模型"></a>消息模型</h2><ul><li>Point-to-Point(P2P)</li><li>Publish/Subscribe(Pub/Sub)</li></ul><p>即点对点和发布订阅模型<br><a id="more"></a></p><h2 id="P2P模型"><a href="#P2P模型" class="headerlink" title="P2P模型"></a>P2P模型</h2><h3 id="P2P模式图"><a href="#P2P模式图" class="headerlink" title="P2P模式图"></a>P2P模式图</h3><p><img src="/images/post/1469075459852.jpg" alt="P2P模式图"></p><h3 id="涉及到的概念"><a href="#涉及到的概念" class="headerlink" title="涉及到的概念"></a>涉及到的概念</h3><ul><li>消息队列（Queue）</li><li>发送者(Sender)</li><li>接收者(Receiver)</li></ul><p>每个消息都被发送到一个特定的队列，接收者从队列中获取消息。队列保留着消息，直到他们被消费或超时。</p><h3 id="P2P模型的特点"><a href="#P2P模型的特点" class="headerlink" title="P2P模型的特点"></a>P2P模型的特点</h3><ul><li>每个消息只有一个消费者（Consumer）(即一旦被消费，消息就不再在消息队列中)</li><li>发送者和接收者之间在时间上没有依赖性，也就是说当发送者发送了消息之后，不管接收者有没有正在运行，它不会影响到消息被发送到队列</li><li>接收者在成功接收消息之后需向队列应答成功</li></ul><p>如果你希望发送的每个消息都应该被成功处理的话，那么你需要P2P模式。</p><h2 id="Pub-Sub模型"><a href="#Pub-Sub模型" class="headerlink" title="Pub/Sub模型"></a>Pub/Sub模型</h2><h3 id="Pub-Sub模式图"><a href="#Pub-Sub模式图" class="headerlink" title="Pub/Sub模式图"></a>Pub/Sub模式图</h3><p><img src="/images/post/20150630221227522.jpg" alt="Pub/Sub模式图"></p><h3 id="涉及到的概念-1"><a href="#涉及到的概念-1" class="headerlink" title="涉及到的概念"></a>涉及到的概念</h3><ul><li>主题（Topic）</li><li>发布者（Publisher）</li><li>订阅者（Subscriber）</li></ul><p>客户端将消息发送到主题。多个发布者将消息发送到Topic,系统将这些消息传递给多个订阅者。</p><h3 id="Pub-Sub模型的特点"><a href="#Pub-Sub模型的特点" class="headerlink" title="Pub/Sub模型的特点"></a>Pub/Sub模型的特点</h3><ul><li>每个消息可以有多个消费者</li><li>发布者和订阅者之间有时间上的依赖性。针对某个主题（Topic）的订阅者，它必须创建一个订阅者之后，才能消费发布者的消息，而且为了消费消息，订阅者必须保持运行的状态。</li><li>为了缓和这样严格的时间相关性，JMS允许订阅者创建一个可持久化的订阅。这样，即使订阅者没有被激活（运行），它也能接收到发布者的消息。</li></ul><p>如果你希望发送的消息可以不被做任何处理、或者被一个消息者处理、或者可以被多个消费者处理的话，那么可以采用Pub/Sub模型。</p><h2 id="消息的消费"><a href="#消息的消费" class="headerlink" title="消息的消费"></a>消息的消费</h2><p>在JMS中，消息的产生和消息是异步的。对于消费来说，JMS的消息者可以通过两种方式来消费消息。</p><ul><li>同步<br>订阅者或接收者调用receive方法来接收消息，receive方法在能够接收到消息之前（或超时之前）将一直阻塞</li><li>异步<br>订阅者或接收者可以注册为一个消息监听器。当消息到达之后，系统自动调用监听器的onMessage方法</li></ul><h2 id="JMS编程模型"><a href="#JMS编程模型" class="headerlink" title="JMS编程模型"></a>JMS编程模型</h2><ul><li><h3 id="ConnectionFactory"><a href="#ConnectionFactory" class="headerlink" title="ConnectionFactory"></a>ConnectionFactory</h3></li></ul><p>创建Connection对象的工厂，针对两种不同的jms消息模型，分别有QueueConnectionFactory和TopicConnectionFactory两种。可以通过JNDI来查找ConnectionFactory对象。</p><ul><li><h3 id="Destination"><a href="#Destination" class="headerlink" title="Destination"></a>Destination</h3></li></ul><p>Destination的意思是消息生产者的消息发送目标或者说消息消费者的消息来源。对于消息生产者来说，它的Destination是某个队列（Queue）或某个主题（Topic）;对于消息消费者来说，它的Destination也是某个队列或主题（即消息来源）。</p><p>所以，Destination实际上就是两种类型的对象：Queue、Topic可以通过JNDI来查找Destination。</p><ul><li><h3 id="Connection"><a href="#Connection" class="headerlink" title="Connection"></a>Connection</h3></li></ul><p>Connection表示在客户端和JMS系统之间建立的链接（对TCP/IP socket的包装）。Connection可以产生一个或多个Session。跟ConnectionFactory一样，Connection也有两种类型：QueueConnection和TopicConnection。</p><ul><li><h3 id="Session"><a href="#Session" class="headerlink" title="Session"></a>Session</h3></li></ul><p>Session是我们操作消息的接口。可以通过session创建生产者、消费者、消息等。Session提供了事务的功能。当我们需要使用session发送/接收多个消息时，可以将这些发送/接收动作放到一个事务中。同样，也分QueueSession和TopicSession。</p><ul><li><h3 id="消息的生产者"><a href="#消息的生产者" class="headerlink" title="消息的生产者"></a>消息的生产者</h3></li></ul><p>消息生产者由Session创建，并用于将消息发送到Destination。同样，消息生产者分两种类型：QueueSender和TopicPublisher。可以调用消息生产者的方法（send或publish方法）发送消息。</p><ul><li><h3 id="消息消费者"><a href="#消息消费者" class="headerlink" title="消息消费者"></a>消息消费者</h3></li></ul><p>消息消费者由Session创建，用于接收被发送到Destination的消息。两种类型：QueueReceiver和TopicSubscriber。可分别通过session的createReceiver(Queue)或createSubscriber(Topic)来创建。当然，也可以session的creatDurableSubscriber方法来创建持久化的订阅者。</p><ul><li><h3 id="MessageListener"><a href="#MessageListener" class="headerlink" title="MessageListener"></a>MessageListener</h3></li></ul><p>消息监听器。如果注册了消息监听器，一旦消息到达，将自动调用监听器的onMessage方法。EJB中的MDB（Message-Driven Bean）就是一种MessageListener。</p><h2 id="企业消息系统的好处"><a href="#企业消息系统的好处" class="headerlink" title="企业消息系统的好处"></a>企业消息系统的好处</h2><p>我们先来看看下图，应用程序A将Message发送到服务器上，然后应用程序B从服务器中接收A发来的消息，通过这个图我们一起来分析一下JMS的好处：</p><p><img src="/images/post/20150630221818616.jpg" alt="企业消息系统的好处"></p><ul><li>提供消息灵活性</li><li>松散耦合</li><li>异步性</li></ul><hr><p><a href="http://blog.csdn.net/jiuqiyuliang/article/details/46701559" target="_blank" rel="external">原文地址</a></p>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Java List与数组之间的转换]]></title>
       <url>http://www.ehlxr.me/2016/07/20/Java-List%E4%B8%8E%E6%95%B0%E7%BB%84%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BD%AC%E6%8D%A2/</url>
-      <content type="html"><![CDATA[<h3 id="1-数组转换为List"><a href="#1-数组转换为List" class="headerlink" title="1. 数组转换为List"></a>1. 数组转换为List</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">String[] arr = <span class="keyword">new</span> String[] &#123;<span class="string">"str1"</span>, <span class="string">"str2"</span>&#125;;</div><div class="line">List&lt;String&gt; list = Arrays.asList(arr);</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<h3 id="2-List转换为数组"><a href="#2-List转换为数组" class="headerlink" title="2 .List转换为数组"></a>2 .List转换为数组</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">List&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;();</div><div class="line">list.add(<span class="string">"str1"</span>);</div><div class="line">list.add(<span class="string">"str2"</span>);</div><div class="line"><span class="keyword">int</span> size = list.size();</div><div class="line">String[] arr = list.toArray(<span class="keyword">new</span> String[size]);</div></pre></td></tr></table></figure>]]></content>
+      <content type="html"><![CDATA[<h3 id="1-数组转换为List"><a href="#1-数组转换为List" class="headerlink" title="1. 数组转换为List"></a>1. 数组转换为List</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">String[] arr = <span class="keyword">new</span> String[] &#123;<span class="string">"str1"</span>, <span class="string">"str2"</span>&#125;;</div><div class="line">List&lt;String&gt; list = Arrays.asList(arr);</div></pre></td></tr></table></figure><a id="more"></a><h3 id="2-List转换为数组"><a href="#2-List转换为数组" class="headerlink" title="2 .List转换为数组"></a>2 .List转换为数组</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">List&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;();</div><div class="line">list.add(<span class="string">"str1"</span>);</div><div class="line">list.add(<span class="string">"str2"</span>);</div><div class="line"><span class="keyword">int</span> size = list.size();</div><div class="line">String[] arr = list.toArray(<span class="keyword">new</span> String[size]);</div></pre></td></tr></table></figure>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[MySQL日期函数]]></title>
       <url>http://www.ehlxr.me/2016/07/20/MySQL%E6%97%A5%E6%9C%9F%E5%87%BD%E6%95%B0/</url>
-      <content type="html"><![CDATA[<h4 id="1-取得当天："><a href="#1-取得当天：" class="headerlink" title="1. 取得当天："></a>1. 取得当天：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">mysql&gt; SELECT curdate();</div><div class="line">+------------+</div><div class="line">| curdate()  |</div><div class="line">+------------+</div><div class="line">| 2013-07-29 |</div><div class="line">+------------+</div></pre></td></tr></table></figure>
-<h4 id="2-取得当前日期："><a href="#2-取得当前日期：" class="headerlink" title="2. 取得当前日期："></a>2. 取得当前日期：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">mysql&gt; select sysdate();</div><div class="line">+---------------------+</div><div class="line">| sysdate()           |</div><div class="line">+---------------------+</div><div class="line">| 2016-05-30 13:58:17 |</div><div class="line">+---------------------+</div><div class="line">1 row in set</div><div class="line"></div><div class="line">mysql&gt; select now();</div><div class="line">+---------------------+</div><div class="line">| now()               |</div><div class="line">+---------------------+</div><div class="line">| 2016-05-30 13:58:29 |</div><div class="line">+---------------------+</div><div class="line">1 row in set</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<h4 id="3-取得当前时间："><a href="#3-取得当前时间：" class="headerlink" title="3. 取得当前时间："></a>3. 取得当前时间：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">mysql&gt; select curtime();</div><div class="line">+-----------+</div><div class="line">| curtime() |</div><div class="line">+-----------+</div><div class="line">| 13:54:31  |</div><div class="line">+-----------+</div><div class="line">1 row in set</div></pre></td></tr></table></figure>
-<h4 id="4-取得前一天："><a href="#4-取得前一天：" class="headerlink" title="4. 取得前一天："></a>4. 取得前一天：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">mysql&gt; select date_sub(curdate(),interval 1 day);</div><div class="line">+------------------------------------+</div><div class="line">| date_sub(curdate(),interval 1 day) |</div><div class="line">+------------------------------------+</div><div class="line">| 2013-07-28                         |</div><div class="line">+------------------------------------+</div></pre></td></tr></table></figure>
-<h4 id="5-取得下一天："><a href="#5-取得下一天：" class="headerlink" title="5. 取得下一天："></a>5. 取得下一天：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">mysql&gt; SELECT DATE_ADD(NOW(),INTERVAL 1 DAY);</div><div class="line">+--------------------------------+</div><div class="line">| DATE_ADD(NOW(),INTERVAL 1 DAY) |</div><div class="line">+--------------------------------+</div><div class="line">| 2016-05-31 14:09:16            |</div><div class="line">+--------------------------------+</div><div class="line">1 row in set</div></pre></td></tr></table></figure>
-<p>括号中为当天时间的前一天，如果统计前几天就将括号中的’1’改成相应的天数。如果要算月或年，直接将day改为month或year即可</p>
-<h4 id="6-取得前一天的年份："><a href="#6-取得前一天的年份：" class="headerlink" title="6.取得前一天的年份："></a>6.取得前一天的年份：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">mysql&gt; SELECT YEAR(DATE_SUB(CURDATE(),INTERVAL 1 DAY));</div><div class="line">+------------------------------------------+</div><div class="line">| YEAR(DATE_SUB(CURDATE(),INTERVAL 1 DAY)) |</div><div class="line">+------------------------------------------+</div><div class="line">|                                     2013 |</div><div class="line">+------------------------------------------+</div></pre></td></tr></table></figure>
-<h4 id="7-SYSDATE-为：2016-05-30-周一"><a href="#7-SYSDATE-为：2016-05-30-周一" class="headerlink" title="7.SYSDATE()为：2016-05-30 周一"></a>7.SYSDATE()为：2016-05-30 周一</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">SELECT</span> <span class="keyword">WEEK</span>(<span class="keyword">SYSDATE</span>()); <span class="comment">-- 22</span></div><div class="line"><span class="keyword">SELECT</span> <span class="keyword">WEEKOFYEAR</span>(<span class="keyword">SYSDATE</span>()); <span class="comment">-- 22</span></div><div class="line"><span class="keyword">SELECT</span> <span class="keyword">WEEKDAY</span>(<span class="keyword">SYSDATE</span>()); <span class="comment">-- 0</span></div><div class="line"><span class="keyword">SELECT</span> <span class="keyword">DAY</span>(<span class="keyword">SYSDATE</span>()); <span class="comment">-- 30</span></div><div class="line"><span class="keyword">SELECT</span> <span class="keyword">MONTH</span>(<span class="keyword">SYSDATE</span>()); <span class="comment">-- 5</span></div><div class="line"><span class="keyword">SELECT</span> <span class="keyword">YEAR</span>(<span class="keyword">SYSDATE</span>()); <span class="comment">-- 2016</span></div></pre></td></tr></table></figure>
-<h4 id="8-date-sub-函数的例子："><a href="#8-date-sub-函数的例子：" class="headerlink" title="8.date_sub()函数的例子："></a>8.date_sub()函数的例子：</h4><p>今天是2013年5月20日</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">date_sub('2012-05-25', INTERVAL 1 DAY) <span class="comment">-- 表示 2012-05-24</span></div><div class="line">date_sub('2012-05-25', INTERVAL 0 DAY) <span class="comment">-- 表示 2012-05-25</span></div><div class="line">date_sub('2012-05-25', INTERVAL - 1 DAY) <span class="comment">-- 表示 2012-05-26</span></div><div class="line">date_sub('2012-05-31', INTERVAL - 1 DAY) <span class="comment">-- 表示 2012-06-01</span></div><div class="line">date_sub(curdate(), INTERVAL 1 DAY) <span class="comment">-- 表示 2013-05-19</span></div><div class="line">date_sub(curdate(), INTERVAL - 1 DAY) <span class="comment">-- 表示 2013-05-21</span></div><div class="line">date_sub(curdate(), INTERVAL 1 MONTH) <span class="comment">-- 表示 2013-04-20</span></div><div class="line">date_sub(curdate(), INTERVAL - 1 MONTH) <span class="comment">-- 表示 2013-06-20</span></div><div class="line">date_sub(curdate(), INTERVAL 1 YEAR) <span class="comment">-- 表示 2012-05-20</span></div><div class="line">date_sub(curdate(), INTERVAL - 1 YEAR) <span class="comment">-- 表示 2014-05-20</span></div></pre></td></tr></table></figure>
-]]></content>
+      <content type="html"><![CDATA[<h4 id="1-取得当天："><a href="#1-取得当天：" class="headerlink" title="1. 取得当天："></a>1. 取得当天：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">mysql&gt; SELECT curdate();</div><div class="line">+------------+</div><div class="line">| curdate()  |</div><div class="line">+------------+</div><div class="line">| 2013-07-29 |</div><div class="line">+------------+</div></pre></td></tr></table></figure><h4 id="2-取得当前日期："><a href="#2-取得当前日期：" class="headerlink" title="2. 取得当前日期："></a>2. 取得当前日期：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">mysql&gt; select sysdate();</div><div class="line">+---------------------+</div><div class="line">| sysdate()           |</div><div class="line">+---------------------+</div><div class="line">| 2016-05-30 13:58:17 |</div><div class="line">+---------------------+</div><div class="line">1 row in set</div><div class="line"></div><div class="line">mysql&gt; select now();</div><div class="line">+---------------------+</div><div class="line">| now()               |</div><div class="line">+---------------------+</div><div class="line">| 2016-05-30 13:58:29 |</div><div class="line">+---------------------+</div><div class="line">1 row in set</div></pre></td></tr></table></figure><a id="more"></a><h4 id="3-取得当前时间："><a href="#3-取得当前时间：" class="headerlink" title="3. 取得当前时间："></a>3. 取得当前时间：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">mysql&gt; select curtime();</div><div class="line">+-----------+</div><div class="line">| curtime() |</div><div class="line">+-----------+</div><div class="line">| 13:54:31  |</div><div class="line">+-----------+</div><div class="line">1 row in set</div></pre></td></tr></table></figure><h4 id="4-取得前一天："><a href="#4-取得前一天：" class="headerlink" title="4. 取得前一天："></a>4. 取得前一天：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">mysql&gt; select date_sub(curdate(),interval 1 day);</div><div class="line">+------------------------------------+</div><div class="line">| date_sub(curdate(),interval 1 day) |</div><div class="line">+------------------------------------+</div><div class="line">| 2013-07-28                         |</div><div class="line">+------------------------------------+</div></pre></td></tr></table></figure><h4 id="5-取得下一天："><a href="#5-取得下一天：" class="headerlink" title="5. 取得下一天："></a>5. 取得下一天：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">mysql&gt; SELECT DATE_ADD(NOW(),INTERVAL 1 DAY);</div><div class="line">+--------------------------------+</div><div class="line">| DATE_ADD(NOW(),INTERVAL 1 DAY) |</div><div class="line">+--------------------------------+</div><div class="line">| 2016-05-31 14:09:16            |</div><div class="line">+--------------------------------+</div><div class="line">1 row in set</div></pre></td></tr></table></figure><p>括号中为当天时间的前一天，如果统计前几天就将括号中的’1’改成相应的天数。如果要算月或年，直接将day改为month或year即可</p><h4 id="6-取得前一天的年份："><a href="#6-取得前一天的年份：" class="headerlink" title="6.取得前一天的年份："></a>6.取得前一天的年份：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">mysql&gt; SELECT YEAR(DATE_SUB(CURDATE(),INTERVAL 1 DAY));</div><div class="line">+------------------------------------------+</div><div class="line">| YEAR(DATE_SUB(CURDATE(),INTERVAL 1 DAY)) |</div><div class="line">+------------------------------------------+</div><div class="line">|                                     2013 |</div><div class="line">+------------------------------------------+</div></pre></td></tr></table></figure><h4 id="7-SYSDATE-为：2016-05-30-周一"><a href="#7-SYSDATE-为：2016-05-30-周一" class="headerlink" title="7.SYSDATE()为：2016-05-30 周一"></a>7.SYSDATE()为：2016-05-30 周一</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">SELECT</span> <span class="keyword">WEEK</span>(<span class="keyword">SYSDATE</span>()); <span class="comment">-- 22</span></div><div class="line"><span class="keyword">SELECT</span> <span class="keyword">WEEKOFYEAR</span>(<span class="keyword">SYSDATE</span>()); <span class="comment">-- 22</span></div><div class="line"><span class="keyword">SELECT</span> <span class="keyword">WEEKDAY</span>(<span class="keyword">SYSDATE</span>()); <span class="comment">-- 0</span></div><div class="line"><span class="keyword">SELECT</span> <span class="keyword">DAY</span>(<span class="keyword">SYSDATE</span>()); <span class="comment">-- 30</span></div><div class="line"><span class="keyword">SELECT</span> <span class="keyword">MONTH</span>(<span class="keyword">SYSDATE</span>()); <span class="comment">-- 5</span></div><div class="line"><span class="keyword">SELECT</span> <span class="keyword">YEAR</span>(<span class="keyword">SYSDATE</span>()); <span class="comment">-- 2016</span></div></pre></td></tr></table></figure><h4 id="8-date-sub-函数的例子："><a href="#8-date-sub-函数的例子：" class="headerlink" title="8.date_sub()函数的例子："></a>8.date_sub()函数的例子：</h4><p>今天是2013年5月20日</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">date_sub('2012-05-25', INTERVAL 1 DAY) <span class="comment">-- 表示 2012-05-24</span></div><div class="line">date_sub('2012-05-25', INTERVAL 0 DAY) <span class="comment">-- 表示 2012-05-25</span></div><div class="line">date_sub('2012-05-25', INTERVAL - 1 DAY) <span class="comment">-- 表示 2012-05-26</span></div><div class="line">date_sub('2012-05-31', INTERVAL - 1 DAY) <span class="comment">-- 表示 2012-06-01</span></div><div class="line">date_sub(curdate(), INTERVAL 1 DAY) <span class="comment">-- 表示 2013-05-19</span></div><div class="line">date_sub(curdate(), INTERVAL - 1 DAY) <span class="comment">-- 表示 2013-05-21</span></div><div class="line">date_sub(curdate(), INTERVAL 1 MONTH) <span class="comment">-- 表示 2013-04-20</span></div><div class="line">date_sub(curdate(), INTERVAL - 1 MONTH) <span class="comment">-- 表示 2013-06-20</span></div><div class="line">date_sub(curdate(), INTERVAL 1 YEAR) <span class="comment">-- 表示 2012-05-20</span></div><div class="line">date_sub(curdate(), INTERVAL - 1 YEAR) <span class="comment">-- 表示 2014-05-20</span></div></pre></td></tr></table></figure>]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[开始blog，哈哈]]></title>
       <url>http://www.ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</url>
-      <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</div><div class="line">    System.out.println(<span class="string">"hello world"</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-]]></content>
+      <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</div><div class="line">    System.out.println(<span class="string">"hello world"</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
     </entry>
     
   
