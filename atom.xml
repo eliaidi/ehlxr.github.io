@@ -43,9 +43,9 @@
       <category term="Git" scheme="http://www.ehlxr.me/categories/Git/"/>
     
     
-      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -54,10 +54,12 @@
     <link href="http://www.ehlxr.me/2016/09/02/Naruto-Pictures/"/>
     <id>http://www.ehlxr.me/2016/09/02/Naruto-Pictures/</id>
     <published>2016-09-02T06:36:04.000Z</published>
-    <updated>2016-09-02T13:41:09.553Z</updated>
+    <updated>2016-09-04T09:09:30.060Z</updated>
     
     <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/18210.jpg" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/196232.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/224147.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/199301.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/213318.jpg" alt=""></div></div></div></div>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="0" height="0" src="http://music.163.com/outchain/player?type=0&id=83568232&auto=1&height=90"></iframe>]]></content>
+<audio autoplay="autoplay"><br>    <source src="http://oapjp6spr.bkt.clouddn.com/%E9%AB%98%E6%A2%A8%E5%BA%B7%E6%B2%BB%20-%20%E5%AD%A4%E7%8B%AC.mp3"><br></audio>
+
+<!--<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="http://music.163.com/outchain/player?type=0&id=83568232&auto=1&height=90"></iframe>-->]]></content>
     
     <summary type="html">
     
@@ -322,9 +324,9 @@
     
       <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
-      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -372,9 +374,9 @@
     
       <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
-      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -444,9 +446,9 @@
     
       <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
-      <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
-    
       <category term="Node.js" scheme="http://www.ehlxr.me/tags/Node-js/"/>
+    
+      <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
