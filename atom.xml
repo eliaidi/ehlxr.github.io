@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.ehlxr.me/"/>
-  <updated>2016-09-04T02:03:35.000Z</updated>
+  <updated>2016-09-06T08:49:19.939Z</updated>
   <id>http://www.ehlxr.me/</id>
   
   <author>
@@ -14,6 +14,82 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>5 分钟搭建 Git 服务器-Gogs</title>
+    <link href="http://www.ehlxr.me/2016/09/06/5-%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA-Git-%E6%9C%8D%E5%8A%A1%E5%99%A8-Gogs/"/>
+    <id>http://www.ehlxr.me/2016/09/06/5-分钟搭建-Git-服务器-Gogs/</id>
+    <published>2016-09-06T04:15:14.000Z</published>
+    <updated>2016-09-06T08:49:19.939Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>Gogs 基于 Go 语言的自助 Git 服务。它具有易安装、跨平台、轻量级、开源化等特性…</p>
+</blockquote>
+<p><img src="http://oapjp6spr.bkt.clouddn.com/gogs-lg.png" alt=""></p>
+<p>　　最近新到一家公司，发现在使用 Gogs 搭建 Git 服务，遂研究了一下，和前段时间研究的 GitLab 做了一个简单的对比，虽然 Gogs 相对与 GitLab 还比较年轻，也许没有 GitLab 强大和稳健，但 Gogs 更加简单易用，而且能够满足正常的工作使用。</p>
+<p>　　Gogs 是轻量级的 Git 服务，正如官方介绍的：一个廉价的树莓派的配置足以满足 Gogs 的最低系统硬件要求。最大程度上节省您的服务器资源！关键的一点是免费开源的，所有的代码都开源在 GitHub 上。下面结合官方的介绍，总结一下在 Linux 系统下的安装方法，真的是相当的简单，5 分钟足矣！</p>
+<a id="more"></a>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><ol>
+<li><p>下载对应系统版本的二进制安装包，并上传至 Linux 系统，或通过以下命令下载：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ wget https://github.com/gogits/gogs/releases/download/v0.9.97/linux_amd64.tar.gz</div></pre></td></tr></table></figure>
+<p><em><a href="https://github.com/gogits/gogs/releases" target="_blank" rel="external">Gogs发布版本</a></em></p>
+</li>
+<li><p>解压安装包：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ tar -xzvf gogs_v0.9.97_linux_amd64.tar.gz</div></pre></td></tr></table></figure>
+</li>
+<li><p>进入到刚刚解压后的目录执行命令 <code>./gogs web</code>，出现以下信息：</p>
+<p><img src="http://oapjp6spr.bkt.clouddn.com/20160906134643.jpg" alt=""></p>
+</li>
+<li><p>打开浏览器输入：<code>http://ip:3000</code>，第一次会出现以下配置界面，根据实际情况选择即可</p>
+<p><img src="http://oapjp6spr.bkt.clouddn.com/Gogs-install.png" alt=""></p>
+</li>
+<li><p>之后进入以下界面，安装完成。</p>
+<p><img src="http://oapjp6spr.bkt.clouddn.com/20160906135253.jpg" alt=""></p>
+</li>
+<li><p>后台运行可参考以下命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ nohup ./gogs web &gt; nohup.out 2&gt;&amp;1 &amp;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h1 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h1><p>　　引用自官方<a href="https://gogs.io/docs/upgrade/upgrade_from_binary" target="_blank" rel="external">二级制升级文档</a></p>
+<ol>
+<li><p>首先，确认当前安装的位置：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"># 默认位置在 git 用户下的家目录</div><div class="line">$ sudo su - git</div><div class="line">$ cd ~</div><div class="line">$ pwd</div><div class="line">/home/git</div><div class="line">$ ls</div><div class="line">gogs gogs-repositories</div></pre></td></tr></table></figure>
+</li>
+<li><p>然后将当前目录移动到另一个临时的位置，但不是删除！</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mv gogs gogs_old</div></pre></td></tr></table></figure>
+</li>
+<li><p>下载并解压新的二进制：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># 请根据系统和类型获取相应的二进制版本</div><div class="line">$ wget https://dl.gogs.io/gogs_v$VERSION_$OS_$ARCH.tar.gz</div><div class="line">$ tar -zxvf gogs_v$VERSION_$OS_$ARCH.tar.gz</div><div class="line">$ ls</div><div class="line">gogs gogs_old  gogs-repositories gogs_v$VERSION_$OS_$ARCH.tar.gz</div></pre></td></tr></table></figure>
+</li>
+<li><p>复制 <code>custom</code>、<code>data</code> 和 <code>log</code> 目录到新解压的目录中：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ cp -R gogs_old/custom gogs</div><div class="line">$ cp -R gogs_old/data gogs</div><div class="line">$ cp -R gogs_old/log gogs</div></pre></td></tr></table></figure>
+</li>
+<li><p>最后，运行并打开浏览器进行测试：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ cd gogs</div><div class="line">$ ./gogs web</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Gogs 基于 Go 语言的自助 Git 服务。它具有易安装、跨平台、轻量级、开源化等特性…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://oapjp6spr.bkt.clouddn.com/gogs-lg.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;　　最近新到一家公司，发现在使用 Gogs 搭建 Git 服务，遂研究了一下，和前段时间研究的 GitLab 做了一个简单的对比，虽然 Gogs 相对与 GitLab 还比较年轻，也许没有 GitLab 强大和稳健，但 Gogs 更加简单易用，而且能够满足正常的工作使用。&lt;/p&gt;
+&lt;p&gt;　　Gogs 是轻量级的 Git 服务，正如官方介绍的：一个廉价的树莓派的配置足以满足 Gogs 的最低系统硬件要求。最大程度上节省您的服务器资源！关键的一点是免费开源的，所有的代码都开源在 GitHub 上。下面结合官方的介绍，总结一下在 Linux 系统下的安装方法，真的是相当的简单，5 分钟足矣！&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Git" scheme="http://www.ehlxr.me/categories/Git/"/>
+    
+    
+      <category term="Gogs" scheme="http://www.ehlxr.me/tags/Gogs/"/>
+    
+      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>CentOS中配置Git命令自动补全</title>
@@ -43,9 +119,9 @@
       <category term="Git" scheme="http://www.ehlxr.me/categories/Git/"/>
     
     
-      <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
-    
       <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
+    
+      <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
@@ -232,7 +308,7 @@
     <link href="http://www.ehlxr.me/2016/07/31/CentOS-%E7%B3%BB%E7%BB%9F%E4%B8%8B-GitLab-%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/"/>
     <id>http://www.ehlxr.me/2016/07/31/CentOS-系统下-GitLab-搭建与基本配置/</id>
     <published>2016-07-31T10:15:47.000Z</published>
-    <updated>2016-08-04T10:40:47.565Z</updated>
+    <updated>2016-09-06T04:17:35.071Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p><a href="https://about.gitlab.com/" target="_blank" rel="external">GitLab 是一个开源的版本管理系统，提供了类似于 GitHub 的源代码浏览，管理缺陷和注释等功能，你可以将代码免费托管到 GitLab.com，而且不限项目数量和成员数。最吸引人的一点是，可以在自己的服务器上搭建 GitLab CE （社区免费版）版本，方便内部团队协作开发和代码管理。</a></p>
@@ -319,14 +395,14 @@
     
     </summary>
     
-      <category term="Liunx" scheme="http://www.ehlxr.me/categories/Liunx/"/>
+      <category term="Git" scheme="http://www.ehlxr.me/categories/Git/"/>
     
     
-      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
+      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
     
-      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
+      <category term="GitLab" scheme="http://www.ehlxr.me/tags/GitLab/"/>
     
   </entry>
   
@@ -372,11 +448,11 @@
       <category term="Liunx" scheme="http://www.ehlxr.me/categories/Liunx/"/>
     
     
+      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
+    
       <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
-    
-      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
   </entry>
   
