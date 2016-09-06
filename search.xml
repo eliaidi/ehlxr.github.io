@@ -9,7 +9,7 @@
       <content type="html"><![CDATA[<blockquote>
 <p>Gogs 基于 Go 语言的自助 Git 服务。它具有易安装、跨平台、轻量级、开源化等特性…</p>
 </blockquote>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/gogs-lg.png" alt=""></p>
+<p><img src="http://oapjp6spr.bkt.clouddn.com/gogs-logo.png" alt=""></p>
 <p>　　最近新到一家公司，发现在使用 Gogs 搭建 Git 服务，遂研究了一下，和前段时间研究的 GitLab 做了一个简单的对比，虽然 Gogs 相对与 GitLab 还比较年轻，也许没有 GitLab 强大和稳健，但 Gogs 更加简单易用，而且能够满足正常的工作使用。</p>
 <p>　　Gogs 是轻量级的 Git 服务，正如官方介绍的：一个廉价的树莓派的配置足以满足 Gogs 的最低系统硬件要求。最大程度上节省您的服务器资源！关键的一点是免费开源的，所有的代码都开源在 GitHub 上。下面结合官方的介绍，总结一下在 Linux 系统下的安装方法，真的是相当的简单，5 分钟足矣！</p>
 <a id="more"></a>
