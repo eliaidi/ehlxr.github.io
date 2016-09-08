@@ -4,6 +4,7 @@
 
     
     
+    
   <url>
     <loc>http://www.ehlxr.me/2016/08/30/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89/</loc>
     <lastmod>2016-09-07T10:33:35.000Z</lastmod>
@@ -35,9 +36,9 @@
         <title>5 分钟搭建 Git 服务器-Gogs</title>
         <pubTime>2016-09-06T04:15:14.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>Gogs</tag>
+         
+        <tag>Git</tag>
          
          
            
@@ -57,11 +58,11 @@
         <title>CentOS 系统下 GitLab 搭建与基本配置</title>
         <pubTime>2016-07-31T10:15:47.000Z</pubTime>
         
+        <tag>Git</tag>
+         
         <tag>CentOS</tag>
          
         <tag>GitLab</tag>
-         
-        <tag>Git</tag>
          
          
            
@@ -150,9 +151,9 @@
         <title>CentOS中配置Git命令自动补全</title>
         <pubTime>2016-09-04T02:03:35.000Z</pubTime>
         
-        <tag>CentOS</tag>
-         
         <tag>Git</tag>
+         
+        <tag>CentOS</tag>
          
          
            
@@ -207,21 +208,19 @@
     
     
   <url>
-    <loc>http://www.ehlxr.me/2016/07/30/%E8%BD%AC-%E5%B0%86-Centos-%E7%9A%84-yum-%E6%BA%90%E6%9B%B4%E6%94%B9%E4%B8%BA%E5%9B%BD%E5%86%85%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E6%BA%90/</loc>
+    <loc>http://www.ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</loc>
     <lastmod>2016-08-04T10:40:47.569Z</lastmod>
     <data>
         <display>
-        <title>[转]将 Centos 的 yum 源更改为国内的阿里云源</title>
-        <pubTime>2016-07-30T03:57:59.000Z</pubTime>
+        <title>开始blog，哈哈</title>
+        <pubTime>2016-07-19T09:16:17.000Z</pubTime>
         
-        <tag>CentOS</tag>
-         
-        <tag>Liunx</tag>
+        <tag>hello</tag>
          
          
            
              
-              <breadCrumb title="Liunx" url="http://www.ehlxr.me/categories/Liunx/"/>
+              <breadCrumb title="杂谈" url="http://www.ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
           
         </display>
     </data>
@@ -251,19 +250,43 @@
 
     
   <url>
-    <loc>http://www.ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</loc>
+    <loc>http://www.ehlxr.me/2016/07/30/%E8%BD%AC-%E5%B0%86-Centos-%E7%9A%84-yum-%E6%BA%90%E6%9B%B4%E6%94%B9%E4%B8%BA%E5%9B%BD%E5%86%85%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E6%BA%90/</loc>
     <lastmod>2016-08-04T10:40:47.569Z</lastmod>
     <data>
         <display>
-        <title>开始blog，哈哈</title>
-        <pubTime>2016-07-19T09:16:17.000Z</pubTime>
+        <title>[转]将 Centos 的 yum 源更改为国内的阿里云源</title>
+        <pubTime>2016-07-30T03:57:59.000Z</pubTime>
         
-        <tag>hello</tag>
+        <tag>Liunx</tag>
+         
+        <tag>CentOS</tag>
          
          
            
              
-              <breadCrumb title="杂谈" url="http://www.ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
+              <breadCrumb title="Liunx" url="http://www.ehlxr.me/categories/Liunx/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.ehlxr.me/2016/07/28/Oracle-%E4%B8%8E-MySQL-%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2016-08-04T10:40:47.568Z</lastmod>
+    <data>
+        <display>
+        <title>Oracle 与 MySQL 知识总结</title>
+        <pubTime>2016-07-28T06:06:36.000Z</pubTime>
+        
+        <tag>MySQL</tag>
+         
+        <tag>Oracle</tag>
+         
+         
+           
+             
+              <breadCrumb title="SQL" url="http://www.ehlxr.me/categories/SQL/"/>
           
         </display>
     </data>
@@ -311,21 +334,21 @@
 
     
   <url>
-    <loc>http://www.ehlxr.me/2016/07/28/Oracle-%E4%B8%8E-MySQL-%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2016-08-04T10:40:47.568Z</lastmod>
+    <loc>http://www.ehlxr.me/2016/07/28/GitHub-%E6%9B%B4%E6%96%B0%E5%B7%B2%E7%BB%8F-fork-%E7%9A%84%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2016-08-04T10:40:47.567Z</lastmod>
     <data>
         <display>
-        <title>Oracle 与 MySQL 知识总结</title>
-        <pubTime>2016-07-28T06:06:36.000Z</pubTime>
+        <title>GitHub 更新已经 fork 的项目</title>
+        <pubTime>2016-07-28T02:12:15.000Z</pubTime>
         
-        <tag>MySQL</tag>
+        <tag>Git</tag>
          
-        <tag>Oracle</tag>
+        <tag>GitHub</tag>
          
          
            
              
-              <breadCrumb title="SQL" url="http://www.ehlxr.me/categories/SQL/"/>
+              <breadCrumb title="Git" url="http://www.ehlxr.me/categories/Git/"/>
           
         </display>
     </data>
@@ -355,28 +378,6 @@
 
     
   <url>
-    <loc>http://www.ehlxr.me/2016/07/28/GitHub-%E6%9B%B4%E6%96%B0%E5%B7%B2%E7%BB%8F-fork-%E7%9A%84%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2016-08-04T10:40:47.567Z</lastmod>
-    <data>
-        <display>
-        <title>GitHub 更新已经 fork 的项目</title>
-        <pubTime>2016-07-28T02:12:15.000Z</pubTime>
-        
-        <tag>Git</tag>
-         
-        <tag>GitHub</tag>
-         
-         
-           
-             
-              <breadCrumb title="Git" url="http://www.ehlxr.me/categories/Git/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84-Git/</loc>
     <lastmod>2016-08-04T10:40:47.565Z</lastmod>
     <data>
@@ -384,11 +385,11 @@
         <title>CentOS 7 安装最新的 Git</title>
         <pubTime>2016-07-30T14:12:43.000Z</pubTime>
         
-        <tag>CentOS</tag>
-         
         <tag>Git</tag>
          
         <tag>Liunx</tag>
+         
+        <tag>CentOS</tag>
          
          
            
@@ -408,9 +409,9 @@
         <title>CentOS 7 安装 Node.js</title>
         <pubTime>2016-07-30T08:19:03.000Z</pubTime>
         
-        <tag>CentOS</tag>
-         
         <tag>Liunx</tag>
+         
+        <tag>CentOS</tag>
          
         <tag>Node.js</tag>
          
