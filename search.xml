@@ -4,84 +4,8 @@
   
     
     <entry>
-      <title><![CDATA[5 分钟搭建 Git 服务器-Gogs]]></title>
-      <url>http://www.ehlxr.me/2016/09/06/5-%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA-Git-%E6%9C%8D%E5%8A%A1%E5%99%A8-Gogs/</url>
-      <content type="html"><![CDATA[<blockquote>
-<p>Gogs 基于 Go 语言的自助 Git 服务。它具有易安装、跨平台、轻量级、开源化等特性…</p>
-</blockquote>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/gogs-logo.png" alt=""></p>
-<p>　　最近新到一家公司，发现在使用 Gogs 搭建 Git 服务，遂研究了一下，和前段时间研究的 GitLab 做了一个简单的对比，虽然 Gogs 相对与 GitLab 还比较年轻，也许没有 GitLab 强大和稳健，但 Gogs 更加简单易用，而且能够满足正常的工作使用。</p>
-<p>　　Gogs 是轻量级的 Git 服务，正如官方介绍的：一个廉价的树莓派的配置足以满足 Gogs 的最低系统硬件要求。最大程度上节省您的服务器资源！关键的一点是免费开源的，所有的代码都开源在 GitHub 上。下面结合官方的介绍，总结一下在 Linux 系统下的安装方法，真的是相当的简单，5 分钟足矣！</p>
-<a id="more"></a>
-<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><ol>
-<li><p>下载对应系统版本的二进制安装包，并上传至 Linux 系统，或通过以下命令下载：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ wget https://github.com/gogits/gogs/releases/download/v0.9.97/linux_amd64.tar.gz</div></pre></td></tr></table></figure>
-<p><em><a href="https://github.com/gogits/gogs/releases" target="_blank" rel="external">Gogs发布版本</a></em></p>
-</li>
-<li><p>解压安装包：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ tar -xzvf gogs_v0.9.97_linux_amd64.tar.gz</div></pre></td></tr></table></figure>
-</li>
-<li><p>进入到刚刚解压后的目录执行命令 <code>./gogs web</code>，出现以下信息：</p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160906134643.jpg" alt=""></p>
-</li>
-<li><p>打开浏览器输入：<code>http://ip:3000</code>，第一次会出现以下配置界面，根据实际情况选择即可</p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/Gogs-install.png" alt=""></p>
-</li>
-<li><p>之后进入以下界面，安装完成。</p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160906135253.jpg" alt=""></p>
-</li>
-<li><p>后台运行可参考以下命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ nohup ./gogs web &gt; nohup.out 2&gt;&amp;1 &amp;</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<h1 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h1><p>　　引用自官方<a href="https://gogs.io/docs/upgrade/upgrade_from_binary" target="_blank" rel="external">二级制升级文档</a></p>
-<ol>
-<li><p>首先，确认当前安装的位置：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"># 默认位置在 git 用户下的家目录</div><div class="line">$ sudo su - git</div><div class="line">$ cd ~</div><div class="line">$ pwd</div><div class="line">/home/git</div><div class="line">$ ls</div><div class="line">gogs gogs-repositories</div></pre></td></tr></table></figure>
-</li>
-<li><p>然后将当前目录移动到另一个临时的位置，但不是删除！</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mv gogs gogs_old</div></pre></td></tr></table></figure>
-</li>
-<li><p>下载并解压新的二进制：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># 请根据系统和类型获取相应的二进制版本</div><div class="line">$ wget https://dl.gogs.io/gogs_v$VERSION_$OS_$ARCH.tar.gz</div><div class="line">$ tar -zxvf gogs_v$VERSION_$OS_$ARCH.tar.gz</div><div class="line">$ ls</div><div class="line">gogs gogs_old  gogs-repositories gogs_v$VERSION_$OS_$ARCH.tar.gz</div></pre></td></tr></table></figure>
-</li>
-<li><p>复制 <code>custom</code>、<code>data</code> 和 <code>log</code> 目录到新解压的目录中：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ cp -R gogs_old/custom gogs</div><div class="line">$ cp -R gogs_old/data gogs</div><div class="line">$ cp -R gogs_old/log gogs</div></pre></td></tr></table></figure>
-</li>
-<li><p>最后，运行并打开浏览器进行测试：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ cd gogs</div><div class="line">$ ./gogs web</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<hr>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[CentOS中配置Git命令自动补全]]></title>
-      <url>http://www.ehlxr.me/2016/09/04/CentOS%E4%B8%AD%E9%85%8D%E7%BD%AEGit%E5%91%BD%E4%BB%A4%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8/</url>
-      <content type="html"><![CDATA[<h3 id="1-保存以下文件内容为：git-completion-bash"><a href="#1-保存以下文件内容为：git-completion-bash" class="headerlink" title="1. 保存以下文件内容为：git-completion.bash"></a>1. 保存以下文件内容为：<code>git-completion.bash</code></h3><p>　　<a href="https://github.com/git/git/blob/master/contrib/completion/git-completion.bash" target="_blank" rel="external">https://github.com/git/git/blob/master/contrib/completion/git-completion.bash</a></p>
-<h3 id="2-将上述文件git-completion-bash-copy-至个人home目录"><a href="#2-将上述文件git-completion-bash-copy-至个人home目录" class="headerlink" title="2. 将上述文件git-completion.bash copy 至个人home目录"></a>2. 将上述文件<code>git-completion.bash</code> copy 至个人<code>home</code>目录</h3><p>　　可设为隐藏文件以免后续被误删</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ cp git-completion.bash ~/.git-completion.bash</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<h3 id="3-编辑环境变量文件"><a href="#3-编辑环境变量文件" class="headerlink" title="3. 编辑环境变量文件"></a>3. 编辑环境变量文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ vi ~/.bashrc</div></pre></td></tr></table></figure>
-<p>　　在最后加入下面内容</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">source ~/.git-completion.bash</div></pre></td></tr></table></figure>
-<p>完成以上步骤后，重启<code>shell</code>，就可以通过<code>tab</code>键自动补全<code>Git</code>命令.</p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Naruto-Pictures]]></title>
-      <url>http://www.ehlxr.me/2016/09/02/Naruto-Pictures/</url>
-      <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/18210.jpg" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/196232.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/224147.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/199301.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/213318.jpg" alt=""></div></div></div></div>
-<audio autoplay="autoplay" loop="loop"><br>    <source src="http://oapjp6spr.bkt.clouddn.com/%E9%AB%98%E6%A2%A8%E5%BA%B7%E6%B2%BB%20-%20%E5%AD%A4%E7%8B%AC.mp3"><br>    Your browser does not support the audio element.<br></audio>
-
-<!--<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="http://music.163.com/outchain/player?type=0&id=83568232&auto=1&height=90"></iframe>-->]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[使用Hexo基于GitHub Pages搭建个人博客（三）]]></title>
-      <url>http://www.ehlxr.me/2016/08/30/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89/</url>
+      <url>http://www.ehlxr.me/2016/09/07/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89/</url>
       <content type="html"><![CDATA[<blockquote>
 <p>生命不息，折腾不休。从搭建 blog 以来，博文虽没有写几篇，但折腾的时间花了不少，走过了不少弯路，也踩过了不少的坑，虽然很懒，但本着好记性不如烂笔头的宗旨，打算在折腾记忆尚未磨灭之际记录一下走过的路和踩过的坑…</p>
 </blockquote>
@@ -179,11 +103,86 @@
 </li>
 <li><p>在文章中添加<code>top</code>值，数值越大文章越靠前，如：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Naruto 图集</div><div class="line">categories: [图片]</div><div class="line">tags: [picture,naruto]</div><div class="line">date: 2016-09-02 14:36:04</div><div class="line">keywords: picture,naruto</div><div class="line">type: &quot;picture&quot;</div><div class="line">top: 10</div><div class="line">---</div></pre></td></tr></table></figure>
-<p><a href="http://www.netcan666.com/2015/11/22/%E8%A7%A3%E5%86%B3Hexo%E7%BD%AE%E9%A1%B6%E9%97%AE%E9%A2%98/" target="_blank" rel="external">参考文章</a></p>
 </li>
 </ol>
 <hr>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[5 分钟搭建 Git 服务器-Gogs]]></title>
+      <url>http://www.ehlxr.me/2016/09/06/5-%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA-Git-%E6%9C%8D%E5%8A%A1%E5%99%A8-Gogs/</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>Gogs 基于 Go 语言的自助 Git 服务。它具有易安装、跨平台、轻量级、开源化等特性…</p>
+</blockquote>
+<p><img src="http://oapjp6spr.bkt.clouddn.com/gogs-logo.png" alt=""></p>
+<p>　　最近新到一家公司，发现在使用 Gogs 搭建 Git 服务，遂研究了一下，和前段时间研究的 GitLab 做了一个简单的对比，虽然 Gogs 相对与 GitLab 还比较年轻，也许没有 GitLab 强大和稳健，但 Gogs 更加简单易用，而且能够满足正常的工作使用。</p>
+<p>　　Gogs 是轻量级的 Git 服务，正如官方介绍的：一个廉价的树莓派的配置足以满足 Gogs 的最低系统硬件要求。最大程度上节省您的服务器资源！关键的一点是免费开源的，所有的代码都开源在 GitHub 上。下面结合官方的介绍，总结一下在 Linux 系统下的安装方法，真的是相当的简单，5 分钟足矣！</p>
+<a id="more"></a>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><ol>
+<li><p>下载对应系统版本的二进制安装包，并上传至 Linux 系统，或通过以下命令下载：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ wget https://github.com/gogits/gogs/releases/download/v0.9.97/linux_amd64.tar.gz</div></pre></td></tr></table></figure>
+<p><em><a href="https://github.com/gogits/gogs/releases" target="_blank" rel="external">Gogs发布版本</a></em></p>
+</li>
+<li><p>解压安装包：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ tar -xzvf gogs_v0.9.97_linux_amd64.tar.gz</div></pre></td></tr></table></figure>
+</li>
+<li><p>进入到刚刚解压后的目录执行命令 <code>./gogs web</code>，出现以下信息：</p>
+<p><img src="http://oapjp6spr.bkt.clouddn.com/20160906134643.jpg" alt=""></p>
+</li>
+<li><p>打开浏览器输入：<code>http://ip:3000</code>，第一次会出现以下配置界面，根据实际情况选择即可</p>
+<p><img src="http://oapjp6spr.bkt.clouddn.com/Gogs-install.png" alt=""></p>
+</li>
+<li><p>之后进入以下界面，安装完成。</p>
+<p><img src="http://oapjp6spr.bkt.clouddn.com/20160906135253.jpg" alt=""></p>
+</li>
+<li><p>后台运行可参考以下命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ nohup ./gogs web &gt; nohup.out 2&gt;&amp;1 &amp;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h1 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h1><p>　　引用自官方<a href="https://gogs.io/docs/upgrade/upgrade_from_binary" target="_blank" rel="external">二级制升级文档</a></p>
+<ol>
+<li><p>首先，确认当前安装的位置：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"># 默认位置在 git 用户下的家目录</div><div class="line">$ sudo su - git</div><div class="line">$ cd ~</div><div class="line">$ pwd</div><div class="line">/home/git</div><div class="line">$ ls</div><div class="line">gogs gogs-repositories</div></pre></td></tr></table></figure>
+</li>
+<li><p>然后将当前目录移动到另一个临时的位置，但不是删除！</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mv gogs gogs_old</div></pre></td></tr></table></figure>
+</li>
+<li><p>下载并解压新的二进制：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># 请根据系统和类型获取相应的二进制版本</div><div class="line">$ wget https://dl.gogs.io/gogs_v$VERSION_$OS_$ARCH.tar.gz</div><div class="line">$ tar -zxvf gogs_v$VERSION_$OS_$ARCH.tar.gz</div><div class="line">$ ls</div><div class="line">gogs gogs_old  gogs-repositories gogs_v$VERSION_$OS_$ARCH.tar.gz</div></pre></td></tr></table></figure>
+</li>
+<li><p>复制 <code>custom</code>、<code>data</code> 和 <code>log</code> 目录到新解压的目录中：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ cp -R gogs_old/custom gogs</div><div class="line">$ cp -R gogs_old/data gogs</div><div class="line">$ cp -R gogs_old/log gogs</div></pre></td></tr></table></figure>
+</li>
+<li><p>最后，运行并打开浏览器进行测试：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ cd gogs</div><div class="line">$ ./gogs web</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<hr>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[CentOS中配置Git命令自动补全]]></title>
+      <url>http://www.ehlxr.me/2016/09/04/CentOS%E4%B8%AD%E9%85%8D%E7%BD%AEGit%E5%91%BD%E4%BB%A4%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8/</url>
+      <content type="html"><![CDATA[<h3 id="1-保存以下文件内容为：git-completion-bash"><a href="#1-保存以下文件内容为：git-completion-bash" class="headerlink" title="1. 保存以下文件内容为：git-completion.bash"></a>1. 保存以下文件内容为：<code>git-completion.bash</code></h3><p>　　<a href="https://github.com/git/git/blob/master/contrib/completion/git-completion.bash" target="_blank" rel="external">https://github.com/git/git/blob/master/contrib/completion/git-completion.bash</a></p>
+<h3 id="2-将上述文件git-completion-bash-copy-至个人home目录"><a href="#2-将上述文件git-completion-bash-copy-至个人home目录" class="headerlink" title="2. 将上述文件git-completion.bash copy 至个人home目录"></a>2. 将上述文件<code>git-completion.bash</code> copy 至个人<code>home</code>目录</h3><p>　　可设为隐藏文件以免后续被误删</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ cp git-completion.bash ~/.git-completion.bash</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="3-编辑环境变量文件"><a href="#3-编辑环境变量文件" class="headerlink" title="3. 编辑环境变量文件"></a>3. 编辑环境变量文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ vi ~/.bashrc</div></pre></td></tr></table></figure>
+<p>　　在最后加入下面内容</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">source ~/.git-completion.bash</div></pre></td></tr></table></figure>
+<p>完成以上步骤后，重启<code>shell</code>，就可以通过<code>tab</code>键自动补全<code>Git</code>命令.</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Naruto-Pictures]]></title>
+      <url>http://www.ehlxr.me/2016/09/02/Naruto-Pictures/</url>
+      <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/18210.jpg" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/196232.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/224147.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/199301.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/213318.jpg" alt=""></div></div></div></div>
+<audio autoplay="autoplay" loop="loop"><br>    <source src="http://oapjp6spr.bkt.clouddn.com/%E9%AB%98%E6%A2%A8%E5%BA%B7%E6%B2%BB%20-%20%E5%AD%A4%E7%8B%AC.mp3"><br>    Your browser does not support the audio element.<br></audio>
+
+<!--<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="http://music.163.com/outchain/player?type=0&id=83568232&auto=1&height=90"></iframe>-->]]></content>
     </entry>
     
     <entry>
