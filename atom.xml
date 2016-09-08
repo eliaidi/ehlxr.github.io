@@ -85,9 +85,9 @@
       <category term="Git" scheme="http://www.ehlxr.me/categories/Git/"/>
     
     
-      <category term="Gogs" scheme="http://www.ehlxr.me/tags/Gogs/"/>
-    
       <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
+    
+      <category term="Gogs" scheme="http://www.ehlxr.me/tags/Gogs/"/>
     
   </entry>
   
@@ -119,9 +119,9 @@
       <category term="Git" scheme="http://www.ehlxr.me/categories/Git/"/>
     
     
-      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -433,11 +433,11 @@
       <category term="Git" scheme="http://www.ehlxr.me/categories/Git/"/>
     
     
-      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
     
       <category term="GitLab" scheme="http://www.ehlxr.me/tags/GitLab/"/>
+    
+      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -483,11 +483,11 @@
       <category term="Liunx" scheme="http://www.ehlxr.me/categories/Liunx/"/>
     
     
+      <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
       <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
       <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
-    
-      <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
@@ -555,9 +555,9 @@
       <category term="Liunx" scheme="http://www.ehlxr.me/categories/Liunx/"/>
     
     
-      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
       <category term="Node.js" scheme="http://www.ehlxr.me/tags/Node-js/"/>
     
@@ -611,9 +611,9 @@
       <category term="Liunx" scheme="http://www.ehlxr.me/categories/Liunx/"/>
     
     
-      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
-    
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
     
   </entry>
   
