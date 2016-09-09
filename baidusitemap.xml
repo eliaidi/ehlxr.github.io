@@ -56,9 +56,9 @@
         <title>CentOS 系统下 GitLab 搭建与基本配置</title>
         <pubTime>2016-07-31T10:15:47.000Z</pubTime>
         
-        <tag>CentOS</tag>
-         
         <tag>Git</tag>
+         
+        <tag>CentOS</tag>
          
         <tag>GitLab</tag>
          
@@ -149,9 +149,9 @@
         <title>CentOS中配置Git命令自动补全</title>
         <pubTime>2016-09-04T02:03:35.000Z</pubTime>
         
-        <tag>CentOS</tag>
-         
         <tag>Git</tag>
+         
+        <tag>CentOS</tag>
          
          
            
@@ -206,19 +206,21 @@
     
     
   <url>
-    <loc>http://www.ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</loc>
+    <loc>http://www.ehlxr.me/2016/07/30/%E8%BD%AC-%E5%B0%86-Centos-%E7%9A%84-yum-%E6%BA%90%E6%9B%B4%E6%94%B9%E4%B8%BA%E5%9B%BD%E5%86%85%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E6%BA%90/</loc>
     <lastmod>2016-08-04T10:40:47.569Z</lastmod>
     <data>
         <display>
-        <title>开始blog，哈哈</title>
-        <pubTime>2016-07-19T09:16:17.000Z</pubTime>
+        <title>[转]将 Centos 的 yum 源更改为国内的阿里云源</title>
+        <pubTime>2016-07-30T03:57:59.000Z</pubTime>
         
-        <tag>hello</tag>
+        <tag>Liunx</tag>
+         
+        <tag>CentOS</tag>
          
          
            
              
-              <breadCrumb title="杂谈" url="http://www.ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
+              <breadCrumb title="Liunx" url="http://www.ehlxr.me/categories/Liunx/"/>
           
         </display>
     </data>
@@ -248,21 +250,19 @@
 
     
   <url>
-    <loc>http://www.ehlxr.me/2016/07/30/%E8%BD%AC-%E5%B0%86-Centos-%E7%9A%84-yum-%E6%BA%90%E6%9B%B4%E6%94%B9%E4%B8%BA%E5%9B%BD%E5%86%85%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E6%BA%90/</loc>
+    <loc>http://www.ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</loc>
     <lastmod>2016-08-04T10:40:47.569Z</lastmod>
     <data>
         <display>
-        <title>[转]将 Centos 的 yum 源更改为国内的阿里云源</title>
-        <pubTime>2016-07-30T03:57:59.000Z</pubTime>
+        <title>开始blog，哈哈</title>
+        <pubTime>2016-07-19T09:16:17.000Z</pubTime>
         
-        <tag>Liunx</tag>
-         
-        <tag>CentOS</tag>
+        <tag>hello</tag>
          
          
            
              
-              <breadCrumb title="Liunx" url="http://www.ehlxr.me/categories/Liunx/"/>
+              <breadCrumb title="杂谈" url="http://www.ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
           
         </display>
     </data>
@@ -332,28 +332,6 @@
 
     
   <url>
-    <loc>http://www.ehlxr.me/2016/07/20/Java-List%E4%B8%8E%E6%95%B0%E7%BB%84%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BD%AC%E6%8D%A2/</loc>
-    <lastmod>2016-08-04T10:40:47.567Z</lastmod>
-    <data>
-        <display>
-        <title>Java List与数组之间的转换</title>
-        <pubTime>2016-07-20T07:52:33.000Z</pubTime>
-        
-        <tag>Java</tag>
-         
-        <tag>List</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java开发技术" url="http://www.ehlxr.me/categories/Java%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.ehlxr.me/2016/07/28/GitHub-%E6%9B%B4%E6%96%B0%E5%B7%B2%E7%BB%8F-fork-%E7%9A%84%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2016-08-04T10:40:47.567Z</lastmod>
     <data>
@@ -376,23 +354,21 @@
 
     
   <url>
-    <loc>http://www.ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84-Git/</loc>
-    <lastmod>2016-08-04T10:40:47.565Z</lastmod>
+    <loc>http://www.ehlxr.me/2016/07/20/Java-List%E4%B8%8E%E6%95%B0%E7%BB%84%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BD%AC%E6%8D%A2/</loc>
+    <lastmod>2016-08-04T10:40:47.567Z</lastmod>
     <data>
         <display>
-        <title>CentOS 7 安装最新的 Git</title>
-        <pubTime>2016-07-30T14:12:43.000Z</pubTime>
+        <title>Java List与数组之间的转换</title>
+        <pubTime>2016-07-20T07:52:33.000Z</pubTime>
         
-        <tag>Liunx</tag>
+        <tag>Java</tag>
          
-        <tag>CentOS</tag>
-         
-        <tag>Git</tag>
+        <tag>List</tag>
          
          
            
              
-              <breadCrumb title="Liunx" url="http://www.ehlxr.me/categories/Liunx/"/>
+              <breadCrumb title="Java开发技术" url="http://www.ehlxr.me/categories/Java%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/"/>
           
         </display>
     </data>
@@ -410,6 +386,30 @@
         <tag>Liunx</tag>
          
         <tag>Node.js</tag>
+         
+        <tag>CentOS</tag>
+         
+         
+           
+             
+              <breadCrumb title="Liunx" url="http://www.ehlxr.me/categories/Liunx/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84-Git/</loc>
+    <lastmod>2016-08-04T10:40:47.565Z</lastmod>
+    <data>
+        <display>
+        <title>CentOS 7 安装最新的 Git</title>
+        <pubTime>2016-07-30T14:12:43.000Z</pubTime>
+        
+        <tag>Git</tag>
+         
+        <tag>Liunx</tag>
          
         <tag>CentOS</tag>
          
