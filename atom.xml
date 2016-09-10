@@ -85,9 +85,9 @@
       <category term="Git" scheme="http://www.ehlxr.me/categories/Git/"/>
     
     
-      <category term="Gogs" scheme="http://www.ehlxr.me/tags/Gogs/"/>
-    
       <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
+    
+      <category term="Gogs" scheme="http://www.ehlxr.me/tags/Gogs/"/>
     
   </entry>
   
@@ -130,7 +130,7 @@
     <link href="http://www.ehlxr.me/2016/09/02/Naruto-Pictures/"/>
     <id>http://www.ehlxr.me/2016/09/02/Naruto-Pictures/</id>
     <published>2016-09-02T06:36:04.000Z</published>
-    <updated>2016-09-04T09:36:05.432Z</updated>
+    <updated>2016-09-10T01:40:41.115Z</updated>
     
     <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/18210.jpg" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/196232.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/224147.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/199301.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/213318.jpg" alt=""></div></div></div></div>
 <audio autoplay="autoplay" loop="loop"><br>    <source src="http://oapjp6spr.bkt.clouddn.com/%E9%AB%98%E6%A2%A8%E5%BA%B7%E6%B2%BB%20-%20%E5%AD%A4%E7%8B%AC.mp3"><br>    Your browser does not support the audio element.<br></audio>
@@ -483,9 +483,9 @@
       <category term="Liunx" scheme="http://www.ehlxr.me/categories/Liunx/"/>
     
     
-      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
-    
       <category term="Liunx" scheme="http://www.ehlxr.me/tags/Liunx/"/>
+    
+      <category term="Git" scheme="http://www.ehlxr.me/tags/Git/"/>
     
       <category term="CentOS" scheme="http://www.ehlxr.me/tags/CentOS/"/>
     
