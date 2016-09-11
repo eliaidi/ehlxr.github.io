@@ -10,4 +10,4 @@
 
 
   [1]: http://www.ehlxr.me
-  [2]: http://oapjp6spr.bkt.clouddn.com/home-me.png
+  [2]: images/home-me.png
