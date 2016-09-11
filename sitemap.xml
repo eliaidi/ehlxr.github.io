@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.ehlxr.me/about/index.html</loc>
+    
+    <lastmod>2016-09-11T00:50:36.212Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.ehlxr.me/2016/09/02/Naruto-Pictures/</loc>
     
-    <lastmod>2016-09-10T01:40:41.115Z</lastmod>
+    <lastmod>2016-09-11T00:49:52.118Z</lastmod>
     
   </url>
   
@@ -33,13 +40,6 @@
     <loc>http://www.ehlxr.me/2016/07/31/CentOS-%E7%B3%BB%E7%BB%9F%E4%B8%8B-GitLab-%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</loc>
     
     <lastmod>2016-09-06T04:17:35.071Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.ehlxr.me/about/index.html</loc>
-    
-    <lastmod>2016-09-04T09:52:48.699Z</lastmod>
     
   </url>
   
@@ -114,13 +114,6 @@
   </url>
   
   <url>
-    <loc>http://www.ehlxr.me/2016/07/25/Sublime-Text-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</loc>
-    
-    <lastmod>2016-08-04T10:40:47.568Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.ehlxr.me/2016/07/20/MySQL%E6%97%A5%E6%9C%9F%E5%87%BD%E6%95%B0/</loc>
     
     <lastmod>2016-08-04T10:40:47.568Z</lastmod>
@@ -129,6 +122,13 @@
   
   <url>
     <loc>http://www.ehlxr.me/2016/07/28/Oracle-%E4%B8%8E-MySQL-%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</loc>
+    
+    <lastmod>2016-08-04T10:40:47.568Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.ehlxr.me/2016/07/25/Sublime-Text-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</loc>
     
     <lastmod>2016-08-04T10:40:47.568Z</lastmod>
     
