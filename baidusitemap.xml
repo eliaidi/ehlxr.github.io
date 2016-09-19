@@ -57,9 +57,9 @@
         <title>5 分钟搭建 Git 服务器-Gogs</title>
         <pubTime>2016-09-06T04:15:14.000Z</pubTime>
         
-        <tag>Gogs</tag>
-         
         <tag>Git</tag>
+         
+        <tag>Gogs</tag>
          
          
            
@@ -81,9 +81,9 @@
         
         <tag>CentOS</tag>
          
-        <tag>Git</tag>
-         
         <tag>GitLab</tag>
+         
+        <tag>Git</tag>
          
          
            
@@ -255,36 +255,14 @@
         <title>[转]将 Centos 的 yum 源更改为国内的阿里云源</title>
         <pubTime>2016-07-30T03:57:59.000Z</pubTime>
         
-        <tag>Liunx</tag>
-         
         <tag>CentOS</tag>
+         
+        <tag>Liunx</tag>
          
          
            
              
               <breadCrumb title="Liunx" url="http://www.ehlxr.me/categories/Liunx/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.ehlxr.me/2016/07/28/Oracle-%E4%B8%8E-MySQL-%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2016-08-04T10:40:47.568Z</lastmod>
-    <data>
-        <display>
-        <title>Oracle 与 MySQL 知识总结</title>
-        <pubTime>2016-07-28T06:06:36.000Z</pubTime>
-        
-        <tag>MySQL</tag>
-         
-        <tag>Oracle</tag>
-         
-         
-           
-             
-              <breadCrumb title="SQL" url="http://www.ehlxr.me/categories/SQL/"/>
           
         </display>
     </data>
@@ -325,6 +303,28 @@
            
              
               <breadCrumb title="开发工具" url="http://www.ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.ehlxr.me/2016/07/28/Oracle-%E4%B8%8E-MySQL-%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2016-08-04T10:40:47.568Z</lastmod>
+    <data>
+        <display>
+        <title>Oracle 与 MySQL 知识总结</title>
+        <pubTime>2016-07-28T06:06:36.000Z</pubTime>
+        
+        <tag>MySQL</tag>
+         
+        <tag>Oracle</tag>
+         
+         
+           
+             
+              <breadCrumb title="SQL" url="http://www.ehlxr.me/categories/SQL/"/>
           
         </display>
     </data>
@@ -383,11 +383,11 @@
         <title>CentOS 7 安装最新的 Git</title>
         <pubTime>2016-07-30T14:12:43.000Z</pubTime>
         
-        <tag>Liunx</tag>
-         
         <tag>CentOS</tag>
          
         <tag>Git</tag>
+         
+        <tag>Liunx</tag>
          
          
            
@@ -407,11 +407,11 @@
         <title>CentOS 7 安装 Node.js</title>
         <pubTime>2016-07-30T08:19:03.000Z</pubTime>
         
+        <tag>CentOS</tag>
+         
         <tag>Liunx</tag>
          
         <tag>Node.js</tag>
-         
-        <tag>CentOS</tag>
          
          
            
