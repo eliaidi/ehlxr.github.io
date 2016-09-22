@@ -57,9 +57,9 @@
         <title>5 分钟搭建 Git 服务器-Gogs</title>
         <pubTime>2016-09-06T04:15:14.000Z</pubTime>
         
-        <tag>Gogs</tag>
-         
         <tag>Git</tag>
+         
+        <tag>Gogs</tag>
          
          
            
@@ -206,6 +206,26 @@
     
     
   <url>
+    <loc>http://www.ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</loc>
+    <lastmod>2016-08-04T10:40:47.569Z</lastmod>
+    <data>
+        <display>
+        <title>开始blog，哈哈</title>
+        <pubTime>2016-07-19T09:16:17.000Z</pubTime>
+        
+        <tag>hello</tag>
+         
+         
+           
+             
+              <breadCrumb title="杂谈" url="http://www.ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.ehlxr.me/2016/07/30/%E8%BD%AC-%E5%B0%86-Centos-%E7%9A%84-yum-%E6%BA%90%E6%9B%B4%E6%94%B9%E4%B8%BA%E5%9B%BD%E5%86%85%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E6%BA%90/</loc>
     <lastmod>2016-08-04T10:40:47.569Z</lastmod>
     <data>
@@ -221,26 +241,6 @@
            
              
               <breadCrumb title="Liunx" url="http://www.ehlxr.me/categories/Liunx/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</loc>
-    <lastmod>2016-08-04T10:40:47.569Z</lastmod>
-    <data>
-        <display>
-        <title>开始blog，哈哈</title>
-        <pubTime>2016-07-19T09:16:17.000Z</pubTime>
-        
-        <tag>hello</tag>
-         
-         
-           
-             
-              <breadCrumb title="杂谈" url="http://www.ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
           
         </display>
     </data>
@@ -270,26 +270,6 @@
 
     
   <url>
-    <loc>http://www.ehlxr.me/2016/07/25/Sublime-Text-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</loc>
-    <lastmod>2016-08-04T10:40:47.568Z</lastmod>
-    <data>
-        <display>
-        <title>Sublime Text 插件安装</title>
-        <pubTime>2016-07-25T13:06:57.000Z</pubTime>
-        
-        <tag>Sublime</tag>
-         
-         
-           
-             
-              <breadCrumb title="开发工具" url="http://www.ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.ehlxr.me/2016/07/28/Oracle-%E4%B8%8E-MySQL-%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2016-08-04T10:40:47.568Z</lastmod>
     <data>
@@ -312,6 +292,26 @@
 
     
   <url>
+    <loc>http://www.ehlxr.me/2016/07/25/Sublime-Text-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2016-08-04T10:40:47.568Z</lastmod>
+    <data>
+        <display>
+        <title>Sublime Text 插件安装</title>
+        <pubTime>2016-07-25T13:06:57.000Z</pubTime>
+        
+        <tag>Sublime</tag>
+         
+         
+           
+             
+              <breadCrumb title="开发工具" url="http://www.ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.ehlxr.me/2016/07/20/MySQL%E6%97%A5%E6%9C%9F%E5%87%BD%E6%95%B0/</loc>
     <lastmod>2016-08-04T10:40:47.568Z</lastmod>
     <data>
@@ -325,28 +325,6 @@
            
              
               <breadCrumb title="SQL" url="http://www.ehlxr.me/categories/SQL/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.ehlxr.me/2016/07/28/GitHub-%E6%9B%B4%E6%96%B0%E5%B7%B2%E7%BB%8F-fork-%E7%9A%84%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2016-08-04T10:40:47.567Z</lastmod>
-    <data>
-        <display>
-        <title>GitHub 更新已经 fork 的项目</title>
-        <pubTime>2016-07-28T02:12:15.000Z</pubTime>
-        
-        <tag>Git</tag>
-         
-        <tag>GitHub</tag>
-         
-         
-           
-             
-              <breadCrumb title="Git" url="http://www.ehlxr.me/categories/Git/"/>
           
         </display>
     </data>
@@ -376,23 +354,21 @@
 
     
   <url>
-    <loc>http://www.ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84-Git/</loc>
-    <lastmod>2016-08-04T10:40:47.565Z</lastmod>
+    <loc>http://www.ehlxr.me/2016/07/28/GitHub-%E6%9B%B4%E6%96%B0%E5%B7%B2%E7%BB%8F-fork-%E7%9A%84%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2016-08-04T10:40:47.567Z</lastmod>
     <data>
         <display>
-        <title>CentOS 7 安装最新的 Git</title>
-        <pubTime>2016-07-30T14:12:43.000Z</pubTime>
+        <title>GitHub 更新已经 fork 的项目</title>
+        <pubTime>2016-07-28T02:12:15.000Z</pubTime>
         
         <tag>Git</tag>
          
-        <tag>Liunx</tag>
-         
-        <tag>CentOS</tag>
+        <tag>GitHub</tag>
          
          
            
              
-              <breadCrumb title="Liunx" url="http://www.ehlxr.me/categories/Liunx/"/>
+              <breadCrumb title="Git" url="http://www.ehlxr.me/categories/Git/"/>
           
         </display>
     </data>
@@ -409,7 +385,31 @@
         
         <tag>Liunx</tag>
          
+        <tag>CentOS</tag>
+         
         <tag>Node.js</tag>
+         
+         
+           
+             
+              <breadCrumb title="Liunx" url="http://www.ehlxr.me/categories/Liunx/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84-Git/</loc>
+    <lastmod>2016-08-04T10:40:47.565Z</lastmod>
+    <data>
+        <display>
+        <title>CentOS 7 安装最新的 Git</title>
+        <pubTime>2016-07-30T14:12:43.000Z</pubTime>
+        
+        <tag>Liunx</tag>
+         
+        <tag>Git</tag>
          
         <tag>CentOS</tag>
          
