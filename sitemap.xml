@@ -2,16 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ehlxr.me/2016/09/02/Naruto-Pictures/</loc>
+    <loc>http://ehlxr.me/2016/09/24/Oh-My-Zsh-%E6%9B%BF%E6%8D%A2%E4%BD%A0%E7%9A%84-Bash-Shell/</loc>
     
-    <lastmod>2016-09-22T07:37:04.181Z</lastmod>
+    <lastmod>2016-09-24T14:26:18.824Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://ehlxr.me/about/index.html</loc>
     
-    <lastmod>2016-09-11T00:50:36.212Z</lastmod>
+    <lastmod>2016-09-24T04:37:32.359Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ehlxr.me/2016/07/30/%E8%BD%AC-%E5%B0%86-Centos-%E7%9A%84-yum-%E6%BA%90%E6%9B%B4%E6%94%B9%E4%B8%BA%E5%9B%BD%E5%86%85%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E6%BA%90/</loc>
+    
+    <lastmod>2016-09-24T04:36:26.961Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85-Node-js/</loc>
+    
+    <lastmod>2016-09-24T04:36:11.287Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84-Git/</loc>
+    
+    <lastmod>2016-09-24T04:34:31.353Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ehlxr.me/2016/09/02/Naruto-Pictures/</loc>
+    
+    <lastmod>2016-09-22T07:37:04.181Z</lastmod>
     
   </url>
   
@@ -93,13 +121,6 @@
   </url>
   
   <url>
-    <loc>http://ehlxr.me/2016/07/30/%E8%BD%AC-%E5%B0%86-Centos-%E7%9A%84-yum-%E6%BA%90%E6%9B%B4%E6%94%B9%E4%B8%BA%E5%9B%BD%E5%86%85%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E6%BA%90/</loc>
-    
-    <lastmod>2016-08-04T10:40:47.569Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://ehlxr.me/2016/07/21/%E8%BD%AC-JMS%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</loc>
     
     <lastmod>2016-08-04T10:40:47.569Z</lastmod>
@@ -145,20 +166,6 @@
     <loc>http://ehlxr.me/2016/07/28/GitHub-%E6%9B%B4%E6%96%B0%E5%B7%B2%E7%BB%8F-fork-%E7%9A%84%E9%A1%B9%E7%9B%AE/</loc>
     
     <lastmod>2016-08-04T10:40:47.567Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85-Node-js/</loc>
-    
-    <lastmod>2016-08-04T10:40:47.565Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84-Git/</loc>
-    
-    <lastmod>2016-08-04T10:40:47.565Z</lastmod>
     
   </url>
   

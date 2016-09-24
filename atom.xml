@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ehlxr.me/"/>
-  <updated>2016-09-06T09:21:00.587Z</updated>
+  <updated>2016-09-24T14:26:18.824Z</updated>
   <id>http://ehlxr.me/</id>
   
   <author>
@@ -14,6 +14,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Oh My Zsh 替换你的 Bash Shell</title>
+    <link href="http://ehlxr.me/2016/09/24/Oh-My-Zsh-%E6%9B%BF%E6%8D%A2%E4%BD%A0%E7%9A%84-Bash-Shell/"/>
+    <id>http://ehlxr.me/2016/09/24/Oh-My-Zsh-替换你的-Bash-Shell/</id>
+    <published>2016-09-24T04:31:21.000Z</published>
+    <updated>2016-09-24T14:26:18.824Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>Oh-My-Zsh is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and a few things that make you shout…</p>
+<blockquote class="blockquote-center"><a href="http://ohmyz.sh/" target="_blank" rel="external">Oh My ZSH!</a></blockquote>
+
+</blockquote>
+<p><img src="http://oapjp6spr.bkt.clouddn.com/OMZLogo_BnW.png" alt="Oh My Zsh"></p>
+<h2 id="Oh-My-Zsh-简介"><a href="#Oh-My-Zsh-简介" class="headerlink" title="Oh My Zsh 简介"></a>Oh My Zsh 简介</h2><p>无意中看见了 Linux 的一款 Shell，相比于 Bash 极其美艳，决定入坑试水一下，不试不知道，不仅外观美艳而且功能强大，那还有不替换 Bash 的理由吗？搞起搞起……</p>
+<a id="more"></a>
+<p>Linux 提供了很多种 Shell ，想要查看系统有哪些 Shell 可以通过命令：<code>chsh -l</code> 或者 <code>cat /etc/shells</code> 进行查看。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ cat /etc/shells </div><div class="line">/bin/sh</div><div class="line">/bin/bash</div><div class="line">/sbin/nologin</div><div class="line">/usr/bin/sh</div><div class="line">/usr/bin/bash</div><div class="line">/usr/sbin/nologin</div></pre></td></tr></table></figure>
+<p>其中 Bash 是绝大多数 Linux 系统默认的 Shell，虽然 Zsh Shell 没有被所有 Linux 预安装，但几乎每一款 Linux 都包含 Zsh Shell 常可以用 apt-get、yum 等包管理器进行安装。</p>
+<p>但是我们今天介绍的并非是 Zsh，而是 Oh My Zsh，这是个什么鬼了？虽说 Zsh Shell 很牛逼，但配置相当麻烦，所以阻挡了好多人尝试的勇气（我想这也是为啥 Zsh 不被 Linux 设为默认 Shell 的原因吧），永远不要低估一个爱折腾程序猿的创造力，国外一程序猿真就创造出了一款易于使用的 Zsh 版本：<a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank" rel="external">Oh My Zsh</a></p>
+<p>Oh My Zsh 几乎兼容日常使用的所有 Bash Shell 指令，让你可以无缝接入，不需要再去花额外的时间去适应。当然还扩展了大量炫酷的指令，要不然干嘛用它对吧，而且支持多种主题和大量的插件。下面就开始搞起吧！</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Oh-My-Zsh is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and a few things that make you shout…&lt;/p&gt;
+&lt;blockquote class=&#39;blockquote-center&#39;&gt;&lt;a href=&quot;http://ohmyz.sh/&quot;&gt;Oh My ZSH!&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://oapjp6spr.bkt.clouddn.com/OMZLogo_BnW.png&quot; alt=&quot;Oh My Zsh&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Oh-My-Zsh-简介&quot;&gt;&lt;a href=&quot;#Oh-My-Zsh-简介&quot; class=&quot;headerlink&quot; title=&quot;Oh My Zsh 简介&quot;&gt;&lt;/a&gt;Oh My Zsh 简介&lt;/h2&gt;&lt;p&gt;无意中看见了 Linux 的一款 Shell，相比于 Bash 极其美艳，决定入坑试水一下，不试不知道，不仅外观美艳而且功能强大，那还有不替换 Bash 的理由吗？搞起搞起……&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
+    
+      <category term="Zsh" scheme="http://ehlxr.me/tags/Zsh/"/>
+    
+      <category term="Shell" scheme="http://ehlxr.me/tags/Shell/"/>
+    
+  </entry>
   
   <entry>
     <title>5 分钟搭建 Git 服务器-Gogs</title>
@@ -448,7 +494,7 @@
     <link href="http://ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84-Git/"/>
     <id>http://ehlxr.me/2016/07/30/CentOS-7-安装最新的-Git/</id>
     <published>2016-07-30T14:12:43.000Z</published>
-    <updated>2016-08-04T10:40:47.565Z</updated>
+    <updated>2016-09-24T04:34:31.353Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>yum 源仓库里的 Git 版本更新不及时，最新版本的 Git 是 1.8.3.1，但是官方最新版本已经到了 2.9.2。想要安装最新版本的的 Git，只能下载源码进行安装。</p>
@@ -482,12 +528,12 @@
     
     </summary>
     
-      <category term="Liunx" scheme="http://ehlxr.me/categories/Liunx/"/>
+      <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
-      <category term="Liunx" scheme="http://ehlxr.me/tags/Liunx/"/>
+      <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
@@ -498,7 +544,7 @@
     <link href="http://ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85-Node-js/"/>
     <id>http://ehlxr.me/2016/07/30/CentOS-7-安装-Node-js/</id>
     <published>2016-07-30T08:19:03.000Z</published>
-    <updated>2016-08-04T10:40:47.565Z</updated>
+    <updated>2016-09-24T04:36:11.287Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js® is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js’ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.</a></p>
@@ -554,10 +600,10 @@
     
     </summary>
     
-      <category term="Liunx" scheme="http://ehlxr.me/categories/Liunx/"/>
+      <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
-      <category term="Liunx" scheme="http://ehlxr.me/tags/Liunx/"/>
+      <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
       <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
     
@@ -570,7 +616,7 @@
     <link href="http://ehlxr.me/2016/07/30/%E8%BD%AC-%E5%B0%86-Centos-%E7%9A%84-yum-%E6%BA%90%E6%9B%B4%E6%94%B9%E4%B8%BA%E5%9B%BD%E5%86%85%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E6%BA%90/"/>
     <id>http://ehlxr.me/2016/07/30/转-将-Centos-的-yum-源更改为国内的阿里云源/</id>
     <published>2016-07-30T03:57:59.000Z</published>
-    <updated>2016-08-04T10:40:47.569Z</updated>
+    <updated>2016-09-24T04:36:26.961Z</updated>
     
     <content type="html"><![CDATA[<p>阿里云Linux安装镜像源地址：<a href="http://mirrors.aliyun.com/" target="_blank" rel="external">http://mirrors.aliyun.com/</a></p>
 <p>CentOS系统更换软件安装源</p>
@@ -610,10 +656,10 @@
     
     </summary>
     
-      <category term="Liunx" scheme="http://ehlxr.me/categories/Liunx/"/>
+      <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
-      <category term="Liunx" scheme="http://ehlxr.me/tags/Liunx/"/>
+      <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
