@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[5 分钟搭建 Git 服务器-Gogs]]></title>
-      <url>http://www.ehlxr.me/2016/09/06/5-%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA-Git-%E6%9C%8D%E5%8A%A1%E5%99%A8-Gogs/</url>
+      <url>http://ehlxr.me/2016/09/06/5-%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA-Git-%E6%9C%8D%E5%8A%A1%E5%99%A8-Gogs/</url>
       <content type="html"><![CDATA[<blockquote>
 <p>Gogs 基于 Go 语言的自助 Git 服务。它具有易安装、跨平台、轻量级、开源化等特性…</p>
 </blockquote>
@@ -58,7 +58,7 @@
     
     <entry>
       <title><![CDATA[CentOS中配置Git命令自动补全]]></title>
-      <url>http://www.ehlxr.me/2016/09/04/CentOS%E4%B8%AD%E9%85%8D%E7%BD%AEGit%E5%91%BD%E4%BB%A4%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8/</url>
+      <url>http://ehlxr.me/2016/09/04/CentOS%E4%B8%AD%E9%85%8D%E7%BD%AEGit%E5%91%BD%E4%BB%A4%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8/</url>
       <content type="html"><![CDATA[<h3 id="1-保存以下文件内容为：git-completion-bash"><a href="#1-保存以下文件内容为：git-completion-bash" class="headerlink" title="1. 保存以下文件内容为：git-completion.bash"></a>1. 保存以下文件内容为：<code>git-completion.bash</code></h3><p>　　<a href="https://github.com/git/git/blob/master/contrib/completion/git-completion.bash" target="_blank" rel="external">https://github.com/git/git/blob/master/contrib/completion/git-completion.bash</a></p>
 <h3 id="2-将上述文件git-completion-bash-copy-至个人home目录"><a href="#2-将上述文件git-completion-bash-copy-至个人home目录" class="headerlink" title="2. 将上述文件git-completion.bash copy 至个人home目录"></a>2. 将上述文件<code>git-completion.bash</code> copy 至个人<code>home</code>目录</h3><p>　　可设为隐藏文件以免后续被误删</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ cp git-completion.bash ~/.git-completion.bash</div></pre></td></tr></table></figure>
@@ -72,7 +72,7 @@
     
     <entry>
       <title><![CDATA[Naruto-Pictures]]></title>
-      <url>http://www.ehlxr.me/2016/09/02/Naruto-Pictures/</url>
+      <url>http://ehlxr.me/2016/09/02/Naruto-Pictures/</url>
       <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/18210.jpg" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/196232.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/224147.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/199301.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/213318.jpg" alt=""></div></div></div></div>
 <!-- <audio autoplay="autoplay" loop="loop">
     <source src="http://oapjp6spr.bkt.clouddn.com/%E9%AB%98%E6%A2%A8%E5%BA%B7%E6%B2%BB%20-%20%E5%AD%A4%E7%8B%AC.mp3" />
@@ -83,7 +83,7 @@
     
     <entry>
       <title><![CDATA[使用Hexo基于GitHub Pages搭建个人博客（三）]]></title>
-      <url>http://www.ehlxr.me/2016/08/30/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89/</url>
+      <url>http://ehlxr.me/2016/08/30/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%89%EF%BC%89/</url>
       <content type="html"><![CDATA[<blockquote>
 <p>生命不息，折腾不休。从搭建 blog 以来，博文虽没有写几篇，但折腾的时间花了不少，走过了不少弯路，也踩过了不少的坑，虽然很懒，但本着好记性不如烂笔头的宗旨，打算在折腾记忆尚未磨灭之际记录一下走过的路和踩过的坑…</p>
 </blockquote>
@@ -189,7 +189,7 @@
     
     <entry>
       <title><![CDATA[[转]Java程序员情书]]></title>
-      <url>http://www.ehlxr.me/2016/08/22/%E8%BD%AC-Java%E7%A8%8B%E5%BA%8F%E5%91%98%E6%83%85%E4%B9%A6/</url>
+      <url>http://ehlxr.me/2016/08/22/%E8%BD%AC-Java%E7%A8%8B%E5%BA%8F%E5%91%98%E6%83%85%E4%B9%A6/</url>
       <content type="html"><![CDATA[<p>我能抽象出整个世界．．． </p>
 <p>但是我却不能抽象出你．．． </p>
 <p>你肯定是一个单例，因为你是那样的独一无二… </p>
@@ -224,7 +224,7 @@
     
     <entry>
       <title><![CDATA[CentOS 系统下 GitLab 搭建与基本配置]]></title>
-      <url>http://www.ehlxr.me/2016/07/31/CentOS-%E7%B3%BB%E7%BB%9F%E4%B8%8B-GitLab-%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</url>
+      <url>http://ehlxr.me/2016/07/31/CentOS-%E7%B3%BB%E7%BB%9F%E4%B8%8B-GitLab-%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</url>
       <content type="html"><![CDATA[<blockquote>
 <p><a href="https://about.gitlab.com/" target="_blank" rel="external">GitLab 是一个开源的版本管理系统，提供了类似于 GitHub 的源代码浏览，管理缺陷和注释等功能，你可以将代码免费托管到 GitLab.com，而且不限项目数量和成员数。最吸引人的一点是，可以在自己的服务器上搭建 GitLab CE （社区免费版）版本，方便内部团队协作开发和代码管理。</a></p>
 </blockquote>
@@ -298,7 +298,7 @@
     
     <entry>
       <title><![CDATA[CentOS 7 安装最新的 Git]]></title>
-      <url>http://www.ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84-Git/</url>
+      <url>http://ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84-Git/</url>
       <content type="html"><![CDATA[<blockquote>
 <p>yum 源仓库里的 Git 版本更新不及时，最新版本的 Git 是 1.8.3.1，但是官方最新版本已经到了 2.9.2。想要安装最新版本的的 Git，只能下载源码进行安装。</p>
 </blockquote>
@@ -323,7 +323,7 @@
     
     <entry>
       <title><![CDATA[CentOS 7 安装 Node.js]]></title>
-      <url>http://www.ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85-Node-js/</url>
+      <url>http://ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85-Node-js/</url>
       <content type="html"><![CDATA[<blockquote>
 <p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js® is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js’ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.</a></p>
 </blockquote>
@@ -368,7 +368,7 @@
     
     <entry>
       <title><![CDATA[[转]将 Centos 的 yum 源更改为国内的阿里云源]]></title>
-      <url>http://www.ehlxr.me/2016/07/30/%E8%BD%AC-%E5%B0%86-Centos-%E7%9A%84-yum-%E6%BA%90%E6%9B%B4%E6%94%B9%E4%B8%BA%E5%9B%BD%E5%86%85%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E6%BA%90/</url>
+      <url>http://ehlxr.me/2016/07/30/%E8%BD%AC-%E5%B0%86-Centos-%E7%9A%84-yum-%E6%BA%90%E6%9B%B4%E6%94%B9%E4%B8%BA%E5%9B%BD%E5%86%85%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E6%BA%90/</url>
       <content type="html"><![CDATA[<p>阿里云Linux安装镜像源地址：<a href="http://mirrors.aliyun.com/" target="_blank" rel="external">http://mirrors.aliyun.com/</a></p>
 <p>CentOS系统更换软件安装源</p>
 <ul>
@@ -399,7 +399,7 @@
     
     <entry>
       <title><![CDATA[Oracle 与 MySQL 知识总结]]></title>
-      <url>http://www.ehlxr.me/2016/07/28/Oracle-%E4%B8%8E-MySQL-%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</url>
+      <url>http://ehlxr.me/2016/07/28/Oracle-%E4%B8%8E-MySQL-%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</url>
       <content type="html"><![CDATA[<blockquote>
 <p>对日常工作中使用 Oracle 和 MySQL 数据库知识对比总结。</p>
 </blockquote>
@@ -702,7 +702,7 @@
     
     <entry>
       <title><![CDATA[GitHub 更新已经 fork 的项目]]></title>
-      <url>http://www.ehlxr.me/2016/07/28/GitHub-%E6%9B%B4%E6%96%B0%E5%B7%B2%E7%BB%8F-fork-%E7%9A%84%E9%A1%B9%E7%9B%AE/</url>
+      <url>http://ehlxr.me/2016/07/28/GitHub-%E6%9B%B4%E6%96%B0%E5%B7%B2%E7%BB%8F-fork-%E7%9A%84%E9%A1%B9%E7%9B%AE/</url>
       <content type="html"><![CDATA[<p>GitHub 上有个很方便的功能叫 fork，将别人的工程一键复制到自己账号下。这个功能很方便，但有点不足的是，当源项目更新后，你 fork 的分支并不会一起更新，需要自己手动去更新，下面记录下网上找到的更新的开发方法。</p>
 <h3 id="1-在本地装好-GitHub-客户端，或者-Git-客户端"><a href="#1-在本地装好-GitHub-客户端，或者-Git-客户端" class="headerlink" title="1. 在本地装好 GitHub 客户端，或者 Git 客户端"></a>1. 在本地装好 GitHub 客户端，或者 Git 客户端</h3><h3 id="2-clone-自己的-fork-分支到本地"><a href="#2-clone-自己的-fork-分支到本地" class="headerlink" title="2. clone 自己的 fork 分支到本地"></a>2. clone 自己的 fork 分支到本地</h3><p>　可以直接使用 GitHub 客户端，clone 到本地，如果使用命令行，命令为：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone git@github.com:ehlxr/strman-java.git</div></pre></td></tr></table></figure>
@@ -723,7 +723,7 @@
     
     <entry>
       <title><![CDATA[Sublime Text 插件安装]]></title>
-      <url>http://www.ehlxr.me/2016/07/25/Sublime-Text-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</url>
+      <url>http://ehlxr.me/2016/07/25/Sublime-Text-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</url>
       <content type="html"><![CDATA[<blockquote>
 <p>Sublime Text 官方介绍：</p>
 <blockquote>
@@ -751,7 +751,7 @@
     
     <entry>
       <title><![CDATA[Git 同时 push 到多个远程仓库]]></title>
-      <url>http://www.ehlxr.me/2016/07/24/Git-%E5%90%8C%E6%97%B6-push-%E5%88%B0%E5%A4%9A%E4%B8%AA%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/</url>
+      <url>http://ehlxr.me/2016/07/24/Git-%E5%90%8C%E6%97%B6-push-%E5%88%B0%E5%A4%9A%E4%B8%AA%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/</url>
       <content type="html"><![CDATA[<ul>
 <li><h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3></li>
 </ul>
@@ -779,7 +779,7 @@
     
     <entry>
       <title><![CDATA[使用Hexo基于GitHub Pages搭建个人博客（二）]]></title>
-      <url>http://www.ehlxr.me/2016/07/23/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+      <url>http://ehlxr.me/2016/07/23/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
       <content type="html"><![CDATA[<blockquote>
 <p>上一篇介绍了 GitHub Pages 服务开启，这篇文章将介绍 Hexo 的安装和使用以及将博客部署到 GitHub Pages 的操作。</p>
 <blockquote>
@@ -850,7 +850,7 @@
     
     <entry>
       <title><![CDATA[使用Hexo基于GitHub Pages搭建个人博客（一）]]></title>
-      <url>http://www.ehlxr.me/2016/07/23/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+      <url>http://ehlxr.me/2016/07/23/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89/</url>
       <content type="html"><![CDATA[<blockquote>
 <p>GitHub Pages 是 GitHub 提供的免费开源的静态站点托管服务，利用这个服务可以搭建轻量级的博客系统，本文介绍了如何使用 Hexo 结合 GitHub Pages 服务搭建个人博客。</p>
 </blockquote>
@@ -938,7 +938,7 @@
     
     <entry>
       <title><![CDATA[[转]JMS基本概念]]></title>
-      <url>http://www.ehlxr.me/2016/07/21/%E8%BD%AC-JMS%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</url>
+      <url>http://ehlxr.me/2016/07/21/%E8%BD%AC-JMS%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</url>
       <content type="html"><![CDATA[<p>JMS（JAVA Message Service,java消息服务）API是一个消息服务的标准或者说是规范，允许应用程序组件基于JavaEE平台创建、发送、接收和读取消息。它使分布式通信耦合度更低，消息服务更加可靠以及异步性。</p>
 <h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>JMS是java的消息服务，JMS的客户端之间可以通过JMS服务进行异步的消息传输。</p>
 <h2 id="消息模型"><a href="#消息模型" class="headerlink" title="消息模型"></a>消息模型</h2><ul>
@@ -1020,7 +1020,7 @@
     
     <entry>
       <title><![CDATA[Java List与数组之间的转换]]></title>
-      <url>http://www.ehlxr.me/2016/07/20/Java-List%E4%B8%8E%E6%95%B0%E7%BB%84%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BD%AC%E6%8D%A2/</url>
+      <url>http://ehlxr.me/2016/07/20/Java-List%E4%B8%8E%E6%95%B0%E7%BB%84%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BD%AC%E6%8D%A2/</url>
       <content type="html"><![CDATA[<h3 id="1-数组转换为List"><a href="#1-数组转换为List" class="headerlink" title="1. 数组转换为List"></a>1. 数组转换为List</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">String[] arr = <span class="keyword">new</span> String[] &#123;<span class="string">"str1"</span>, <span class="string">"str2"</span>&#125;;</div><div class="line">List&lt;String&gt; list = Arrays.asList(arr);</div></pre></td></tr></table></figure>
 <a id="more"></a>
 <h3 id="2-List转换为数组"><a href="#2-List转换为数组" class="headerlink" title="2 .List转换为数组"></a>2 .List转换为数组</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">List&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;();</div><div class="line">list.add(<span class="string">"str1"</span>);</div><div class="line">list.add(<span class="string">"str2"</span>);</div><div class="line"><span class="keyword">int</span> size = list.size();</div><div class="line">String[] arr = list.toArray(<span class="keyword">new</span> String[size]);</div></pre></td></tr></table></figure>]]></content>
@@ -1028,7 +1028,7 @@
     
     <entry>
       <title><![CDATA[MySQL日期函数]]></title>
-      <url>http://www.ehlxr.me/2016/07/20/MySQL%E6%97%A5%E6%9C%9F%E5%87%BD%E6%95%B0/</url>
+      <url>http://ehlxr.me/2016/07/20/MySQL%E6%97%A5%E6%9C%9F%E5%87%BD%E6%95%B0/</url>
       <content type="html"><![CDATA[<h4 id="1-取得当天："><a href="#1-取得当天：" class="headerlink" title="1. 取得当天："></a>1. 取得当天：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">mysql&gt; SELECT curdate();</div><div class="line">+------------+</div><div class="line">| curdate()  |</div><div class="line">+------------+</div><div class="line">| 2013-07-29 |</div><div class="line">+------------+</div></pre></td></tr></table></figure>
 <h4 id="2-取得当前日期："><a href="#2-取得当前日期：" class="headerlink" title="2. 取得当前日期："></a>2. 取得当前日期：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">mysql&gt; select sysdate();</div><div class="line">+---------------------+</div><div class="line">| sysdate()           |</div><div class="line">+---------------------+</div><div class="line">| 2016-05-30 13:58:17 |</div><div class="line">+---------------------+</div><div class="line">1 row in set</div><div class="line"></div><div class="line">mysql&gt; select now();</div><div class="line">+---------------------+</div><div class="line">| now()               |</div><div class="line">+---------------------+</div><div class="line">| 2016-05-30 13:58:29 |</div><div class="line">+---------------------+</div><div class="line">1 row in set</div></pre></td></tr></table></figure>
 <a id="more"></a>
@@ -1045,7 +1045,7 @@
     
     <entry>
       <title><![CDATA[开始blog，哈哈]]></title>
-      <url>http://www.ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</url>
+      <url>http://ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</url>
       <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</div><div class="line">    System.out.println(<span class="string">"hello world"</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 ]]></content>
     </entry>
