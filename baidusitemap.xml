@@ -104,11 +104,11 @@
         <title>CentOS 7 安装最新的 Git</title>
         <pubTime>2016-07-30T14:12:43.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>Linux</tag>
          
         <tag>CentOS</tag>
+         
+        <tag>Git</tag>
          
          
            
@@ -151,9 +151,9 @@
         <title>5 分钟搭建 Git 服务器-Gogs</title>
         <pubTime>2016-09-06T04:15:14.000Z</pubTime>
         
-        <tag>Gogs</tag>
-         
         <tag>Git</tag>
+         
+        <tag>Gogs</tag>
          
          
            
@@ -173,9 +173,9 @@
         <title>CentOS 系统下 GitLab 搭建与基本配置</title>
         <pubTime>2016-07-31T10:15:47.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>CentOS</tag>
+         
+        <tag>Git</tag>
          
         <tag>GitLab</tag>
          
@@ -243,9 +243,9 @@
         <title>CentOS 中配置 Git 命令自动补全</title>
         <pubTime>2016-09-04T02:03:35.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>CentOS</tag>
+         
+        <tag>Git</tag>
          
          
            
@@ -300,26 +300,6 @@
     
     
   <url>
-    <loc>http://ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</loc>
-    <lastmod>2016-08-04T10:40:47.569Z</lastmod>
-    <data>
-        <display>
-        <title>开始blog，哈哈</title>
-        <pubTime>2016-07-19T09:16:17.000Z</pubTime>
-        
-        <tag>hello</tag>
-         
-         
-           
-             
-              <breadCrumb title="杂谈" url="http://ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://ehlxr.me/2016/07/21/%E8%BD%AC-JMS%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</loc>
     <lastmod>2016-08-04T10:40:47.569Z</lastmod>
     <data>
@@ -335,6 +315,26 @@
            
              
               <breadCrumb title="Java开发技术" url="http://ehlxr.me/categories/Java%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</loc>
+    <lastmod>2016-08-04T10:40:47.569Z</lastmod>
+    <data>
+        <display>
+        <title>开始blog，哈哈</title>
+        <pubTime>2016-07-19T09:16:17.000Z</pubTime>
+        
+        <tag>hello</tag>
+         
+         
+           
+             
+              <breadCrumb title="杂谈" url="http://ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
           
         </display>
     </data>
