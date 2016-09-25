@@ -207,7 +207,7 @@
     <link href="http://ehlxr.me/2016/09/02/Naruto-Pictures/"/>
     <id>http://ehlxr.me/2016/09/02/Naruto-Pictures/</id>
     <published>2016-09-02T06:36:04.000Z</published>
-    <updated>2016-09-22T07:37:04.181Z</updated>
+    <updated>2016-09-25T08:51:30.932Z</updated>
     
     <content type="html"><![CDATA[<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/18210.jpg" alt=""></div><div class="group-picture-column" style="width: 50%;"><img src="http://oapjp6spr.bkt.clouddn.com/196232.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/224147.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/199301.jpg" alt=""></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://oapjp6spr.bkt.clouddn.com/213318.jpg" alt=""></div></div></div></div>
 <!-- <audio autoplay="autoplay" loop="loop">
@@ -564,9 +564,9 @@
     
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
@@ -634,11 +634,11 @@
       <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
       <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
@@ -690,9 +690,9 @@
       <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
