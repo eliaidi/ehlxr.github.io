@@ -108,8 +108,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[CentOS中配置Git命令自动补全]]></title>
-      <url>http://ehlxr.me/2016/09/04/CentOS%E4%B8%AD%E9%85%8D%E7%BD%AEGit%E5%91%BD%E4%BB%A4%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8/</url>
+      <title><![CDATA[CentOS 中配置 Git 命令自动补全]]></title>
+      <url>http://ehlxr.me/2016/09/04/CentOS-%E4%B8%AD%E9%85%8D%E7%BD%AE-Git-%E5%91%BD%E4%BB%A4%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8/</url>
       <content type="html"><![CDATA[<h3 id="1-保存以下文件内容为：git-completion-bash"><a href="#1-保存以下文件内容为：git-completion-bash" class="headerlink" title="1. 保存以下文件内容为：git-completion.bash"></a>1. 保存以下文件内容为：<code>git-completion.bash</code></h3><p>　　<a href="https://github.com/git/git/blob/master/contrib/completion/git-completion.bash" target="_blank" rel="external">https://github.com/git/git/blob/master/contrib/completion/git-completion.bash</a></p>
 <h3 id="2-将上述文件git-completion-bash-copy-至个人home目录"><a href="#2-将上述文件git-completion-bash-copy-至个人home目录" class="headerlink" title="2. 将上述文件git-completion.bash copy 至个人home目录"></a>2. 将上述文件<code>git-completion.bash</code> copy 至个人<code>home</code>目录</h3><p>　　可设为隐藏文件以免后续被误删</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ cp git-completion.bash ~/.git-completion.bash</div></pre></td></tr></table></figure>
