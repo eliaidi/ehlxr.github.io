@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ehlxr.me/"/>
-  <updated>2016-09-25T06:49:14.622Z</updated>
+  <updated>2016-09-27T14:09:24.232Z</updated>
   <id>http://ehlxr.me/</id>
   
   <author>
@@ -14,6 +14,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>闲言碎语，不知所云...</title>
+    <link href="http://ehlxr.me/2016/09/26/%E9%97%B2%E8%A8%80%E7%A2%8E%E8%AF%AD%EF%BC%8C%E4%B8%8D%E7%9F%A5%E6%89%80%E4%BA%91/"/>
+    <id>http://ehlxr.me/2016/09/26/闲言碎语，不知所云/</id>
+    <published>2016-09-26T11:34:18.000Z</published>
+    <updated>2016-09-27T14:09:24.232Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>闲言碎语，不知所云，乱七八糟，聊以自慰…</p>
+</blockquote>
+<p>搭建博客有一段时间了，记录总结的基本都是技术相关的，对于一个有强迫症加语文学的不好的人来说，总结技术文章太痛苦了，总结一篇文章得纠结好久，总觉得组织的语言不够恰当准确，每次都是改了又改，反复琢磨，怎奈肚子里的墨水实在是少的可怜，真是羡慕那些可以把自己心里所想的东西用文字能够表达很清楚的人。</p>
+<p>说到底还是看的东西少，缺少写东西的锻炼，青春迷茫的时候有大把机会可以利用，可惜都不知道把时间用在了哪儿，等慢慢想要沉淀的时候才发现工作和生活中琐碎已经占据了所有的时间。但不管怎样，从此刻启程，做一些自己想要做的事儿，我想应该不会太晚吧！</p>
+<a id="more"></a>
+<p>搭建 Hexo 博客的初衷之一是觉得对于身为码农的我来说，Hexo 好玩，有新鲜感，对于非码农来说有一定的门槛（显的逼格高）。之二就是书写简单，不必局限于单一的编辑工具，少了刻意去追求排版样式烦恼。之三是觉得安全可靠，文章资源一切都可以掌控与自己，不必担心丢失，之前也买过 VPS 摆弄过 WordPress ，最后 VPS 租期到了，那段时间忙于找工作，博客的内容也没有及时保存下来，虽说博客没多少东西，但始终觉得有些遗憾…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;闲言碎语，不知所云，乱七八糟，聊以自慰…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;搭建博客有一段时间了，记录总结的基本都是技术相关的，对于一个有强迫症加语文学的不好的人来说，总结技术文章太痛苦了，总结一篇文章得纠结好久，总觉得组织的语言不够恰当准确，每次都是改了又改，反复琢磨，怎奈肚子里的墨水实在是少的可怜，真是羡慕那些可以把自己心里所想的东西用文字能够表达很清楚的人。&lt;/p&gt;
+&lt;p&gt;说到底还是看的东西少，缺少写东西的锻炼，青春迷茫的时候有大把机会可以利用，可惜都不知道把时间用在了哪儿，等慢慢想要沉淀的时候才发现工作和生活中琐碎已经占据了所有的时间。但不管怎样，从此刻启程，做一些自己想要做的事儿，我想应该不会太晚吧！&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="杂谈" scheme="http://ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="杂谈" scheme="http://ehlxr.me/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
   
   <entry>
     <title>Oh My Zsh 替换你的 Bash Shell</title>
@@ -162,9 +195,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
-    
       <category term="Gogs" scheme="http://ehlxr.me/tags/Gogs/"/>
+    
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -196,9 +229,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
@@ -512,9 +545,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
       <category term="GitLab" scheme="http://ehlxr.me/tags/GitLab/"/>
     
@@ -562,11 +595,11 @@
       <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -636,9 +669,9 @@
     
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
-      <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
-    
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
     
   </entry>
   
@@ -1548,29 +1581,6 @@
     
     
       <category term="MySQL" scheme="http://ehlxr.me/tags/MySQL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>开始blog，哈哈</title>
-    <link href="http://ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/"/>
-    <id>http://ehlxr.me/2016/07/19/开始blog，哈哈/</id>
-    <published>2016-07-19T09:16:17.000Z</published>
-    <updated>2016-08-04T10:40:47.569Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</div><div class="line">    System.out.println(<span class="string">"hello world"</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div
-    
-    </summary>
-    
-      <category term="杂谈" scheme="http://ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
-    
-    
-      <category term="hello" scheme="http://ehlxr.me/tags/hello/"/>
     
   </entry>
   
