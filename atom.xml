@@ -230,9 +230,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
@@ -384,7 +384,7 @@
 <p>修改 <code>sidebar-author.styl</code> 文件中 <code>.site-author-image</code> CSS 样式如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line">.site-author-image &#123;</div><div class="line">  display: block;</div><div class="line">  margin: 0 auto;</div><div class="line">  padding: $site-author-image-padding;</div><div class="line">  max-width: $site-author-image-width;</div><div class="line">  height: $site-author-image-height;</div><div class="line">  border: $site-author-image-border-width solid $site-author-image-border-color;</div><div class="line"></div><div class="line">  /*头像圆形*/</div><div class="line">  border-radius: 80px;</div><div class="line">  -webkit-border-radius: 80px;</div><div class="line">  -moz-border-radius: 80px;</div><div class="line">  box-shadow: inset 0 -1px 0 #333sf;</div><div class="line">  -webkit-transition: 0.6s;</div><div class="line">  -webkit-transition: -webkit-transform 0.6s ease-out;</div><div class="line">  transition: transform 0.4s ease-out;</div><div class="line">  -moz-transition: -moz-transform 0.6s ease-out;</div><div class="line"></div><div class="line">  /* 设置默认样式，开启3d硬件加速 */</div><div class="line">  -webkit-transform: translate3d(0, 0, 0);</div><div class="line">  -moz-transform: translate3d(0, 0, 0);</div><div class="line">  transform: translate3d(0, 0, 0);</div><div class="line">  /* 设置动画，animation:动画名称 动画播放时长单位秒或微秒 </div><div class="line">  动画播放的速度曲线linear为匀速 动画播放次数infinite为循环播放; */</div><div class="line">  -webkit-animation: play 3s linear infinite;</div><div class="line">  -moz-animation: play 3s linear infinite;</div><div class="line">  animation: play 3s linear infinite;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>鼠标经过停止旋转：修改 <code>sidebar-author.styl</code> 文件，添加 CSS 样式 <code>img:hover</code> 如下代码：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">/* 鼠标经过停止头像旋转 */</div><div class="line">img:hover &#123;</div><div class="line">  -webkit-animation: none;</div><div class="line">  -moz-animation: none;</div><div class="line">  animation: none;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">/* 鼠标经过停止头像旋转 */</div><div class="line">img:hover &#123;</div><div class="line">  -webkit-animation-play-state:paused;</div><div class="line">  animation-play-state:paused;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>完整 sidebar-author.styl 文件<a href="https://github.com/ehlxr/ehlxr-Hexo/blob/master/themes/next/source/css/_common/components/sidebar/sidebar-author.styl" target="_blank" rel="external">参考地址</a>。</p>
 </li>
 </ol>
@@ -563,9 +563,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
       <category term="GitLab" scheme="http://ehlxr.me/tags/GitLab/"/>
     
@@ -613,11 +613,11 @@
       <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
   </entry>
   
