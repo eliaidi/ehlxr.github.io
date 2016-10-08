@@ -1,6 +1,6 @@
 # 基于Hexo搭建的个人博客托管
 
-## 博文地址：[http://www.ehlxr.me][1]
+## 博文地址：[http://ehlxr.me][1]
 
 ## 站点预览
 
@@ -9,5 +9,5 @@
 ----------
 
 
-  [1]: http://www.ehlxr.me
+  [1]: http://ehlxr.me
   [2]: images/home-me.png

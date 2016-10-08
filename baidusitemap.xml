@@ -102,9 +102,9 @@
         
         <tag>Linux</tag>
          
-        <tag>Node.js</tag>
-         
         <tag>CentOS</tag>
+         
+        <tag>Node.js</tag>
          
          
            
@@ -126,9 +126,9 @@
         
         <tag>Linux</tag>
          
-        <tag>CentOS</tag>
-         
         <tag>Git</tag>
+         
+        <tag>CentOS</tag>
          
          
            
@@ -171,9 +171,9 @@
         <title>5 分钟搭建 Git 服务器-Gogs</title>
         <pubTime>2016-09-06T04:15:14.000Z</pubTime>
         
-        <tag>Gogs</tag>
-         
         <tag>Git</tag>
+         
+        <tag>Gogs</tag>
          
          
            
@@ -193,9 +193,9 @@
         <title>CentOS 系统下 GitLab 搭建与基本配置</title>
         <pubTime>2016-07-31T10:15:47.000Z</pubTime>
         
-        <tag>CentOS</tag>
-         
         <tag>Git</tag>
+         
+        <tag>CentOS</tag>
          
         <tag>GitLab</tag>
          
@@ -263,9 +263,9 @@
         <title>CentOS 中配置 Git 命令自动补全</title>
         <pubTime>2016-09-04T02:03:35.000Z</pubTime>
         
-        <tag>CentOS</tag>
-         
         <tag>Git</tag>
+         
+        <tag>CentOS</tag>
          
          
            
@@ -362,6 +362,26 @@
 
     
   <url>
+    <loc>http://ehlxr.me/2016/07/25/Sublime-Text-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2016-08-04T10:40:47.568Z</lastmod>
+    <data>
+        <display>
+        <title>Sublime Text 插件安装</title>
+        <pubTime>2016-07-25T13:06:57.000Z</pubTime>
+        
+        <tag>Sublime</tag>
+         
+         
+           
+             
+              <breadCrumb title="开发工具" url="http://ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://ehlxr.me/2016/07/28/Oracle-%E4%B8%8E-MySQL-%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2016-08-04T10:40:47.568Z</lastmod>
     <data>
@@ -397,26 +417,6 @@
            
              
               <breadCrumb title="SQL" url="http://ehlxr.me/categories/SQL/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://ehlxr.me/2016/07/25/Sublime-Text-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</loc>
-    <lastmod>2016-08-04T10:40:47.568Z</lastmod>
-    <data>
-        <display>
-        <title>Sublime Text 插件安装</title>
-        <pubTime>2016-07-25T13:06:57.000Z</pubTime>
-        
-        <tag>Sublime</tag>
-         
-         
-           
-             
-              <breadCrumb title="开发工具" url="http://ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
           
         </display>
     </data>
