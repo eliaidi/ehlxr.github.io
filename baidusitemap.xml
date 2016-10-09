@@ -320,6 +320,26 @@
     
     
   <url>
+    <loc>http://ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</loc>
+    <lastmod>2016-08-04T10:40:47.569Z</lastmod>
+    <data>
+        <display>
+        <title>开始blog，哈哈</title>
+        <pubTime>2016-07-19T09:16:17.000Z</pubTime>
+        
+        <tag>hello</tag>
+         
+         
+           
+             
+              <breadCrumb title="杂谈" url="http://ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://ehlxr.me/2016/07/21/%E8%BD%AC-JMS%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</loc>
     <lastmod>2016-08-04T10:40:47.569Z</lastmod>
     <data>
@@ -335,26 +355,6 @@
            
              
               <breadCrumb title="Java开发技术" url="http://ehlxr.me/categories/Java%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</loc>
-    <lastmod>2016-08-04T10:40:47.569Z</lastmod>
-    <data>
-        <display>
-        <title>开始blog，哈哈</title>
-        <pubTime>2016-07-19T09:16:17.000Z</pubTime>
-        
-        <tag>hello</tag>
-         
-         
-           
-             
-              <breadCrumb title="杂谈" url="http://ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
           
         </display>
     </data>
