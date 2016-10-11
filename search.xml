@@ -10,16 +10,11 @@
 <p><strong>这个独特的设计是什么样的呢？</strong></p>
 <p>首先让我们看几个基本的消息系统术语：</p>
 <ul>
-<li><p>Kafka 将消息以 topic 为单位进行归纳</p>
-</li>
-<li><p>将向 Kafka topic 发布消息的程序成为 producers</p>
-</li>
-<li><p>将预订 topics 并消费消息的程序成为 consumer</p>
-</li>
-<li><p>Kafka 以集群的方式运行，可以由一个或多个服务组成，每个服务叫做一个 broker</p>
-</li>
-<li><p>producers 通过网络将消息发送到 Kafka集群，集群向消费者提供消息，如下图所示：</p>
-</li>
+<li>Kafka 将消息以 topic 为单位进行归纳</li>
+<li>将向 Kafka topic 发布消息的程序成为 producers</li>
+<li>将预订 topics 并消费消息的程序成为 consumer</li>
+<li>Kafka 以集群的方式运行，可以由一个或多个服务组成，每个服务叫做一个 broker</li>
+<li>producers 通过网络将消息发送到 Kafka集群，集群向消费者提供消息，如下图所示：</li>
 </ul>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20161009001.png" alt=""></p>
 <a id="more"></a>
@@ -37,10 +32,8 @@
 <h2 id="Producers"><a href="#Producers" class="headerlink" title="Producers"></a>Producers</h2><p>Producer 将消息发布到它指定的 topic 中,并负责决定发布到哪个分区。通常简单的由负载均衡机制随机选择分区，但也可以通过特定的分区函数选择分区。使用的更多的是第二种。</p>
 <h2 id="Consumers"><a href="#Consumers" class="headerlink" title="Consumers"></a>Consumers</h2><p>发布消息通常有两种模式：队列模式（queuing）和发布-订阅模式（publish-subscribe）。</p>
 <ul>
-<li><p>队列模式中 consumers 可以同时从服务端读取消息，每个消息只被其中一个 consumer 读到。</p>
-</li>
-<li><p>发布-订阅模式中消息被广播到所有的 consumer 中。</p>
-</li>
+<li>队列模式中 consumers 可以同时从服务端读取消息，每个消息只被其中一个 consumer 读到。</li>
+<li>发布-订阅模式中消息被广播到所有的 consumer 中。</li>
 </ul>
 <p>Consumers 可以加入一个 consumer 组，共同竞争一个 topic，topic 中的消息将被分发到组中的一个成员中。同一组中的 consumer 可以在不同的程序中，也可以在不同的机器上。如果所有的 consumer 都在一个组中，这就成为了传统的队列模式，在各 consumer 中实现负载均衡。如果所有的 consumer 都不在不同的组中，这就成为了发布-订阅模式，所有的消息都被分发到所有的 consumer 中。更常见的是，每个 topic 都有若干数量的 consumer 组，每个组都是一个逻辑上的 “订阅者”，为了容错和更好的稳定性，每个组由若干 consumer 组成。这其实就是一个发布-订阅模式，只不过订阅者是个组而不是单个consumer。</p>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20161009003.png" alt="由两个机器组成的集群拥有 4 个分区（P0 - P3）2 个 consumer 组。A 组有两个 consumer，B 组有 4 个 consumer"></p>
@@ -83,12 +76,9 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ bin/kafka-topics.sh --describe --zookeeper localhost:2181 --topic my-replicated-topic</div></pre></td></tr></table></figure>
 <p>下面解释一下这些输出。第一行是对所有分区的一个描述，然后每个分区都会对应一行，因为我们只有一个分区所以下面就只加了一行。</p>
 <ul>
-<li><p>leader：负责处理消息的读和写，leader是从所有节点中随机选择的。</p>
-</li>
-<li><p>replicas：列出了所有的副本节点，不管节点是否在服务中。</p>
-</li>
-<li><p>isr：是正在服务中的节点。</p>
-</li>
+<li>leader：负责处理消息的读和写，leader是从所有节点中随机选择的。</li>
+<li>replicas：列出了所有的副本节点，不管节点是否在服务中。</li>
+<li>isr：是正在服务中的节点。</li>
 </ul>
 <p>在我们的例子中，节点 1 是作为 leader 运行。</p>
 <p>向 topic 发送消息：</p>
@@ -100,9 +90,9 @@
 <p>测试一下容错能力，Broker 1 作为 leader 运行，现在我们 kill 掉它：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ ps | grep server-1.properties7564 ttys002    0:15.91 /System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/bin/java...</div><div class="line">$ <span class="built_in">kill</span> -9 7564</div></pre></td></tr></table></figure>
 <p>另外一个节点被选做了 leader，node 1 不再出现在 in-sync 副本列表中：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ bin/kafka-topics.sh --describe --zookeeper localhost:218192 --topic my-replicated-topic</div><div class="line"></div><div class="line">Topic:my-replicated-topic       PartitionCount:1        ReplicationFactor:3     Configs:</div><div class="line"></div><div class="line">Topic: my-replicated-topic      Partition: 0    Leader: 2       Replicas: 1,2,0 Isr: 2,0</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ bin/kafka-topics.sh --describe --zookeeper localhost:218192 --topic my-replicated-topic</div><div class="line"></div><div class="line">Topic:my-replicated-topic       PartitionCount:1        ReplicationFactor:3     Configs:</div><div class="line">Topic: my-replicated-topic      Partition: 0    Leader: 2       Replicas: 1,2,0 Isr: 2,0</div></pre></td></tr></table></figure>
 <p>虽然最初负责续写消息的 leader down 掉了，但之前的消息还是可以消费的：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$ bin/kafka-console-consumer.sh --zookeeper localhost:2181 --from-beginning --topic my-replicated-topic</div><div class="line">...</div><div class="line"></div><div class="line">my <span class="built_in">test</span> message 1</div><div class="line"></div><div class="line">my <span class="built_in">test</span> message 2</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ bin/kafka-console-consumer.sh --zookeeper localhost:2181 --from-beginning --topic my-replicated-topic</div><div class="line">...</div><div class="line">my <span class="built_in">test</span> message 1</div><div class="line">my <span class="built_in">test</span> message 2</div></pre></td></tr></table></figure>
 <p>看来 Kafka 的容错机制还是不错的。</p>
 <h1 id="三、搭建Kafka开发环境"><a href="#三、搭建Kafka开发环境" class="headerlink" title="三、搭建Kafka开发环境"></a>三、搭建Kafka开发环境</h1><p>我们搭建了 kafka 的服务器，并可以使用 Kafka 的命令行工具创建 topic，发送和接收消息。下面我们来搭建 kafka 的开发环境。</p>
 <h2 id="添加依赖"><a href="#添加依赖" class="headerlink" title="添加依赖"></a>添加依赖</h2><p>搭建开发环境需要引入 kafka 的 jar 包，一种方式是将 Kafka 安装包中 lib 下的 jar 包加入到项目的 classpath 中，这种比较简单了。不过我们使用另一种更加流行的方式：使用 maven 管理 jar 包依赖。</p>
@@ -121,12 +111,10 @@
 <h1 id="四、数据持久化"><a href="#四、数据持久化" class="headerlink" title="四、数据持久化"></a>四、数据持久化</h1><h2 id="不要畏惧文件系统"><a href="#不要畏惧文件系统" class="headerlink" title="不要畏惧文件系统!"></a>不要畏惧文件系统!</h2><p>Kafka 大量依赖文件系统去存储和缓存消息。对于硬盘有个传统的观念是硬盘总是很慢，这使很多人怀疑基于文件系统的架构能否提供优异的性能。实际上硬盘的快慢完全取决于使用它的方式。设计良好的硬盘架构可以和内存一样快。</p>
 <p>在 6 块 7200 转的 SATA RAID-5 磁盘阵列的线性写速度差不多是 600MB/s，但是随即写的速度却是 100k/s，差了差不多6000倍。现代的操作系统都对次做了大量的优化，使用了 read-ahead 和 write-behind 的技巧，读取的时候成块的预读取数据，写的时候将各种微小琐碎的逻辑写入组织合并成一次较大的物理写入。对此的深入讨论可以查看这里，它们发现线性的访问磁盘，很多时候比随机的内存访问快得多。</p>
 <p>为了提高性能，现代操作系统往往使用内存作为磁盘的缓存，现代操作系统乐于把所有空闲内存用作磁盘缓存，虽然这可能在缓存回收和重新分配时牺牲一些性能。所有的磁盘读写操作都会经过这个缓存，这不太可能被绕开除非直接使用 I/O。所以虽然每个程序都在自己的线程里只缓存了一份数据，但在操作系统的缓存里还有一份，这等于存了两份数据。</p>
-<p><strong>另外再来讨论一下 JVM,以下两个事实是众所周知的：</strong></p>
+<p><strong>另外再来讨论一下 JVM，以下两个事实是众所周知的：</strong></p>
 <ul>
-<li><p>Java对象占用空间是非常大的，差不多是要存储的数据的两倍甚至更高。</p>
-</li>
-<li><p>随着堆中数据量的增加，垃圾回收回变的越来越困难。</p>
-</li>
+<li>Java对象占用空间是非常大的，差不多是要存储的数据的两倍甚至更高。</li>
+<li>随着堆中数据量的增加，垃圾回收回变的越来越困难。</li>
 </ul>
 <p>基于以上分析，如果把数据缓存在内存里，因为需要存储两份，不得不使用两倍的内存空间，Kafka 基于 JVM，又不得不将空间再次加倍,再加上要避免 GC 带来的性能影响，在一个 32G 内存的机器上，不得不使用到 28-30G 的内存空间。并且当系统重启的时候，又必须要将数据刷到内存中（10GB 内存差不多要用10分钟），就算使用冷刷新（不是一次性刷进内存，而是在使用数据的时候没有就刷到内存）也会导致最初的时候新能非常慢。但是使用文件系统，即使系统重启了，也不需要刷新数据。使用文件系统也简化了维护数据一致性的逻辑。</p>
 <p>所以与传统的将数据缓存在内存中然后刷到硬盘的设计不同，Kafka 直接将数据写到了文件系统的日志中。</p>
@@ -135,24 +123,18 @@
 <p>既然可以使用几乎没有容量限制（相对于内存来说）的硬盘空间建立消息系统，就可以在没有性能损失的情况下提供一些一般消息系统不具备的特性。比如，一般的消息系统都是在消息被消费后立即删除，Kafka 却可以将消息保存一段时间（比如一星期），这给 consumer 提供了很好的机动性和灵活性，这点在今后的文章中会有详述。</p>
 <h1 id="五、消息传输的事务定义"><a href="#五、消息传输的事务定义" class="headerlink" title="五、消息传输的事务定义"></a>五、消息传输的事务定义</h1><p>之前讨论了 consumer 和 producer 是怎么工作的，现在来讨论一下数据传输方面。数据传输的事务定义通常有以下三种级别：</p>
 <ol>
-<li><p>最多一次: 消息不会被重复发送，最多被传输一次，但也有可能一次不传输。</p>
-</li>
-<li><p>最少一次: 消息不会被漏发送，最少被传输一次，但也有可能被重复传输。</p>
-</li>
-<li><p>精确的一次（Exactly once）: 不会漏传输也不会重复传输,每个消息都传输被一次而且仅仅被传输一次，这是大家所期望的。</p>
-</li>
+<li>最多一次: 消息不会被重复发送，最多被传输一次，但也有可能一次不传输。</li>
+<li>最少一次: 消息不会被漏发送，最少被传输一次，但也有可能被重复传输。</li>
+<li>精确的一次（Exactly once）: 不会漏传输也不会重复传输,每个消息都传输被一次而且仅仅被传输一次，这是大家所期望的。</li>
 </ol>
 <p>大多数消息系统声称可以做到 “精确的一次”，但是仔细阅读它们的的文档可以看到里面存在误导，比如没有说明当 consumer 或 producer 失败时怎么样，或者当有多个 consumer 并行时怎么样，或写入硬盘的数据丢失时又会怎么样。kafka 的做法要更先进一些。当发布消息时，Kafka 有一个 “committed” 的概念，一旦消息被提交了，只要消息被写入的分区的所在的副本 broker 是活动的，数据就不会丢失。关于副本的活动的概念，下节文档会讨论。现在假设 broker 是不会 down 的。</p>
 <p>如果 producer 发布消息时发生了网络错误，但又不确定实在提交之前发生的还是提交之后发生的，这种情况虽然不常见，但是必须考虑进去，现在 Kafka 版本还没有解决这个问题，将来的版本正在努力尝试解决。</p>
 <p>并不是所有的情况都需要 “精确的一次” 这样高的级别，Kafka 允许 producer 灵活的指定级别。比如 producer 可以指定必须等待消息被提交的通知，或者完全的异步发送消息而不等待任何通知，或者仅仅等待 leader 声明它拿到了消息（followers 没有必要）。</p>
 <p>现在从 consumer 的方面考虑这个问题，所有的副本都有相同的日志文件和相同的 offset，consumer 维护自己消费的消息的 offset，如果 consumer 不会崩溃当然可以在内存中保存这个值，当然谁也不能保证这点。如果 consumer 崩溃了，会有另外一个 consumer 接着消费消息，它需要从一个合适的 offset 继续处理。这种情况下可以有以下选择：</p>
 <ul>
-<li><p>consumer 可以先读取消息，然后将 offset 写入日志文件中，然后再处理消息。这存在一种可能就是在存储 offset 后还没处理消息就 crash 了，新的 consumer 继续从这个 offset 处理，那么就会有些消息永远不会被处理，这就是上面说的 “最多一次”。</p>
-</li>
-<li><p>consumer 可以先读取消息，处理消息，最后记录 offset，当然如果在记录 offset 之前就 crash 了，新的 consumer 会重复的消费一些消息，这就是上面说的 “最少一次”。</p>
-</li>
-<li><p>“精确一次” 可以通过将提交分为两个阶段来解决：保存了 offset 后提交一次，消息处理成功之后再提交一次。但是还有个更简单的做法：将消息的 offset 和消息被处理后的结果保存在一起。比如用 Hadoop ETL 处理消息时，将处理后的结果和 offset 同时保存在 HDFS 中，这样就能保证消息和 offser 同时被处理了。</p>
-</li>
+<li>consumer 可以先读取消息，然后将 offset 写入日志文件中，然后再处理消息。这存在一种可能就是在存储 offset 后还没处理消息就 crash 了，新的 consumer 继续从这个 offset 处理，那么就会有些消息永远不会被处理，这就是上面说的 “最多一次”。</li>
+<li>consumer 可以先读取消息，处理消息，最后记录 offset，当然如果在记录 offset 之前就 crash 了，新的 consumer 会重复的消费一些消息，这就是上面说的 “最少一次”。</li>
+<li>“精确一次” 可以通过将提交分为两个阶段来解决：保存了 offset 后提交一次，消息处理成功之后再提交一次。但是还有个更简单的做法：将消息的 offset 和消息被处理后的结果保存在一起。比如用 Hadoop ETL 处理消息时，将处理后的结果和 offset 同时保存在 HDFS 中，这样就能保证消息和 offser 同时被处理了。</li>
 </ul>
 <h1 id="六、性能优化"><a href="#六、性能优化" class="headerlink" title="六、性能优化"></a>六、性能优化</h1><p>Kafka 在提高效率方面做了很大努力。Kafka 的一个主要使用场景是处理网站活动日志，吞吐量是非常大的，每个页面都会产生好多次写操作。读方面，假设每个消息只被消费一次，读的量的也是很大的，Kafka 也尽量使读的操作更轻量化。</p>
 <p>我们之前讨论了磁盘的性能问题，线性读写的情况下影响磁盘性能问题大约有两个方面：太多的琐碎的 I/O 操作和太多的字节拷贝。I/O 问题发生在客户端和服务端之间，也发生在服务端内部的持久化的操作中。</p>
@@ -161,12 +143,9 @@
 <h2 id="zero-copy"><a href="#zero-copy" class="headerlink" title="zero copy"></a>zero copy</h2><p>Broker 维护的消息日志仅仅是一些目录文件，消息集以固定队的格式写入到日志文件中，这个格式 producer 和 consumer 是共享的，这使得 Kafka 可以一个很重要的点进行优化：消息在网络上的传递。现代的 unix 操作系统提供了高性能的将数据从页面缓存发送到 socket 的系统函数，在 linux 中，这个函数是 sendfile。</p>
 <p>为了更好的理解 sendfile 的好处，我们先来看下一般将数据从文件发送到 socket 的数据流向：</p>
 <ol>
-<li><p>操作系统把数据从文件拷贝内核中的页缓存中</p>
-</li>
-<li><p>应用程序从页缓存从把数据拷贝自己的内存缓存中</p>
-</li>
-<li><p>应用程序将数据写入到内核中 socket 缓存中操作系统把数据从 socket 缓存中拷贝到网卡接口缓存，从这里发送到网络上。</p>
-</li>
+<li>操作系统把数据从文件拷贝内核中的页缓存中</li>
+<li>应用程序从页缓存从把数据拷贝自己的内存缓存中</li>
+<li>应用程序将数据写入到内核中 socket 缓存中操作系统把数据从 socket 缓存中拷贝到网卡接口缓存，从这里发送到网络上。</li>
 </ol>
 <p>这显然是低效率的，有 4 次拷贝和 2 次系统调用。Sendfile 通过直接将数据从页面缓存发送网卡接口缓存，避免了重复拷贝，大大的优化了性能。</p>
 <p>在一个多 consumers 的场景里，数据仅仅被拷贝到页面缓存一次而不是每次消费消息的时候都重复的进行拷贝。这使得消息以近乎网络带宽的速率发送出去。这样在磁盘层面你几乎看不到任何的读操作，因为数据都是从页面缓存中直接发送到网络上去了。</p>
@@ -193,10 +172,8 @@
 <p>创建副本的单位是 topic 的分区，每个分区都有一个 leader 和零或多个 followers。所有的读写操作都由 leader 处理，一般分区的数量都比 broker 的数量多的多，各分区的 leader 均匀的分布在 brokers 中。所有的 followers 都复制 leader 的日志，日志中的消息和顺序都和 leader 中的一致。flowers 向普通的 consumer 那样从 leader 那里拉取消息并保存在自己的日志文件中。</p>
 <p>许多分布式的消息系统自动的处理失败的请求，它们对一个节点是否存活着（alive）有着清晰的定义。Kafka 判断一个节点是否活着有两个条件：</p>
 <ol>
-<li><p>节点必须可以维护和 ZooKeeper 的连接，Zookeeper 通过心跳机制检查每个节点的连接。</p>
-</li>
-<li><p>如果节点是个 follower，他必须能及时的同步 leader 的写操作，延时不能太久。</p>
-</li>
+<li>节点必须可以维护和 ZooKeeper 的连接，Zookeeper 通过心跳机制检查每个节点的连接。</li>
+<li>如果节点是个 follower，他必须能及时的同步 leader 的写操作，延时不能太久。</li>
 </ol>
 <p>符合以上条件的节点准确的说应该是“同步中的（in sync）”，而不是模糊的说是 “活着的” 或是 “失败的”。Leader 会追踪所有 “同步中” 的节点，一旦一个 down 掉了，或是卡住了，或是延时太久，leader 就会把它移除。至于延时多久算是 “太久”，是由参数 <code>replica.lag.max.messages</code> 决定的，怎样算是卡住了，怎是由参数 <code>replica.lag.time.max.ms</code> 决定的。</p>
 <p>只有当消息被所有的副本加入到日志中时，才算是 “committed”，只有 committed 的消息才会发送给 consumer，这样就不用担心一旦 leader down 掉了消息会丢失。Producer 也可以选择是否等待消息被提交的通知，这个是由参数 <code>request.required.acks</code> 决定的。</p>
@@ -206,54 +183,44 @@
 <p>Kafaka动态维护了一个同步状态的副本的集合（a set of in-sync replicas），简称ISR，在这个集合中的节点都是和leader保持高度一致的，任何一条消息必须被这个集合中的每个节点读取并追加到日志中了，才回通知外部这个消息已经被提交了。因此这个集合中的任何一个节点随时都可以被选为leader.ISR在ZooKeeper中维护。ISR中有f+1个节点，就可以允许在f个节点down掉的情况下不会丢失消息并正常提供服。ISR的成员是动态的，如果一个节点被淘汰了，当它重新达到“同步中”的状态时，他可以重新加入ISR.这种leader的选择方式是非常快速的，适合kafka的应用场景。</p>
 <p>一个邪恶的想法：如果所有节点都down掉了怎么办？Kafka对于数据不会丢失的保证，是基于至少一个节点是存活的，一旦所有节点都down了，这个就不能保证了。<br>实际应用中，当所有的副本都down掉时，必须及时作出反应。可以有以下两种选择:</p>
 <ol>
-<li><p>等待ISR中的任何一个节点恢复并担任leader。</p>
-</li>
-<li><p>选择所有节点中（不只是ISR）第一个恢复的节点作为leader.</p>
-</li>
+<li>等待ISR中的任何一个节点恢复并担任leader。</li>
+<li>选择所有节点中（不只是ISR）第一个恢复的节点作为leader.</li>
 </ol>
 <p>这是一个在可用性和连续性之间的权衡。如果等待ISR中的节点恢复，一旦ISR中的节点起不起来或者数据都是了，那集群就永远恢复不了了。如果等待ISR意外的节点恢复，这个节点的数据就会被作为线上数据，有可能和真实的数据有所出入，因为有些数据它可能还没同步到。Kafka目前选择了第二种策略，在未来的版本中将使这个策略的选择可配置，可以根据场景灵活的选择。<br>这种窘境不只Kafka会遇到，几乎所有的分布式数据系统都会遇到。</p>
 <h2 id="副本管理"><a href="#副本管理" class="headerlink" title="副本管理"></a>副本管理</h2><p>以上仅仅以一个topic一个分区为例子进行了讨论，但实际上一个Kafka将会管理成千上万的topic分区.Kafka尽量的使所有分区均匀的分布到集群所有的节点上而不是集中在某些节点上，另外主从关系也尽量均衡这样每个几点都会担任一定比例的分区的leader。</p>
 <p>优化leader的选择过程也是很重要的，它决定了系统发生故障时的空窗期有多久。Kafka选择一个节点作为“controller”,当发现有节点down掉的时候它负责在游泳分区的所有节点中选择新的leader,这使得Kafka可以批量的高效的管理所有分区节点的主从关系。如果controller down掉了，活着的节点中的一个会备切换为新的controller.</p>
 <h1 id="九、客户端API"><a href="#九、客户端API" class="headerlink" title="九、客户端API"></a>九、客户端API</h1><h2 id="Kafka-Producer-APIs"><a href="#Kafka-Producer-APIs" class="headerlink" title="Kafka Producer APIs"></a>Kafka Producer APIs</h2><p>Procuder API有两种：kafka.producer.SyncProducer和kafka.producer.async.AsyncProducer.它们都实现了同一个接口：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Producer</span> </span>&#123;</div><div class="line"><span class="comment">/* 将消息发送到指定分区 */</span></div><div class="line"><span class="function">publicvoid <span class="title">send</span><span class="params">(kafka.javaapi.producer.ProducerData&lt;K,V&gt; producerData)</span></span>;</div><div class="line"><span class="comment">/* 批量发送一批消息 */</span></div><div class="line"><span class="function">publicvoid <span class="title">send</span><span class="params">(java.util.List&lt;kafka.javaapi.producer.ProducerData&lt;K,V&gt;&gt; producerData)</span></span>;</div><div class="line"><span class="comment">/* 关闭producer */</span></div><div class="line"><span class="function">publicvoid <span class="title">close</span><span class="params">()</span></span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Producer</span> </span>&#123;</div><div class="line">    <span class="comment">/* 将消息发送到指定分区 */</span></div><div class="line">    <span class="function">publicvoid <span class="title">send</span><span class="params">(kafka.javaapi.producer.ProducerData&lt;K,V&gt; producerData)</span></span>;</div><div class="line">    </div><div class="line">    <span class="comment">/* 批量发送一批消息 */</span></div><div class="line">    <span class="function">publicvoid <span class="title">send</span><span class="params">(java.util.List&lt;kafka.javaapi.producer.ProducerData&lt;K,V&gt;&gt; producerData)</span></span>;</div><div class="line">    </div><div class="line">    <span class="comment">/* 关闭producer */</span></div><div class="line">    <span class="function">publicvoid <span class="title">close</span><span class="params">()</span></span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p><strong>Producer API提供了以下功能：</strong></p>
 <ol>
-<li><p>可以将多个消息缓存到本地队列里，然后异步的批量发送到broker，可以通过参数producer.type=async做到。缓存的大小可以通过一些参数指定：queue.time和batch.size。一个后台线程（(kafka.producer.async.ProducerSendThread）从队列中取出数据并让kafka.producer.EventHandler将消息发送到broker，也可以通过参数event.handler定制handler，在producer端处理数据的不同的阶段注册处理器，比如可以对这一过程进行日志追踪，或进行一些监控。只需实现kafka.producer.async.CallbackHandler接口，并在callback.handler中配置。</p>
-</li>
+<li>可以将多个消息缓存到本地队列里，然后异步的批量发送到broker，可以通过参数producer.type=async做到。缓存的大小可以通过一些参数指定：queue.time和batch.size。一个后台线程（(kafka.producer.async.ProducerSendThread）从队列中取出数据并让kafka.producer.EventHandler将消息发送到broker，也可以通过参数event.handler定制handler，在producer端处理数据的不同的阶段注册处理器，比如可以对这一过程进行日志追踪，或进行一些监控。只需实现kafka.producer.async.CallbackHandler接口，并在callback.handler中配置。</li>
 <li><p>自己编写Encoder来序列化消息，只需实现下面这个接口。默认的Encoder是kafka.serializer.DefaultEncoder。</p>
-</li>
-</ol>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">interface</span> <span class="title">Encoder</span>&lt;<span class="title">T</span>&gt; </span>&#123;</div><div class="line">    <span class="function"><span class="keyword">public</span> Message <span class="title">toMessage</span><span class="params">(T data)</span></span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<ol>
+</li>
 <li><p>提供了基于Zookeeper的broker自动感知能力，可以通过参数zk.connect实现。如果不使用Zookeeper，也可以使用broker.list参数指定一个静态的brokers列表，这样消息将被随机的发送到一个broker上，一旦选中的broker失败了，消息发送也就失败了。</p>
 </li>
 <li><p>通过分区函数kafka.producer.Partitioner类对消息分区。</p>
-</li>
-</ol>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">interface</span> <span class="title">Partitioner</span>&lt;<span class="title">T</span>&gt; </span>&#123;</div><div class="line">    <span class="function"><span class="keyword">int</span> <span class="title">partition</span><span class="params">(T key, <span class="keyword">int</span> numPartitions)</span></span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<ol>
-<li>分区函数有两个参数：key和可用的分区数量，从分区列表中选择一个分区并返回id。默认的分区策略是hash(key)%numPartitions.如果key是null,就随机的选择一个。可以通过参数partitioner.class定制分区函数。</li>
+</li>
+<li><p>分区函数有两个参数：key和可用的分区数量，从分区列表中选择一个分区并返回id。默认的分区策略是hash(key)%numPartitions.如果key是null,就随机的选择一个。可以通过参数partitioner.class定制分区函数。</p>
+</li>
 </ol>
 <h2 id="KafKa-Consumer-APIs"><a href="#KafKa-Consumer-APIs" class="headerlink" title="KafKa Consumer APIs"></a>KafKa Consumer APIs</h2><p>Consumer API有两个级别。低级别的和一个指定的broker保持连接，并在接收完消息后关闭连接，这个级别是无状态的，每次读取消息都带着offset。</p>
 <p>高级别的API隐藏了和brokers连接的细节，在不必关心服务端架构的情况下和服务端通信。还可以自己维护消费状态，并可以通过一些条件指定订阅特定的topic,比如白名单黑名单或者正则表达式。</p>
-<h3 id="低级别的API"><a href="#低级别的API" class="headerlink" title="低级别的API"></a>低级别的API</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">SimpleConsumer</span> </span>&#123;</div><div class="line"><span class="comment">/*向一个broker发送读取请求并得到消息集 */</span></div><div class="line"><span class="function"><span class="keyword">public</span> ByteBufferMessageSet <span class="title">fetch</span><span class="params">(FetchRequest request)</span></span>;</div><div class="line"><span class="comment">/*向一个broker发送读取请求并得到一个相应集 */</span></div><div class="line"><span class="function"><span class="keyword">public</span> MultiFetchResponse <span class="title">multifetch</span><span class="params">(List&lt;FetchRequest&gt; fetches)</span></span>;</div><div class="line"><span class="comment">/**</span></div><div class="line">* 得到指定时间之前的offsets</div><div class="line">* 返回值是offsets列表，以倒序排序</div><div class="line">* <span class="doctag">@param</span> time: 时间，毫秒,</div><div class="line">* 如果指定为OffsetRequest$.MODULE$.LATIEST_TIME(), 得到最新的offset.</div><div class="line">* 如果指定为OffsetRequest$.MODULE$.EARLIEST_TIME(),得到最老的offset.</div><div class="line">*/</div><div class="line">publiclong[] getOffsetsBefore(String topic, <span class="keyword">int</span> partition, <span class="keyword">long</span> time, <span class="keyword">int</span> maxNumOffsets);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="低级别的API"><a href="#低级别的API" class="headerlink" title="低级别的API"></a>低级别的API</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">SimpleConsumer</span> </span>&#123;</div><div class="line">    <span class="comment">/*向一个broker发送读取请求并得到消息集 */</span></div><div class="line">    <span class="function"><span class="keyword">public</span> ByteBufferMessageSet <span class="title">fetch</span><span class="params">(FetchRequest request)</span></span>;</div><div class="line">    </div><div class="line">    <span class="comment">/*向一个broker发送读取请求并得到一个相应集 */</span></div><div class="line">    <span class="function"><span class="keyword">public</span> MultiFetchResponse <span class="title">multifetch</span><span class="params">(List&lt;FetchRequest&gt; fetches)</span></span>;</div><div class="line">    <span class="comment">/**</span></div><div class="line">    * 得到指定时间之前的offsets</div><div class="line">    * 返回值是offsets列表，以倒序排序</div><div class="line">    * <span class="doctag">@param</span> time: 时间，毫秒,</div><div class="line">    * 如果指定为OffsetRequest$.MODULE$.LATIEST_TIME(), 得到最新的offset.</div><div class="line">    * 如果指定为OffsetRequest$.MODULE$.EARLIEST_TIME(),得到最老的offset.</div><div class="line">    */</div><div class="line">    publiclong[] getOffsetsBefore(String topic, <span class="keyword">int</span> partition, <span class="keyword">long</span> time, <span class="keyword">int</span> maxNumOffsets);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>低级别的API是高级别API实现的基础，也是为了一些对维持消费状态有特殊需求的场景，比如Hadoop consumer这样的离线consumer。</p>
-<h3 id="高级别的API"><a href="#高级别的API" class="headerlink" title="高级别的API"></a>高级别的API</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/* 创建连接 */</span></div><div class="line">ConsumerConnector connector = Consumer.create(consumerConfig);</div><div class="line"><span class="class"><span class="keyword">interface</span> <span class="title">ConsumerConnector</span> </span>&#123;</div><div class="line"><span class="comment">/**</span></div><div class="line">* 这个方法可以得到一个流的列表，每个流都是MessageAndMetadata的迭代，通过MessageAndMetadata可以拿到消息和其他的元数据（目前之后topic）</div><div class="line">* Input: a map of &lt;topic, #streams&gt;</div><div class="line">* Output: a map of &lt;topic, list of message streams&gt;</div><div class="line">*/</div><div class="line"><span class="keyword">public</span> Map&lt;String,List&lt;KafkaStream&gt;&gt; createMessageStreams(Map&lt;String,Int&gt; topicCountMap);</div><div class="line"><span class="comment">/**</span></div><div class="line">* 你也可以得到一个流的列表，它包含了符合TopicFiler的消息的迭代，</div><div class="line">* 一个TopicFilter是一个封装了白名单或黑名单的正则表达式。</div><div class="line">*/</div><div class="line"><span class="function"><span class="keyword">public</span> List&lt;KafkaStream&gt; <span class="title">createMessageStreamsByFilter</span><span class="params">(</span></span></div><div class="line">TopicFilter topicFilter, <span class="keyword">int</span> numStreams);</div><div class="line"><span class="comment">/* 提交目前消费到的offset */</span></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="title">commitOffsets</span><span class="params">()</span></span></div><div class="line"><span class="comment">/* 关闭连接 */</span></div><div class="line"><span class="keyword">public</span> <span class="title">shutdown</span><span class="params">()</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="高级别的API"><a href="#高级别的API" class="headerlink" title="高级别的API"></a>高级别的API</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/* 创建连接 */</span></div><div class="line">ConsumerConnector connector = Consumer.create(consumerConfig);</div><div class="line"><span class="class"><span class="keyword">interface</span> <span class="title">ConsumerConnector</span> </span>&#123;</div><div class="line"><span class="comment">/**</span></div><div class="line">* 这个方法可以得到一个流的列表，每个流都是MessageAndMetadata的迭代，</div><div class="line">* 通过MessageAndMetadata可以拿到消息和其他的元数据（目前之后topic）</div><div class="line">* Input: a map of &lt;topic, #streams&gt;</div><div class="line">* Output: a map of &lt;topic, list of message streams&gt;</div><div class="line">*/</div><div class="line"><span class="keyword">public</span> Map&lt;String,List&lt;KafkaStream&gt;&gt; createMessageStreams(Map&lt;String,Int&gt; topicCountMap);</div><div class="line"></div><div class="line"><span class="comment">/**</span></div><div class="line">* 你也可以得到一个流的列表，它包含了符合TopicFiler的消息的迭代，</div><div class="line">* 一个TopicFilter是一个封装了白名单或黑名单的正则表达式。</div><div class="line">*/</div><div class="line"><span class="function"><span class="keyword">public</span> List&lt;KafkaStream&gt; <span class="title">createMessageStreamsByFilter</span><span class="params">(</span></span></div><div class="line">    TopicFilter topicFilter, <span class="keyword">int</span> numStreams);</div><div class="line">    </div><div class="line">    <span class="comment">/* 提交目前消费到的offset */</span></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="title">commitOffsets</span><span class="params">()</span></span></div><div class="line">    </div><div class="line">    <span class="comment">/* 关闭连接 */</span></div><div class="line">    <span class="keyword">public</span> <span class="title">shutdown</span><span class="params">()</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>这个API围绕着由KafkaStream实现的迭代器展开，每个流代表一系列从一个或多个分区多和broker上汇聚来的消息，每个流由一个线程处理，所以客户端可以在创建的时候通过参数指定想要几个流。一个流是多个分区多个broker的合并，但是每个分区的消息只会流向一个流。</p>
 <p>每调用一次createMessageStreams都会将consumer注册到topic上，这样consumer和brokers之间的负载均衡就会进行调整。API鼓励每次调用创建更多的topic流以减少这种调整。createMessageStreamsByFilter方法注册监听可以感知新的符合filter的tipic。</p>
 <h1 id="十、消息和日志"><a href="#十、消息和日志" class="headerlink" title="十、消息和日志"></a>十、消息和日志</h1><p>消息由一个固定长度的头部和可变长度的字节数组组成。头部包含了一个版本号和CRC32校验码。</p>
-<figure class="highlight gherkin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">/<span class="symbol">*</span><span class="symbol">*</span></div><div class="line"><span class="symbol">*</span> 具有N个字节的消息的格式如下</div><div class="line"><span class="symbol">*</span></div><div class="line"><span class="symbol">*</span> 如果版本号是0</div><div class="line"><span class="symbol">*</span></div><div class="line"><span class="symbol">*</span> 1. 1个字节的 <span class="string">"magic"</span> 标记</div><div class="line"><span class="symbol">*</span></div><div class="line"><span class="symbol">*</span> 2. 4个字节的CRC32校验码</div><div class="line"><span class="symbol">*</span></div><div class="line"><span class="symbol">*</span> 3. N - 5个字节的具体信息</div><div class="line"><span class="symbol">*</span></div><div class="line"><span class="symbol">*</span> 如果版本号是1</div><div class="line"><span class="symbol">*</span></div><div class="line"><span class="symbol">*</span> 1. 1个字节的 <span class="string">"magic"</span> 标记</div><div class="line"><span class="symbol">*</span></div><div class="line"><span class="symbol">*</span> 2.1个字节的参数允许标注一些附加的信息比如是否压缩了，解码类型等</div><div class="line"><span class="symbol">*</span></div><div class="line"><span class="symbol">*</span> 3.4个字节的CRC32校验码</div><div class="line"><span class="symbol">*</span></div><div class="line"><span class="symbol">*</span> 4. N - 6 个字节的具体信息</div><div class="line"><span class="symbol">*</span></div><div class="line"><span class="symbol">*</span>/</div></pre></td></tr></table></figure>
+<figure class="highlight gherkin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">/<span class="symbol">*</span><span class="symbol">*</span></div><div class="line"><span class="symbol">*</span> 具有N个字节的消息的格式如下</div><div class="line"></div><div class="line"><span class="symbol">*</span> 如果版本号是0</div><div class="line"><span class="symbol">*</span> 1. 1个字节的 <span class="string">"magic"</span> 标记</div><div class="line"><span class="symbol">*</span> 2. 4个字节的CRC32校验码</div><div class="line"><span class="symbol">*</span> 3. N - 5个字节的具体信息</div><div class="line"><span class="symbol">*</span></div><div class="line"><span class="symbol">*</span> 如果版本号是1</div><div class="line"><span class="symbol">*</span> 1. 1个字节的 <span class="string">"magic"</span> 标记</div><div class="line"><span class="symbol">*</span> 2.1个字节的参数允许标注一些附加的信息比如是否压缩了，解码类型等</div><div class="line"><span class="symbol">*</span> 3.4个字节的CRC32校验码</div><div class="line"><span class="symbol">*</span> 4. N - 6 个字节的具体信息</div><div class="line"><span class="symbol">*</span>/</div></pre></td></tr></table></figure>
 <h2 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h2><p>一个叫做“my_topic”且有两个分区的的topic,它的日志有两个文件夹组成，my_topic_0和my_topic_1,每个文件夹里放着具体的数据文件，每个数据文件都是一系列的日志实体，每个日志实体有一个4个字节的整数N标注消息的长度，后边跟着N个字节的消息。每个消息都可以由一个64位的整数offset标注，offset标注了这条消息在发送到这个分区的消息流中的起始位置。每个日志文件的名称都是这个文件第一条日志的offset.所以第一个日志文件的名字就是00000000000.kafka.所以每相邻的两个文件名字的差就是一个数字S,S差不多就是配置文件中指定的日志文件的最大容量。</p>
 <p>消息的格式都由一个统一的接口维护，所以消息可以在producer,broker和consumer之间无缝的传递。存储在硬盘上的消息格式如下所示：</p>
 <ol>
-<li><p>消息长度: 4 bytes (value: 1+4+n)</p>
-</li>
-<li><p>版本号: 1 byte</p>
-</li>
-<li><p>CRC校验码: 4 bytes</p>
-</li>
-<li><p>具体的消息: n bytes</p>
-</li>
+<li>消息长度: 4 bytes (value: 1+4+n)</li>
+<li>版本号: 1 byte</li>
+<li>CRC校验码: 4 bytes</li>
+<li>具体的消息: n bytes</li>
 </ol>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20161009005.png" alt=""></p>
 <h2 id="写操作"><a href="#写操作" class="headerlink" title="写操作"></a>写操作</h2><p>消息被不断的追加到最后一个日志的末尾，当日志的大小达到一个指定的值时就会产生一个新的文件。对于写操作有两个参数，一个规定了消息的数量达到这个值时必须将数据刷新到硬盘上，另外一个规定了刷新到硬盘的时间间隔，这对数据的持久性是个保证，在系统崩溃的时候只会丢失一定数量的消息或者一个时间段的消息。</p>
@@ -265,10 +232,8 @@
 <h2 id="可靠性保证"><a href="#可靠性保证" class="headerlink" title="可靠性保证"></a>可靠性保证</h2><p>日志文件有一个可配置的参数M，缓存超过这个数量的消息将被强行刷新到硬盘。一个日志矫正线程将循环检查最新的日志文件中的消息确认每个消息都是合法的。合法的标准为：所有文件的大小的和最大的offset小于日志文件的大小，并且消息的CRC32校验码与存储在消息实体中的校验码一致。如果在某个offset发现不合法的消息，从这个offset到下一个合法的offset之间的内容将被移除。</p>
 <p>有两种情况必须考虑：</p>
 <ol>
-<li><p>当发生崩溃时有些数据块未能写入。</p>
-</li>
-<li><p>写入了一些空白数据块。第二种情况的原因是，对于每个文件，操作系统都有一个inode（inode是指在许多“类Unix文件系统”中的一种数据结构。每个inode保存了文件系统中的一个文件系统对象,包括文件、目录、大小、设备文件、socket、管道, 等等），但无法保证更新inode和写入数据的顺序，当inode保存的大小信息被更新了，但写入数据时发生了崩溃，就产生了空白数据块。CRC校验码可以检查这些块并移除，当然因为崩溃而未写入的数据块也就丢失了。</p>
-</li>
+<li>当发生崩溃时有些数据块未能写入。</li>
+<li>写入了一些空白数据块。第二种情况的原因是，对于每个文件，操作系统都有一个inode（inode是指在许多“类Unix文件系统”中的一种数据结构。每个inode保存了文件系统中的一个文件系统对象,包括文件、目录、大小、设备文件、socket、管道, 等等），但无法保证更新inode和写入数据的顺序，当inode保存的大小信息被更新了，但写入数据时发生了崩溃，就产生了空白数据块。CRC校验码可以检查这些块并移除，当然因为崩溃而未写入的数据块也就丢失了。</li>
 </ol>
 <hr>
 ]]></content>
