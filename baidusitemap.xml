@@ -145,11 +145,11 @@
         <title>CentOS 7 安装最新的 Git</title>
         <pubTime>2016-07-30T14:12:43.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>Linux</tag>
          
         <tag>CentOS</tag>
+         
+        <tag>Git</tag>
          
          
            
@@ -191,9 +191,9 @@
         <title>5 分钟搭建 Git 服务器-Gogs</title>
         <pubTime>2016-09-06T04:15:14.000Z</pubTime>
         
-        <tag>Gogs</tag>
-         
         <tag>Git</tag>
+         
+        <tag>Gogs</tag>
          
          
            
@@ -213,9 +213,9 @@
         <title>CentOS 系统下 GitLab 搭建与基本配置</title>
         <pubTime>2016-07-31T10:15:47.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>CentOS</tag>
+         
+        <tag>Git</tag>
          
         <tag>GitLab</tag>
          
@@ -283,9 +283,9 @@
         <title>CentOS 中配置 Git 命令自动补全</title>
         <pubTime>2016-09-04T02:03:35.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>CentOS</tag>
+         
+        <tag>Git</tag>
          
          
            
@@ -382,28 +382,6 @@
 
     
   <url>
-    <loc>http://ehlxr.me/2016/07/28/Oracle-%E4%B8%8E-MySQL-%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2016-08-04T10:40:47.568Z</lastmod>
-    <data>
-        <display>
-        <title>Oracle 与 MySQL 知识总结</title>
-        <pubTime>2016-07-28T06:06:36.000Z</pubTime>
-        
-        <tag>MySQL</tag>
-         
-        <tag>Oracle</tag>
-         
-         
-           
-             
-              <breadCrumb title="SQL" url="http://ehlxr.me/categories/SQL/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://ehlxr.me/2016/07/25/Sublime-Text-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2016-08-04T10:40:47.568Z</lastmod>
     <data>
@@ -432,6 +410,28 @@
         <pubTime>2016-07-20T06:16:17.000Z</pubTime>
         
         <tag>MySQL</tag>
+         
+         
+           
+             
+              <breadCrumb title="SQL" url="http://ehlxr.me/categories/SQL/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://ehlxr.me/2016/07/28/Oracle-%E4%B8%8E-MySQL-%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2016-08-04T10:40:47.568Z</lastmod>
+    <data>
+        <display>
+        <title>Oracle 与 MySQL 知识总结</title>
+        <pubTime>2016-07-28T06:06:36.000Z</pubTime>
+        
+        <tag>MySQL</tag>
+         
+        <tag>Oracle</tag>
          
          
            
