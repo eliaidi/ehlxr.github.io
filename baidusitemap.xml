@@ -145,11 +145,11 @@
         <title>CentOS 7 安装最新的 Git</title>
         <pubTime>2016-07-30T14:12:43.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>Linux</tag>
          
         <tag>CentOS</tag>
+         
+        <tag>Git</tag>
          
          
            
@@ -213,9 +213,9 @@
         <title>CentOS 系统下 GitLab 搭建与基本配置</title>
         <pubTime>2016-07-31T10:15:47.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>CentOS</tag>
+         
+        <tag>Git</tag>
          
         <tag>GitLab</tag>
          
@@ -283,9 +283,9 @@
         <title>CentOS 中配置 Git 命令自动补全</title>
         <pubTime>2016-09-04T02:03:35.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>CentOS</tag>
+         
+        <tag>Git</tag>
          
          
            
@@ -382,19 +382,19 @@
 
     
   <url>
-    <loc>http://ehlxr.me/2016/07/25/Sublime-Text-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</loc>
+    <loc>http://ehlxr.me/2016/07/20/MySQL%E6%97%A5%E6%9C%9F%E5%87%BD%E6%95%B0/</loc>
     <lastmod>2016-08-04T10:40:47.568Z</lastmod>
     <data>
         <display>
-        <title>Sublime Text 插件安装</title>
-        <pubTime>2016-07-25T13:06:57.000Z</pubTime>
+        <title>MySQL日期函数</title>
+        <pubTime>2016-07-20T06:16:17.000Z</pubTime>
         
-        <tag>Sublime</tag>
+        <tag>MySQL</tag>
          
          
            
              
-              <breadCrumb title="开发工具" url="http://ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+              <breadCrumb title="SQL" url="http://ehlxr.me/categories/SQL/"/>
           
         </display>
     </data>
@@ -424,19 +424,19 @@
 
     
   <url>
-    <loc>http://ehlxr.me/2016/07/20/MySQL%E6%97%A5%E6%9C%9F%E5%87%BD%E6%95%B0/</loc>
+    <loc>http://ehlxr.me/2016/07/25/Sublime-Text-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2016-08-04T10:40:47.568Z</lastmod>
     <data>
         <display>
-        <title>MySQL日期函数</title>
-        <pubTime>2016-07-20T06:16:17.000Z</pubTime>
+        <title>Sublime Text 插件安装</title>
+        <pubTime>2016-07-25T13:06:57.000Z</pubTime>
         
-        <tag>MySQL</tag>
+        <tag>Sublime</tag>
          
          
            
              
-              <breadCrumb title="SQL" url="http://ehlxr.me/categories/SQL/"/>
+              <breadCrumb title="开发工具" url="http://ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
           
         </display>
     </data>
