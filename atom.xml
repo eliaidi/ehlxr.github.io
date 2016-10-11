@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ehlxr.me/"/>
-  <updated>2016-10-11T12:52:02.277Z</updated>
+  <updated>2016-10-11T13:08:17.196Z</updated>
   <id>http://ehlxr.me/</id>
   
   <author>
@@ -20,9 +20,11 @@
     <link href="http://ehlxr.me/2016/10/10/%E8%BD%AC-Kafka%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/"/>
     <id>http://ehlxr.me/2016/10/10/转-Kafka入门教程/</id>
     <published>2016-10-10T13:40:52.000Z</published>
-    <updated>2016-10-11T12:52:02.277Z</updated>
+    <updated>2016-10-11T13:08:17.196Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="一、基本概念"><a href="#一、基本概念" class="headerlink" title="一、基本概念"></a>一、基本概念</h1><h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1. 介绍"></a>1. 介绍</h2><p>Kafka 是一个分布式的、可分区的、可复制的消息系统。它提供了普通消息系统的功能，但具有自己独特的设计。<strong>这个独特的设计是什么样的呢？</strong></p>
+    <content type="html"><![CDATA[<p><img src="http://oapjp6spr.bkt.clouddn.com/kafka-logo.png" alt=""></p>
+<h1 id="一、基本概念"><a href="#一、基本概念" class="headerlink" title="一、基本概念"></a>一、基本概念</h1><h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1. 介绍"></a>1. 介绍</h2><p>Kafka 是一个分布式的、可分区的、可复制的消息系统。它提供了普通消息系统的功能，但具有自己独特的设计。<strong>这个独特的设计是什么样的呢？</strong></p>
+<a id="more"></a>
 <p>首先让我们看几个基本的消息系统术语：</p>
 <ul>
 <li>Kafka 将消息以 topic 为单位进行归纳。</li>
@@ -32,7 +34,6 @@
 <li>producers 通过网络将消息发送到 Kafka 集群，Kafka 集群向消费者提供消息，如下图所示：</li>
 </ul>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20161009001.png" alt=""></p>
-<a id="more"></a>
 <p>客户端和服务端通过 TCP 协议通信。Kafka 提供了 Java 客户端，并且对多种语言都提供了支持。</p>
 <h2 id="2-Topics-和-Logs"><a href="#2-Topics-和-Logs" class="headerlink" title="2. Topics 和 Logs"></a>2. Topics 和 Logs</h2><p>先来看一下 Kafka 提供的一个抽象概念：<strong>topic</strong>。一个 topic 是对一组消息的归纳。对每个 topic，Kafka 对它的日志进行了分区，如下图所示：</p>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20161009002.png" alt=""></p>
@@ -254,16 +255,8 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;一、基本概念&quot;&gt;&lt;a href=&quot;#一、基本概念&quot; class=&quot;headerlink&quot; title=&quot;一、基本概念&quot;&gt;&lt;/a&gt;一、基本概念&lt;/h1&gt;&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;Kafka 是一个分布式的、可分区的、可复制的消息系统。它提供了普通消息系统的功能，但具有自己独特的设计。&lt;strong&gt;这个独特的设计是什么样的呢？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;首先让我们看几个基本的消息系统术语：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Kafka 将消息以 topic 为单位进行归纳。&lt;/li&gt;
-&lt;li&gt;将向 Kafka topic 发布消息的程序成为 producers。&lt;/li&gt;
-&lt;li&gt;将预订 topics 并消费消息的程序成为 consumer。&lt;/li&gt;
-&lt;li&gt;Kafka 以集群的方式运行，可以由一个或多个服务组成，每个服务叫做一个 broker。&lt;/li&gt;
-&lt;li&gt;producers 通过网络将消息发送到 Kafka 集群，Kafka 集群向消费者提供消息，如下图所示：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;http://oapjp6spr.bkt.clouddn.com/20161009001.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;http://oapjp6spr.bkt.clouddn.com/kafka-logo.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;一、基本概念&quot;&gt;&lt;a href=&quot;#一、基本概念&quot; class=&quot;headerlink&quot; title=&quot;一、基本概念&quot;&gt;&lt;/a&gt;一、基本概念&lt;/h1&gt;&lt;h2 id=&quot;1-介绍&quot;&gt;&lt;a href=&quot;#1-介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 介绍&quot;&gt;&lt;/a&gt;1. 介绍&lt;/h2&gt;&lt;p&gt;Kafka 是一个分布式的、可分区的、可复制的消息系统。它提供了普通消息系统的功能，但具有自己独特的设计。&lt;strong&gt;这个独特的设计是什么样的呢？&lt;/strong&gt;&lt;/p&gt;
     
     </summary>
     
@@ -489,9 +482,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
-    
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -824,9 +817,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
-    
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
       <category term="GitLab" scheme="http://ehlxr.me/tags/GitLab/"/>
     
@@ -874,11 +867,11 @@
       <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
-    
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
   </entry>
   

@@ -6,7 +6,9 @@
     <entry>
       <title><![CDATA[[转]Kafka入门教程]]></title>
       <url>http://ehlxr.me/2016/10/10/%E8%BD%AC-Kafka%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</url>
-      <content type="html"><![CDATA[<h1 id="一、基本概念"><a href="#一、基本概念" class="headerlink" title="一、基本概念"></a>一、基本概念</h1><h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1. 介绍"></a>1. 介绍</h2><p>Kafka 是一个分布式的、可分区的、可复制的消息系统。它提供了普通消息系统的功能，但具有自己独特的设计。<strong>这个独特的设计是什么样的呢？</strong></p>
+      <content type="html"><![CDATA[<p><img src="http://oapjp6spr.bkt.clouddn.com/kafka-logo.png" alt=""></p>
+<h1 id="一、基本概念"><a href="#一、基本概念" class="headerlink" title="一、基本概念"></a>一、基本概念</h1><h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1. 介绍"></a>1. 介绍</h2><p>Kafka 是一个分布式的、可分区的、可复制的消息系统。它提供了普通消息系统的功能，但具有自己独特的设计。<strong>这个独特的设计是什么样的呢？</strong></p>
+<a id="more"></a>
 <p>首先让我们看几个基本的消息系统术语：</p>
 <ul>
 <li>Kafka 将消息以 topic 为单位进行归纳。</li>
@@ -16,7 +18,6 @@
 <li>producers 通过网络将消息发送到 Kafka 集群，Kafka 集群向消费者提供消息，如下图所示：</li>
 </ul>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20161009001.png" alt=""></p>
-<a id="more"></a>
 <p>客户端和服务端通过 TCP 协议通信。Kafka 提供了 Java 客户端，并且对多种语言都提供了支持。</p>
 <h2 id="2-Topics-和-Logs"><a href="#2-Topics-和-Logs" class="headerlink" title="2. Topics 和 Logs"></a>2. Topics 和 Logs</h2><p>先来看一下 Kafka 提供的一个抽象概念：<strong>topic</strong>。一个 topic 是对一组消息的归纳。对每个 topic，Kafka 对它的日志进行了分区，如下图所示：</p>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20161009002.png" alt=""></p>
