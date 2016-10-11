@@ -39,7 +39,7 @@
 <p>在这方面 Kafka 做的更好，通过分区的概念，Kafka 可以在多个 consumer 组并发的情况下提供较好的有序性和负载均衡。将每个分区分只分发给一个 consumer 组，这样一个分区就只被这个组的一个 consumer 消费，就可以顺序的消费这个分区的消息。因为有多个分区，依然可以在多个 consumer 组之间进行负载均衡。</p>
 <p><strong><em>注意：</em></strong> consumer 组的数量不能多于分区的数量，也就是有多少分区就允许多少并发消费。</p>
 <p>Kafka 只能保证一个分区之内消息的有序性，在不同的分区之间是不可以的，这已经可以满足大部分应用的需求。如果需要 topic 中所有消息的有序性，那就只能让这个 topic 只有一个分区，当然也就只有一个 consumer 组消费它。</p>
-<h1 id="二、环境搭建"><a href="#二、环境搭建" class="headerlink" title="二、环境搭建"></a>二、环境搭建</h1><h2 id="Step-1：下载-Kafka"><a href="#Step-1：下载-Kafka" class="headerlink" title="Step 1：下载 Kafka"></a>Step 1：下载 Kafka</h2><p>点击下载最新的版本并解压。</p>
+<h1 id="二、环境搭建"><a href="#二、环境搭建" class="headerlink" title="二、环境搭建"></a>二、环境搭建</h1><h2 id="Step-1：下载-Kafka"><a href="#Step-1：下载-Kafka" class="headerlink" title="Step 1：下载 Kafka"></a>Step 1：下载 Kafka</h2><p><a href="http://kafka.apache.org/downloads" target="_blank" rel="external">点击</a>下载最新的版本并解压。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ tar -xzf kafka_2.9.2-0.8.1.1.tgz</div><div class="line">$ <span class="built_in">cd</span> kafka_2.9.2-0.8.1.1</div></pre></td></tr></table></figure>
 <h2 id="Step-2：启动服务"><a href="#Step-2：启动服务" class="headerlink" title="Step 2：启动服务"></a>Step 2：启动服务</h2><p>Kafka 用到了 Zookeeper，所有首先启动 Zookeeper，下面简单的启用一个单实例的 Zookkeeper 服务。可以在命令的结尾加个 <code>&amp;</code> 符号，这样就可以启动后离开控制台。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ bin/zookeeper-server-start.sh config/zookeeper.properties &amp;</div><div class="line">[2013-04-22 15:01:37,495] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)</div></pre></td></tr></table></figure>
@@ -94,7 +94,7 @@
 <h1 id="三、搭建Kafka开发环境"><a href="#三、搭建Kafka开发环境" class="headerlink" title="三、搭建Kafka开发环境"></a>三、搭建Kafka开发环境</h1><p>我们搭建了 kafka 的服务器，并可以使用 Kafka 的命令行工具创建 topic，发送和接收消息。下面我们来搭建 kafka 的开发环境。</p>
 <h2 id="1-添加依赖"><a href="#1-添加依赖" class="headerlink" title="1. 添加依赖"></a>1. 添加依赖</h2><p>搭建开发环境需要引入 kafka 的 jar 包，一种方式是将 Kafka 安装包中 lib 下的 jar 包加入到项目的 classpath 中，这种比较简单了。不过我们使用另一种更加流行的方式：使用 maven 管理 jar 包依赖。</p>
 <p>创建好 maven 项目后，在 pom.xml 中添加以下依赖：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;dependency&gt;</div><div class="line">    &lt;groupId&gt; org.apache.kafka&lt;/groupId &gt;</div><div class="line">    &lt;artifactId&gt; kafka_2.10&lt;/artifactId &gt;</div><div class="line">    &lt;version&gt; 0.8.0&lt;/ version&gt;</div><div class="line">&lt;/dependency&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span> org.apache.kafka<span class="tag">&lt;/<span class="name">groupId</span> &gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span> kafka_2.10<span class="tag">&lt;/<span class="name">artifactId</span> &gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span> 0.8.0<span class="tag">&lt;/ <span class="attr">version</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></div></pre></td></tr></table></figure>
 <p>添加依赖后你会发现有两个 jar 包的依赖找不到。没关系我都帮你想好了，点击这里下载这两个 jar 包，解压后你有两种选择，第一种是使用 mvn 的 install 命令将 jar 包安装到本地仓库，另一种是直接将解压后的文件夹拷贝到 mvn 本地仓库的 com 文件夹下，比如我的本地仓库是 d:\mvn，完成后我的目录结构是这样的：</p>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20161009004.png" alt=""></p>
 <h2 id="2-配置程序"><a href="#2-配置程序" class="headerlink" title="2. 配置程序"></a>2. 配置程序</h2><p>首先是一个充当配置文件作用的接口,配置了 Kafka 的各种连接参数：</p>
@@ -233,7 +233,7 @@
 <li>写入了一些空白数据块。第二种情况的原因是，对于每个文件，操作系统都有一个inode（inode是指在许多“类Unix文件系统”中的一种数据结构。每个inode保存了文件系统中的一个文件系统对象,包括文件、目录、大小、设备文件、socket、管道, 等等），但无法保证更新inode和写入数据的顺序，当inode保存的大小信息被更新了，但写入数据时发生了崩溃，就产生了空白数据块。CRC校验码可以检查这些块并移除，当然因为崩溃而未写入的数据块也就丢失了。</li>
 </ol>
 <hr>
-<p><a href="http://www.aboutyun.com/thread-12882-1-1.html" target="_blank" rel="external">原文地址</a></p>
+<p><a href="http://blog.csdn.net/honglei915/article/category/2383433" target="_blank" rel="external">原文地址</a></p>
 ]]></content>
     </entry>
     
