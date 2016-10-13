@@ -1,1 +1,0 @@
-$(document).on("motion:before",function(){NexT.motion.middleWares.sidebar=function(e){$(".sidebar .motion-element").velocity("transition.slideDownIn",{stagger:50,drag:!0,complete:function(){e.next()}})}});
