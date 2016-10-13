@@ -1,0 +1,1 @@
+module.exports=function(n){return function(n){n.include(__dirname)}};
