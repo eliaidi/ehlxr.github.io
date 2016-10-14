@@ -577,11 +577,13 @@
 </li>
 </ol>
 <h1 id="五、内容分享"><a href="#五、内容分享" class="headerlink" title="五、内容分享"></a>五、内容分享</h1><p>　　使用 JiaThis 作为内容分享服务，具体步骤如下：<br>　　<br>　　编辑 <code>站点配置文件</code>， 添加字段 <code>jiathis</code>，值为 <code>true</code> 即可。</p>
-<h1 id="六、搜索服务"><a href="#六、搜索服务" class="headerlink" title="六、搜索服务"></a>六、搜索服务</h1><p> <del>1. 安装 <code>hexo-generator-search</code>，在站点的根目录下执行以下命令：</del></p>
-<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-search --save</div></pre></td></tr></table></figure>
-</code></pre><p> <del>2. 编辑 <code>站点配置文件</code>，新增以下内容到任意位置：</del></p>
-<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">search:</div><div class="line">  path: search.xml</div><div class="line">  field: post</div></pre></td></tr></table></figure>
-</code></pre><ol>
+<h1 id="六、搜索服务"><a href="#六、搜索服务" class="headerlink" title="六、搜索服务"></a>六、搜索服务</h1><ol>
+<li><p><del>安装 <code>hexo-generator-search</code>，在站点的根目录下执行以下命令：</del></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-search --save</div></pre></td></tr></table></figure>
+</li>
+<li><p><del>编辑 <code>站点配置文件</code>，新增以下内容到任意位置：</del></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">search:</div><div class="line">  path: search.xml</div><div class="line">  field: post</div></pre></td></tr></table></figure>
+</li>
 <li><p>安装 <a href="https://www.npmjs.com/package/hexo-generator-searchdb" target="_blank" rel="external"><code>hexo-generator-searchdb</code></a>，在站点的根目录下执行以下命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-searchdb --save</div></pre></td></tr></table></figure>
 </li>
