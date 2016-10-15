@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ehlxr.me/about/index.html</loc>
+    
+    <lastmod>2016-10-15T08:48:51.971Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ehlxr.me/2016/10/10/%E8%BD%AC-Kafka%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</loc>
     
     <lastmod>2016-10-13T04:06:52.976Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>http://ehlxr.me/2016/09/24/Oh-My-Zsh-%E6%9B%BF%E6%8D%A2%E4%BD%A0%E7%9A%84-Bash-Shell/</loc>
     
     <lastmod>2016-09-25T06:49:14.622Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ehlxr.me/about/index.html</loc>
-    
-    <lastmod>2016-09-24T04:37:32.359Z</lastmod>
     
   </url>
   
