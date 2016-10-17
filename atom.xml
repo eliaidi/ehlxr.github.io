@@ -482,9 +482,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
-    
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -533,7 +533,7 @@
 <ol>
 <li><p>主题安装</p>
 <p><code>Next</code> 主题安装与所有 <code>Hexo</code> 主题安装一样。当克隆或者下载（<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">Next主题GitHub地址</a>）完成主题文件后，拷贝至站点目录的 <code>themes</code> 目录下，一般命名为 <code>next</code>，打开<code>站点配置文件</code>， 找到 <code>theme</code> 字段，并将其值更改为 <code>next</code> 即可。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: next</div></pre></td></tr></table></figure>
+<figure class="highlight autoit"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: <span class="keyword">next</span></div></pre></td></tr></table></figure>
 </li>
 <li><p>Next 主题宽度调节</p>
 <p>编辑 <code>themes/next/source/css/_variables/custom.styl</code> 文件，新增变量：</p>
@@ -823,9 +823,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
-    
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
       <category term="GitLab" scheme="http://ehlxr.me/tags/GitLab/"/>
     
@@ -873,11 +873,11 @@
       <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
-    
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
   </entry>
   
