@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ehlxr.me/"/>
-  <updated>2016-10-17T11:16:12.710Z</updated>
+  <updated>2016-10-19T03:20:25.543Z</updated>
   <id>http://ehlxr.me/</id>
   
   <author>
@@ -14,6 +14,60 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[转]用 Markdown 写印象笔记（Evernote）</title>
+    <link href="http://ehlxr.me/2016/10/19/%E8%BD%AC-%E7%94%A8-Markdown-%E5%86%99%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%EF%BC%88Evernote%EF%BC%89/"/>
+    <id>http://ehlxr.me/2016/10/19/转-用-Markdown-写印象笔记（Evernote）/</id>
+    <published>2016-10-19T02:47:23.000Z</published>
+    <updated>2016-10-19T03:20:25.543Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>使用印象笔记很久了，什么都觉得很好，就是不支持 Markdown 书写语法，实在是太遗憾了。今天发现网上有人介绍了一款 Sublime 的一个插件 <a href="https://packagecontrol.io/packages/Evernote" target="_blank" rel="external">Evernote</a>，尝试了一下觉得还是一个不错的方案，正好我也很喜欢使用 Sublime 编辑器，如此甚好，哈哈…</p>
+</blockquote>
+<p><img src="http://oapjp6spr.bkt.clouddn.com/2016101901.png" alt=""></p>
+<a id="more"></a>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><ol>
+<li>用 Sublime 的 PackageControl 安装 <a href="https://packagecontrol.io/packages/Evernote" target="_blank" rel="external">Evernote</a> 插件</li>
+<li>设置 Sublime 与印象笔记做关联</li>
+</ol>
+<ul>
+<li>国内用户打开 <a href="https://app.yinxiang.com/api/DeveloperToken.action" target="_blank" rel="external">https://app.yinxiang.com/api/DeveloperToken.action</a>，国际用户打开 <a href="https://www.evernote.com/api/DeveloperToken.action" target="_blank" rel="external">https://www.evernote.com/api/DeveloperToken.action</a>。点击点击 <code>Create a developer token</code></li>
+<li><p>打开 <code>Preferences &gt; Package Settings &gt; Evernote &gt;Settings - User</code><br>在文件中贴入如下内容：</p>
+  <figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line"> <span class="attr">"noteStoreUrl"</span>: <span class="string">""</span>,</div><div class="line"> <span class="attr">"token"</span>: <span class="string">""</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>  <code>noteStoreUrl</code> 和<code>token</code>值为之前打开的页面的上的值，保存。</p>
+</li>
+<li>测试是否成功：通过<code>ctrl+shift+p</code>打开命令窗口，输入<code>evernote</code>，就会看见 Evernote 的许多命令，点<code>击evernote:list recent notes</code>,，如果看到罗列出最新的笔记，则说明授权成功</li>
+</ul>
+<h1 id="快捷键设置"><a href="#快捷键设置" class="headerlink" title="快捷键设置"></a>快捷键设置</h1><p>插件默认没有添加快捷键。但可以自己配置。</p>
+<p>通过<code>ctrl+shift+p</code>打开命令窗口，输入<code>key binding</code>，选择<code>User</code>那，写入你的内容。下面是我的设置：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">[</div><div class="line">    &#123; <span class="attr">"keys"</span>: [<span class="string">"Ctrl+e"</span>, <span class="string">"Ctrl+o"</span>], <span class="attr">"command"</span>: <span class="string">"open_evernote_note"</span> &#125;,</div><div class="line">    &#123; <span class="attr">"keys"</span>: [<span class="string">"Ctrl+s"</span>], <span class="attr">"command"</span>: <span class="string">"save_evernote_note"</span>, <span class="attr">"context"</span>: [&#123;<span class="attr">"key"</span>: <span class="string">"evernote_note"</span>&#125;, &#123;<span class="attr">"key"</span>: <span class="string">"evernote_has_guid"</span>&#125;] &#125;,</div><div class="line">    &#123; <span class="attr">"keys"</span>: [<span class="string">"Ctrl+s"</span>], <span class="attr">"command"</span>: <span class="string">"send_to_evernote"</span>, <span class="attr">"context"</span>: [&#123;<span class="attr">"key"</span>: <span class="string">"evernote_note"</span>&#125;, &#123;<span class="attr">"key"</span>: <span class="string">"evernote_has_guid"</span>, <span class="attr">"operator"</span>: <span class="string">"equal"</span>, <span class="attr">"operand"</span>: <span class="literal">false</span>&#125;] &#125;</div><div class="line">]</div></pre></td></tr></table></figure>
+<p>意思是，按<code>ctrl+e, o</code>后，会打开印象笔记，按<code>ctrl+s</code>会将笔记保存并且同步到印象笔记。</p>
+<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><ol>
+<li><code>evernote: New empty note</code>创建笔记</li>
+<li><code>evernote: Search note</code>搜索笔记</li>
+</ol>
+<hr>
+<p><a href="http://www.jianshu.com/p/0add426fdd26" target="_blank" rel="external">原文地址</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;使用印象笔记很久了，什么都觉得很好，就是不支持 Markdown 书写语法，实在是太遗憾了。今天发现网上有人介绍了一款 Sublime 的一个插件 &lt;a href=&quot;https://packagecontrol.io/packages/Evernote&quot;&gt;Evernote&lt;/a&gt;，尝试了一下觉得还是一个不错的方案，正好我也很喜欢使用 Sublime 编辑器，如此甚好，哈哈…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://oapjp6spr.bkt.clouddn.com/2016101901.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开发工具" scheme="http://ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="Markdown" scheme="http://ehlxr.me/tags/Markdown/"/>
+    
+      <category term="Evernote" scheme="http://ehlxr.me/tags/Evernote/"/>
+    
+  </entry>
   
   <entry>
     <title>[转]Kafka入门教程</title>
@@ -451,9 +505,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
-    
       <category term="Gogs" scheme="http://ehlxr.me/tags/Gogs/"/>
+    
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -876,9 +930,9 @@
       <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
-    
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
+      <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
@@ -950,9 +1004,9 @@
     
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
@@ -1802,32 +1856,6 @@
       <category term="Java" scheme="http://ehlxr.me/tags/Java/"/>
     
       <category term="JMS" scheme="http://ehlxr.me/tags/JMS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java List与数组之间的转换</title>
-    <link href="http://ehlxr.me/2016/07/20/Java-List%E4%B8%8E%E6%95%B0%E7%BB%84%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BD%AC%E6%8D%A2/"/>
-    <id>http://ehlxr.me/2016/07/20/Java-List与数组之间的转换/</id>
-    <published>2016-07-20T07:52:33.000Z</published>
-    <updated>2016-08-04T10:40:47.567Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="1-数组转换为List"><a href="#1-数组转换为List" class="headerlink" title="1. 数组转换为List"></a>1. 数组转换为List</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">String[] arr = <span class="keyword">new</span> String[] &#123;<span class="string">"str1"</span>, <span class="string">"str2"</span>&#125;;</div><div class="line">List&lt;String&gt; list = Arrays.asList(arr);</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<h3 id="2-List转换为数组"><a href="#2-List转换为数组" class="headerlink" title="2 .List转换为数组"></a>2 .List转换为数组</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">List&lt;String&gt; list = <span class="keyword">new</span> ArrayList&lt;String&gt;();</div><div class="line">list.add(<span class="string">"str1"</span>);</div><div class="line">list.add(<span class="string">"str2"</span>);</div><div class="line"><span class="keyword">int</span> size = list.size();</div><div class="line">String[] arr = list.toArray(<span class="keyword">new</span> String[size]);</div></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;1-数组转换为List&quot;&gt;&lt;a href=&quot;#1-数组转换为List&quot; class=&quot;headerlink&quot; title=&quot;1. 数组转换为List&quot;&gt;&lt;/a&gt;1. 数组转换为List&lt;/h3&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;String[] arr = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; String[] &amp;#123;&lt;span class=&quot;string&quot;&gt;&quot;str1&quot;&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&quot;str2&quot;&lt;/span&gt;&amp;#125;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;List&amp;lt;String&amp;gt; list = Arrays.asList(arr);&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-      <category term="Java开发技术" scheme="http://ehlxr.me/categories/Java%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Java" scheme="http://ehlxr.me/tags/Java/"/>
-    
-      <category term="List" scheme="http://ehlxr.me/tags/List/"/>
     
   </entry>
   
