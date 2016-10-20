@@ -9,13 +9,6 @@
   </url>
   
   <url>
-    <loc>http://ehlxr.me/history/index.html</loc>
-    
-    <lastmod>2016-10-19T03:52:21.437Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://ehlxr.me/2016/09/28/%E9%97%B2%E8%A8%80%E7%A2%8E%E8%AF%AD%EF%BC%8C%E4%B8%8D%E7%9F%A5%E6%89%80%E4%BA%91/</loc>
     
     <lastmod>2016-10-17T13:59:26.783Z</lastmod>
@@ -33,13 +26,6 @@
     <loc>http://ehlxr.me/about/index.html</loc>
     
     <lastmod>2016-10-15T10:04:38.006Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ehlxr.me/404.html</loc>
-    
-    <lastmod>2016-10-09T11:02:12.086Z</lastmod>
     
   </url>
   
@@ -149,13 +135,6 @@
   </url>
   
   <url>
-    <loc>http://ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</loc>
-    
-    <lastmod>2016-08-04T10:40:47.569Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://ehlxr.me/2016/07/21/%E8%BD%AC-JMS%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</loc>
     
     <lastmod>2016-08-04T10:40:47.569Z</lastmod>
@@ -163,14 +142,21 @@
   </url>
   
   <url>
-    <loc>http://ehlxr.me/2016/07/20/MySQL%E6%97%A5%E6%9C%9F%E5%87%BD%E6%95%B0/</loc>
+    <loc>http://ehlxr.me/2016/07/19/%E5%BC%80%E5%A7%8Bblog%EF%BC%8C%E5%93%88%E5%93%88/</loc>
+    
+    <lastmod>2016-08-04T10:40:47.569Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ehlxr.me/2016/07/25/Sublime-Text-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</loc>
     
     <lastmod>2016-08-04T10:40:47.568Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://ehlxr.me/2016/07/25/Sublime-Text-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</loc>
+    <loc>http://ehlxr.me/2016/07/20/MySQL%E6%97%A5%E6%9C%9F%E5%87%BD%E6%95%B0/</loc>
     
     <lastmod>2016-08-04T10:40:47.568Z</lastmod>
     
