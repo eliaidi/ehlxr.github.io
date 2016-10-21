@@ -527,7 +527,7 @@
     <published>2016-09-04T02:03:35.000Z</published>
     <updated>2016-09-04T02:03:35.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="1-保存以下文件内容为：git-completion-bash"><a href="#1-保存以下文件内容为：git-completion-bash" class="headerlink" title="1. 保存以下文件内容为：git-completion.bash"></a>1. 保存以下文件内容为：<code>git-completion.bash</code></h3><p>　　<a href="https://github.com/git/git/blob/master/contrib/completion/git-completion.bash" target="_blank" rel="external">https://github.com/git/git/blob/master/contrib/completion/git-completion.bash</a></p>
+    <content type="html"><![CDATA[<h3 id="1-保存以下文件内容为：git-completion-bash"><a href="#1-保存以下文件内容为：git-completion-bash" class="headerlink" title="1. 保存以下文件内容为：git-completion.bash"></a>1. 保存以下文件内容为：<code>git-completion.bash</code></h3><p>　　<a href="https://github.com/git/git/blob/master/contrib/completion/git-completion.bash" target="_blank" rel="external">git-completion.bash</a></p>
 <h3 id="2-将上述文件git-completion-bash-copy-至个人home目录"><a href="#2-将上述文件git-completion-bash-copy-至个人home目录" class="headerlink" title="2. 将上述文件git-completion.bash copy 至个人home目录"></a>2. 将上述文件<code>git-completion.bash</code> copy 至个人<code>home</code>目录</h3><p>　　可设为隐藏文件以免后续被误删</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ cp git-completion.bash ~/.git-completion.bash</div></pre></td></tr></table></figure>
 <a id="more"></a>
@@ -539,7 +539,7 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;1-保存以下文件内容为：git-completion-bash&quot;&gt;&lt;a href=&quot;#1-保存以下文件内容为：git-completion-bash&quot; class=&quot;headerlink&quot; title=&quot;1. 保存以下文件内容为：git-completion.bash&quot;&gt;&lt;/a&gt;1. 保存以下文件内容为：&lt;code&gt;git-completion.bash&lt;/code&gt;&lt;/h3&gt;&lt;p&gt;　　&lt;a href=&quot;https://github.com/git/git/blob/master/contrib/completion/git-completion.bash&quot;&gt;https://github.com/git/git/blob/master/contrib/completion/git-completion.bash&lt;/a&gt;&lt;/p&gt;
+      &lt;h3 id=&quot;1-保存以下文件内容为：git-completion-bash&quot;&gt;&lt;a href=&quot;#1-保存以下文件内容为：git-completion-bash&quot; class=&quot;headerlink&quot; title=&quot;1. 保存以下文件内容为：git-completion.bash&quot;&gt;&lt;/a&gt;1. 保存以下文件内容为：&lt;code&gt;git-completion.bash&lt;/code&gt;&lt;/h3&gt;&lt;p&gt;　　&lt;a href=&quot;https://github.com/git/git/blob/master/contrib/completion/git-completion.bash&quot;&gt;git-completion.bash&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;2-将上述文件git-completion-bash-copy-至个人home目录&quot;&gt;&lt;a href=&quot;#2-将上述文件git-completion-bash-copy-至个人home目录&quot; class=&quot;headerlink&quot; title=&quot;2. 将上述文件git-completion.bash copy 至个人home目录&quot;&gt;&lt;/a&gt;2. 将上述文件&lt;code&gt;git-completion.bash&lt;/code&gt; copy 至个人&lt;code&gt;home&lt;/code&gt;目录&lt;/h3&gt;&lt;p&gt;　　可设为隐藏文件以免后续被误删&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ cp git-completion.bash ~/.git-completion.bash&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
@@ -1013,9 +1013,9 @@
     
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
-      <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
-    
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
     
   </entry>
   

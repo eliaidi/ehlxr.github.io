@@ -41,7 +41,7 @@
     <entry>
       <title><![CDATA[CentOS 中配置 Git 命令自动补全]]></title>
       <url>http://ehlxr.me/2016/09/04/CentOS-%E4%B8%AD%E9%85%8D%E7%BD%AE-Git-%E5%91%BD%E4%BB%A4%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8/</url>
-      <content type="text"><![CDATA[1. 保存以下文件内容为：git-completion.bash https://github.com/git/git/blob/master/contrib/completion/git-completion.bash 2. 将上述文件git-completion.bash copy 至个人home目录 可设为隐藏文件以免后续被误删 1$ cp git-completion.bash ~/.git-completion.bash 3. 编辑环境变量文件1$ vi ~/.bashrc 在最后加入下面内容 1source ~/.git-completion.bash 完成以上步骤后，重启shell，就可以通过tab键自动补全Git命令.]]></content>
+      <content type="text"><![CDATA[1. 保存以下文件内容为：git-completion.bash git-completion.bash 2. 将上述文件git-completion.bash copy 至个人home目录 可设为隐藏文件以免后续被误删 1$ cp git-completion.bash ~/.git-completion.bash 3. 编辑环境变量文件1$ vi ~/.bashrc 在最后加入下面内容 1source ~/.git-completion.bash 完成以上步骤后，重启shell，就可以通过tab键自动补全Git命令.]]></content>
     </entry>
 
     
