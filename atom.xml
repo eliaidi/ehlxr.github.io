@@ -548,9 +548,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
@@ -889,9 +889,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
       <category term="GitLab" scheme="http://ehlxr.me/tags/GitLab/"/>
     
@@ -939,11 +939,11 @@
       <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -1013,9 +1013,9 @@
     
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
-      <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
-    
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
     
   </entry>
   
