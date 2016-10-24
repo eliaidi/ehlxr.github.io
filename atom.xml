@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ehlxr.me/"/>
-  <updated>2016-10-21T03:10:46.211Z</updated>
+  <updated>2016-10-24T09:33:41.215Z</updated>
   <id>http://ehlxr.me/</id>
   
   <author>
@@ -14,6 +14,42 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>设置 Sublime Text3 主题透明</title>
+    <link href="http://ehlxr.me/2016/10/24/%E8%AE%BE%E7%BD%AE-Sublime-Text3-%E4%B8%BB%E9%A2%98%E9%80%8F%E6%98%8E/"/>
+    <id>http://ehlxr.me/2016/10/24/设置-Sublime-Text3-主题透明/</id>
+    <published>2016-10-24T09:30:55.000Z</published>
+    <updated>2016-10-24T09:33:41.215Z</updated>
+    
+    <content type="html"><![CDATA[<ol>
+<li><p>下载安装包：<a href="https://github.com/vhanla/SublimeTextTrans" target="_blank" rel="external">SublimeTextTrans</a>。</p>
+</li>
+<li><p>解压到 Sublime Text3 的 Packages 存放目录下，命名为：<code>SublimeTextTrans</code>。</p>
+<p> 点击 Sublime Text3 的 <code>Preferences -&gt; Browse Packages</code> 打开 Packages 存放目录，一般情况是在 <code>C:\Users\YOURNAME\AppData\Roaming\Sublime Text 3\Packages</code> 目录下。</p>
+</li>
+<li><p>设置 Sublime Text3 的透明度级别。</p>
+<p> 点击 Sublime Text3 的 <code>Preferences -&gt; Package Setting -&gt; SublimeTextTrans -&gt; Setting - User</code> 就可以设置透明度的级别了。</p>
+<p> 也可以通过 <code>Ctrl+Shift+1、2、3、4、5、6</code> 加载预设的 6 个透明级别。预设的透明级别在 <code>Preferences -&gt; Package Setting -&gt; SublimeTextTrans -&gt; Setting - Default</code> 中可以查看。</p>
+</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;下载安装包：&lt;a href=&quot;https://github.com/vhanla/SublimeTextTrans&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SublimeTextTrans&lt;/a&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p
+    
+    </summary>
+    
+      <category term="开发工具" scheme="http://ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="Sublime" scheme="http://ehlxr.me/tags/Sublime/"/>
+    
+  </entry>
   
   <entry>
     <title>[转]用 Markdown 写印象笔记（Evernote）</title>
@@ -1759,112 +1795,6 @@
       <category term="GitHub" scheme="http://ehlxr.me/tags/GitHub/"/>
     
       <category term="Hexo" scheme="http://ehlxr.me/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[转]JMS基本概念</title>
-    <link href="http://ehlxr.me/2016/07/21/%E8%BD%AC-JMS%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/"/>
-    <id>http://ehlxr.me/2016/07/21/转-JMS基本概念/</id>
-    <published>2016-07-21T04:35:43.000Z</published>
-    <updated>2016-10-21T03:13:32.979Z</updated>
-    
-    <content type="html"><![CDATA[<p>JMS（JAVA Message Service,java消息服务）API是一个消息服务的标准或者说是规范，允许应用程序组件基于JavaEE平台创建、发送、接收和读取消息。它使分布式通信耦合度更低，消息服务更加可靠以及异步性。</p>
-<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>JMS是java的消息服务，JMS的客户端之间可以通过JMS服务进行异步的消息传输。</p>
-<h2 id="消息模型"><a href="#消息模型" class="headerlink" title="消息模型"></a>消息模型</h2><ul>
-<li>Point-to-Point(P2P) </li>
-<li>Publish/Subscribe(Pub/Sub)</li>
-</ul>
-<p>即点对点和发布订阅模型<br><a id="more"></a></p>
-<h2 id="P2P模型"><a href="#P2P模型" class="headerlink" title="P2P模型"></a>P2P模型</h2><h3 id="P2P模式图"><a href="#P2P模式图" class="headerlink" title="P2P模式图"></a>P2P模式图</h3><p><img src="/images/post/1469075459852.jpg" alt="P2P模式图"></p>
-<h3 id="涉及到的概念"><a href="#涉及到的概念" class="headerlink" title="涉及到的概念"></a>涉及到的概念</h3><ul>
-<li>消息队列（Queue） </li>
-<li>发送者(Sender) </li>
-<li>接收者(Receiver)</li>
-</ul>
-<p>每个消息都被发送到一个特定的队列，接收者从队列中获取消息。队列保留着消息，直到他们被消费或超时。</p>
-<h3 id="P2P模型的特点"><a href="#P2P模型的特点" class="headerlink" title="P2P模型的特点"></a>P2P模型的特点</h3><ul>
-<li>每个消息只有一个消费者（Consumer）(即一旦被消费，消息就不再在消息队列中)</li>
-<li>发送者和接收者之间在时间上没有依赖性，也就是说当发送者发送了消息之后，不管接收者有没有正在运行，它不会影响到消息被发送到队列</li>
-<li>接收者在成功接收消息之后需向队列应答成功</li>
-</ul>
-<p>如果你希望发送的每个消息都应该被成功处理的话，那么你需要P2P模式。</p>
-<h2 id="Pub-Sub模型"><a href="#Pub-Sub模型" class="headerlink" title="Pub/Sub模型"></a>Pub/Sub模型</h2><h3 id="Pub-Sub模式图"><a href="#Pub-Sub模式图" class="headerlink" title="Pub/Sub模式图"></a>Pub/Sub模式图</h3><p><img src="/images/post/20150630221227522.jpg" alt="Pub/Sub模式图"></p>
-<h3 id="涉及到的概念-1"><a href="#涉及到的概念-1" class="headerlink" title="涉及到的概念"></a>涉及到的概念</h3><ul>
-<li>主题（Topic） </li>
-<li>发布者（Publisher） </li>
-<li>订阅者（Subscriber）</li>
-</ul>
-<p>客户端将消息发送到主题。多个发布者将消息发送到Topic,系统将这些消息传递给多个订阅者。</p>
-<h3 id="Pub-Sub模型的特点"><a href="#Pub-Sub模型的特点" class="headerlink" title="Pub/Sub模型的特点"></a>Pub/Sub模型的特点</h3><ul>
-<li>每个消息可以有多个消费者</li>
-<li>发布者和订阅者之间有时间上的依赖性。针对某个主题（Topic）的订阅者，它必须创建一个订阅者之后，才能消费发布者的消息，而且为了消费消息，订阅者必须保持运行的状态。</li>
-<li>为了缓和这样严格的时间相关性，JMS允许订阅者创建一个可持久化的订阅。这样，即使订阅者没有被激活（运行），它也能接收到发布者的消息。</li>
-</ul>
-<p>如果你希望发送的消息可以不被做任何处理、或者被一个消息者处理、或者可以被多个消费者处理的话，那么可以采用Pub/Sub模型。</p>
-<h2 id="消息的消费"><a href="#消息的消费" class="headerlink" title="消息的消费"></a>消息的消费</h2><p>在JMS中，消息的产生和消息是异步的。对于消费来说，JMS的消息者可以通过两种方式来消费消息。 </p>
-<ul>
-<li>同步<br>订阅者或接收者调用receive方法来接收消息，receive方法在能够接收到消息之前（或超时之前）将一直阻塞 </li>
-<li>异步<br>订阅者或接收者可以注册为一个消息监听器。当消息到达之后，系统自动调用监听器的onMessage方法</li>
-</ul>
-<h2 id="JMS编程模型"><a href="#JMS编程模型" class="headerlink" title="JMS编程模型"></a>JMS编程模型</h2><ul>
-<li><h3 id="ConnectionFactory"><a href="#ConnectionFactory" class="headerlink" title="ConnectionFactory"></a>ConnectionFactory</h3></li>
-</ul>
-<p>创建Connection对象的工厂，针对两种不同的jms消息模型，分别有QueueConnectionFactory和TopicConnectionFactory两种。可以通过JNDI来查找ConnectionFactory对象。</p>
-<ul>
-<li><h3 id="Destination"><a href="#Destination" class="headerlink" title="Destination"></a>Destination</h3></li>
-</ul>
-<p>Destination的意思是消息生产者的消息发送目标或者说消息消费者的消息来源。对于消息生产者来说，它的Destination是某个队列（Queue）或某个主题（Topic）;对于消息消费者来说，它的Destination也是某个队列或主题（即消息来源）。</p>
-<p>所以，Destination实际上就是两种类型的对象：Queue、Topic可以通过JNDI来查找Destination。</p>
-<ul>
-<li><h3 id="Connection"><a href="#Connection" class="headerlink" title="Connection"></a>Connection</h3></li>
-</ul>
-<p>Connection表示在客户端和JMS系统之间建立的链接（对TCP/IP socket的包装）。Connection可以产生一个或多个Session。跟ConnectionFactory一样，Connection也有两种类型：QueueConnection和TopicConnection。</p>
-<ul>
-<li><h3 id="Session"><a href="#Session" class="headerlink" title="Session"></a>Session</h3></li>
-</ul>
-<p>Session是我们操作消息的接口。可以通过session创建生产者、消费者、消息等。Session提供了事务的功能。当我们需要使用session发送/接收多个消息时，可以将这些发送/接收动作放到一个事务中。同样，也分QueueSession和TopicSession。</p>
-<ul>
-<li><h3 id="消息的生产者"><a href="#消息的生产者" class="headerlink" title="消息的生产者"></a>消息的生产者</h3></li>
-</ul>
-<p>消息生产者由Session创建，并用于将消息发送到Destination。同样，消息生产者分两种类型：QueueSender和TopicPublisher。可以调用消息生产者的方法（send或publish方法）发送消息。</p>
-<ul>
-<li><h3 id="消息消费者"><a href="#消息消费者" class="headerlink" title="消息消费者"></a>消息消费者</h3></li>
-</ul>
-<p>消息消费者由Session创建，用于接收被发送到Destination的消息。两种类型：QueueReceiver和TopicSubscriber。可分别通过session的createReceiver(Queue)或createSubscriber(Topic)来创建。当然，也可以session的creatDurableSubscriber方法来创建持久化的订阅者。</p>
-<ul>
-<li><h3 id="MessageListener"><a href="#MessageListener" class="headerlink" title="MessageListener"></a>MessageListener</h3></li>
-</ul>
-<p>消息监听器。如果注册了消息监听器，一旦消息到达，将自动调用监听器的onMessage方法。EJB中的MDB（Message-Driven Bean）就是一种MessageListener。</p>
-<h2 id="企业消息系统的好处"><a href="#企业消息系统的好处" class="headerlink" title="企业消息系统的好处"></a>企业消息系统的好处</h2><p>我们先来看看下图，应用程序A将Message发送到服务器上，然后应用程序B从服务器中接收A发来的消息，通过这个图我们一起来分析一下JMS的好处： </p>
-<p><img src="/images/post/20150630221818616.jpg" alt="企业消息系统的好处"></p>
-<ul>
-<li>提供消息灵活性</li>
-<li>松散耦合</li>
-<li>异步性</li>
-</ul>
-<hr>
-<p><a href="http://blog.csdn.net/jiuqiyuliang/article/details/46701559" target="_blank" rel="external">原文地址</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;JMS（JAVA Message Service,java消息服务）API是一个消息服务的标准或者说是规范，允许应用程序组件基于JavaEE平台创建、发送、接收和读取消息。它使分布式通信耦合度更低，消息服务更加可靠以及异步性。&lt;/p&gt;
-&lt;h2 id=&quot;基本概念&quot;&gt;&lt;a href=&quot;#基本概念&quot; class=&quot;headerlink&quot; title=&quot;基本概念&quot;&gt;&lt;/a&gt;基本概念&lt;/h2&gt;&lt;p&gt;JMS是java的消息服务，JMS的客户端之间可以通过JMS服务进行异步的消息传输。&lt;/p&gt;
-&lt;h2 id=&quot;消息模型&quot;&gt;&lt;a href=&quot;#消息模型&quot; class=&quot;headerlink&quot; title=&quot;消息模型&quot;&gt;&lt;/a&gt;消息模型&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Point-to-Point(P2P) &lt;/li&gt;
-&lt;li&gt;Publish/Subscribe(Pub/Sub)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;即点对点和发布订阅模型&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Java开发技术" scheme="http://ehlxr.me/categories/Java%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Java" scheme="http://ehlxr.me/tags/Java/"/>
-    
-      <category term="JMS" scheme="http://ehlxr.me/tags/JMS/"/>
     
   </entry>
   
