@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://ehlxr.me/2016/10/19/%E8%BD%AC-%E7%94%A8-Markdown-%E5%86%99%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%EF%BC%88Evernote%EF%BC%89/</loc>
-    <lastmod>2016-10-24T13:35:13.135Z</lastmod>
+    <lastmod>2016-10-24T13:46:39.461Z</lastmod>
     <data>
         <display>
         <title>[转]用 Markdown 写印象笔记（Evernote）</title>
@@ -313,9 +313,9 @@
         <title>CentOS 系统下 GitLab 搭建与基本配置</title>
         <pubTime>2016-07-31T10:15:47.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>CentOS</tag>
+         
+        <tag>Git</tag>
          
         <tag>GitLab</tag>
          
@@ -337,11 +337,11 @@
         <title>CentOS 7 安装最新的 Git</title>
         <pubTime>2016-07-30T14:12:43.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>Linux</tag>
          
         <tag>CentOS</tag>
+         
+        <tag>Git</tag>
          
          
            
@@ -494,9 +494,9 @@
         <title>CentOS 中配置 Git 命令自动补全</title>
         <pubTime>2016-09-04T02:03:35.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>CentOS</tag>
+         
+        <tag>Git</tag>
          
          
            
