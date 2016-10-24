@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ehlxr.me/"/>
-  <updated>2016-10-24T09:33:41.215Z</updated>
+  <updated>2016-10-24T11:36:03.183Z</updated>
   <id>http://ehlxr.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://ehlxr.me/2016/10/24/%E8%AE%BE%E7%BD%AE-Sublime-Text3-%E4%B8%BB%E9%A2%98%E9%80%8F%E6%98%8E/"/>
     <id>http://ehlxr.me/2016/10/24/设置-Sublime-Text3-主题透明/</id>
     <published>2016-10-24T09:30:55.000Z</published>
-    <updated>2016-10-24T09:33:41.215Z</updated>
+    <updated>2016-10-24T11:36:03.183Z</updated>
     
     <content type="html"><![CDATA[<ol>
 <li><p>下载安装包：<a href="https://github.com/vhanla/SublimeTextTrans" target="_blank" rel="external">SublimeTextTrans</a>。</p>
@@ -28,6 +28,9 @@
 <li><p>解压到 Sublime Text3 的 Packages 存放目录下，命名为：<code>SublimeTextTrans</code>。</p>
 <p> 点击 Sublime Text3 的 <code>Preferences -&gt; Browse Packages</code> 打开 Packages 存放目录，一般情况是在 <code>C:\Users\YOURNAME\AppData\Roaming\Sublime Text 3\Packages</code> 目录下。</p>
 </li>
+</ol>
+<a id="more"></a>
+<ol>
 <li><p>设置 Sublime Text3 的透明度级别。</p>
 <p> 点击 Sublime Text3 的 <code>Preferences -&gt; Package Setting -&gt; SublimeTextTrans -&gt; Setting - User</code> 就可以设置透明度的级别了。</p>
 <p> 也可以通过 <code>Ctrl+Shift+1、2、3、4、5、6</code> 加载预设的 6 个透明级别。预设的透明级别在 <code>Preferences -&gt; Package Setting -&gt; SublimeTextTrans -&gt; Setting - Default</code> 中可以查看。</p>
@@ -38,9 +41,12 @@
     <summary type="html">
     
       &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;下载安装包：&lt;a href=&quot;https://github.com/vhanla/SublimeTextTrans&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SublimeTextTrans&lt;/a&gt;。&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;下载安装包：&lt;a href=&quot;https://github.com/vhanla/SublimeTextTrans&quot;&gt;SublimeTextTrans&lt;/a&gt;。&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p
+&lt;li&gt;&lt;p&gt;解压到 Sublime Text3 的 Packages 存放目录下，命名为：&lt;code&gt;SublimeTextTrans&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt; 点击 Sublime Text3 的 &lt;code&gt;Preferences -&amp;gt; Browse Packages&lt;/code&gt; 打开 Packages 存放目录，一般情况是在 &lt;code&gt;C:\Users\YOURNAME\AppData\Roaming\Sublime Text 3\Packages&lt;/code&gt; 目录下。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
     
     </summary>
     
@@ -56,7 +62,7 @@
     <link href="http://ehlxr.me/2016/10/19/%E8%BD%AC-%E7%94%A8-Markdown-%E5%86%99%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%EF%BC%88Evernote%EF%BC%89/"/>
     <id>http://ehlxr.me/2016/10/19/转-用-Markdown-写印象笔记（Evernote）/</id>
     <published>2016-10-19T02:47:23.000Z</published>
-    <updated>2016-10-21T03:10:46.211Z</updated>
+    <updated>2016-10-24T11:35:19.763Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>使用印象笔记很久了，什么都觉得很好，就是不支持 Markdown 书写语法，实在是太遗憾了。今天发现网上有人介绍了一款 Sublime 的一个插件 <a href="https://packagecontrol.io/packages/Evernote" target="_blank" rel="external">Evernote</a>，尝试了一下觉得还是一个不错的方案，正好我也很喜欢使用 Sublime 编辑器，如此甚好，哈哈…</p>
@@ -74,7 +80,7 @@
   <figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line"> <span class="attr">"noteStoreUrl"</span>: <span class="string">""</span>,</div><div class="line"> <span class="attr">"token"</span>: <span class="string">""</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>  <code>noteStoreUrl</code> 和<code>token</code>值为之前打开的页面的上的值，保存。</p>
 </li>
-<li>测试是否成功：通过<code>ctrl+shift+p</code>打开命令窗口，输入<code>evernote</code>，就会看见 Evernote 的许多命令，点<code>击evernote:list recent notes</code>,，如果看到罗列出最新的笔记，则说明授权成功</li>
+<li>测试是否成功：通过<code>ctrl+shift+p</code>打开命令窗口，输入<code>evernote</code>，就会看见 Evernote 的许多命令，点击<code>evernote:list recent notes</code>，如果看到罗列出最新的笔记，则说明授权成功</li>
 </ul>
 <h1 id="快捷键设置"><a href="#快捷键设置" class="headerlink" title="快捷键设置"></a>快捷键设置</h1><p>插件默认没有添加快捷键。但可以自己配置。</p>
 <p>通过<code>ctrl+shift+p</code>打开命令窗口，输入<code>key binding</code>，选择<code>User</code>那，写入你的内容。下面是我的设置：</p>
@@ -550,9 +556,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
-    
       <category term="Gogs" scheme="http://ehlxr.me/tags/Gogs/"/>
+    
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -584,9 +590,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
@@ -925,9 +931,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
       <category term="GitLab" scheme="http://ehlxr.me/tags/GitLab/"/>
     
@@ -975,11 +981,11 @@
       <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
   </entry>
   

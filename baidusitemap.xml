@@ -5,13 +5,35 @@
     
   <url>
     <loc>http://ehlxr.me/2016/10/24/%E8%AE%BE%E7%BD%AE-Sublime-Text3-%E4%B8%BB%E9%A2%98%E9%80%8F%E6%98%8E/</loc>
-    <lastmod>2016-10-24T09:33:41.215Z</lastmod>
+    <lastmod>2016-10-24T11:36:03.183Z</lastmod>
     <data>
         <display>
         <title>设置 Sublime Text3 主题透明</title>
         <pubTime>2016-10-24T09:30:55.000Z</pubTime>
         
         <tag>Sublime</tag>
+         
+         
+           
+             
+              <breadCrumb title="开发工具" url="http://ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://ehlxr.me/2016/10/19/%E8%BD%AC-%E7%94%A8-Markdown-%E5%86%99%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%EF%BC%88Evernote%EF%BC%89/</loc>
+    <lastmod>2016-10-24T11:35:19.763Z</lastmod>
+    <data>
+        <display>
+        <title>[转]用 Markdown 写印象笔记（Evernote）</title>
+        <pubTime>2016-10-19T02:47:23.000Z</pubTime>
+        
+        <tag>Markdown</tag>
+         
+        <tag>Evernote</tag>
          
          
            
@@ -291,9 +313,9 @@
         <title>CentOS 系统下 GitLab 搭建与基本配置</title>
         <pubTime>2016-07-31T10:15:47.000Z</pubTime>
         
-        <tag>CentOS</tag>
-         
         <tag>Git</tag>
+         
+        <tag>CentOS</tag>
          
         <tag>GitLab</tag>
          
@@ -315,11 +337,11 @@
         <title>CentOS 7 安装最新的 Git</title>
         <pubTime>2016-07-30T14:12:43.000Z</pubTime>
         
+        <tag>Git</tag>
+         
         <tag>Linux</tag>
          
         <tag>CentOS</tag>
-         
-        <tag>Git</tag>
          
          
            
@@ -383,36 +405,14 @@
         <title>5 分钟搭建 Git 服务器-Gogs</title>
         <pubTime>2016-09-06T04:15:14.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>Gogs</tag>
+         
+        <tag>Git</tag>
          
          
            
              
               <breadCrumb title="Git" url="http://ehlxr.me/categories/Git/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://ehlxr.me/2016/10/19/%E8%BD%AC-%E7%94%A8-Markdown-%E5%86%99%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%EF%BC%88Evernote%EF%BC%89/</loc>
-    <lastmod>2016-10-21T03:10:46.211Z</lastmod>
-    <data>
-        <display>
-        <title>[转]用 Markdown 写印象笔记（Evernote）</title>
-        <pubTime>2016-10-19T02:47:23.000Z</pubTime>
-        
-        <tag>Markdown</tag>
-         
-        <tag>Evernote</tag>
-         
-         
-           
-             
-              <breadCrumb title="开发工具" url="http://ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
           
         </display>
     </data>
@@ -494,9 +494,9 @@
         <title>CentOS 中配置 Git 命令自动补全</title>
         <pubTime>2016-09-04T02:03:35.000Z</pubTime>
         
-        <tag>CentOS</tag>
-         
         <tag>Git</tag>
+         
+        <tag>CentOS</tag>
          
          
            
