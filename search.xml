@@ -13,7 +13,7 @@
     <entry>
       <title><![CDATA[设置 Sublime Text3 主题透明]]></title>
       <url>http://ehlxr.me/2016/10/24/%E8%AE%BE%E7%BD%AE-Sublime-Text3-%E4%B8%BB%E9%A2%98%E9%80%8F%E6%98%8E/</url>
-      <content type="text"><![CDATA[下载安装包：SublimeTextTrans。 解压到 Sublime Text3 的 Packages 存放目录下，命名为：SublimeTextTrans。 点击 Sublime Text3 的 Preferences -&gt; Browse Packages 打开 Packages 存放目录，一般情况是在 C:\Users\YOURNAME\AppData\Roaming\Sublime Text 3\Packages 目录下。 设置 Sublime Text3 的透明度级别。 点击 Sublime Text3 的 Preferences -&gt; Package Setting -&gt; SublimeTextTrans -&gt; Setting - User 就可以设置透明度的级别了。 也可以通过 Ctrl+Shift+1、2、3、4、5、6 加载预设的 6 个透明级别。预设的透明级别在 Preferences -&gt; Package Setting -&gt; SublimeTextTrans -&gt; Setting - Default 中可以查看。]]></content>
+      <content type="text"><![CDATA[下载安装包：SublimeTextTrans。 安装插件 解压到 Sublime Text3 的 Packages 存放目录下，命名为：SublimeTextTrans。点击 Sublime Text3 的 Preferences -&gt; Browse Packages 打开 Packages 存放目录，一般情况是在 C:\Users\YOURNAME\AppData\Roaming\Sublime Text 3\Packages 目录下。 设置 Sublime Text3 的透明度级别。 点击 Sublime Text3 的 Preferences -&gt; Package Setting -&gt; SublimeTextTrans -&gt; Setting - User 就可以设置透明度的级别了。 也可以通过 Ctrl+Shift+1、2、3、4、5、6 加载预设的 6 个透明级别。预设的透明级别在 Preferences -&gt; Package Setting -&gt; SublimeTextTrans -&gt; Setting - Default 中可以查看。]]></content>
     </entry>
 
     
