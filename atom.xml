@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ehlxr.me/"/>
-  <updated>2016-10-24T11:36:03.183Z</updated>
+  <updated>2016-10-25T05:46:37.668Z</updated>
   <id>http://ehlxr.me/</id>
   
   <author>
@@ -14,6 +14,43 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows 10 删除、恢复资源管理器中“视频、图片”等文件夹</title>
+    <link href="http://ehlxr.me/2016/10/25/Windows-10-%E5%88%A0%E9%99%A4%E3%80%81%E6%81%A2%E5%A4%8D%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E2%80%9C%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%E2%80%9D%E7%AD%89%E6%96%87%E4%BB%B6%E5%A4%B9/"/>
+    <id>http://ehlxr.me/2016/10/25/Windows-10-删除、恢复资源管理器中“视频、图片”等文件夹/</id>
+    <published>2016-10-25T03:48:31.000Z</published>
+    <updated>2016-10-25T05:46:37.668Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>Windows 10 资源管理器中的”视频、图片、文档、下载、音乐、桌面”等文件夹目前通过一般途径是删除不了的，只能通过注册表的删除删掉，本文介绍一种比较简单的删除、恢复方法。</p>
+</blockquote>
+<p><img src="http://oapjp6spr.bkt.clouddn.com/20161025111013.jpg" alt=""></p>
+<a id="more"></a>
+<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>打开注册表（<code>Win+R</code> 输入 <code>regedit</code>）找到以下键：</p>
+<p><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\</code> 单击 <code>NameSpace</code> 右键 <code>导出</code>，保存文件后缀名为 <code>.reg</code>。</p>
+<h2 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h2><p>用文本编辑器打开该文件，只保留类似以下内容，并且在行首添加 <code>-</code> 号，然后保存。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">Windows Registry Editor Version 5.00</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;088e3905-0323-4b02-9826-5d99428e115f&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;1CF1260C-4DD0-4ebb-811F-33C572699FDE&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;24ad3ad4-a569-4530-98e1-ab02f9417aa8&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;374DE290-123F-4565-9164-39C4925E467B&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;3ADD1653-EB32-4cb0-BBD7-DFA0ABB5ACCA&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;3dfdf296-dbec-4fb4-81d1-6a3438bcf4de&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;A0953C92-50DC-43bf-BE83-3742FED03C9C&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;A8CDFF1C-4878-43be-B5FD-F8091C1C60D0&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;B4BFCC3A-DB2C-424C-B029-7FE99A87C641&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;d3162b92-9365-467a-956b-92703aca08af&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a&#125;]</div></pre></td></tr></table></figure>
+<p>双击该文件即可删除。</p>
+<h2 id="恢复"><a href="#恢复" class="headerlink" title="恢复"></a>恢复</h2><p>想要恢复，编辑文件，删除行首 <code>-</code> 号，保存，双击运行即可恢复。</p>
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Windows 10 资源管理器中的”视频、图片、文档、下载、音乐、桌面”等文件夹目前通过一般途径是删除不了的，只能通过注册表的删除删掉，本文介绍一种比较简单的删除、恢复方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://oapjp6spr.bkt.clouddn.com/20161025111013.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开发工具" scheme="http://ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="Windows 10" scheme="http://ehlxr.me/tags/Windows-10/"/>
+    
+  </entry>
   
   <entry>
     <title>设置 Sublime Text3 主题透明</title>
@@ -1057,9 +1094,9 @@
     
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
-      <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
-    
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
     
   </entry>
   
@@ -1679,126 +1716,6 @@
     
       <category term="Hexo" scheme="http://ehlxr.me/categories/Hexo/"/>
     
-    
-      <category term="GitHub" scheme="http://ehlxr.me/tags/GitHub/"/>
-    
-      <category term="Hexo" scheme="http://ehlxr.me/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用Hexo基于GitHub Pages搭建个人博客（一）</title>
-    <link href="http://ehlxr.me/2016/07/23/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89/"/>
-    <id>http://ehlxr.me/2016/07/23/使用Hexo基于GitHub-Pages搭建个人博客（一）/</id>
-    <published>2016-07-23T03:35:43.000Z</published>
-    <updated>2016-10-21T03:13:13.524Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>GitHub Pages 是 GitHub 提供的免费开源的静态站点托管服务，利用这个服务可以搭建轻量级的博客系统，本文介绍了如何使用 Hexo 结合 GitHub Pages 服务搭建个人博客。</p>
-</blockquote>
-<h1 id="一、安装配置-Git"><a href="#一、安装配置-Git" class="headerlink" title="一、安装配置 Git"></a>一、安装配置 Git</h1><ul>
-<li>安装 Git</li>
-</ul>
-<p>　　使用 GitHub 首先要安装 Git，可根据操作系统下载不同版本的Git，Windows下载地址：<a href="https://git-scm.com/download/win" target="_blank" rel="external">https://git-scm.com/download/win</a> 安装过程比较简单，选择默认选项配置即可下一步，不再叙述。</p>
-<ul>
-<li>配置 Git</li>
-</ul>
-<p>　　设置本地机器默认 commit 的昵称与 Email，姓名与 Email 只用于日志标识，实际推送到远程仓库时，要用有操作权限的账号登录。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name &quot;ehlxr&quot;  </div><div class="line">git config --global user.email &quot;ehlxr@qq.com&quot;</div></pre></td></tr></table></figure>
-<h1 id="二、生成-SSH-keys"><a href="#二、生成-SSH-keys" class="headerlink" title="二、生成 SSH keys"></a>二、生成 SSH keys</h1><p>　　SSH Keys 是 GitHub 推荐的公钥、秘钥形式验证用户合法性的机制，添加 SSH Keys 可以省去每次都要输入密码的步骤，下面将演示如何在本地计算机生成 SSH Keys 的公钥、秘钥。</p>
-<a id="more"></a>
-<ul>
-<li>首先打开安装的 Git Bash</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723141920.png" alt=""></p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723142100.png" alt=""></p>
-<ul>
-<li>输入以下命令：（替换 <code>&quot;your_email@example.com&quot;</code> 为注册时候的邮箱）</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot;</div></pre></td></tr></table></figure>
-<ul>
-<li>当出现以下提示时，直接敲回车键选择默认地址即可（保存私钥文件位置，默认保存在当前用户文件夹下的 <code>.ssh</code> 文件夹中，文件名称为 <code>id_rsa</code> ）</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter file in which to save the key (/c/Users/lt/.ssh/id_rsa):</div></pre></td></tr></table></figure>
-<ul>
-<li>如果已经存在会提示，输入：y 敲回车替换即可</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">/c/Users/lt/.ssh/id_rsa already exists.</div><div class="line">Overwrite (y/n)?</div></pre></td></tr></table></figure>
-<ul>
-<li>出现以下提示设置密码提示，不用设置密码，敲回车键即可</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter passphrase (empty for no passphrase):</div></pre></td></tr></table></figure>
-<ul>
-<li>再次确认密码提示，不用设密码敲回车即可</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Enter same passphrase again:</div></pre></td></tr></table></figure>
-<ul>
-<li>出现以下提示，表明已经成功生成了 SSH Keys</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">Your identification has been saved in /c/Users/lt/.ssh/id_rsa.</div><div class="line">Your public key has been saved in /c/Users/lt/.ssh/id_rsa.pub.</div><div class="line">The key fingerprint is:</div><div class="line">SHA256:dBtq6OOJs1JQat630kGqh420Y0JSb7smaR6c9jjo7h0 your_email@example.com</div><div class="line">The key&apos;s randomart image is:</div><div class="line">+---[RSA 4096]----+</div><div class="line">|                 |</div><div class="line">|    .            |</div><div class="line">|   o    . o      |</div><div class="line">|  =   .o o o     |</div><div class="line">| + + o. S .      |</div><div class="line">|.oo.*.o.         |</div><div class="line">|oo=E +oo         |</div><div class="line">|o.#+Oooo         |</div><div class="line">|+OoO==o          |</div><div class="line">+----[SHA256]-----+</div></pre></td></tr></table></figure>
-<p>　　<a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/" target="_blank" rel="external">Github 官网 SSH Keys 生成教程</a></p>
-<h1 id="三、开启-GitHub-Pages-服务"><a href="#三、开启-GitHub-Pages-服务" class="headerlink" title="三、开启 GitHub Pages 服务"></a>三、开启 GitHub Pages 服务</h1><p>　　GitHub 账户注册比较简单，注册免费使用的账户就可以了，这里就不细说了，需要注意的是尽量不要使用 126/163 邮箱注册，我在测试的时候收不到验证码，等收到验证码的时候已经第二天了，早就过期了，我使用 Gmail 和 QQ 邮箱都能很快收到验证码。</p>
-<h2 id="1-添加生成的-SSH-Keys-到-GitHub"><a href="#1-添加生成的-SSH-Keys-到-GitHub" class="headerlink" title="1.添加生成的 SSH Keys 到 GitHub"></a>1.添加生成的 SSH Keys 到 GitHub</h2><ul>
-<li>打开生成的 SSH Keys 公钥</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723144829.png" alt=""></p>
-<ul>
-<li>登录注册的 GitHub 账户，按照以下图示 1、 2、 3、 4、 5、6、 7 步骤操作，复制公钥内容粘贴到下图步骤 5 的 Key 输入框中，在步骤6输入一个标题，点击步骤 7 <code>Add SSH key</code>，这时候会提示你输入 GitHub 密码，输入密码确认即可添加成功。</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723142019.png" alt=""></p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723142036.png" alt=""></p>
-<h2 id="2-创建-GitHub-仓库"><a href="#2-创建-GitHub-仓库" class="headerlink" title="2.创建 GitHub 仓库"></a>2.创建 GitHub 仓库</h2><ul>
-<li>按照下图所示操作，仓库名称按照：<code>yourname.github.io</code> 格式创建，这样就可以通过 <code>yourname.github.io</code> 方式访问你的博客。如果创建名称为：<code>myblog</code> ,则博客的访问路径为 <code>yourname.github.io/myblog</code> </li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723165328.png" alt=""></p>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723171101.png" alt=""></p>
-<ul>
-<li>填写完仓库名称，其他选项默认，点击 <code>Create repository</code> 即可完成创建。</li>
-</ul>
-<h2 id="3-测试-GitHub-Pages-服务"><a href="#3-测试-GitHub-Pages-服务" class="headerlink" title="3.测试 GitHub Pages 服务"></a>3.测试 GitHub Pages 服务</h2><ul>
-<li>接下来在仓库根目录下创建一个 <code>index.html</code> 文件测试 GitHub Pages 服务是否开启成功。打开刚才创建的仓库，因为我们之前已经添加了 SSH Keys，所以选择复制如下图所示的 SSH 仓库连接</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723190223.png" alt=""></p>
-<ul>
-<li>在电脑磁盘创建一个文件夹（我创建在：D:/lxr）在 Git Bash 分别输入以下两条命令</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">cd /d/lxr/ # 进入创建的文件夹</div><div class="line"></div><div class="line">git init # 初始化本地仓库</div></pre></td></tr></table></figure>
-<ul>
-<li>在本地文件夹中创建 <code>index.html</code> 文件，随便输入一些内容即可，命令如下</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">echo &quot;&lt;h1&gt;Hello World&lt;/h1&gt;&quot; &gt;&gt; index.html # 创建 index.html 文件</div></pre></td></tr></table></figure>
-<ul>
-<li>然后分别执行以下命令</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">git add index.html # 添加文件</div><div class="line">git commit -m &quot;create index.html&quot; # 提交文件</div><div class="line">git remote add origin git@github.com:ehlxr/ehlxr.github.io.git # 添加 GitHub 仓库地址，注意地址填写自己注册的 GitHub 仓库地址</div><div class="line">git push -u origin master # push 到 GitHub</div></pre></td></tr></table></figure>
-<ul>
-<li>浏览器访问：<a href="http://ehlxr.github.io" target="_blank" rel="external">yourname.github.io</a> 如果出现 <code>index.html</code> 输入的内容，即 GitHub Pages 服务开启成功</li>
-</ul>
-<hr>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;GitHub Pages 是 GitHub 提供的免费开源的静态站点托管服务，利用这个服务可以搭建轻量级的博客系统，本文介绍了如何使用 Hexo 结合 GitHub Pages 服务搭建个人博客。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;一、安装配置-Git&quot;&gt;&lt;a href=&quot;#一、安装配置-Git&quot; class=&quot;headerlink&quot; title=&quot;一、安装配置 Git&quot;&gt;&lt;/a&gt;一、安装配置 Git&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;安装 Git&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;　　使用 GitHub 首先要安装 Git，可根据操作系统下载不同版本的Git，Windows下载地址：&lt;a href=&quot;https://git-scm.com/download/win&quot;&gt;https://git-scm.com/download/win&lt;/a&gt; 安装过程比较简单，选择默认选项配置即可下一步，不再叙述。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;配置 Git&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;　　设置本地机器默认 commit 的昵称与 Email，姓名与 Email 只用于日志标识，实际推送到远程仓库时，要用有操作权限的账号登录。&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;git config --global user.name &amp;quot;ehlxr&amp;quot;  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;git config --global user.email &amp;quot;ehlxr@qq.com&amp;quot;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h1 id=&quot;二、生成-SSH-keys&quot;&gt;&lt;a href=&quot;#二、生成-SSH-keys&quot; class=&quot;headerlink&quot; title=&quot;二、生成 SSH keys&quot;&gt;&lt;/a&gt;二、生成 SSH keys&lt;/h1&gt;&lt;p&gt;　　SSH Keys 是 GitHub 推荐的公钥、秘钥形式验证用户合法性的机制，添加 SSH Keys 可以省去每次都要输入密码的步骤，下面将演示如何在本地计算机生成 SSH Keys 的公钥、秘钥。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://ehlxr.me/categories/Hexo/"/>
-    
-    
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
       <category term="GitHub" scheme="http://ehlxr.me/tags/GitHub/"/>
     
