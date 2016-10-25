@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ehlxr.me/"/>
-  <updated>2016-10-25T05:46:37.668Z</updated>
+  <updated>2016-10-25T06:26:22.735Z</updated>
   <id>http://ehlxr.me/</id>
   
   <author>
@@ -20,15 +20,14 @@
     <link href="http://ehlxr.me/2016/10/25/Windows-10-%E5%88%A0%E9%99%A4%E3%80%81%E6%81%A2%E5%A4%8D%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%AD%E2%80%9C%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%E2%80%9D%E7%AD%89%E6%96%87%E4%BB%B6%E5%A4%B9/"/>
     <id>http://ehlxr.me/2016/10/25/Windows-10-删除、恢复资源管理器中“视频、图片”等文件夹/</id>
     <published>2016-10-25T03:48:31.000Z</published>
-    <updated>2016-10-25T05:46:37.668Z</updated>
+    <updated>2016-10-25T06:26:22.735Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>Windows 10 资源管理器中的”视频、图片、文档、下载、音乐、桌面”等文件夹目前通过一般途径是删除不了的，只能通过注册表的删除删掉，本文介绍一种比较简单的删除、恢复方法。</p>
 </blockquote>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20161025111013.jpg" alt=""></p>
 <a id="more"></a>
-<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>打开注册表（<code>Win+R</code> 输入 <code>regedit</code>）找到以下键：</p>
-<p><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\</code> 单击 <code>NameSpace</code> 右键 <code>导出</code>，保存文件后缀名为 <code>.reg</code>。</p>
+<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>打开注册表（<code>Win+R</code> 输入 <code>regedit</code>）找到以下键：<br><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\</code> 单击 <code>NameSpace</code> 右键 <code>导出</code>，保存文件后缀名为 <code>.reg</code>。</p>
 <h2 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h2><p>用文本编辑器打开该文件，只保留类似以下内容，并且在行首添加 <code>-</code> 号，然后保存。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">Windows Registry Editor Version 5.00</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;088e3905-0323-4b02-9826-5d99428e115f&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;1CF1260C-4DD0-4ebb-811F-33C572699FDE&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;24ad3ad4-a569-4530-98e1-ab02f9417aa8&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;374DE290-123F-4565-9164-39C4925E467B&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;3ADD1653-EB32-4cb0-BBD7-DFA0ABB5ACCA&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;3dfdf296-dbec-4fb4-81d1-6a3438bcf4de&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;A0953C92-50DC-43bf-BE83-3742FED03C9C&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;A8CDFF1C-4878-43be-B5FD-F8091C1C60D0&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;B4BFCC3A-DB2C-424C-B029-7FE99A87C641&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;d3162b92-9365-467a-956b-92703aca08af&#125;]</div><div class="line"></div><div class="line">[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a&#125;]</div></pre></td></tr></table></figure>
 <p>双击该文件即可删除。</p>
@@ -591,9 +590,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
-    
       <category term="Gogs" scheme="http://ehlxr.me/tags/Gogs/"/>
+    
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -1016,9 +1015,9 @@
       <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
-    
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
+      <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
@@ -1090,9 +1089,9 @@
     
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
