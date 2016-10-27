@@ -353,9 +353,9 @@
         <title>CentOS 系统下 GitLab 搭建与基本配置</title>
         <pubTime>2016-07-31T10:15:47.000Z</pubTime>
         
-        <tag>CentOS</tag>
-         
         <tag>Git</tag>
+         
+        <tag>CentOS</tag>
          
         <tag>GitLab</tag>
          
@@ -377,11 +377,11 @@
         <title>CentOS 7 安装最新的 Git</title>
         <pubTime>2016-07-30T14:12:43.000Z</pubTime>
         
+        <tag>Git</tag>
+         
         <tag>Linux</tag>
          
         <tag>CentOS</tag>
-         
-        <tag>Git</tag>
          
          
            
@@ -445,9 +445,9 @@
         <title>5 分钟搭建 Git 服务器-Gogs</title>
         <pubTime>2016-09-06T04:15:14.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>Gogs</tag>
+         
+        <tag>Git</tag>
          
          
            
@@ -534,9 +534,9 @@
         <title>CentOS 中配置 Git 命令自动补全</title>
         <pubTime>2016-09-04T02:03:35.000Z</pubTime>
         
-        <tag>CentOS</tag>
-         
         <tag>Git</tag>
+         
+        <tag>CentOS</tag>
          
          
            
