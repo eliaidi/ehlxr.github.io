@@ -792,13 +792,14 @@
 <p>生命不息，折腾不休。从搭建 blog 以来，博文虽没有写几篇，但折腾的时间花了不少，走过了不少弯路，也踩过了不少的坑，虽然很懒，但本着好记性不如烂笔头的宗旨，打算在折腾记忆尚未磨灭之际记录一下走过的路和踩过的坑…</p>
 </blockquote>
 <p>接着前两篇使用 Hexo 基于 GitHub Pages 搭建个人博客之上，本文记录了在使用非常漂亮简洁的 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Next</a> 主题过程中的各种折腾，其它主题的相关设置大同小异。再次衷心的感谢 Hexo 的作者和 Next 主题作者的无私奉献。</p>
-<h1 id="一、主题基本配置"><a href="#一、主题基本配置" class="headerlink" title="一、主题基本配置"></a>一、主题基本配置</h1><p>　　记录一下 Next 主题的基本配置、设置「阅读全文」、关闭新建页面的评论功能、页面文章的篇数、宽度调节、设置「JavaScript 第三方库」等内容、在线字体替换（选择关闭，加快访问速度）</p>
+<h1 id="一、主题基本配置"><a href="#一、主题基本配置" class="headerlink" title="一、主题基本配置"></a>一、主题基本配置</h1><p>记录一下 Next 主题的基本配置、设置「阅读全文」、关闭新建页面的评论功能、页面文章的篇数、宽度调节、设置「JavaScript 第三方库」等内容、在线字体替换（选择关闭，加快访问速度）</p>
 <a id="more"></a>
 <ol>
-<li><p>主题安装</p>
+<li>主题安装</li>
+</ol>
 <p><code>Next</code> 主题安装与所有 <code>Hexo</code> 主题安装一样。当克隆或者下载（<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">Next主题GitHub地址</a>）完成主题文件后，拷贝至站点目录的 <code>themes</code> 目录下，一般命名为 <code>next</code>，打开<code>站点配置文件</code>， 找到 <code>theme</code> 字段，并将其值更改为 <code>next</code> 即可。</p>
 <figure class="highlight autoit"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: <span class="keyword">next</span></div></pre></td></tr></table></figure>
-</li>
+<ol>
 <li><p>Next 主题宽度调节</p>
 <p>编辑 <code>themes/next/source/css/_variables/custom.styl</code> 文件，新增变量：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">// 修改成你期望的宽度</div><div class="line"><span class="variable">$content</span>-desktop = 700px</div><div class="line"></div><div class="line">// 当视窗超过 1600px 后的宽度</div><div class="line"><span class="variable">$content</span>-desktop-large = 900px</div></pre></td></tr></table></figure>
@@ -821,7 +822,7 @@
 <figure class="highlight scss"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/*-------------访客底部----------------*/</span></div><div class="line"><span class="selector-class">.ds-recent-visitors</span> &#123;</div><div class="line">    <span class="attribute">margin-bottom</span>: <span class="number">200px</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line">@<span class="keyword">media</span> (max-width: 768px) &#123;</div><div class="line">    <span class="selector-class">.ds-recent-visitors</span> &#123;</div><div class="line">        <span class="attribute">margin-bottom</span>: <span class="number">440px</span>;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/*-------------非圆角----------------*/</span></div><div class="line"><span class="selector-id">#ds-reset</span> <span class="selector-class">.ds-rounded</span> &#123;</div><div class="line">    <span class="attribute">border-radius</span>: <span class="number">0px</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-class">.theme-next</span> <span class="selector-id">#ds-thread</span> <span class="selector-id">#ds-reset</span> <span class="selector-class">.ds-textarea-wrapper</span> &#123;</div><div class="line">    <span class="attribute">border-top-right-radius</span>: <span class="number">0px</span>;</div><div class="line">    <span class="attribute">border-top-left-radius</span>: <span class="number">0px</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-class">.theme-next</span> <span class="selector-id">#ds-thread</span> <span class="selector-id">#ds-reset</span> <span class="selector-class">.ds-post-button</span> &#123;</div><div class="line">    <span class="attribute">border-radius</span>: <span class="number">0px</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-class">.ds-post-self</span> xmp &#123;</div><div class="line">    <span class="attribute">word-wrap</span>: break-word;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/*-------------访客----------------*/</span></div><div class="line"><span class="selector-id">#ds-reset</span> <span class="selector-class">.ds-avatar</span> <span class="selector-tag">img</span>,</div><div class="line"><span class="selector-id">#ds-recent-visitors</span> <span class="selector-class">.ds-avatar</span> <span class="selector-tag">img</span> &#123;</div><div class="line">    <span class="attribute">width</span>: <span class="number">54px</span>;</div><div class="line">    <span class="attribute">height</span>: <span class="number">54px</span>; <span class="comment">/*设置图像的长和宽，这里要根据自己的评论框情况更改*/</span></div><div class="line">    <span class="attribute">border-radius</span>: <span class="number">27px</span>; <span class="comment">/*设置图像圆角效果,在这里我直接设置了超过width/2的像素，即为圆形了*/</span></div><div class="line">    -webkit-<span class="attribute">border-radius</span>: <span class="number">27px</span>; <span class="comment">/*圆角效果：兼容webkit浏览器*/</span></div><div class="line">    -moz-<span class="attribute">border-radius</span>: <span class="number">27px</span>;</div><div class="line">    <span class="attribute">box-shadow</span>: inset <span class="number">0</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#3333</span>sf; <span class="comment">/*设置图像阴影效果*/</span></div><div class="line">    -webkit-<span class="attribute">box-shadow</span>: inset <span class="number">0</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#3333</span>sf;</div><div class="line">    -webkit-<span class="attribute">transition</span>: <span class="number">0.4s</span>;</div><div class="line">    -webkit-<span class="attribute">transition</span>: -webkit-transform <span class="number">0.4s</span> ease-out;</div><div class="line">    <span class="attribute">transition</span>: transform <span class="number">0.4s</span> ease-out; <span class="comment">/*变化时间设置为0.4秒(变化动作即为下面的图像旋转360读）*/</span></div><div class="line">    -moz-<span class="attribute">transition</span>: -moz-transform <span class="number">0.4s</span> ease-out;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/*-------------访客悬浮在头像----------------*/</span></div><div class="line"><span class="selector-id">#ds-reset</span> <span class="selector-class">.ds-avatar</span> <span class="selector-tag">img</span>:hover,</div><div class="line"><span class="selector-id">#ds-recent-visitors</span> <span class="selector-class">.ds-avatar</span> <span class="selector-tag">img</span>:hover &#123;</div><div class="line">    <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">#fff</span>;</div><div class="line">rgba(255, 255, 255, <span class="selector-class">.6</span>), inset 0 0 20 px rgba(255, 255, 255, 1);</div><div class="line">    -webkit-<span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">#fff</span>;</div><div class="line">rgba(255, 255, 255, <span class="selector-class">.6</span>), inset 0 0 20 px rgba(255, 255, 255, 1);</div><div class="line">    <span class="attribute">transform</span>: rotateZ(<span class="number">360deg</span>); <span class="comment">/*图像旋转360度*/</span></div><div class="line">    -webkit-<span class="attribute">transform</span>: rotateZ(<span class="number">360deg</span>);</div><div class="line">    -moz-<span class="attribute">transform</span>: rotateZ(<span class="number">360deg</span>);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-id">#ds-thread</span> <span class="selector-id">#ds-reset</span> <span class="selector-class">.ds-textarea-wrapper</span> <span class="selector-tag">textarea</span> &#123;</div><div class="line">    <span class="attribute">background</span>: url(http://ww4.sinaimg.cn/small/<span class="number">649</span>a4735gw1et7gnhy5fej20zk0m8q3q.jpg) right no-repeat;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-id">#ds-recent-visitors</span> <span class="selector-class">.ds-avatar</span> &#123;</div><div class="line">    <span class="attribute">float</span>: left</div><div class="line">&#125;</div><div class="line"></div><div class="line">/*-------------隐藏版权----------------*/</div><div class="line"><span class="number">#d</span>s-thread <span class="number">#d</span>s-reset .ds-powered-by &#123;</div><div class="line">    display: none;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 </li>
 </ol>
-<h1 id="三、统计"><a href="#三、统计" class="headerlink" title="三、统计"></a>三、统计</h1><p>　　我使用 <code>LeanCloud</code> 统计文章阅读数，使用不蒜子统计站点的 PV 和 UV 数。</p>
+<h1 id="三、统计"><a href="#三、统计" class="headerlink" title="三、统计"></a>三、统计</h1><p>我使用 <code>LeanCloud</code> 统计文章阅读数，使用不蒜子统计站点的 PV 和 UV 数。</p>
 <ol>
 <li><p>文章阅读次数统计（LeanCloud)</p>
 <p>参考<a href="https://notes.wanghao.work/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html#%E9%85%8D%E7%BD%AELeanCloud" target="_blank" rel="external">为NexT主题添加文章阅读量统计功能</a></p>
@@ -840,7 +841,8 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># RSS订阅支持</span></div><div class="line">plugin:</div><div class="line">- hexo-generator-feed</div><div class="line"></div><div class="line"><span class="comment"># Feed Atom</span></div><div class="line">feed:</div><div class="line"><span class="built_in">type</span>: atom</div><div class="line">path: atom.xml</div><div class="line"><span class="built_in">limit</span>: 20</div></pre></td></tr></table></figure>
 </li>
 </ol>
-<h1 id="五、内容分享"><a href="#五、内容分享" class="headerlink" title="五、内容分享"></a>五、内容分享</h1><p>　　使用 JiaThis 作为内容分享服务，具体步骤如下：<br>　　<br>　　编辑 <code>站点配置文件</code>， 添加字段 <code>jiathis</code>，值为 <code>true</code> 即可。</p>
+<h1 id="五、内容分享"><a href="#五、内容分享" class="headerlink" title="五、内容分享"></a>五、内容分享</h1><p>使用 JiaThis 作为内容分享服务，具体步骤如下：</p>
+<p>编辑 <code>站点配置文件</code>， 添加字段 <code>jiathis</code>，值为 <code>true</code> 即可。</p>
 <h1 id="六、搜索服务"><a href="#六、搜索服务" class="headerlink" title="六、搜索服务"></a>六、搜索服务</h1><ol>
 <li><p><del>安装 <code>hexo-generator-search</code>，在站点的根目录下执行以下命令：</del></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-search --save</div></pre></td></tr></table></figure>
@@ -855,7 +857,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">search:</div><div class="line">  path: search.xml</div><div class="line">  field: post</div><div class="line">  format: html</div><div class="line">  <span class="built_in">limit</span>: 10000</div></pre></td></tr></table></figure>
 </li>
 </ol>
-<h1 id="七、背景效果"><a href="#七、背景效果" class="headerlink" title="七、背景效果"></a>七、背景效果</h1><p>　　介绍博客背景动态效果图和点击小红心效果的相关设置。</p>
+<h1 id="七、背景效果"><a href="#七、背景效果" class="headerlink" title="七、背景效果"></a>七、背景效果</h1><p>介绍博客背景动态效果图和点击小红心效果的相关设置。</p>
 <ol>
 <li><p>把 js 文件 <a href="https://github.com/ehlxr/ehlxr.github.io/blob/master/js/src/love.js" target="_blank" rel="external">love.js</a> 和 <a href="https://github.com/ehlxr/ehlxr.github.io/blob/master/js/src/particle.js" target="_blank" rel="external">particle.js</a> 放在<code>\themes\next\source\js\src</code>文件目录下</p>
 </li>
@@ -870,7 +872,7 @@
 <li><p><code>{\% gp 5-3 \%}</code>：设置图片展示效果，参考<code>theme/next/scripts/tags/group-pictures.js</code>注释效果</p>
 </li>
 </ol>
-<h1 id="九、博文压缩"><a href="#九、博文压缩" class="headerlink" title="九、博文压缩"></a>九、博文压缩</h1><p>　　目前知道的有两个插件可以压缩博文，<code>hexo-all-minifier</code>插件和<code>gulp</code>插件。<code>hexo-all-minifier</code>插件虽然使用比较简单，而且可以压缩图片，但是发现对文章缩进（输入法全拼模式下按<code>Tab</code>）不支持，所以暂时使用第二种压缩手段。</p>
+<h1 id="九、博文压缩"><a href="#九、博文压缩" class="headerlink" title="九、博文压缩"></a>九、博文压缩</h1><p>目前知道的有两个插件可以压缩博文，<code>hexo-all-minifier</code>插件和<code>gulp</code>插件。<code>hexo-all-minifier</code>插件虽然使用比较简单，而且可以压缩图片，但是发现对文章缩进（输入法全拼模式下按<code>Tab</code>）不支持，所以暂时使用第二种压缩手段。</p>
 <ol>
 <li><p><code>hexo-all-minifier</code>配置使用</p>
 <p>安装 <code>hexo-all-minifier</code>，在站点的根目录下执行以下命令：</p>
@@ -893,7 +895,7 @@
 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Naruto 图集</div><div class="line">categories: [图片]</div><div class="line">tags: [picture,naruto]</div><div class="line">date: <span class="number">2016</span>-<span class="number">09</span>-<span class="number">02</span> <span class="number">14</span>:<span class="number">36</span>:<span class="number">04</span></div><div class="line">keywords: picture,naruto</div><div class="line">type: <span class="string">"picture"</span></div><div class="line"><span class="attribute">top</span>: <span class="number">10</span></div><div class="line">---</div></pre></td></tr></table></figure>
 </li>
 </ol>
-<h1 id="十一、头像圆形旋转"><a href="#十一、头像圆形旋转" class="headerlink" title="十一、头像圆形旋转"></a>十一、头像圆形旋转</h1><p>　　介绍一下实现头像圆形，鼠标经过旋转或者一直让旋转效果，主要是修改 Hexo 目录下 <code>\themes\next\source\css\_common\components\sidebar\sidebar-author.styl</code> 文件。</p>
+<h1 id="十一、头像圆形旋转"><a href="#十一、头像圆形旋转" class="headerlink" title="十一、头像圆形旋转"></a>十一、头像圆形旋转</h1><p>介绍一下实现头像圆形，鼠标经过旋转或者一直让旋转效果，主要是修改 Hexo 目录下 <code>\themes\next\source\css\_common\components\sidebar\sidebar-author.styl</code> 文件。</p>
 <ol>
 <li><p>头像圆形：修改 <code>sidebar-author.styl</code> 文件中 <code>.site-author-image</code> CSS 样式如下：</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.site-author-image</span> &#123;</div><div class="line">  <span class="attribute">display</span>: block;</div><div class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</div><div class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</div><div class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</div><div class="line">  <span class="attribute">height</span>: $site-author-image-height;</div><div class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</div><div class="line">  </div><div class="line">  <span class="comment">/*头像圆形*/</span></div><div class="line">  <span class="attribute">border-radius</span>: <span class="number">80px</span>;</div><div class="line">  <span class="attribute">-webkit-border-radius</span>: <span class="number">80px</span>;</div><div class="line">  <span class="attribute">-moz-border-radius</span>: <span class="number">80px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -921,7 +923,7 @@
 &lt;p&gt;生命不息，折腾不休。从搭建 blog 以来，博文虽没有写几篇，但折腾的时间花了不少，走过了不少弯路，也踩过了不少的坑，虽然很懒，但本着好记性不如烂笔头的宗旨，打算在折腾记忆尚未磨灭之际记录一下走过的路和踩过的坑…&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;接着前两篇使用 Hexo 基于 GitHub Pages 搭建个人博客之上，本文记录了在使用非常漂亮简洁的 &lt;a href=&quot;http://theme-next.iissnan.com/&quot;&gt;Next&lt;/a&gt; 主题过程中的各种折腾，其它主题的相关设置大同小异。再次衷心的感谢 Hexo 的作者和 Next 主题作者的无私奉献。&lt;/p&gt;
-&lt;h1 id=&quot;一、主题基本配置&quot;&gt;&lt;a href=&quot;#一、主题基本配置&quot; class=&quot;headerlink&quot; title=&quot;一、主题基本配置&quot;&gt;&lt;/a&gt;一、主题基本配置&lt;/h1&gt;&lt;p&gt;　　记录一下 Next 主题的基本配置、设置「阅读全文」、关闭新建页面的评论功能、页面文章的篇数、宽度调节、设置「JavaScript 第三方库」等内容、在线字体替换（选择关闭，加快访问速度）&lt;/p&gt;
+&lt;h1 id=&quot;一、主题基本配置&quot;&gt;&lt;a href=&quot;#一、主题基本配置&quot; class=&quot;headerlink&quot; title=&quot;一、主题基本配置&quot;&gt;&lt;/a&gt;一、主题基本配置&lt;/h1&gt;&lt;p&gt;记录一下 Next 主题的基本配置、设置「阅读全文」、关闭新建页面的评论功能、页面文章的篇数、宽度调节、设置「JavaScript 第三方库」等内容、在线字体替换（选择关闭，加快访问速度）&lt;/p&gt;
     
     </summary>
     
@@ -1222,32 +1224,16 @@
     <link href="http://ehlxr.me/2016/07/30/%E8%BD%AC-%E5%B0%86-Centos-%E7%9A%84-yum-%E6%BA%90%E6%9B%B4%E6%94%B9%E4%B8%BA%E5%9B%BD%E5%86%85%E7%9A%84%E9%98%BF%E9%87%8C%E4%BA%91%E6%BA%90/"/>
     <id>http://ehlxr.me/2016/07/30/转-将-Centos-的-yum-源更改为国内的阿里云源/</id>
     <published>2016-07-30T03:57:59.000Z</published>
-    <updated>2016-10-21T03:13:38.811Z</updated>
+    <updated>2016-10-27T12:23:39.822Z</updated>
     
     <content type="html"><![CDATA[<p>阿里云Linux安装镜像源地址：<a href="http://mirrors.aliyun.com/" target="_blank" rel="external">http://mirrors.aliyun.com/</a></p>
 <p>CentOS系统更换软件安装源</p>
-<ul>
-<li><h3 id="一-备份你的原镜像文件，以免出错后可以恢复。"><a href="#一-备份你的原镜像文件，以免出错后可以恢复。" class="headerlink" title="一. 备份你的原镜像文件，以免出错后可以恢复。"></a>一. 备份你的原镜像文件，以免出错后可以恢复。</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup</div></pre></td></tr></table></figure>
+<h3 id="一、备份你的原镜像文件，以免出错后可以恢复。"><a href="#一、备份你的原镜像文件，以免出错后可以恢复。" class="headerlink" title="一、备份你的原镜像文件，以免出错后可以恢复。"></a>一、备份你的原镜像文件，以免出错后可以恢复。</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup</div></pre></td></tr></table></figure>
 <a id="more"></a>
-<ul>
-<li><h3 id="二-下载新的-CentOS-Base-repo-到-etc-yum-repos-d"><a href="#二-下载新的-CentOS-Base-repo-到-etc-yum-repos-d" class="headerlink" title="二. 下载新的 CentOS-Base.repo 到 /etc/yum.repos.d/"></a>二. 下载新的 CentOS-Base.repo 到 /etc/yum.repos.d/</h3></li>
-<li><h4 id="CentOS-5"><a href="#CentOS-5" class="headerlink" title="CentOS 5"></a>CentOS 5</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-5.repo</div></pre></td></tr></table></figure>
-<ul>
-<li><h4 id="CentOS-6"><a href="#CentOS-6" class="headerlink" title="CentOS 6"></a>CentOS 6</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-6.repo</div></pre></td></tr></table></figure>
-<ul>
-<li><h4 id="CentOS-7"><a href="#CentOS-7" class="headerlink" title="CentOS 7"></a>CentOS 7</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="三-运行-yum-makecache-生成缓存"><a href="#三-运行-yum-makecache-生成缓存" class="headerlink" title="三. 运行 yum makecache 生成缓存"></a>三. 运行 yum makecache 生成缓存</h3></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">yum clean all</div><div class="line">yum makecache</div></pre></td></tr></table></figure>
+<h3 id="二、下载新的-CentOS-Base-repo-到-etc-yum-repos-d"><a href="#二、下载新的-CentOS-Base-repo-到-etc-yum-repos-d" class="headerlink" title="二、下载新的 CentOS-Base.repo 到 /etc/yum.repos.d/"></a>二、下载新的 CentOS-Base.repo 到 /etc/yum.repos.d/</h3><h4 id="2-1-CentOS-5"><a href="#2-1-CentOS-5" class="headerlink" title="2.1 CentOS 5"></a>2.1 CentOS 5</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-5.repo</div></pre></td></tr></table></figure>
+<h4 id="2-2-CentOS-6"><a href="#2-2-CentOS-6" class="headerlink" title="2.2 CentOS 6"></a>2.2 CentOS 6</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-6.repo</div></pre></td></tr></table></figure>
+<h4 id="2-3-CentOS-7"><a href="#2-3-CentOS-7" class="headerlink" title="2.3 CentOS 7"></a>2.3 CentOS 7</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo</div></pre></td></tr></table></figure>
+<h3 id="三、运行-yum-makecache-生成缓存"><a href="#三、运行-yum-makecache-生成缓存" class="headerlink" title="三、运行 yum makecache 生成缓存"></a>三、运行 yum makecache 生成缓存</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">yum clean all</div><div class="line">yum makecache</div></pre></td></tr></table></figure>
 <hr>
 ]]></content>
     
@@ -1255,10 +1241,7 @@
     
       &lt;p&gt;阿里云Linux安装镜像源地址：&lt;a href=&quot;http://mirrors.aliyun.com/&quot;&gt;http://mirrors.aliyun.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;CentOS系统更换软件安装源&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;h3 id=&quot;一-备份你的原镜像文件，以免出错后可以恢复。&quot;&gt;&lt;a href=&quot;#一-备份你的原镜像文件，以免出错后可以恢复。&quot; class=&quot;headerlink&quot; title=&quot;一. 备份你的原镜像文件，以免出错后可以恢复。&quot;&gt;&lt;/a&gt;一. 备份你的原镜像文件，以免出错后可以恢复。&lt;/h3&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;一、备份你的原镜像文件，以免出错后可以恢复。&quot;&gt;&lt;a href=&quot;#一、备份你的原镜像文件，以免出错后可以恢复。&quot; class=&quot;headerlink&quot; title=&quot;一、备份你的原镜像文件，以免出错后可以恢复。&quot;&gt;&lt;/a&gt;一、备份你的原镜像文件，以免出错后可以恢复。&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -1276,7 +1259,7 @@
     <link href="http://ehlxr.me/2016/07/28/Oracle-%E4%B8%8E-MySQL-%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/"/>
     <id>http://ehlxr.me/2016/07/28/Oracle-与-MySQL-知识总结/</id>
     <published>2016-07-28T06:06:36.000Z</published>
-    <updated>2016-10-27T11:04:27.412Z</updated>
+    <updated>2016-10-27T12:24:13.002Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>对日常工作中使用 Oracle 和 MySQL 数据库知识对比总结。</p>
@@ -1462,15 +1445,17 @@
     <link href="http://ehlxr.me/2016/07/28/GitHub-%E6%9B%B4%E6%96%B0%E5%B7%B2%E7%BB%8F-fork-%E7%9A%84%E9%A1%B9%E7%9B%AE/"/>
     <id>http://ehlxr.me/2016/07/28/GitHub-更新已经-fork-的项目/</id>
     <published>2016-07-28T02:12:15.000Z</published>
-    <updated>2016-10-21T03:12:21.355Z</updated>
+    <updated>2016-10-27T12:25:29.615Z</updated>
     
-    <content type="html"><![CDATA[<p>GitHub 上有个很方便的功能叫 fork，将别人的工程一键复制到自己账号下。这个功能很方便，但有点不足的是，当源项目更新后，你 fork 的分支并不会一起更新，需要自己手动去更新，下面记录下网上找到的更新的开发方法。</p>
-<h3 id="1-在本地装好-GitHub-客户端，或者-Git-客户端"><a href="#1-在本地装好-GitHub-客户端，或者-Git-客户端" class="headerlink" title="1. 在本地装好 GitHub 客户端，或者 Git 客户端"></a>1. 在本地装好 GitHub 客户端，或者 Git 客户端</h3><h3 id="2-clone-自己的-fork-分支到本地"><a href="#2-clone-自己的-fork-分支到本地" class="headerlink" title="2. clone 自己的 fork 分支到本地"></a>2. clone 自己的 fork 分支到本地</h3><p>　可以直接使用 GitHub 客户端，clone 到本地，如果使用命令行，命令为：</p>
+    <content type="html"><![CDATA[<blockquote>
+<p>GitHub 上有个很方便的功能叫 fork，将别人的工程一键复制到自己账号下。这个功能很方便，但有点不足的是，当源项目更新后，你 fork 的分支并不会一起更新，需要自己手动去更新，下面记录下网上找到的更新的开发方法。</p>
+</blockquote>
+<h3 id="1-在本地装好-GitHub-客户端，或者-Git-客户端"><a href="#1-在本地装好-GitHub-客户端，或者-Git-客户端" class="headerlink" title="1. 在本地装好 GitHub 客户端，或者 Git 客户端"></a>1. 在本地装好 GitHub 客户端，或者 Git 客户端</h3><h3 id="2-clone-自己的-fork-分支到本地"><a href="#2-clone-自己的-fork-分支到本地" class="headerlink" title="2. clone 自己的 fork 分支到本地"></a>2. clone 自己的 fork 分支到本地</h3><p>可以直接使用 GitHub 客户端，clone 到本地，如果使用命令行，命令为：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone git@github.com:ehlxr/strman-java.git</div></pre></td></tr></table></figure>
 <a id="more"></a>
-<h3 id="3-增加源分支地址到你项目远程分支列表中"><a href="#3-增加源分支地址到你项目远程分支列表中" class="headerlink" title="3. 增加源分支地址到你项目远程分支列表中"></a>3. 增加源分支地址到你项目远程分支列表中</h3><p>　此处是关键，先得将原来的仓库指定为 upstream，命令为：</p>
+<h3 id="3-增加源分支地址到你项目远程分支列表中"><a href="#3-增加源分支地址到你项目远程分支列表中" class="headerlink" title="3. 增加源分支地址到你项目远程分支列表中"></a>3. 增加源分支地址到你项目远程分支列表中</h3><p>此处是关键，先得将原来的仓库指定为 upstream，命令为：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git remote add upstream git@github.com:shekhargulati/strman-java.git</div></pre></td></tr></table></figure>
-<p>　此处可使用 git remote -v 查看远程分支列表</p>
+<p>此处可使用 git remote -v 查看远程分支列表</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ git remote -v</div><div class="line">origin  git@github.com:ehlxr/strman-java.git (fetch)</div><div class="line">origin  git@github.com:ehlxr/strman-java.git (push)</div><div class="line">upstream  git@github.com:shekhargulati/strman-java.git (fetch)</div><div class="line">upstream  git@github.com:shekhargulati/strman-java.git (push)</div></pre></td></tr></table></figure>
 <h3 id="4-fetch-源分支的新版本到本地"><a href="#4-fetch-源分支的新版本到本地" class="headerlink" title="4. fetch 源分支的新版本到本地"></a>4. fetch 源分支的新版本到本地</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git fetch upstream</div></pre></td></tr></table></figure>
 <h3 id="5-合并两个版本的代码"><a href="#5-合并两个版本的代码" class="headerlink" title="5. 合并两个版本的代码"></a>5. 合并两个版本的代码</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git merge upstream/master</div></pre></td></tr></table></figure>
@@ -1483,8 +1468,10 @@
     
     <summary type="html">
     
-      &lt;p&gt;GitHub 上有个很方便的功能叫 fork，将别人的工程一键复制到自己账号下。这个功能很方便，但有点不足的是，当源项目更新后，你 fork 的分支并不会一起更新，需要自己手动去更新，下面记录下网上找到的更新的开发方法。&lt;/p&gt;
-&lt;h3 id=&quot;1-在本地装好-GitHub-客户端，或者-Git-客户端&quot;&gt;&lt;a href=&quot;#1-在本地装好-GitHub-客户端，或者-Git-客户端&quot; class=&quot;headerlink&quot; title=&quot;1. 在本地装好 GitHub 客户端，或者 Git 客户端&quot;&gt;&lt;/a&gt;1. 在本地装好 GitHub 客户端，或者 Git 客户端&lt;/h3&gt;&lt;h3 id=&quot;2-clone-自己的-fork-分支到本地&quot;&gt;&lt;a href=&quot;#2-clone-自己的-fork-分支到本地&quot; class=&quot;headerlink&quot; title=&quot;2. clone 自己的 fork 分支到本地&quot;&gt;&lt;/a&gt;2. clone 自己的 fork 分支到本地&lt;/h3&gt;&lt;p&gt;　可以直接使用 GitHub 客户端，clone 到本地，如果使用命令行，命令为：&lt;/p&gt;
+      &lt;blockquote&gt;
+&lt;p&gt;GitHub 上有个很方便的功能叫 fork，将别人的工程一键复制到自己账号下。这个功能很方便，但有点不足的是，当源项目更新后，你 fork 的分支并不会一起更新，需要自己手动去更新，下面记录下网上找到的更新的开发方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;1-在本地装好-GitHub-客户端，或者-Git-客户端&quot;&gt;&lt;a href=&quot;#1-在本地装好-GitHub-客户端，或者-Git-客户端&quot; class=&quot;headerlink&quot; title=&quot;1. 在本地装好 GitHub 客户端，或者 Git 客户端&quot;&gt;&lt;/a&gt;1. 在本地装好 GitHub 客户端，或者 Git 客户端&lt;/h3&gt;&lt;h3 id=&quot;2-clone-自己的-fork-分支到本地&quot;&gt;&lt;a href=&quot;#2-clone-自己的-fork-分支到本地&quot; class=&quot;headerlink&quot; title=&quot;2. clone 自己的 fork 分支到本地&quot;&gt;&lt;/a&gt;2. clone 自己的 fork 分支到本地&lt;/h3&gt;&lt;p&gt;可以直接使用 GitHub 客户端，clone 到本地，如果使用命令行，命令为：&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ git clone git@github.com:ehlxr/strman-java.git&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
@@ -1554,40 +1541,31 @@
     <link href="http://ehlxr.me/2016/07/24/Git-%E5%90%8C%E6%97%B6-push-%E5%88%B0%E5%A4%9A%E4%B8%AA%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/"/>
     <id>http://ehlxr.me/2016/07/24/Git-同时-push-到多个远程仓库/</id>
     <published>2016-07-24T10:55:59.000Z</published>
-    <updated>2016-10-21T03:12:26.418Z</updated>
+    <updated>2016-10-27T12:28:30.291Z</updated>
     
-    <content type="html"><![CDATA[<ul>
-<li><h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3></li>
-</ul>
-<p>　　如果一个本地仓库添加多个远程仓库，不想 git push 多次，可以修改 .git/config 文件</p>
+    <content type="html"><![CDATA[<h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3><p>如果一个本地仓库添加多个远程仓库，不想 git push 多次，可以修改 .git/config 文件</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vim .git/config</div></pre></td></tr></table></figure>
-<p>　　比如以下信息表示在 git@OSC 和 GitHub 两个远程托管</p>
+<p>比如以下信息表示在 git@OSC 和 GitHub 两个远程托管</p>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20160724193534.png" alt=""></p>
 <a id="more"></a>
-<p>　　修改为以下信息</p>
+<p>修改为以下信息</p>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20160724190056.png" alt=""></p>
-<p>　　则可同时 push 到两个远程仓库</p>
+<p>则可同时 push 到两个远程仓库</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ git push origin master</div><div class="line">Everything up-to-date</div><div class="line">Everything up-to-date</div></pre></td></tr></table></figure>
-<ul>
-<li><h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3></li>
-</ul>
-<p>　　添加第二个远程地址时使用以下命令：</p>
+<h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>添加第二个远程地址时使用以下命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git remote set-url --add origin git@github.com:ehlxr/ehlxr-Hexo.git</div></pre></td></tr></table></figure>
-<p>　　查看远程分支 origin：</p>
+<p>查看远程分支 origin：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ git remote -v</div><div class="line">origin  git@git.oschina.net:ehlxr/ehlxr-Hexo.git (fetch)</div><div class="line">origin  git@git.oschina.net:ehlxr/ehlxr-Hexo.git (push)</div><div class="line">origin  git@github.com:ehlxr/ehlxr-Hexo.git (push)</div></pre></td></tr></table></figure>
-<p>　　也可以同时 push 到多个远程地址</p>
+<p>也可以同时 push 到多个远程地址</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ git push origin master</div><div class="line">Everything up-to-date</div><div class="line">Everything up-to-date</div></pre></td></tr></table></figure>
 <hr>
 ]]></content>
     
     <summary type="html">
     
-      &lt;ul&gt;
-&lt;li&gt;&lt;h3 id=&quot;方法一&quot;&gt;&lt;a href=&quot;#方法一&quot; class=&quot;headerlink&quot; title=&quot;方法一&quot;&gt;&lt;/a&gt;方法一&lt;/h3&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;　　如果一个本地仓库添加多个远程仓库，不想 git push 多次，可以修改 .git/config 文件&lt;/p&gt;
+      &lt;h3 id=&quot;方法一&quot;&gt;&lt;a href=&quot;#方法一&quot; class=&quot;headerlink&quot; title=&quot;方法一&quot;&gt;&lt;/a&gt;方法一&lt;/h3&gt;&lt;p&gt;如果一个本地仓库添加多个远程仓库，不想 git push 多次，可以修改 .git/config 文件&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;vim .git/config&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;　　比如以下信息表示在 git@OSC 和 GitHub 两个远程托管&lt;/p&gt;
+&lt;p&gt;比如以下信息表示在 git@OSC 和 GitHub 两个远程托管&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://oapjp6spr.bkt.clouddn.com/20160724193534.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     
     </summary>
