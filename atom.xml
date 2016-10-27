@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ehlxr.me/"/>
-  <updated>2016-10-25T06:28:49.411Z</updated>
+  <updated>2016-10-27T07:12:03.561Z</updated>
   <id>http://ehlxr.me/</id>
   
   <author>
@@ -14,6 +14,128 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>看懂的人都还在加班中...</title>
+    <link href="http://ehlxr.me/2016/10/27/%E7%9C%8B%E6%87%82%E7%9A%84%E4%BA%BA%E9%83%BD%E8%BF%98%E5%9C%A8%E5%8A%A0%E7%8F%AD%E4%B8%AD/"/>
+    <id>http://ehlxr.me/2016/10/27/看懂的人都还在加班中/</id>
+    <published>2016-10-27T07:06:38.000Z</published>
+    <updated>2016-10-27T07:12:03.561Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>以下是关于程序员的一些笑话，据说看懂的人都还在加班中。</p>
+</blockquote>
+<ol>
+<li><p>老婆给当程序员的老公打电话：下班顺路买十个包子，如果看到卖西瓜的，买一个。当晚老公手捧一个包子进了家门。老婆怒道：你怎么只买一个包子？！老公甚恐，喃喃道：因为我真看到卖西瓜的了。</p>
+</li>
+<li><p>一程序员去面试，面试官问：“你毕业才两年，这三年工作经验是怎么来的？！”程序员答：“加班。”</p>
+</li>
+<li><p>某程序员对书法十分感兴趣，退休后决定在这方面有所建树。于是花重金购买了上等的文房四宝。一日，饭后突生雅兴，一番磨墨拟纸，并点上了上好的檀香，颇有王羲之风范，又具颜真卿气势，定神片刻，泼墨挥毫，郑重地写下一行字：<code>hello world</code>。</p>
+</li>
+<li><p>问：程序员最讨厌康熙的哪个儿子。答：胤禩。因为他是八阿哥（<code>bug</code>）</p>
+<a id="more"></a>
+</li>
+<li><p>程序猿要了3个孩子，分别取名叫<code>Ctrl</code>、<code>Alt</code> 和 <code>Delete</code>，如果他们不听话，程序猿就只要同时敲他们一下就会好的。</p>
+</li>
+<li><p>今天在公司听到一句惨绝人寰骂人的话：“你 <code>TM</code> 就是一个没有对象的野指针！”</p>
+</li>
+<li><p>程xx遭遇车祸成植物人，医生说她活下来的希望只有万分之一，唤醒更为渺茫。她的同事和亲人没放弃，并根据程xx对 <code>testing</code> 痴迷的作风，每天都在她身边念：“你测的模块上线后回滚了。”奇迹发生了，程xx醒来第一句话：确认那模块是我测的？</p>
+</li>
+<li><p>一个程序员在海滨游泳时溺水身亡。他死前拼命的呼救，当时海滩上有许多救生员，但是没有人救他。因为他一直大喊“<code>F1!</code>”“<code>F1!</code>”，谁都不知道“<code>F1</code>”究竟是什么意思。</p>
+</li>
+<li><p>世界上最远的距离，是我在 <code>if</code> 里你在 <code>else</code> 里，虽然经常一起出现，但却永不结伴执行。</p>
+</li>
+<li><p>正在码代码 <code>ing</code>，医院回来的同事一脸的苦逼样子，问他怎么了？他回答：得了类风湿性关节炎了，我怕会遗传给下一代啊。我一脸的问号：谁说类风湿性关节炎能遗传的？丫一脸诧异：类不是继承的吗？</p>
+</li>
+<li><p>我很奇怪客栈这个词，难道后入住的必须先退房吗？</p>
+</li>
+<li><p>话说，决定一个程序员跳槽与否的关键因素是他前同事的现工资。</p>
+</li>
+<li><p>程序员最憋屈的事情就是：你辛辛苦苦熬夜写了一个风格优雅的源文件，被一个代码风格极差的同事改了且没署名，以至于别人都以为你是写的。</p>
+</li>
+<li><p>前端工程师说，我去交友网站找女朋友去了。朋友问，找到了么？工程师说，找到了他们页面的一个 bug`。</p>
+</li>
+<li><p><code>C</code> 程序看不起 <code>C++</code> 程序员， <code>C++</code> 程序员看不起 <code>Java</code> 程序员， <code>Java</code> 程序员看不起 <code>C#</code> 程序员，<code>C#</code> 程序员看不起美工，周末了，美工带着妹子出去约会了，一群程序员还在加班！</p>
+</li>
+<li><p>据说一老外年轻的时候，立志要当一名伟大的作家。怎么才算伟大呢？他说：我写的东西全世界都要看到！看完他们必定会歇斯底里！会火冒三丈！会痛苦万分！结果，他成功了，他在微软公司负责写系统蓝屏时的报错提示信息。</p>
+</li>
+<li><p>程序员应聘必备词汇：了解＝听过名字；熟悉＝知道是啥；熟练＝用过；精通＝做过东西。</p>
+</li>
+<li><p>两程序员聊天，程序员甲抱怨：“做程序员太辛苦了，我想换行……我该怎么办？”程序员乙：“敲一下回车。”</p>
+</li>
+<li><p>程序员最讨厌的四件事：写注释、写文档、别人不写注释、别人不写文档……</p>
+</li>
+<li><p>假如生活欺骗了你，找 <code>50</code> 个程序员问问为什么编程；假如生活让你想死，找 <code>50</code> 个程序员问问 <code>Bug</code> 改完了没有；假如你觉得生活拮据，找 <code>50</code> 个程序员问问工资涨了没有；假如你觉得活着无聊，找 <code>50</code> 个程序员问问他们一天都干了什么！</p>
+</li>
+<li><p>男人要记住，与女人吵架的要领是，要像在安装软件或注册网站时阅读 <code>服务条款</code> 那样，直接忽略所有的内容，到最后面勾选 <code>我同意</code>，然后点击 <code>确定</code>。</p>
+</li>
+<li><p>朋友今天遇到的真事：客户说我们设备卡，死活找不到原因，工程师赶到现场，给客户换了个鼠标垫，故障排除……</p>
+</li>
+<li><p>产品经理：“你明白吧，这里向右划可以出菜单，然后需要一个闪烁的动画，还有，我想这个tab可以拉下来，你懂吧？ 设计师：“别废话，把你要抄的产品给我看下。”</p>
+</li>
+<li><p>百度研发的无人驾驶汽车，你会发现有些地方你是去不了的。腾讯研发的无人驾驶汽车，你会发现很多地方你要去是要黄钻会员的。当然，谷歌研发的无人驾驶汽车，你会发现查无此车。</p>
+</li>
+<li><p>话说昨天是周日，程序猿跟产品经理一起看电视。每个节目看到一半程序猿就换台，看到一半就换台，几次之后产品经理终于忍无可忍的咆哮：老子刚看出点意思你就换、刚看出点意思你就换，到底还让不让人看啦？！程序猿淡定的盯着电视道：你半路改需求的时候我可没吱过声！</p>
+</li>
+<li><p>“为什么删除手机上的图标的时候它们会抖？” </p>
+<p>“它们怕被删除呗。” </p>
+<p>“那为什么电话短信之类系统自带的删不掉的也在抖呢？” </p>
+<p>“那是它们在得瑟…”</p>
+</li>
+<li><p>有时候觉得，电脑就像一个高贵冷艳的妹纸。</p>
+<ul>
+<li><code>400</code>，是她冷冰冰地说：“我听不懂你在说什么”；</li>
+<li><code>401</code>，是她无情地转身：“我不认识你，别说那些奇怪的话”；</li>
+<li><code>403</code>，是她残酷的拒绝：“我听懂你的话，也认出你的脸，可我不爱你”；</li>
+<li><code>404</code>，是她紧闭心门：“我这儿没有你想要的东西”；</li>
+<li><code>503</code>，是“呵呵我去洗澡”。</li>
+</ul>
+</li>
+<li><p>问：为何软件正在占领全世界，而程序员得不到尊重？答曰：遍身罗绮者，不是养蚕人。</p>
+</li>
+<li><p>她来例假了肚子疼，他坐着她旁边，看了她一眼，拿出手机玩游戏，她看在眼里，心里凉了半截。两分钟后，她实在坐不下去了，正准备离开，只见他默默地递过来他的小米手机说：拿去捂着。</p>
+</li>
+<li><p>惊闻微软要裁员 <code>1.8</code> 万人。他们就不能让这些员工们“在后台运行”吗？</p>
+</li>
+<li><p>今天看到我同事在笔记本电脑上实现 <code>滑动解锁</code> ！真的，看到我当场就震精了，异常碉堡……你知道吗？！他的电脑开机解锁密码是 <code>ASDFGHJKL;’</code> ，然后唰得一下过去最后一个键落在回车上，就，就解锁了！</p>
+</li>
+<li><p>骗子网站太特么多了，你一打开，必定跳出一个很下流的游戏广告！——但这还不是最关键的，关键是如果你忍不住点击进入游戏之后，就会发现这些下流的元素全都不见了！这也太没有职业道德了吧！</p>
+</li>
+<li><p>最近发现自己陷入了一种状态，叫开机迷失。开电脑前，该做什么清清楚楚。但只要一登录，随手开个网页，刷下新闻微博甚至仅仅是音乐网站，然后再回过神来，已经到了深夜，要做的事一项没做。而最痛苦的是，在睡前闭眼的时候，整个被浪费的白天和那些被耽误的正事，总会掺杂着负罪感，无比清晰地浮现。</p>
+</li>
+<li><p>我要设计一个新的智能机应用程序叫做 <code>惊慌</code>，只要你一说 <code>老婆</code> 这两个字, 它就会关闭所有网页, 隐藏所有跟女性的聊天以及怪怪的文件夹, 并且把我老婆的照片设为墙纸。</p>
+</li>
+<li><p>我从苹果手机的背面知道了一个好地方叫做加利福尼亚，据说那里有阳光和沙滩，还有 <code>Google</code> 和 <code>Tesla</code>。据说那里的人经常讨论怎么创业，而不是怎么移民。我虽然在中国，但也去过那里，不是在梦中，而是通过 <code>VPN</code>。</p>
+</li>
+<li><p>边上工位的妹纸叫柳依依，她的爸爸也是位程序员，依依的大姐叫玲玲，二姐叫玲依，三姐叫依玲</p>
+</li>
+</ol>
+<hr>
+<p>整理自网络</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;以下是关于程序员的一些笑话，据说看懂的人都还在加班中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;老婆给当程序员的老公打电话：下班顺路买十个包子，如果看到卖西瓜的，买一个。当晚老公手捧一个包子进了家门。老婆怒道：你怎么只买一个包子？！老公甚恐，喃喃道：因为我真看到卖西瓜的了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;一程序员去面试，面试官问：“你毕业才两年，这三年工作经验是怎么来的？！”程序员答：“加班。”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;某程序员对书法十分感兴趣，退休后决定在这方面有所建树。于是花重金购买了上等的文房四宝。一日，饭后突生雅兴，一番磨墨拟纸，并点上了上好的檀香，颇有王羲之风范，又具颜真卿气势，定神片刻，泼墨挥毫，郑重地写下一行字：&lt;code&gt;hello world&lt;/code&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;问：程序员最讨厌康熙的哪个儿子。答：胤禩。因为他是八阿哥（&lt;code&gt;bug&lt;/code&gt;）&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="杂谈" scheme="http://ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="程序员幽默" scheme="http://ehlxr.me/tags/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B9%BD%E9%BB%98/"/>
+    
+  </entry>
   
   <entry>
     <title>Windows 10 删除、恢复资源管理器中“视频、图片”等文件夹</title>
@@ -590,9 +712,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="Gogs" scheme="http://ehlxr.me/tags/Gogs/"/>
-    
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
+      <category term="Gogs" scheme="http://ehlxr.me/tags/Gogs/"/>
     
   </entry>
   
@@ -624,9 +746,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
-    
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -965,9 +1087,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
-    
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
       <category term="GitLab" scheme="http://ehlxr.me/tags/GitLab/"/>
     
@@ -1015,11 +1137,11 @@
       <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+      <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
-      <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
   </entry>
   
@@ -1087,11 +1209,11 @@
       <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
       <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
@@ -1143,9 +1265,9 @@
       <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
-      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
-    
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
+    
+      <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
   </entry>
   
@@ -1620,101 +1742,6 @@
     
     
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用Hexo基于GitHub Pages搭建个人博客（二）</title>
-    <link href="http://ehlxr.me/2016/07/23/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
-    <id>http://ehlxr.me/2016/07/23/使用Hexo基于GitHub-Pages搭建个人博客（二）/</id>
-    <published>2016-07-23T07:57:49.000Z</published>
-    <updated>2016-10-21T03:13:01.463Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>上一篇介绍了 GitHub Pages 服务开启，这篇文章将介绍 Hexo 的安装和使用以及将博客部署到 GitHub Pages 的操作。</p>
-<blockquote>
-<p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</a></p>
-</blockquote>
-</blockquote>
-<h1 id="一、Node-js-安装"><a href="#一、Node-js-安装" class="headerlink" title="一、Node.js 安装"></a>一、Node.js 安装</h1><p>　　Hexo 是基于 Node.js 安装，所以安装 Hexo 之前首先要安装 Node.js。下载地址：<a href="https://nodejs.org/en/download/" target="_blank" rel="external">https://nodejs.org/en/download/</a> 根据自己的操作系统，下载对应版本即可。安装过程比较简单，一直下一步即可安装完成。</p>
-<a id="more"></a>
-<h1 id="二、Hexo-安装"><a href="#二、Hexo-安装" class="headerlink" title="二、Hexo 安装"></a>二、Hexo 安装</h1><ul>
-<li>打开 Git Bash 输入以下命令开始安装 Hexo</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-cli -g</div></pre></td></tr></table></figure>
-<ul>
-<li>出现以下界面表示安装完成</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723214644.png" alt=""></p>
-<h1 id="三、Hexo-建站"><a href="#三、Hexo-建站" class="headerlink" title="三、Hexo 建站"></a>三、Hexo 建站</h1><p>　　安装 Hexo 完成后，在本地磁盘创建一个目录用于存放 Hexo 配置文件和博客源代码，我的 Hexo 存放在 <code>D:/ehlxr</code> 目录下。</p>
-<ul>
-<li>分别执行下列命令，Hexo 将会在 <code>D:/ehlxr/Hexo</code> 新建所需要的文件</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"># 进入 D:/ehlxr 目录</div><div class="line">cd /d/ehlxr/</div><div class="line"></div><div class="line"># 初始化所需要的文件到 Hexo 文件夹</div><div class="line">hexo init Hexo</div><div class="line"></div><div class="line"># 进入 Hexo 文件夹</div><div class="line">cd Hexo</div><div class="line"></div><div class="line"># 安装</div><div class="line">npm install</div></pre></td></tr></table></figure>
-<ul>
-<li>分别执行以下命令在本地进行预览</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># 编译生成博文</div><div class="line">hexo generate</div><div class="line"></div><div class="line"># 启动Hexo服务器</div><div class="line">hexo server</div></pre></td></tr></table></figure>
-<ul>
-<li>出现以下画面表示服务启动成功</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723225446.png" alt=""></p>
-<ul>
-<li>打开浏览器输入 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 便可以看到最原始的博客了</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160724123205.png" alt=""></p>
-<h1 id="四、Hexo-部署到-GitHub-Pages"><a href="#四、Hexo-部署到-GitHub-Pages" class="headerlink" title="四、Hexo 部署到 GitHub Pages"></a>四、Hexo 部署到 GitHub Pages</h1><ul>
-<li>更新 Hexo 安装文件夹中 <code>_config.yml</code> 文件，如图</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160723231000.png" alt=""></p>
-<ul>
-<li>更新 <code>_config.yml</code> 文件中的 <code>deploy</code> 节点，如图所示，可添加多个地址（如一个 GitHub、Coding、oschina）</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160724182310.png" alt=""></p>
-<ul>
-<li>分别执行以下命令即可完成部署</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save # 安装 hexo-deployer-git</div><div class="line"></div><div class="line">hexo clean # 可简写为 hexo cl</div><div class="line">hexo generate # 可简写为 hexo g</div><div class="line">hexo deploy # 可简写为 hexo d</div></pre></td></tr></table></figure>
-<ul>
-<li><p>访问 <a href="https://ehlxr.github.io/" target="_blank" rel="external">yourname.github.io</a> 即可看到博客模板的内容，对于 Hexo 的一些详细设置可以参考<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo官方文档</a> 。本站使用的 Hexo 主题是 NexT，详细设置可参考<a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Next主题官方网站</a>。</p>
-</li>
-<li><p>使用以下命令就可以新建一篇博客文章</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new &quot;开始blog，哈哈&quot;</div></pre></td></tr></table></figure>
-<ul>
-<li>打开 Hexo 目录下的 <code>source\_posts</code> 目录就可以看见创建的文章了，如图所示</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160724093526.png" alt="enter description here"></p>
-<ul>
-<li><p>文章是 MarkDown 格式文件（关于 Markdown 语法可参考<a href="http://www.appinn.com/markdown/basic.html" target="_blank" rel="external">Markdown 语法说明(简体中文版)</a>），编辑文章后保存，可以先启动本地 Hexo Server 查看效果，然后执行部署命令就完成了博客文章的发布</p>
-</li>
-<li><p>Markdown 编辑器我推荐使用 <a href="http://soft.xiaoshujiang.com/" target="_blank" rel="external">小书匠</a></p>
-</li>
-</ul>
-<p><img src="http://oapjp6spr.bkt.clouddn.com/20160724100055.png" alt="enter description here"></p>
-<p>　　至此，使用 Hexo 基于 GitHub Pages 搭建个人博客就介绍完了。</p>
-<hr>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;上一篇介绍了 GitHub Pages 服务开启，这篇文章将介绍 Hexo 的安装和使用以及将博客部署到 GitHub Pages 的操作。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://hexo.io/zh-cn/docs/&quot;&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;一、Node-js-安装&quot;&gt;&lt;a href=&quot;#一、Node-js-安装&quot; class=&quot;headerlink&quot; title=&quot;一、Node.js 安装&quot;&gt;&lt;/a&gt;一、Node.js 安装&lt;/h1&gt;&lt;p&gt;　　Hexo 是基于 Node.js 安装，所以安装 Hexo 之前首先要安装 Node.js。下载地址：&lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt;https://nodejs.org/en/download/&lt;/a&gt; 根据自己的操作系统，下载对应版本即可。安装过程比较简单，一直下一步即可安装完成。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://ehlxr.me/categories/Hexo/"/>
-    
-    
-      <category term="GitHub" scheme="http://ehlxr.me/tags/GitHub/"/>
-    
-      <category term="Hexo" scheme="http://ehlxr.me/tags/Hexo/"/>
     
   </entry>
   
