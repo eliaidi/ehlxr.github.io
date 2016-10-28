@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://ehlxr.me/2016/10/27/%E7%9C%8B%E6%87%82%E7%9A%84%E4%BA%BA%E9%83%BD%E8%BF%98%E5%9C%A8%E5%8A%A0%E7%8F%AD%E4%B8%AD/</loc>
+    <lastmod>2016-10-28T13:11:58.480Z</lastmod>
+    <data>
+        <display>
+        <title>看懂的人都还在加班中...</title>
+        <pubTime>2016-10-27T07:06:38.000Z</pubTime>
+        
+        <tag>程序员幽默</tag>
+         
+         
+           
+             
+              <breadCrumb title="杂谈" url="http://ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://ehlxr.me/2016/10/19/%E8%BD%AC-%E7%94%A8-Markdown-%E5%86%99%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%EF%BC%88Evernote%EF%BC%89/</loc>
     <lastmod>2016-10-28T05:38:13.828Z</lastmod>
     <data>
@@ -53,9 +73,9 @@
         <title>5 分钟搭建 Git 服务器-Gogs</title>
         <pubTime>2016-09-06T04:15:14.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>Gogs</tag>
+         
+        <tag>Git</tag>
          
          
            
@@ -101,9 +121,9 @@
         
         <tag>Linux</tag>
          
-        <tag>CentOS</tag>
-         
         <tag>Node.js</tag>
+         
+        <tag>CentOS</tag>
          
          
            
@@ -123,9 +143,9 @@
         <title>CentOS 7 安装最新的 Git</title>
         <pubTime>2016-07-30T14:12:43.000Z</pubTime>
         
-        <tag>Linux</tag>
-         
         <tag>Git</tag>
+         
+        <tag>Linux</tag>
          
         <tag>CentOS</tag>
          
@@ -331,26 +351,6 @@
            
              
               <breadCrumb title="Linux" url="http://ehlxr.me/categories/Linux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://ehlxr.me/2016/10/27/%E7%9C%8B%E6%87%82%E7%9A%84%E4%BA%BA%E9%83%BD%E8%BF%98%E5%9C%A8%E5%8A%A0%E7%8F%AD%E4%B8%AD/</loc>
-    <lastmod>2016-10-27T07:12:03.561Z</lastmod>
-    <data>
-        <display>
-        <title>看懂的人都还在加班中...</title>
-        <pubTime>2016-10-27T07:06:38.000Z</pubTime>
-        
-        <tag>程序员幽默</tag>
-         
-         
-           
-             
-              <breadCrumb title="杂谈" url="http://ehlxr.me/categories/%E6%9D%82%E8%B0%88/"/>
           
         </display>
     </data>
