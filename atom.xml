@@ -178,29 +178,21 @@
     <link href="http://ehlxr.me/2016/10/24/%E8%AE%BE%E7%BD%AE-Sublime-Text3-%E4%B8%BB%E9%A2%98%E9%80%8F%E6%98%8E/"/>
     <id>http://ehlxr.me/2016/10/24/设置-Sublime-Text3-主题透明/</id>
     <published>2016-10-24T09:30:55.000Z</published>
-    <updated>2016-10-25T06:08:43.246Z</updated>
+    <updated>2016-10-28T05:17:36.953Z</updated>
     
-    <content type="html"><![CDATA[<ol>
-<li><p>下载安装包：<a href="https://github.com/vhanla/SublimeTextTrans" target="_blank" rel="external">SublimeTextTrans</a>。</p>
-</li>
-<li><p>安装插件<br> 解压到 Sublime Text3 的 Packages 存放目录下，命名为：<code>SublimeTextTrans</code>。点击 Sublime Text3 的 <code>Preferences -&gt; Browse Packages</code> 打开 Packages 存放目录，一般情况是在 <code>C:\Users\YOURNAME\AppData\Roaming\Sublime Text 3\Packages</code> 目录下。</p>
-</li>
-<li><p>设置 Sublime Text3 的透明度级别。<br> 点击 Sublime Text3 的 <code>Preferences -&gt; Package Setting -&gt; SublimeTextTrans -&gt; Setting - User</code> 就可以设置透明度的级别了。</p>
+    <content type="html"><![CDATA[<h1 id="1-下载安装包"><a href="#1-下载安装包" class="headerlink" title="1. 下载安装包"></a>1. 下载安装包</h1><p>下载地址：<a href="https://github.com/vhanla/SublimeTextTrans" target="_blank" rel="external">SublimeTextTrans</a>。</p>
+<h1 id="2-安装插件"><a href="#2-安装插件" class="headerlink" title="2. 安装插件"></a>2. 安装插件</h1><p>解压到 Sublime Text3 的 Packages 存放目录下，命名为：<code>SublimeTextTrans</code>。点击 Sublime Text3 的 <code>Preferences -&gt; Browse Packages</code> 打开 Packages 存放目录，一般情况是在 <code>C:\Users\YOURNAME\AppData\Roaming\Sublime Text 3\Packages</code> 目录下。</p>
+<h1 id="3-设置-Sublime-Text3-的透明度级别。"><a href="#3-设置-Sublime-Text3-的透明度级别。" class="headerlink" title="3. 设置 Sublime Text3 的透明度级别。"></a>3. 设置 Sublime Text3 的透明度级别。</h1><p>点击 Sublime Text3 的 <code>Preferences -&gt; Package Setting -&gt; SublimeTextTrans -&gt; Setting - User</code> 就可以设置透明度的级别了。</p>
 <a id="more"></a>
-<p> 也可以通过 <code>Ctrl+Shift+1、2、3、4、5、6</code> 加载预设的 6 个透明级别。预设的透明级别在 <code>Preferences -&gt; Package Setting -&gt; SublimeTextTrans -&gt; Setting - Default</code> 中可以查看。</p>
-</li>
-</ol>
+<p>也可以通过 <code>Ctrl+Shift+1、2、3、4、5、6</code> 加载预设的 6 个透明级别。预设的透明级别在 <code>Preferences -&gt; Package Setting -&gt; SublimeTextTrans -&gt; Setting - Default</code> 中可以查看。</p>
 <hr>
 ]]></content>
     
     <summary type="html">
     
-      &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;下载安装包：&lt;a href=&quot;https://github.com/vhanla/SublimeTextTrans&quot;&gt;SublimeTextTrans&lt;/a&gt;。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;安装插件&lt;br&gt; 解压到 Sublime Text3 的 Packages 存放目录下，命名为：&lt;code&gt;SublimeTextTrans&lt;/code&gt;。点击 Sublime Text3 的 &lt;code&gt;Preferences -&amp;gt; Browse Packages&lt;/code&gt; 打开 Packages 存放目录，一般情况是在 &lt;code&gt;C:\Users\YOURNAME\AppData\Roaming\Sublime Text 3\Packages&lt;/code&gt; 目录下。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;设置 Sublime Text3 的透明度级别。&lt;br&gt; 点击 Sublime Text3 的 &lt;code&gt;Preferences -&amp;gt; Package Setting -&amp;gt; SublimeTextTrans -&amp;gt; Setting - User&lt;/code&gt; 就可以设置透明度的级别了。&lt;/p&gt;
+      &lt;h1 id=&quot;1-下载安装包&quot;&gt;&lt;a href=&quot;#1-下载安装包&quot; class=&quot;headerlink&quot; title=&quot;1. 下载安装包&quot;&gt;&lt;/a&gt;1. 下载安装包&lt;/h1&gt;&lt;p&gt;下载地址：&lt;a href=&quot;https://github.com/vhanla/SublimeTextTrans&quot;&gt;SublimeTextTrans&lt;/a&gt;。&lt;/p&gt;
+&lt;h1 id=&quot;2-安装插件&quot;&gt;&lt;a href=&quot;#2-安装插件&quot; class=&quot;headerlink&quot; title=&quot;2. 安装插件&quot;&gt;&lt;/a&gt;2. 安装插件&lt;/h1&gt;&lt;p&gt;解压到 Sublime Text3 的 Packages 存放目录下，命名为：&lt;code&gt;SublimeTextTrans&lt;/code&gt;。点击 Sublime Text3 的 &lt;code&gt;Preferences -&amp;gt; Browse Packages&lt;/code&gt; 打开 Packages 存放目录，一般情况是在 &lt;code&gt;C:\Users\YOURNAME\AppData\Roaming\Sublime Text 3\Packages&lt;/code&gt; 目录下。&lt;/p&gt;
+&lt;h1 id=&quot;3-设置-Sublime-Text3-的透明度级别。&quot;&gt;&lt;a href=&quot;#3-设置-Sublime-Text3-的透明度级别。&quot; class=&quot;headerlink&quot; title=&quot;3. 设置 Sublime Text3 的透明度级别。&quot;&gt;&lt;/a&gt;3. 设置 Sublime Text3 的透明度级别。&lt;/h1&gt;&lt;p&gt;点击 Sublime Text3 的 &lt;code&gt;Preferences -&amp;gt; Package Setting -&amp;gt; SublimeTextTrans -&amp;gt; Setting - User&lt;/code&gt; 就可以设置透明度的级别了。&lt;/p&gt;
     
     </summary>
     
@@ -216,7 +208,7 @@
     <link href="http://ehlxr.me/2016/10/19/%E8%BD%AC-%E7%94%A8-Markdown-%E5%86%99%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%EF%BC%88Evernote%EF%BC%89/"/>
     <id>http://ehlxr.me/2016/10/19/转-用-Markdown-写印象笔记（Evernote）/</id>
     <published>2016-10-19T02:47:23.000Z</published>
-    <updated>2016-10-24T13:46:39.461Z</updated>
+    <updated>2016-10-28T05:38:13.828Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>使用印象笔记很久了，什么都觉得很好，就是不支持 Markdown 书写语法，实在是太遗憾了。今天发现网上有人介绍了一款 Sublime 的一个插件 <a href="https://packagecontrol.io/packages/Evernote" target="_blank" rel="external">Evernote</a>，尝试了一下觉得还是一个不错的方案，正好我也很喜欢使用 Sublime 编辑器，如此甚好，哈哈…</p>
@@ -224,27 +216,23 @@
 <!-- ![][2] -->
 <img src="http://oapjp6spr.bkt.clouddn.com/2016101901.png" width="400">
 <a id="more"></a>
-<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><ol>
-<li>用 Sublime 的 PackageControl 安装 <a href="https://packagecontrol.io/packages/Evernote" target="_blank" rel="external">Evernote</a> 插件</li>
-<li>设置 Sublime 与印象笔记做关联</li>
-</ol>
-<ul>
-<li>国内用户打开 <a href="https://app.yinxiang.com/api/DeveloperToken.action" target="_blank" rel="external">https://app.yinxiang.com/api/DeveloperToken.action</a>，国际用户打开 <a href="https://www.evernote.com/api/DeveloperToken.action" target="_blank" rel="external">https://www.evernote.com/api/DeveloperToken.action</a>。点击点击<code>Create a developer token</code></li>
-<li><p>打开 <code>Preferences -&gt; Package Settings -&gt; Evernote -&gt; Settings - User</code><br>在文件中贴入如下内容：</p>
-  <figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line"> <span class="attr">"noteStoreUrl"</span>: <span class="string">""</span>,</div><div class="line"> <span class="attr">"token"</span>: <span class="string">""</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>  <code>noteStoreUrl</code> 和<code>token</code>值为之前打开的页面的上的值，保存。</p>
-</li>
-<li>测试是否成功：通过<code>ctrl+shift+p</code>打开命令窗口，输入<code>evernote</code>，就会看见 Evernote 的许多命令，点击<code>evernote:list recent notes</code>，如果看到罗列出最新的笔记，则说明授权成功</li>
-</ul>
-<h1 id="快捷键设置"><a href="#快捷键设置" class="headerlink" title="快捷键设置"></a>快捷键设置</h1><p>插件默认没有添加快捷键，但可以自己配置。通过<code>ctrl+shift+p</code>打开命令窗口，输入<code>key binding</code>，选择<code>User</code>那，写入你的内容。</p>
+<h1 id="一、安装"><a href="#一、安装" class="headerlink" title="一、安装"></a>一、安装</h1><h2 id="1-1-用-Sublime-的-PackageControl-安装-Evernote-插件"><a href="#1-1-用-Sublime-的-PackageControl-安装-Evernote-插件" class="headerlink" title="1.1 用 Sublime 的 PackageControl 安装 Evernote 插件"></a>1.1 用 Sublime 的 PackageControl 安装 <a href="https://packagecontrol.io/packages/Evernote" target="_blank" rel="external">Evernote</a> 插件</h2><h2 id="1-2-设置-Sublime-与印象笔记做关联"><a href="#1-2-设置-Sublime-与印象笔记做关联" class="headerlink" title="1.2 设置 Sublime 与印象笔记做关联"></a>1.2 设置 Sublime 与印象笔记做关联</h2><p>国内印象笔记用户打开链接：<a href="https://app.yinxiang.com/api/DeveloperToken.action" target="_blank" rel="external">https://app.yinxiang.com/api/DeveloperToken.action</a>，国际 Evernote 用户打开链接：<a href="https://www.evernote.com/api/DeveloperToken.action" target="_blank" rel="external">https://www.evernote.com/api/DeveloperToken.action</a>。然后点击页面按钮 <code>Create a developer token</code> 生成开发者秘钥。</p>
+<p>打开 Sublime <code>Preferences -&gt; Package Settings -&gt; Evernote -&gt; Settings - User</code> 在文件中贴入如下内容：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line"> <span class="attr">"noteStoreUrl"</span>: <span class="string">""</span>,</div><div class="line"> <span class="attr">"token"</span>: <span class="string">""</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><code>noteStoreUrl</code> 和 <code>token</code> 值为之前打开的页面的上的值，然后保存。</p>
+<p>测试是否成功：通过快捷键 <code>ctrl+shift+p</code> 打开 Sublime 命令窗口，输入 <code>evernote</code>，就会看见 Evernote 的许多命令，点击 <code>evernote:list recent notes</code>，如果看到罗列出最新的笔记，则说明授权成功。</p>
+<h1 id="二、快捷键设置"><a href="#二、快捷键设置" class="headerlink" title="二、快捷键设置"></a>二、快捷键设置</h1><p>插件默认没有添加快捷键，但可以自己配置。通过快捷键 <code>ctrl+shift+p</code> 打开 Sublime 命令窗口，输入 <code>key binding</code>，选择 <code>User</code> 那，写入你的内容。</p>
 <p>下面是我的设置：</p>
 <figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">[</div><div class="line">    &#123; <span class="attr">"keys"</span>: [<span class="string">"Ctrl+e"</span>, <span class="string">"Ctrl+o"</span>], <span class="attr">"command"</span>: <span class="string">"open_evernote_note"</span> &#125;,</div><div class="line">    &#123; <span class="attr">"keys"</span>: [<span class="string">"Ctrl+s"</span>], <span class="attr">"command"</span>: <span class="string">"save_evernote_note"</span>, <span class="attr">"context"</span>: [&#123;<span class="attr">"key"</span>: <span class="string">"evernote_note"</span>&#125;, &#123;<span class="attr">"key"</span>: <span class="string">"evernote_has_guid"</span>&#125;] &#125;,</div><div class="line">    &#123; <span class="attr">"keys"</span>: [<span class="string">"Ctrl+s"</span>], <span class="attr">"command"</span>: <span class="string">"send_to_evernote"</span>, <span class="attr">"context"</span>: [&#123;<span class="attr">"key"</span>: <span class="string">"evernote_note"</span>&#125;, &#123;<span class="attr">"key"</span>: <span class="string">"evernote_has_guid"</span>, <span class="attr">"operator"</span>: <span class="string">"equal"</span>, <span class="attr">"operand"</span>: <span class="literal">false</span>&#125;] &#125;</div><div class="line">]</div></pre></td></tr></table></figure>
-<p>意思是，按<code>ctrl+e, o</code>后，会打开印象笔记，按<code>ctrl+s</code>会将笔记保存并且同步到印象笔记。</p>
-<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><ol>
-<li><code>evernote: New empty note</code>创建笔记</li>
-<li><code>evernote: Search note</code>搜索笔记</li>
-</ol>
-<h1 id="个人配置"><a href="#个人配置" class="headerlink" title="个人配置"></a>个人配置</h1><p>主要更改了代码的字体和颜色，需要注意的是替换掉<code>noteStoreUrl</code> 和<code>token</code>值为步骤 2 中获取内容。点击 Sublime Text 的 <code>Preferences -&gt; Package Settings -&gt; Evernote -&gt; Settings - User</code> 粘贴以下内容：</p>
+<p><strong>解释：</strong>意思是，按 <code>ctrl+e, o</code> 后，会打开印象笔记，按 <code>ctrl+s</code> 会将笔记保存并且同步到印象笔记。</p>
+<h1 id="三、常用命令"><a href="#三、常用命令" class="headerlink" title="三、常用命令"></a>三、常用命令</h1><p>通过快捷键 <code>ctrl+shift+p</code>，打开 Sublime 命令窗口就可以使用一些常用命令了。</p>
+<ul>
+<li><code>Evernote: New empty note</code>：创建笔记</li>
+<li><code>Evernote: Open Evernote Note</code>：打开印象笔记</li>
+<li><code>Evernote: List recent notes</code>：打开最近笔记</li>
+<li><code>Evernote: Search note</code>：搜索笔记</li>
+</ul>
+<h1 id="四、个人配置"><a href="#四、个人配置" class="headerlink" title="四、个人配置"></a>四、个人配置</h1><p>主要更改了代码的字体和颜色，需要注意的是替换掉 <code>noteStoreUrl</code> 和 <code>token</code> 值为步骤 2 中获取内容。点击 Sublime Text 的 <code>Preferences -&gt; Package Settings -&gt; Evernote -&gt; Settings - User</code> 粘贴以下内容：</p>
 <figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">    <span class="attr">"noteStoreUrl"</span>: <span class="string">"更换为步骤 2 中获取的 noteStoreUrl"</span>,</div><div class="line">    <span class="attr">"token"</span>: <span class="string">"更换为步骤 2 中获取的 token"</span>,</div><div class="line">    <span class="attr">"inline_css"</span>: &#123;</div><div class="line">        <span class="attr">"body"</span>: <span class="string">""</span>,</div><div class="line">        <span class="attr">"pre"</span>: <span class="string">"color: #000000; font-family: Consolas,monospace; font-size: 0.9em; white-space: pre-wrap; word-wrap: break-word; border: 1px solid #cccccc; border-radius: 3px; overflow: auto; padding: 6px 10px; margin-bottom: 10px;"</span>,</div><div class="line">        <span class="attr">"code"</span>: <span class="string">"color: black; font-family: Consolas,monospace; font-size: 1.1em;"</span>,</div><div class="line">        <span class="attr">"inline-code"</span>: <span class="string">"color: #c7254e; font-family: Consolas,monospace; padding: 0.1em 0.2em; margin: 0.1em; font-size: 85%; background-color: #f9f2f4; border-radius: 3px; border: 1px solid #d6d6d6;"</span>,</div><div class="line">        <span class="attr">"h1"</span>: <span class="string">"margin-bottom: 1em; margin-top: 1.2em;"</span>,</div><div class="line">        <span class="attr">"footnotes"</span>: <span class="string">"border-top: 1px solid #9AB39B; font-size: 80%;"</span>,</div><div class="line">        <span class="attr">"hr"</span>: <span class="string">"color:#9AB39B;background-color:#9AB39B;height:1px;border:none;"</span>,</div><div class="line">        <span class="attr">"sup"</span>: <span class="string">"color:#6D6D6D;font-size:1ex"</span>,</div><div class="line">        <span class="attr">"blockquote"</span>: <span class="string">"border-left: .5ex solid #BFBFBF; margin-left: 0px; padding-left: 1em; margin-top: 1.4285em; margin-bottom: 1.4285em;"</span>,</div><div class="line">        <span class="attr">"table"</span>: <span class="string">"border-collapse: collapse; border-spacing: 0; margin: 1em;"</span>,</div><div class="line">        <span class="attr">"td"</span>: <span class="string">"border: 1px solid #DDD; padding: 6px 13px;"</span>,</div><div class="line">        <span class="attr">"th"</span>: <span class="string">"border: 1px solid #DDD; padding: 6px 13px;"</span>,</div><div class="line">        <span class="attr">"tr:odd"</span>: <span class="string">"border: 1px solid #DDD; padding: 6px 13px;"</span>,</div><div class="line">        <span class="attr">"tr:even"</span>: <span class="string">"border: 1px solid #DDD; padding: 6px 13px; background-color: #F8F8F8;"</span></div><div class="line">    &#125;,</div><div class="line">    <span class="attr">"code_highlighting_style"</span>: <span class="string">"github"</span>,</div><div class="line">    <span class="attr">"code_friendly"</span>: <span class="literal">true</span>,</div><div class="line">    <span class="attr">"gfm_tables"</span>: <span class="literal">true</span>,</div><div class="line">    <span class="attr">"wiki_tables"</span>: <span class="literal">false</span>,</div><div class="line">    <span class="attr">"emphasis_mark"</span>: <span class="string">"_"</span>,</div><div class="line">    <span class="attr">"strong_mark"</span>: <span class="string">"**"</span>,</div><div class="line">    <span class="attr">"item_mark"</span>: <span class="string">"*"</span>,</div><div class="line">    <span class="attr">"notes_order"</span>: <span class="string">"updated"</span>,</div><div class="line">    <span class="attr">"max_notes"</span>: <span class="number">100</span>,</div><div class="line">    <span class="attr">"update_on_save"</span>: <span class="literal">false</span>,</div><div class="line">    <span class="attr">"evernote_autocomplete"</span>: <span class="literal">true</span>,</div><div class="line">    <span class="attr">"sort_notebooks"</span>: <span class="literal">false</span>,</div><div class="line">    <span class="attr">"show_stacks"</span>: <span class="literal">true</span>,</div><div class="line">    <span class="attr">"open_single_result"</span>: <span class="literal">true</span>,</div><div class="line">    <span class="attr">"tab_prefix"</span>: <span class="string">"Evernote: "</span>,</div><div class="line">    <span class="attr">"warn_on_close"</span>: <span class="literal">true</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <hr>
 <p><a href="http://www.jianshu.com/p/0add426fdd26" target="_blank" rel="external">原文地址</a></p>
@@ -566,7 +554,7 @@
     <link href="http://ehlxr.me/2016/09/24/Oh-My-Zsh-%E6%9B%BF%E6%8D%A2%E4%BD%A0%E7%9A%84-Bash-Shell/"/>
     <id>http://ehlxr.me/2016/09/24/Oh-My-Zsh-替换你的-Bash-Shell/</id>
     <published>2016-09-24T04:31:21.000Z</published>
-    <updated>2016-10-21T03:12:50.994Z</updated>
+    <updated>2016-10-28T05:06:59.094Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>Oh-My-Zsh is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and a few things that make you shout…</p>
@@ -575,39 +563,30 @@
 </blockquote>
 <!-- ![Oh My Zsh][2] -->
 <img src="http://oapjp6spr.bkt.clouddn.com/OMZLogo_BnW.png" width="200" title="Oh My Zsh">
-<h2 id="1-Oh-My-Zsh-简介"><a href="#1-Oh-My-Zsh-简介" class="headerlink" title="1. Oh My Zsh 简介"></a>1. Oh My Zsh 简介</h2><p>　　无意中看见了 Linux 的一款 Shell，相比于 Bash 极其美艳，决定入坑试水一下，不试不知道，一试绝对有惊喜，不仅外观美艳而且功能强大，那还有不替换 Bash 的理由吗？搞起搞起……</p>
+<h1 id="1-Oh-My-Zsh-简介"><a href="#1-Oh-My-Zsh-简介" class="headerlink" title="1. Oh My Zsh 简介"></a>1. Oh My Zsh 简介</h1><p>无意中看见了 Linux 的一款 Shell，相比于 Bash 极其美艳，决定入坑试水一下，不试不知道，一试绝对有惊喜，不仅外观美艳而且功能强大，那还有不替换 Bash 的理由吗？搞起搞起……</p>
 <a id="more"></a>
-<p>　　Linux 提供了很多种 Shell ，想要查看系统有安装哪些 Shell 可以通过命令：<code>chsh -l</code> 或者 <code>cat /etc/shells</code> 进行查看。</p>
+<p>Linux 提供了很多种 Shell ，想要查看系统有安装哪些 Shell 可以通过命令：<code>chsh -l</code> 或者 <code>cat /etc/shells</code> 进行查看。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ cat /etc/shells </div><div class="line">/bin/sh</div><div class="line">/bin/bash</div><div class="line">/sbin/nologin</div><div class="line">/usr/bin/sh</div><div class="line">/usr/bin/bash</div><div class="line">/usr/sbin/nologin</div></pre></td></tr></table></figure>
-<p>　　其中 Bash 是绝大多数 Linux 系统默认的 Shell，虽然 Zsh Shell 没有被所有 Linux 预安装，但几乎每一款 Linux 都包含 Zsh Shell， 根据不同版本的 Linux 可以用 apt-get、yum 等包管理器进行安装。</p>
-<p>　　但是我们今天介绍的并非是 Zsh，而是 Oh My Zsh，这是个什么鬼了？虽说 Zsh Shell 很牛逼，但配置相当麻烦，所以阻挡了好多人尝试的勇气（我想这也是为啥 Zsh 不被 Linux 设为默认 Shell 的原因吧），但是永远不要低估一个爱折腾程序猿的创造力，国外一程序猿真就创造出了一款易于使用的 Zsh 版本：<a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank" rel="external">Oh My Zsh</a></p>
-<p>　　Oh My Zsh 几乎兼容日常使用的所有 Bash Shell 指令，让你可以无缝接入，不需要再去花额外的时间去适应。当然还扩展了大量炫酷的指令，要不然干嘛用它对吧，而且支持更换主题和插件机制。下面就开始搞起吧！</p>
-<h2 id="2-安装"><a href="#2-安装" class="headerlink" title="2. 安装"></a>2. 安装</h2><p>　　安装 Oh My Zsh 首先需要安装 git 和 zsh，如果已经安装，请自行忽略。本文是基于 CentOS 介绍，其它 Linux 大致相同。</p>
-<ul>
-<li><h3 id="git-和-zsh-安装"><a href="#git-和-zsh-安装" class="headerlink" title="git 和 zsh 安装"></a>git 和 zsh 安装</h3>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># git</div><div class="line">sodu yum install git</div><div class="line"></div><div class="line"># zsh</div><div class="line">sodu yum install zsh</div></pre></td></tr></table></figure>
-</li>
-<li><h3 id="Oh-My-Zsh-安装"><a href="#Oh-My-Zsh-安装" class="headerlink" title="Oh My Zsh 安装"></a>Oh My Zsh 安装</h3><p>  Oh My Zsh 提供了 <code>curl</code> 和 <code>wget</code> 两种安装方式，选择任意一种自己方便的方式即可。</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># via curl</div><div class="line">sudo sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</div><div class="line"></div><div class="line"># via wget</div><div class="line">sudo sh -c &quot;$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="3-配置使用"><a href="#3-配置使用" class="headerlink" title="3. 配置使用"></a>3. 配置使用</h2><ul>
-<li><h3 id="切换-Shell"><a href="#切换-Shell" class="headerlink" title="切换 Shell"></a>切换 Shell</h3><p>  安装完成之后，使用以下命令即可切换当前 Shell：</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chsh -s /bin/zsh</div></pre></td></tr></table></figure>
-<p>  退出当前终端连接，再次登入即可看到当前的 Shell 已经成功更改为 Oh My Zsh。</p>
-</li>
-<li><h3 id="更改主题"><a href="#更改主题" class="headerlink" title="更改主题"></a>更改主题</h3><p>  Oh My Zsh 的配置文件路径为：<code>~/.zshrc</code>，配置文件中的 <code>ZSH_THEME</code> 就是主题配置字段，如下默认为 <code>robbyrussell</code> 主题配色。更多主题配色可参考 <a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Themes" target="_blank" rel="external">Oh My Zsh 主题</a>，这里我推荐是用 <code>ys</code> 主题。</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ZSH_THEME=&quot;robbyrussell&quot;</div></pre></td></tr></table></figure>
-</li>
-<li><h3 id="其它-Linux-用户配置使用"><a href="#其它-Linux-用户配置使用" class="headerlink" title="其它 Linux 用户配置使用"></a>其它 Linux 用户配置使用</h3><p>  Linux 其它用户想要使用 Oh My Zsh Shell，只需要拷贝当前用户家目录下的 <code>~/.zshrc</code> 配置文件到当想要使用 Oh My Zsh Shell 用户的家目录下即可。需要注意的是配置文件中 Oh My Zsh 安装路径其它用户可以访问的到，所以最好更改为绝对路径，如下：</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">export ZSH=/home/ehlxr/.oh-my-zsh</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="4-插件配置"><a href="#4-插件配置" class="headerlink" title="4. 插件配置"></a>4. 插件配置</h2><p>　　Oh My Zsh 支持插件机制，配置插件可以大大简化相关繁琐重复的命令。例如默认开启的 git 插件，就可以使用以下图表中的简写命令了：</p>
+<p>其中 Bash 是绝大多数 Linux 系统默认的 Shell，虽然 Zsh Shell 没有被所有 Linux 预安装，但几乎每一款 Linux 都包含 Zsh Shell， 根据不同版本的 Linux 可以用 apt-get、yum 等包管理器进行安装。</p>
+<p>但是我们今天介绍的并非是 Zsh，而是 Oh My Zsh，这是个什么鬼了？虽说 Zsh Shell 很牛逼，但配置相当麻烦，所以阻挡了好多人尝试的勇气（我想这也是为啥 Zsh 不被 Linux 设为默认 Shell 的原因吧），但是永远不要低估一个爱折腾程序猿的创造力，国外一程序猿真就创造出了一款易于使用的 Zsh 版本：<a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank" rel="external">Oh My Zsh</a></p>
+<p>Oh My Zsh 几乎兼容日常使用的所有 Bash Shell 指令，让你可以无缝接入，不需要再去花额外的时间去适应。当然还扩展了大量炫酷的指令，要不然干嘛用它对吧，而且支持更换主题和插件机制。下面就开始搞起吧！</p>
+<h1 id="2-安装"><a href="#2-安装" class="headerlink" title="2. 安装"></a>2. 安装</h1><p>安装 Oh My Zsh 首先需要安装 git 和 zsh，如果已经安装，请自行忽略。本文是基于 CentOS 介绍，其它 Linux 大致相同。</p>
+<h2 id="2-1-git-和-zsh-安装"><a href="#2-1-git-和-zsh-安装" class="headerlink" title="2.1 git 和 zsh 安装"></a>2.1 git 和 zsh 安装</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># git</div><div class="line">sodu yum install git</div><div class="line"></div><div class="line"># zsh</div><div class="line">sodu yum install zsh</div></pre></td></tr></table></figure>
+<h2 id="2-2-Oh-My-Zsh-安装"><a href="#2-2-Oh-My-Zsh-安装" class="headerlink" title="2.2 Oh My Zsh 安装"></a>2.2 Oh My Zsh 安装</h2><p>Oh My Zsh 提供了 <code>curl</code> 和 <code>wget</code> 两种安装方式，选择任意一种自己方便的方式即可。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># via curl</div><div class="line">sudo sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</div><div class="line"></div><div class="line"># via wget</div><div class="line">sudo sh -c &quot;$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;</div></pre></td></tr></table></figure>
+<h1 id="3-配置使用"><a href="#3-配置使用" class="headerlink" title="3. 配置使用"></a>3. 配置使用</h1><h2 id="3-1-切换-Shell"><a href="#3-1-切换-Shell" class="headerlink" title="3.1 切换 Shell"></a>3.1 切换 Shell</h2><p>安装完成之后，使用以下命令即可切换当前 Shell：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chsh -s /bin/zsh</div></pre></td></tr></table></figure>
+<p>退出当前终端连接，再次登入即可看到当前的 Shell 已经成功更改为 Oh My Zsh。</p>
+<h2 id="3-2-更改主题"><a href="#3-2-更改主题" class="headerlink" title="3.2 更改主题"></a>3.2 更改主题</h2><p>Oh My Zsh 的配置文件路径为：<code>~/.zshrc</code>，配置文件中的 <code>ZSH_THEME</code> 就是主题配置字段，如下默认为 <code>robbyrussell</code> 主题配色。更多主题配色可参考 <a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Themes" target="_blank" rel="external">Oh My Zsh 主题</a>，这里我推荐是用 <code>ys</code> 主题。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ZSH_THEME=&quot;robbyrussell&quot;</div></pre></td></tr></table></figure>
+<h2 id="3-3-其它-Linux-用户配置使用"><a href="#3-3-其它-Linux-用户配置使用" class="headerlink" title="3.3 其它 Linux 用户配置使用"></a>3.3 其它 Linux 用户配置使用</h2><p>Linux 其它用户想要使用 Oh My Zsh Shell，只需要拷贝当前用户家目录下的 <code>~/.zshrc</code> 配置文件到当想要使用 Oh My Zsh Shell 用户的家目录下即可。需要注意的是配置文件中 Oh My Zsh 安装路径其它用户可以访问的到，所以最好更改为绝对路径，如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">export ZSH=/home/ehlxr/.oh-my-zsh</div></pre></td></tr></table></figure>
+<h1 id="4-插件配置"><a href="#4-插件配置" class="headerlink" title="4. 插件配置"></a>4. 插件配置</h1><p>Oh My Zsh 支持插件机制，配置插件可以大大简化相关繁琐重复的命令。例如默认开启的 git 插件，就可以使用以下图表中的简写命令了：</p>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20160925141534.jpg" alt="Oh-My-Zsh Git Aliases"></p>
-<p>　　那如何配置其它的插件了？只需要在 Oh My Zsh 的配置文件 <code>~/.zshrc</code> 中找到 <code>plugins=(git)</code> 字段，配置插件的名称即可，多个插件使用空格隔开。</p>
-<p>　　那支持哪些插件了？Oh My Zsh 安装目录下的 plugins 目录下就是支持的所有插件。例如：<code>ls ~/.oh-my-zsh/plugins</code> 就可以看到所有支持的插件名称了。</p>
-<p>　　Oh My Zsh 支持插件的简写说明可以参看 <a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins" target="_blank" rel="external">oh-my-zsh Plugins wiki</a>。</p>
-<h2 id="5-常用命令简介"><a href="#5-常用命令简介" class="headerlink" title="5. 常用命令简介"></a>5. 常用命令简介</h2><ul>
+<p>那如何配置其它的插件了？只需要在 Oh My Zsh 的配置文件 <code>~/.zshrc</code> 中找到 <code>plugins=(git)</code> 字段，配置插件的名称即可，多个插件使用空格隔开。</p>
+<p>那支持哪些插件了？Oh My Zsh 安装目录下的 plugins 目录下就是支持的所有插件。例如：<code>ls ~/.oh-my-zsh/plugins</code> 就可以看到所有支持的插件名称了。</p>
+<p>Oh My Zsh 支持插件的简写说明可以参看 <a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins" target="_blank" rel="external">oh-my-zsh Plugins wiki</a>。</p>
+<h1 id="5-常用命令简介"><a href="#5-常用命令简介" class="headerlink" title="5. 常用命令简介"></a>5. 常用命令简介</h1><ul>
 <li><code>l</code> 等价与 <code>ls -la</code>，查看当前目录下所有文件。</li>
 <li>打开目录不需要再敲 <code>cd</code>，直接输入目录名即可。</li>
 <li><code>TAB</code> 提示更加聪明。</li>
@@ -625,7 +604,7 @@
 &lt;/blockquote&gt;
 &lt;!-- ![Oh My Zsh][2] --&gt;
 &lt;img src=&quot;http://oapjp6spr.bkt.clouddn.com/OMZLogo_BnW.png&quot; width=&quot;200&quot; title=&quot;Oh My Zsh&quot;&gt;
-&lt;h2 id=&quot;1-Oh-My-Zsh-简介&quot;&gt;&lt;a href=&quot;#1-Oh-My-Zsh-简介&quot; class=&quot;headerlink&quot; title=&quot;1. Oh My Zsh 简介&quot;&gt;&lt;/a&gt;1. Oh My Zsh 简介&lt;/h2&gt;&lt;p&gt;　　无意中看见了 Linux 的一款 Shell，相比于 Bash 极其美艳，决定入坑试水一下，不试不知道，一试绝对有惊喜，不仅外观美艳而且功能强大，那还有不替换 Bash 的理由吗？搞起搞起……&lt;/p&gt;
+&lt;h1 id=&quot;1-Oh-My-Zsh-简介&quot;&gt;&lt;a href=&quot;#1-Oh-My-Zsh-简介&quot; class=&quot;headerlink&quot; title=&quot;1. Oh My Zsh 简介&quot;&gt;&lt;/a&gt;1. Oh My Zsh 简介&lt;/h1&gt;&lt;p&gt;无意中看见了 Linux 的一款 Shell，相比于 Bash 极其美艳，决定入坑试水一下，不试不知道，一试绝对有惊喜，不仅外观美艳而且功能强大，那还有不替换 Bash 的理由吗？搞起搞起……&lt;/p&gt;
     
     </summary>
     
@@ -645,55 +624,34 @@
     <link href="http://ehlxr.me/2016/09/06/5-%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA-Git-%E6%9C%8D%E5%8A%A1%E5%99%A8-Gogs/"/>
     <id>http://ehlxr.me/2016/09/06/5-分钟搭建-Git-服务器-Gogs/</id>
     <published>2016-09-06T04:15:14.000Z</published>
-    <updated>2016-10-21T03:11:31.066Z</updated>
+    <updated>2016-10-28T05:12:53.406Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>Gogs 基于 Go 语言的自助 Git 服务。它具有易安装、跨平台、轻量级、开源化等特性…</p>
 </blockquote>
 <!-- ![][1] -->
 <img src="http://oapjp6spr.bkt.clouddn.com/gogs-logo.png" width="150">
-<p>　　最近新到一家公司，发现在使用 Gogs 搭建 Git 服务，遂研究了一下，和前段时间研究的 GitLab 做了一个简单的对比，虽然 Gogs 相对与 GitLab 还比较年轻，也许没有 GitLab 强大和稳健，但 Gogs 更加简单易用，而且能够满足正常的工作使用。</p>
-<p>　　Gogs 是轻量级的 Git 服务，正如官方介绍的：一个廉价的树莓派的配置足以满足 Gogs 的最低系统硬件要求。最大程度上节省您的服务器资源！关键的一点是免费开源的，所有的代码都开源在 GitHub 上。下面结合官方的介绍，总结一下在 Linux 系统下的安装方法，真的是相当的简单，5 分钟足矣！</p>
+<p>最近新到一家公司，发现在使用 Gogs 搭建 Git 服务，遂研究了一下，和前段时间研究的 GitLab 做了一个简单的对比，虽然 Gogs 相对与 GitLab 还比较年轻，也许没有 GitLab 强大和稳健，但 Gogs 更加简单易用，而且能够满足正常的工作使用。</p>
+<p>Gogs 是轻量级的 Git 服务，正如官方介绍的：一个廉价的树莓派的配置足以满足 Gogs 的最低系统硬件要求。最大程度上节省您的服务器资源！关键的一点是免费开源的，所有的代码都开源在 GitHub 上。下面结合官方的介绍，总结一下在 Linux 系统下的安装方法，真的是相当的简单，5 分钟足矣！</p>
 <a id="more"></a>
-<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><ol>
-<li><p>下载对应系统版本的二进制安装包，并上传至 Linux 系统，或通过以下命令下载：</p>
+<h1 id="一、安装"><a href="#一、安装" class="headerlink" title="一、安装"></a>一、安装</h1><h2 id="1-1-下载"><a href="#1-1-下载" class="headerlink" title="1.1 下载"></a>1.1 下载</h2><p>下载对应系统版本的二进制安装包，并上传至 Linux 系统，或通过以下命令下载：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ wget https://github.com/gogits/gogs/releases/download/v0.9.97/linux_amd64.tar.gz</div></pre></td></tr></table></figure>
 <p><em><a href="https://github.com/gogits/gogs/releases" target="_blank" rel="external">Gogs发布版本</a></em></p>
-</li>
-<li><p>解压安装包：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ tar -xzvf gogs_v0.9.97_linux_amd64.tar.gz</div></pre></td></tr></table></figure>
-</li>
-<li><p>进入到刚刚解压后的目录执行命令 <code>./gogs web</code>，出现以下信息：</p>
+<h2 id="1-2-解压安装包"><a href="#1-2-解压安装包" class="headerlink" title="1.2 解压安装包"></a>1.2 解压安装包</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ tar -xzvf gogs_v0.9.97_linux_amd64.tar.gz</div></pre></td></tr></table></figure>
+<h2 id="1-3-安装"><a href="#1-3-安装" class="headerlink" title="1.3 安装"></a>1.3 安装</h2><p>进入到刚刚解压后的目录执行命令 <code>./gogs web</code>，出现以下信息：</p>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20160906134643.jpg" alt=""></p>
-</li>
-<li><p>打开浏览器输入：<code>http://ip:3000</code>，第一次会出现以下配置界面，根据实际情况选择即可</p>
+<h2 id="1-4-配置"><a href="#1-4-配置" class="headerlink" title="1.4 配置"></a>1.4 配置</h2><p>打开浏览器输地址入：<code>http://ip:3000</code>，第一次会出现以下的配置界面，根据实际情况选择即可。</p>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/Gogs-install.png" alt=""></p>
-</li>
-<li><p>之后进入以下界面，安装完成。</p>
+<h2 id="1-5-完成安装"><a href="#1-5-完成安装" class="headerlink" title="1.5 完成安装"></a>1.5 完成安装</h2><p>之后进入以下界面，表明安装已经完成。</p>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20160906135253.jpg" alt=""></p>
-</li>
-<li><p>后台运行可参考以下命令：</p>
+<h2 id="1-6-后台运行"><a href="#1-6-后台运行" class="headerlink" title="1.6 后台运行"></a>1.6 后台运行</h2><p>后台运行可参考以下命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ nohup ./gogs web &gt; nohup.out 2&gt;&amp;1 &amp;</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<h1 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h1><p>　　引用自官方<a href="https://gogs.io/docs/upgrade/upgrade_from_binary" target="_blank" rel="external">二级制升级文档</a></p>
-<ol>
-<li><p>首先，确认当前安装的位置：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"># 默认位置在 git 用户下的家目录</div><div class="line">$ sudo su - git</div><div class="line">$ cd ~</div><div class="line">$ pwd</div><div class="line">/home/git</div><div class="line">$ ls</div><div class="line">gogs gogs-repositories</div></pre></td></tr></table></figure>
-</li>
-<li><p>然后将当前目录移动到另一个临时的位置，但不是删除！</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mv gogs gogs_old</div></pre></td></tr></table></figure>
-</li>
-<li><p>下载并解压新的二进制：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># 请根据系统和类型获取相应的二进制版本</div><div class="line">$ wget https://dl.gogs.io/gogs_v$VERSION_$OS_$ARCH.tar.gz</div><div class="line">$ tar -zxvf gogs_v$VERSION_$OS_$ARCH.tar.gz</div><div class="line">$ ls</div><div class="line">gogs gogs_old  gogs-repositories gogs_v$VERSION_$OS_$ARCH.tar.gz</div></pre></td></tr></table></figure>
-</li>
-<li><p>复制 <code>custom</code>、<code>data</code> 和 <code>log</code> 目录到新解压的目录中：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ cp -R gogs_old/custom gogs</div><div class="line">$ cp -R gogs_old/data gogs</div><div class="line">$ cp -R gogs_old/log gogs</div></pre></td></tr></table></figure>
-</li>
-<li><p>最后，运行并打开浏览器进行测试：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ cd gogs</div><div class="line">$ ./gogs web</div></pre></td></tr></table></figure>
-</li>
-</ol>
+<h1 id="升级"><a href="#升级" class="headerlink" title="升级"></a>升级</h1><p>引用自官方<a href="https://gogs.io/docs/upgrade/upgrade_from_binary" target="_blank" rel="external">二级制升级文档</a></p>
+<h2 id="2-1-首先，确认当前安装的位置："><a href="#2-1-首先，确认当前安装的位置：" class="headerlink" title="2.1 首先，确认当前安装的位置："></a>2.1 首先，确认当前安装的位置：</h2> <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"># 默认位置在 git 用户下的家目录</div><div class="line">$ sudo su - git</div><div class="line">$ cd ~</div><div class="line">$ pwd</div><div class="line">/home/git</div><div class="line">$ ls</div><div class="line">gogs gogs-repositories</div></pre></td></tr></table></figure>
+<h2 id="2-2-然后将当前目录移动到另一个临时的位置，但不是删除！"><a href="#2-2-然后将当前目录移动到另一个临时的位置，但不是删除！" class="headerlink" title="2.2 然后将当前目录移动到另一个临时的位置，但不是删除！"></a>2.2 然后将当前目录移动到另一个临时的位置，但不是删除！</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mv gogs gogs_old</div></pre></td></tr></table></figure>
+<h2 id="2-3-下载并解压新的二进制："><a href="#2-3-下载并解压新的二进制：" class="headerlink" title="2.3 下载并解压新的二进制："></a>2.3 下载并解压新的二进制：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># 请根据系统和类型获取相应的二进制版本</div><div class="line">$ wget https://dl.gogs.io/gogs_v$VERSION_$OS_$ARCH.tar.gz</div><div class="line">$ tar -zxvf gogs_v$VERSION_$OS_$ARCH.tar.gz</div><div class="line">$ ls</div><div class="line">gogs gogs_old  gogs-repositories gogs_v$VERSION_$OS_$ARCH.tar.gz</div></pre></td></tr></table></figure>
+<h2 id="2-4-复制-custom、data-和-log-目录到新解压的目录中："><a href="#2-4-复制-custom、data-和-log-目录到新解压的目录中：" class="headerlink" title="2.4 复制 custom、data 和 log 目录到新解压的目录中："></a>2.4 复制 <code>custom</code>、<code>data</code> 和 <code>log</code> 目录到新解压的目录中：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ cp -R gogs_old/custom gogs</div><div class="line">$ cp -R gogs_old/data gogs</div><div class="line">$ cp -R gogs_old/log gogs</div></pre></td></tr></table></figure>
+<h2 id="2-5-最后，运行并打开浏览器进行测试："><a href="#2-5-最后，运行并打开浏览器进行测试：" class="headerlink" title="2.5 最后，运行并打开浏览器进行测试："></a>2.5 最后，运行并打开浏览器进行测试：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ cd gogs</div><div class="line">$ ./gogs web</div></pre></td></tr></table></figure>
 <hr>
 ]]></content>
     
@@ -704,8 +662,8 @@
 &lt;/blockquote&gt;
 &lt;!-- ![][1] --&gt;
 &lt;img src=&quot;http://oapjp6spr.bkt.clouddn.com/gogs-logo.png&quot; width=&quot;150&quot;&gt;
-&lt;p&gt;　　最近新到一家公司，发现在使用 Gogs 搭建 Git 服务，遂研究了一下，和前段时间研究的 GitLab 做了一个简单的对比，虽然 Gogs 相对与 GitLab 还比较年轻，也许没有 GitLab 强大和稳健，但 Gogs 更加简单易用，而且能够满足正常的工作使用。&lt;/p&gt;
-&lt;p&gt;　　Gogs 是轻量级的 Git 服务，正如官方介绍的：一个廉价的树莓派的配置足以满足 Gogs 的最低系统硬件要求。最大程度上节省您的服务器资源！关键的一点是免费开源的，所有的代码都开源在 GitHub 上。下面结合官方的介绍，总结一下在 Linux 系统下的安装方法，真的是相当的简单，5 分钟足矣！&lt;/p&gt;
+&lt;p&gt;最近新到一家公司，发现在使用 Gogs 搭建 Git 服务，遂研究了一下，和前段时间研究的 GitLab 做了一个简单的对比，虽然 Gogs 相对与 GitLab 还比较年轻，也许没有 GitLab 强大和稳健，但 Gogs 更加简单易用，而且能够满足正常的工作使用。&lt;/p&gt;
+&lt;p&gt;Gogs 是轻量级的 Git 服务，正如官方介绍的：一个廉价的树莓派的配置足以满足 Gogs 的最低系统硬件要求。最大程度上节省您的服务器资源！关键的一点是免费开源的，所有的代码都开源在 GitHub 上。下面结合官方的介绍，总结一下在 Linux 系统下的安装方法，真的是相当的简单，5 分钟足矣！&lt;/p&gt;
     
     </summary>
     
@@ -725,20 +683,24 @@
     <published>2016-09-04T02:03:35.000Z</published>
     <updated>2016-09-04T02:03:35.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="1-保存以下文件内容为：git-completion-bash"><a href="#1-保存以下文件内容为：git-completion-bash" class="headerlink" title="1. 保存以下文件内容为：git-completion.bash"></a>1. 保存以下文件内容为：<code>git-completion.bash</code></h3><p>　　<a href="https://github.com/git/git/blob/master/contrib/completion/git-completion.bash" target="_blank" rel="external">git-completion.bash</a></p>
-<h3 id="2-将上述文件git-completion-bash-copy-至个人home目录"><a href="#2-将上述文件git-completion-bash-copy-至个人home目录" class="headerlink" title="2. 将上述文件git-completion.bash copy 至个人home目录"></a>2. 将上述文件<code>git-completion.bash</code> copy 至个人<code>home</code>目录</h3><p>　　可设为隐藏文件以免后续被误删</p>
+    <content type="html"><![CDATA[<h1 id="1-Step-1"><a href="#1-Step-1" class="headerlink" title="1. Step 1"></a>1. Step 1</h1><p>保存以下文件的内容为：<code>git-completion.bash</code></p>
+<p><a href="https://github.com/git/git/blob/master/contrib/completion/git-completion.bash" target="_blank" rel="external">git-completion.bash</a></p>
+<h1 id="2-Step-2"><a href="#2-Step-2" class="headerlink" title="2.  Step 2"></a>2.  Step 2</h1><p>将上述文件 <code>git-completion.bash</code> copy 至个人 <code>home</code> 目录，可设为隐藏文件以免后续被误删。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ cp git-completion.bash ~/.git-completion.bash</div></pre></td></tr></table></figure>
 <a id="more"></a>
-<h3 id="3-编辑环境变量文件"><a href="#3-编辑环境变量文件" class="headerlink" title="3. 编辑环境变量文件"></a>3. 编辑环境变量文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ vi ~/.bashrc</div></pre></td></tr></table></figure>
-<p>　　在最后加入下面内容</p>
+<h1 id="Step-3"><a href="#Step-3" class="headerlink" title="Step 3"></a>Step 3</h1><p>编辑环境变量文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ vi ~/.bashrc</div></pre></td></tr></table></figure>
+<p>在最后加入下面内容</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">source ~/.git-completion.bash</div></pre></td></tr></table></figure>
-<p>完成以上步骤后，重启<code>shell</code>，就可以通过<code>tab</code>键自动补全<code>Git</code>命令.</p>
+<p>完成以上步骤后，重启 <code>shell</code>，就可以通过 <code>tab</code> 键自动补全 <code>Git</code> 命令了。</p>
+<hr>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;1-保存以下文件内容为：git-completion-bash&quot;&gt;&lt;a href=&quot;#1-保存以下文件内容为：git-completion-bash&quot; class=&quot;headerlink&quot; title=&quot;1. 保存以下文件内容为：git-completion.bash&quot;&gt;&lt;/a&gt;1. 保存以下文件内容为：&lt;code&gt;git-completion.bash&lt;/code&gt;&lt;/h3&gt;&lt;p&gt;　　&lt;a href=&quot;https://github.com/git/git/blob/master/contrib/completion/git-completion.bash&quot;&gt;git-completion.bash&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;2-将上述文件git-completion-bash-copy-至个人home目录&quot;&gt;&lt;a href=&quot;#2-将上述文件git-completion-bash-copy-至个人home目录&quot; class=&quot;headerlink&quot; title=&quot;2. 将上述文件git-completion.bash copy 至个人home目录&quot;&gt;&lt;/a&gt;2. 将上述文件&lt;code&gt;git-completion.bash&lt;/code&gt; copy 至个人&lt;code&gt;home&lt;/code&gt;目录&lt;/h3&gt;&lt;p&gt;　　可设为隐藏文件以免后续被误删&lt;/p&gt;
+      &lt;h1 id=&quot;1-Step-1&quot;&gt;&lt;a href=&quot;#1-Step-1&quot; class=&quot;headerlink&quot; title=&quot;1. Step 1&quot;&gt;&lt;/a&gt;1. Step 1&lt;/h1&gt;&lt;p&gt;保存以下文件的内容为：&lt;code&gt;git-completion.bash&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/git/git/blob/master/contrib/completion/git-completion.bash&quot;&gt;git-completion.bash&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;2-Step-2&quot;&gt;&lt;a href=&quot;#2-Step-2&quot; class=&quot;headerlink&quot; title=&quot;2.  Step 2&quot;&gt;&lt;/a&gt;2.  Step 2&lt;/h1&gt;&lt;p&gt;将上述文件 &lt;code&gt;git-completion.bash&lt;/code&gt; copy 至个人 &lt;code&gt;home&lt;/code&gt; 目录，可设为隐藏文件以免后续被误删。&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ cp git-completion.bash ~/.git-completion.bash&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
@@ -794,126 +756,73 @@
 <p>接着前两篇使用 Hexo 基于 GitHub Pages 搭建个人博客之上，本文记录了在使用非常漂亮简洁的 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Next</a> 主题过程中的各种折腾，其它主题的相关设置大同小异。再次衷心的感谢 Hexo 的作者和 Next 主题作者的无私奉献。</p>
 <h1 id="一、主题基本配置"><a href="#一、主题基本配置" class="headerlink" title="一、主题基本配置"></a>一、主题基本配置</h1><p>记录一下 Next 主题的基本配置、设置「阅读全文」、关闭新建页面的评论功能、页面文章的篇数、宽度调节、设置「JavaScript 第三方库」等内容、在线字体替换（选择关闭，加快访问速度）</p>
 <a id="more"></a>
-<ol>
-<li>主题安装</li>
-</ol>
-<p><code>Next</code> 主题安装与所有 <code>Hexo</code> 主题安装一样。当克隆或者下载（<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">Next主题GitHub地址</a>）完成主题文件后，拷贝至站点目录的 <code>themes</code> 目录下，一般命名为 <code>next</code>，打开<code>站点配置文件</code>， 找到 <code>theme</code> 字段，并将其值更改为 <code>next</code> 即可。</p>
+<h2 id="1-1-主题安装"><a href="#1-1-主题安装" class="headerlink" title="1.1 主题安装"></a>1.1 主题安装</h2><p><code>Next</code> 主题安装与所有 <code>Hexo</code> 主题安装一样。当克隆或者下载（<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">Next主题GitHub地址</a>）完成主题文件后，拷贝至站点目录的 <code>themes</code> 目录下，一般命名为 <code>next</code>，打开<code>站点配置文件</code>， 找到 <code>theme</code> 字段，并将其值更改为 <code>next</code> 即可。</p>
 <figure class="highlight autoit"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: <span class="keyword">next</span></div></pre></td></tr></table></figure>
-<ol>
-<li><p>Next 主题宽度调节</p>
-<p>编辑 <code>themes/next/source/css/_variables/custom.styl</code> 文件，新增变量：</p>
+<h2 id="1-2-Next-主题宽度调节"><a href="#1-2-Next-主题宽度调节" class="headerlink" title="1.2 Next 主题宽度调节"></a>1.2 Next 主题宽度调节</h2><p>编辑 <code>themes/next/source/css/_variables/custom.styl</code> 文件，新增变量：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">// 修改成你期望的宽度</div><div class="line"><span class="variable">$content</span>-desktop = 700px</div><div class="line"></div><div class="line">// 当视窗超过 1600px 后的宽度</div><div class="line"><span class="variable">$content</span>-desktop-large = 900px</div></pre></td></tr></table></figure>
 <p>以上方法不适用 <code>Pisces</code> Scheme</p>
-<p> <code>Pisces</code> Scheme 编辑 <code>themes/next/source/css/_schemes/Picses/_layout.styl</code> 文件，更改以下 <code>css</code> 选项定义值：</p>
+<p><code>Pisces</code> Scheme 编辑 <code>themes/next/source/css/_schemes/Picses/_layout.styl</code> 文件，更改以下 <code>css</code> 选项定义值：</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.header</span>&#123; <span class="attribute">width</span>: <span class="number">1150px</span>; &#125;</div><div class="line"><span class="selector-class">.container</span> <span class="selector-class">.main-inner</span> &#123; <span class="attribute">width</span>: <span class="number">1150px</span>; &#125;</div><div class="line"><span class="selector-class">.content-wrap</span> &#123; <span class="attribute">width</span>: <span class="built_in">calc</span>(100% - 260px); &#125;</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<h1 id="二、多说评论"><a href="#二、多说评论" class="headerlink" title="二、多说评论"></a>二、多说评论</h1><ol>
-<li><p>登录<a href="http://duoshuo.com/" target="_blank" rel="external">多说</a>后在首页选择 “我要安装”。</p>
-</li>
-<li><p>创建站点，填写表单。<code>多说域名</code> 这一栏填写的即是你的 <code>duoshuo_shortname</code>，如图：</p>
+<h1 id="二、多说评论"><a href="#二、多说评论" class="headerlink" title="二、多说评论"></a>二、多说评论</h1><h2 id="2-1-安装多说"><a href="#2-1-安装多说" class="headerlink" title="2.1 安装多说"></a>2.1 安装多说</h2><p>注册<a href="http://duoshuo.com/" target="_blank" rel="external">多说</a>，登录后在首页选择 “我要安装”。</p>
+<h2 id="2-2-创建站点"><a href="#2-2-创建站点" class="headerlink" title="2.2 创建站点"></a>2.2 创建站点</h2><p>按要求填写如下图所示表单：</p>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/duoshuo-create-site.png" alt="enter description here"></p>
-</li>
-<li><p>创建站点完成后在 <code>主题配置文件</code> 中新增 <code>duoshuo_shortname</code> 字段，值设置成上一步中的值。</p>
-</li>
-<li><p>开启多说热评文章，在 <code>主题配置文件</code> 中设置 <code>duoshuo_hotartical</code> 的值为 <code>true</code> 即可</p>
-</li>
-<li><p>多说评论样式调整，登录<a href="http://duoshuo.com/" target="_blank" rel="external">多说</a>后在首页右上角点击“后台管理”，选择站点名称打开多说后台管理页面，选择“设置”下拉找到“自定义CSS”输入框，填写以下<code>CSS</code>样式，效果参考本站文章结尾评论样式。</p>
+<p><strong>注意：</strong> <code>多说域名</code> 这一栏填写的即是你的 <code>duoshuo_shortname</code>，在下一步主题配置中需要使用到。</p>
+<h2 id="2-3-主题配置多说"><a href="#2-3-主题配置多说" class="headerlink" title="2.3 主题配置多说"></a>2.3 主题配置多说</h2><p>创建站点完成后，在 <code>主题配置文件</code> 中新增 <code>duoshuo_shortname</code> 字段，值设置成上一步创建站点中填写的 <code>多说域名</code> 即可。</p>
+<h2 id="2-4-开启多说热评文章"><a href="#2-4-开启多说热评文章" class="headerlink" title="2.4 开启多说热评文章"></a>2.4 开启多说热评文章</h2><p>在 <code>主题配置文件</code> 中，设置 <code>duoshuo_hotartical</code> 配置项的值为 <code>true</code>，即可开启多说热评文章。</p>
+<h2 id="2-5-多说评论样式调整"><a href="#2-5-多说评论样式调整" class="headerlink" title="2.5 多说评论样式调整"></a>2.5 多说评论样式调整</h2><p>登录<a href="http://duoshuo.com/" target="_blank" rel="external">多说</a>后，在首页右上角点击“后台管理”，选择站点名称打开多说后台管理页面，选择“设置”下拉找到“自定义CSS”输入框，填写以下<code>CSS</code>样式，效果参考本站文章结尾评论样式。</p>
 <figure class="highlight scss"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/*-------------访客底部----------------*/</span></div><div class="line"><span class="selector-class">.ds-recent-visitors</span> &#123;</div><div class="line">    <span class="attribute">margin-bottom</span>: <span class="number">200px</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line">@<span class="keyword">media</span> (max-width: 768px) &#123;</div><div class="line">    <span class="selector-class">.ds-recent-visitors</span> &#123;</div><div class="line">        <span class="attribute">margin-bottom</span>: <span class="number">440px</span>;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/*-------------非圆角----------------*/</span></div><div class="line"><span class="selector-id">#ds-reset</span> <span class="selector-class">.ds-rounded</span> &#123;</div><div class="line">    <span class="attribute">border-radius</span>: <span class="number">0px</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-class">.theme-next</span> <span class="selector-id">#ds-thread</span> <span class="selector-id">#ds-reset</span> <span class="selector-class">.ds-textarea-wrapper</span> &#123;</div><div class="line">    <span class="attribute">border-top-right-radius</span>: <span class="number">0px</span>;</div><div class="line">    <span class="attribute">border-top-left-radius</span>: <span class="number">0px</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-class">.theme-next</span> <span class="selector-id">#ds-thread</span> <span class="selector-id">#ds-reset</span> <span class="selector-class">.ds-post-button</span> &#123;</div><div class="line">    <span class="attribute">border-radius</span>: <span class="number">0px</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-class">.ds-post-self</span> xmp &#123;</div><div class="line">    <span class="attribute">word-wrap</span>: break-word;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/*-------------访客----------------*/</span></div><div class="line"><span class="selector-id">#ds-reset</span> <span class="selector-class">.ds-avatar</span> <span class="selector-tag">img</span>,</div><div class="line"><span class="selector-id">#ds-recent-visitors</span> <span class="selector-class">.ds-avatar</span> <span class="selector-tag">img</span> &#123;</div><div class="line">    <span class="attribute">width</span>: <span class="number">54px</span>;</div><div class="line">    <span class="attribute">height</span>: <span class="number">54px</span>; <span class="comment">/*设置图像的长和宽，这里要根据自己的评论框情况更改*/</span></div><div class="line">    <span class="attribute">border-radius</span>: <span class="number">27px</span>; <span class="comment">/*设置图像圆角效果,在这里我直接设置了超过width/2的像素，即为圆形了*/</span></div><div class="line">    -webkit-<span class="attribute">border-radius</span>: <span class="number">27px</span>; <span class="comment">/*圆角效果：兼容webkit浏览器*/</span></div><div class="line">    -moz-<span class="attribute">border-radius</span>: <span class="number">27px</span>;</div><div class="line">    <span class="attribute">box-shadow</span>: inset <span class="number">0</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#3333</span>sf; <span class="comment">/*设置图像阴影效果*/</span></div><div class="line">    -webkit-<span class="attribute">box-shadow</span>: inset <span class="number">0</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#3333</span>sf;</div><div class="line">    -webkit-<span class="attribute">transition</span>: <span class="number">0.4s</span>;</div><div class="line">    -webkit-<span class="attribute">transition</span>: -webkit-transform <span class="number">0.4s</span> ease-out;</div><div class="line">    <span class="attribute">transition</span>: transform <span class="number">0.4s</span> ease-out; <span class="comment">/*变化时间设置为0.4秒(变化动作即为下面的图像旋转360读）*/</span></div><div class="line">    -moz-<span class="attribute">transition</span>: -moz-transform <span class="number">0.4s</span> ease-out;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/*-------------访客悬浮在头像----------------*/</span></div><div class="line"><span class="selector-id">#ds-reset</span> <span class="selector-class">.ds-avatar</span> <span class="selector-tag">img</span>:hover,</div><div class="line"><span class="selector-id">#ds-recent-visitors</span> <span class="selector-class">.ds-avatar</span> <span class="selector-tag">img</span>:hover &#123;</div><div class="line">    <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">#fff</span>;</div><div class="line">rgba(255, 255, 255, <span class="selector-class">.6</span>), inset 0 0 20 px rgba(255, 255, 255, 1);</div><div class="line">    -webkit-<span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">#fff</span>;</div><div class="line">rgba(255, 255, 255, <span class="selector-class">.6</span>), inset 0 0 20 px rgba(255, 255, 255, 1);</div><div class="line">    <span class="attribute">transform</span>: rotateZ(<span class="number">360deg</span>); <span class="comment">/*图像旋转360度*/</span></div><div class="line">    -webkit-<span class="attribute">transform</span>: rotateZ(<span class="number">360deg</span>);</div><div class="line">    -moz-<span class="attribute">transform</span>: rotateZ(<span class="number">360deg</span>);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-id">#ds-thread</span> <span class="selector-id">#ds-reset</span> <span class="selector-class">.ds-textarea-wrapper</span> <span class="selector-tag">textarea</span> &#123;</div><div class="line">    <span class="attribute">background</span>: url(http://ww4.sinaimg.cn/small/<span class="number">649</span>a4735gw1et7gnhy5fej20zk0m8q3q.jpg) right no-repeat;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-id">#ds-recent-visitors</span> <span class="selector-class">.ds-avatar</span> &#123;</div><div class="line">    <span class="attribute">float</span>: left</div><div class="line">&#125;</div><div class="line"></div><div class="line">/*-------------隐藏版权----------------*/</div><div class="line"><span class="number">#d</span>s-thread <span class="number">#d</span>s-reset .ds-powered-by &#123;</div><div class="line">    display: none;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<h1 id="三、统计"><a href="#三、统计" class="headerlink" title="三、统计"></a>三、统计</h1><p>我使用 <code>LeanCloud</code> 统计文章阅读数，使用不蒜子统计站点的 PV 和 UV 数。</p>
-<ol>
-<li><p>文章阅读次数统计（LeanCloud)</p>
-<p>参考<a href="https://notes.wanghao.work/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html#%E9%85%8D%E7%BD%AELeanCloud" target="_blank" rel="external">为NexT主题添加文章阅读量统计功能</a></p>
-</li>
-<li><p>不蒜子统计站点访问统计</p>
-<p>编辑 <code>主题配置文件</code> 中的 <code>busuanzi_count</code> 的配置项，配置以下内容：</p>
+<h1 id="三、统计"><a href="#三、统计" class="headerlink" title="三、统计"></a>三、统计</h1><p>我使用 <code>LeanCloud</code> 统计文章阅读数，使用不蒜子统计站点的 <code>PV</code> 和 <code>UV</code> 数。</p>
+<h2 id="3-1-文章阅读次数统计（LeanCloud"><a href="#3-1-文章阅读次数统计（LeanCloud" class="headerlink" title="3.1 文章阅读次数统计（LeanCloud)"></a>3.1 文章阅读次数统计（LeanCloud)</h2><p>参考<a href="https://notes.wanghao.work/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html#%E9%85%8D%E7%BD%AELeanCloud" target="_blank" rel="external">为NexT主题添加文章阅读量统计功能</a></p>
+<h2 id="3-2-不蒜子统计站点访问统计"><a href="#3-2-不蒜子统计站点访问统计" class="headerlink" title="3.2 不蒜子统计站点访问统计"></a>3.2 不蒜子统计站点访问统计</h2><p>编辑 <code>主题配置文件</code> 中的 <code>busuanzi_count</code> 的配置项，配置以下内容：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># count values only if the other configs are false</span></div><div class="line"><span class="built_in">enable</span>: <span class="literal">true</span></div><div class="line"></div><div class="line"><span class="comment"># custom uv span for the whole site</span></div><div class="line">site_uv: <span class="literal">true</span></div><div class="line">site_uv_header: &lt;i class=<span class="string">"fa fa-user"</span>&gt;&lt;/i&gt;</div><div class="line">site_uv_footer:</div><div class="line"></div><div class="line"><span class="comment"># custom pv span for the whole site</span></div><div class="line">site_pv: <span class="literal">true</span></div><div class="line">site_pv_header: &lt;i class=<span class="string">"fa fa-eye"</span>&gt;&lt;/i&gt;</div><div class="line">site_pv_footer:</div><div class="line"></div><div class="line"><span class="comment"># custom pv span for one page only</span></div><div class="line">page_pv: <span class="literal">false</span></div><div class="line">page_pv_header: &lt;i class=<span class="string">"fa fa-file-o"</span>&gt;&lt;/i&gt;</div><div class="line">page_pv_footer:</div></pre></td></tr></table></figure>
 <p><code>site/page_pv/uv_header</code> 和 <code>site/page_pv/uv_footer</code> 为自定义样式配置，相关的值留空时将不显示，可以使用（带特效的）font-awesome。</p>
-</li>
-</ol>
-<h1 id="四、设置-RSS"><a href="#四、设置-RSS" class="headerlink" title="四、设置 RSS"></a>四、设置 RSS</h1><ol>
-<li><p>安装 <code>hexo-generator-feed</code>，在站点的根目录下执行以下命令：</p>
+<h1 id="四、设置-RSS"><a href="#四、设置-RSS" class="headerlink" title="四、设置 RSS"></a>四、设置 RSS</h1><h2 id="4-1-安装-hexo-generator-feed"><a href="#4-1-安装-hexo-generator-feed" class="headerlink" title="4.1 安装 hexo-generator-feed"></a>4.1 安装 <code>hexo-generator-feed</code></h2><p>在站点的根目录下执行以下命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-feed --save</div></pre></td></tr></table></figure>
-</li>
-<li><p>编辑 <code>站点配置文件</code>，新增以下内容到任意位置：</p>
+<h2 id="4-2-启用-RSS"><a href="#4-2-启用-RSS" class="headerlink" title="4.2 启用 RSS"></a>4.2 启用 RSS</h2><p>编辑 <code>站点配置文件</code>，新增以下内容到任意位置：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># RSS订阅支持</span></div><div class="line">plugin:</div><div class="line">- hexo-generator-feed</div><div class="line"></div><div class="line"><span class="comment"># Feed Atom</span></div><div class="line">feed:</div><div class="line"><span class="built_in">type</span>: atom</div><div class="line">path: atom.xml</div><div class="line"><span class="built_in">limit</span>: 20</div></pre></td></tr></table></figure>
-</li>
-</ol>
 <h1 id="五、内容分享"><a href="#五、内容分享" class="headerlink" title="五、内容分享"></a>五、内容分享</h1><p>使用 JiaThis 作为内容分享服务，具体步骤如下：</p>
 <p>编辑 <code>站点配置文件</code>， 添加字段 <code>jiathis</code>，值为 <code>true</code> 即可。</p>
-<h1 id="六、搜索服务"><a href="#六、搜索服务" class="headerlink" title="六、搜索服务"></a>六、搜索服务</h1><ol>
-<li><p><del>安装 <code>hexo-generator-search</code>，在站点的根目录下执行以下命令：</del></p>
+<h1 id="六、搜索服务"><a href="#六、搜索服务" class="headerlink" title="六、搜索服务"></a>六、搜索服务</h1><h2 id="6-1-安装-hexo-generator-search"><a href="#6-1-安装-hexo-generator-search" class="headerlink" title="6.1 安装 hexo-generator-search"></a><del>6.1 安装 <code>hexo-generator-search</code></del></h2><p>在站点的根目录下执行以下命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-search --save</div></pre></td></tr></table></figure>
-</li>
-<li><p><del>编辑 <code>站点配置文件</code>，新增以下内容到任意位置：</del></p>
+<h2 id="6-2-启用搜索"><a href="#6-2-启用搜索" class="headerlink" title="6.2 启用搜索"></a><del>6.2 启用搜索</del></h2><p>编辑 <code>站点配置文件</code>，新增以下内容到任意位置：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">search:</div><div class="line">  path: search.xml</div><div class="line">  field: post</div></pre></td></tr></table></figure>
-</li>
-<li><p>安装 <a href="https://www.npmjs.com/package/hexo-generator-searchdb" target="_blank" rel="external"><code>hexo-generator-searchdb</code></a>，在站点的根目录下执行以下命令：</p>
+<h2 id="6-3-安装-hexo-generator-searchdb"><a href="#6-3-安装-hexo-generator-searchdb" class="headerlink" title="6.3 安装 hexo-generator-searchdb"></a>6.3 安装 <a href="https://www.npmjs.com/package/hexo-generator-searchdb" target="_blank" rel="external"><code>hexo-generator-searchdb</code></a></h2><p>在站点的根目录下执行以下命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-searchdb --save</div></pre></td></tr></table></figure>
-</li>
-<li><p>编辑 <code>站点配置文件</code>，新增以下内容到任意位置：</p>
+<h2 id="6-4-启用搜索"><a href="#6-4-启用搜索" class="headerlink" title="6.4 启用搜索"></a>6.4 启用搜索</h2><p>编辑 <code>站点配置文件</code>，新增以下内容到任意位置：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">search:</div><div class="line">  path: search.xml</div><div class="line">  field: post</div><div class="line">  format: html</div><div class="line">  <span class="built_in">limit</span>: 10000</div></pre></td></tr></table></figure>
-</li>
-</ol>
 <h1 id="七、背景效果"><a href="#七、背景效果" class="headerlink" title="七、背景效果"></a>七、背景效果</h1><p>介绍博客背景动态效果图和点击小红心效果的相关设置。</p>
-<ol>
-<li><p>把 js 文件 <a href="https://github.com/ehlxr/ehlxr.github.io/blob/master/js/src/love.js" target="_blank" rel="external">love.js</a> 和 <a href="https://github.com/ehlxr/ehlxr.github.io/blob/master/js/src/particle.js" target="_blank" rel="external">particle.js</a> 放在<code>\themes\next\source\js\src</code>文件目录下</p>
-</li>
-<li><p>更新<code>\themes\next\layout\_layout.swig</code>文件，在<code>末尾</code>（在前面引用会出现找不到的bug）添加以下 js 引入代码：</p>
+<h2 id="7-1-添加-JS-文件"><a href="#7-1-添加-JS-文件" class="headerlink" title="7.1 添加 JS 文件"></a>7.1 添加 JS 文件</h2><p>把 js 文件 <a href="https://github.com/ehlxr/ehlxr.github.io/blob/master/js/src/love.js" target="_blank" rel="external">love.js</a> 和 <a href="https://github.com/ehlxr/ehlxr.github.io/blob/master/js/src/particle.js" target="_blank" rel="external">particle.js</a> 放在<code>\themes\next\source\js\src</code>文件目录下。</p>
+<h2 id="7-2-引用添加的-JS-文件"><a href="#7-2-引用添加的-JS-文件" class="headerlink" title="7.2 引用添加的 JS 文件"></a>7.2 引用添加的 JS 文件</h2><p>更新<code>\themes\next\layout\_layout.swig</code>文件，在<code>末尾</code>（在前面引用会出现找不到的bug）添加以下 js 引入代码：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">&lt;!-- 背景动画 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/js/src/particle.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="comment">&lt;!-- 页面点击小红心 --&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"/js/src/love.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-</li>
-</ol>
-<h1 id="八、图片模式"><a href="#八、图片模式" class="headerlink" title="八、图片模式"></a>八、图片模式</h1><ol>
-<li><p>新建博文，设置<code>type: &quot;picture&quot;</code>，使用<code>{\% gp x-x \%} ... {\% endgp \%}</code>标签引用要展示的图片地址，如下所示：</p>
+<h1 id="八、图片模式"><a href="#八、图片模式" class="headerlink" title="八、图片模式"></a>八、图片模式</h1><h2 id="8-1-新建博文"><a href="#8-1-新建博文" class="headerlink" title="8.1 新建博文"></a>8.1 新建博文</h2><p>新建博文，设置<code>type: &quot;picture&quot;</code>，使用<code>{\% gp x-x \%} ... {\% endgp \%}</code>标签引用要展示的图片地址，如下所示：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Naruto-Pictures</div><div class="line">categories: [图片]</div><div class="line">tags: [picture,naruto]</div><div class="line">date: 2016-09-02 14:36:04</div><div class="line">keywords: picture,naruto</div><div class="line"><span class="built_in">type</span>: <span class="string">"picture"</span></div><div class="line">top: 999</div><div class="line">---</div><div class="line">&#123;% gp 5-3 %&#125;</div><div class="line">![](http://oapjp6spr.bkt.clouddn.com/18210.jpg)</div><div class="line">![](http://oapjp6spr.bkt.clouddn.com/196232.jpg)</div><div class="line">![](http://oapjp6spr.bkt.clouddn.com/224147.jpg)</div><div class="line">![](http://oapjp6spr.bkt.clouddn.com/199301.jpg)</div><div class="line">![](http://oapjp6spr.bkt.clouddn.com/213318.jpg)</div><div class="line">&#123;% endgp %&#125;</div></pre></td></tr></table></figure>
-</li>
-<li><p><code>{\% gp 5-3 \%}</code>：设置图片展示效果，参考<code>theme/next/scripts/tags/group-pictures.js</code>注释效果</p>
-</li>
-</ol>
-<h1 id="九、博文压缩"><a href="#九、博文压缩" class="headerlink" title="九、博文压缩"></a>九、博文压缩</h1><p>目前知道的有两个插件可以压缩博文，<code>hexo-all-minifier</code>插件和<code>gulp</code>插件。<code>hexo-all-minifier</code>插件虽然使用比较简单，而且可以压缩图片，但是发现对文章缩进（输入法全拼模式下按<code>Tab</code>）不支持，所以暂时使用第二种压缩手段。</p>
-<ol>
-<li><p><code>hexo-all-minifier</code>配置使用</p>
-<p>安装 <code>hexo-all-minifier</code>，在站点的根目录下执行以下命令：</p>
+<h2 id="8-2-图片展示效果"><a href="#8-2-图片展示效果" class="headerlink" title="8.2 图片展示效果"></a>8.2 图片展示效果</h2><p><code>{\% gp 5-3 \%}</code>：设置图片展示效果，参考 <code>theme/next/scripts/tags/group-pictures.js</code> 注释示意图。</p>
+<h1 id="九、博文压缩"><a href="#九、博文压缩" class="headerlink" title="九、博文压缩"></a>九、博文压缩</h1><p>目前知道的有两个插件可以压缩博文，<code>hexo-all-minifier</code> 插件和 gulp<code>插件。</code>hexo-all-minifier<code>插件虽然使用比较简单，而且可以压缩图片，但是发现对文章缩进（输入法全拼模式下按</code>Tab`）不支持，所以暂时使用第二种压缩手段。</p>
+<h2 id="9-1-hexo-all-minifier-配置使用"><a href="#9-1-hexo-all-minifier-配置使用" class="headerlink" title="9.1 hexo-all-minifier 配置使用"></a>9.1 <code>hexo-all-minifier</code> 配置使用</h2><p>安装 <code>hexo-all-minifier</code>，在站点的根目录下执行以下命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-all-minifier --save</div></pre></td></tr></table></figure>
-<p><code>hexo g</code>生产博文的时候就会自动压缩 HTML、JS、图片，详情参考<a href="https://github.com/unhealthy/hexo-all-minifier" target="_blank" rel="external">插件介绍</a></p>
-</li>
-<li><p><code>gulp</code>插件配置使用</p>
-<p><code>hexo</code>依赖<code>gulp</code>插件安装，在站点的根目录下执行以下命令：</p>
+<p><code>hexo g</code> 生产博文的时候就会自动压缩 HTML、JS、图片，详情参考<a href="https://github.com/unhealthy/hexo-all-minifier" target="_blank" rel="external">插件介绍</a></p>
+<h2 id="9-2-gulp-插件配置使用"><a href="#9-2-gulp-插件配置使用" class="headerlink" title="9.2 gulp 插件配置使用"></a>9.2 <code>gulp</code> 插件配置使用</h2><p><code>hexo</code> 依赖 <code>gulp</code> 插件安装，在站点的根目录下执行以下命令：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install gulp -g</div><div class="line">$ npm install gulp-minify-css gulp-uglify gulp-htmlmin gulp-htmlclean gulp --save</div></pre></td></tr></table></figure>
-<p>在<code>package.json</code>同级目录下，新建<code>gulpfile.js</code>并填入以下内容：</p>
+<p>在 <code>package.json</code> 同级目录下，新建 <code>gulpfile.js</code> 并填入以下内容：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> gulp = <span class="built_in">require</span>(<span class="string">'gulp'</span>);</div><div class="line"><span class="keyword">var</span> minifycss = <span class="built_in">require</span>(<span class="string">'gulp-minify-css'</span>);</div><div class="line"><span class="keyword">var</span> uglify = <span class="built_in">require</span>(<span class="string">'gulp-uglify'</span>);</div><div class="line"><span class="keyword">var</span> htmlmin = <span class="built_in">require</span>(<span class="string">'gulp-htmlmin'</span>);</div><div class="line"><span class="keyword">var</span> htmlclean = <span class="built_in">require</span>(<span class="string">'gulp-htmlclean'</span>);</div><div class="line"></div><div class="line"><span class="comment">// 压缩 public 目录 css</span></div><div class="line">gulp.task(<span class="string">'minify-css'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> gulp.src(<span class="string">'./public/**/*.css'</span>)</div><div class="line">        .pipe(minifycss())</div><div class="line">        .pipe(gulp.dest(<span class="string">'./public'</span>));</div><div class="line">&#125;);</div><div class="line"><span class="comment">// 压缩 public 目录 html</span></div><div class="line">gulp.task(<span class="string">'minify-html'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> gulp.src(<span class="string">'./public/**/*.html'</span>)</div><div class="line">    .pipe(htmlclean())</div><div class="line">    .pipe(htmlmin(&#123;</div><div class="line">         removeComments: <span class="literal">true</span>,</div><div class="line">         minifyJS: <span class="literal">true</span>,</div><div class="line">         minifyCSS: <span class="literal">true</span>,</div><div class="line">         minifyURLs: <span class="literal">true</span>,</div><div class="line">    &#125;))</div><div class="line">    .pipe(gulp.dest(<span class="string">'./public'</span>))</div><div class="line">&#125;);</div><div class="line"><span class="comment">// 压缩 public/js 目录 js</span></div><div class="line">gulp.task(<span class="string">'minify-js'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> gulp.src(<span class="string">'./public/**/*.js'</span>)</div><div class="line">        .pipe(uglify())</div><div class="line">        .pipe(gulp.dest(<span class="string">'./public'</span>));</div><div class="line">&#125;);</div><div class="line"><span class="comment">// 执行 gulp 命令时执行的任务</span></div><div class="line">gulp.task(<span class="string">'default'</span>, [</div><div class="line">    <span class="string">'minify-html'</span>,<span class="string">'minify-css'</span>,<span class="string">'minify-js'</span></div><div class="line">]);</div></pre></td></tr></table></figure>
-<p>生成博文是执行<code>hexo g &amp;&amp; gulp</code>就会根据<code>gulpfile.js</code>中的配置，对<code>public</code>目录中的静态资源文件进行压缩。</p>
-</li>
-</ol>
-<h1 id="十、博文置顶"><a href="#十、博文置顶" class="headerlink" title="十、博文置顶"></a>十、博文置顶</h1><ol>
-<li><p>修改<code>hexo-generator-index</code>插件</p>
-<p>替换文件：<code>node_modules/hexo-generator-index/lib/generator.js</code> 为：<a href="https://github.com/ehlxr/useful-code/blob/master/resources/generator.js" target="_blank" rel="external">generator.js</a></p>
-</li>
-<li><p>在文章中添加<code>top</code>值，数值越大文章越靠前，如：</p>
+<p>生成博文是执行 <code>hexo g &amp;&amp; gulp</code> 就会根据 <code>gulpfile.js</code> 中的配置，对 <code>public</code> 目录中的静态资源文件进行压缩。</p>
+<h1 id="十、博文置顶"><a href="#十、博文置顶" class="headerlink" title="十、博文置顶"></a>十、博文置顶</h1><h2 id="10-1-修改-hexo-generator-index-插件"><a href="#10-1-修改-hexo-generator-index-插件" class="headerlink" title="10.1 修改 hexo-generator-index 插件"></a>10.1 修改 <code>hexo-generator-index</code> 插件</h2><p>替换文件：<code>node_modules/hexo-generator-index/lib/generator.js</code> 为：<a href="https://github.com/ehlxr/useful-code/blob/master/resources/generator.js" target="_blank" rel="external">generator.js</a></p>
+<h2 id="10-2-设置文章置顶"><a href="#10-2-设置文章置顶" class="headerlink" title="10.2 设置文章置顶"></a>10.2 设置文章置顶</h2><p>在文章 <code>Front-matter</code> 中添加 <code>top</code> 值，数值越大文章越靠前，如：</p>
 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Naruto 图集</div><div class="line">categories: [图片]</div><div class="line">tags: [picture,naruto]</div><div class="line">date: <span class="number">2016</span>-<span class="number">09</span>-<span class="number">02</span> <span class="number">14</span>:<span class="number">36</span>:<span class="number">04</span></div><div class="line">keywords: picture,naruto</div><div class="line">type: <span class="string">"picture"</span></div><div class="line"><span class="attribute">top</span>: <span class="number">10</span></div><div class="line">---</div></pre></td></tr></table></figure>
-</li>
-</ol>
 <h1 id="十一、头像圆形旋转"><a href="#十一、头像圆形旋转" class="headerlink" title="十一、头像圆形旋转"></a>十一、头像圆形旋转</h1><p>介绍一下实现头像圆形，鼠标经过旋转或者一直让旋转效果，主要是修改 Hexo 目录下 <code>\themes\next\source\css\_common\components\sidebar\sidebar-author.styl</code> 文件。</p>
-<ol>
-<li><p>头像圆形：修改 <code>sidebar-author.styl</code> 文件中 <code>.site-author-image</code> CSS 样式如下：</p>
+<h2 id="11-1-头像圆形修改"><a href="#11-1-头像圆形修改" class="headerlink" title="11.1 头像圆形修改"></a>11.1 头像圆形修改</h2><p>修改 <code>sidebar-author.styl</code> 文件中 <code>.site-author-image</code> CSS 样式如下：</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.site-author-image</span> &#123;</div><div class="line">  <span class="attribute">display</span>: block;</div><div class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</div><div class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</div><div class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</div><div class="line">  <span class="attribute">height</span>: $site-author-image-height;</div><div class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</div><div class="line">  </div><div class="line">  <span class="comment">/*头像圆形*/</span></div><div class="line">  <span class="attribute">border-radius</span>: <span class="number">80px</span>;</div><div class="line">  <span class="attribute">-webkit-border-radius</span>: <span class="number">80px</span>;</div><div class="line">  <span class="attribute">-moz-border-radius</span>: <span class="number">80px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-</li>
-<li><p>鼠标经过旋转：修改 <code>sidebar-author.styl</code> 文件，添加 CSS 样式 <code>img:hover</code> 如下代码：</p>
+<h2 id="11-2-鼠标经过旋转修改"><a href="#11-2-鼠标经过旋转修改" class="headerlink" title="11.2 鼠标经过旋转修改"></a>11.2 鼠标经过旋转修改</h2><p>修改 <code>sidebar-author.styl</code> 文件，添加 CSS 样式 <code>img:hover</code> 如下代码：</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">img</span><span class="selector-pseudo">:hover</span> &#123;</div><div class="line">  <span class="comment">/* 鼠标经过头像旋转360度 */</span></div><div class="line">  <span class="attribute">-webkit-transform</span>: <span class="built_in">rotateZ</span>(360deg);</div><div class="line">  <span class="attribute">-moz-transform</span>: <span class="built_in">rotateZ</span>(360deg);</div><div class="line">  <span class="attribute">transform</span>: <span class="built_in">rotateZ</span>(360deg);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>修改 <code>sidebar-author.styl</code> 文件中 <code>.site-author-image</code> CSS 样式如下：</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.site-author-image</span> &#123;</div><div class="line">  <span class="attribute">display</span>: block;</div><div class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</div><div class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</div><div class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</div><div class="line">  <span class="attribute">height</span>: $site-author-image-height;</div><div class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</div><div class="line"></div><div class="line">  <span class="comment">/* 头像圆形 */</span></div><div class="line">  <span class="attribute">border-radius</span>: <span class="number">80px</span>;</div><div class="line">  <span class="attribute">-webkit-border-radius</span>: <span class="number">80px</span>;</div><div class="line">  <span class="attribute">-moz-border-radius</span>: <span class="number">80px</span>;</div><div class="line">  <span class="attribute">box-shadow</span>: inset <span class="number">0</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#333</span>sf;</div><div class="line">  </div><div class="line">  <span class="comment">/* 鼠标经过头像旋转360度 */</span></div><div class="line">  <span class="attribute">-webkit-transition</span>: -webkit-transform <span class="number">1.5s</span> ease-out;</div><div class="line">  <span class="attribute">-moz-transition</span>: -moz-transform <span class="number">1.5s</span> ease-out;</div><div class="line">  <span class="attribute">transition</span>: transform <span class="number">1.5s</span> ease-out;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-</li>
-<li><p>一直旋转效果：修改 <code>sidebar-author.styl</code> 文件，添加如下代码：</p>
+<h2 id="11-3-头像循环旋转效果修改"><a href="#11-3-头像循环旋转效果修改" class="headerlink" title="11.3 头像循环旋转效果修改"></a>11.3 头像循环旋转效果修改</h2><p>修改 <code>sidebar-author.styl</code> 文件，添加如下代码：</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/* Z 轴旋转动画 */</span></div><div class="line">@-<span class="keyword">webkit</span>-<span class="keyword">keyframes</span> play &#123;</div><div class="line">  0% &#123;</div><div class="line">    <span class="attribute">-webkit-transform</span>: <span class="built_in">rotateZ</span>(0deg);</div><div class="line">  &#125;</div><div class="line">  100% &#123;</div><div class="line">    <span class="attribute">-webkit-transform</span>: <span class="built_in">rotateZ</span>(360deg);</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line">@-<span class="keyword">moz</span>-<span class="keyword">keyframes</span> play &#123;</div><div class="line">  0% &#123;</div><div class="line">    <span class="attribute">-moz-transform</span>: <span class="built_in">rotateZ</span>(0deg);</div><div class="line">  &#125;</div><div class="line">  100% &#123;</div><div class="line">    <span class="attribute">-moz-transform</span>: <span class="built_in">rotateZ</span>(360deg);</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line">@<span class="keyword">keyframes</span> play &#123;</div><div class="line">  0% &#123;</div><div class="line">    <span class="attribute">transform</span>: <span class="built_in">rotateZ</span>(0deg);</div><div class="line">  &#125;</div><div class="line">  100% &#123;</div><div class="line">    <span class="attribute">transform</span>: <span class="built_in">rotateZ</span>(360deg);</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>修改 <code>sidebar-author.styl</code> 文件中 <code>.site-author-image</code> CSS 样式如下：</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.site-author-image</span> &#123;</div><div class="line">  <span class="attribute">display</span>: block;</div><div class="line">  <span class="attribute">margin</span>: <span class="number">0</span> auto;</div><div class="line">  <span class="attribute">padding</span>: $site-author-image-padding;</div><div class="line">  <span class="attribute">max-width</span>: $site-author-image-width;</div><div class="line">  <span class="attribute">height</span>: $site-author-image-height;</div><div class="line">  <span class="attribute">border</span>: $site-author-image-border-width solid $site-author-image-border-color;</div><div class="line"></div><div class="line">  <span class="comment">/* 头像圆形 */</span></div><div class="line">  <span class="attribute">border-radius</span>: <span class="number">80px</span>;</div><div class="line">  <span class="attribute">-webkit-border-radius</span>: <span class="number">80px</span>;</div><div class="line">  <span class="attribute">-moz-border-radius</span>: <span class="number">80px</span>;</div><div class="line">  <span class="attribute">box-shadow</span>: inset <span class="number">0</span> -<span class="number">1px</span> <span class="number">0</span> <span class="number">#333</span>sf;</div><div class="line">  </div><div class="line">  <span class="comment">/* 设置循环动画：animation:动画名称 动画播放时长单位秒或微秒 </span></div><div class="line">    动画播放的速度曲线linear为匀速 动画播放次数infinite为循环播放; */</div><div class="line">  <span class="attribute">-webkit-animation</span>: play <span class="number">3s</span> linear infinite;</div><div class="line">  <span class="attribute">-moz-animation</span>: play <span class="number">3s</span> linear infinite;</div><div class="line">  <span class="attribute">animation</span>: play <span class="number">3s</span> linear infinite; </div><div class="line"></div><div class="line">  <span class="comment">/* 鼠标经过头像旋转360度 </span></div><div class="line">  -webkit-transition: -webkit-transform 1.5s ease-out;</div><div class="line">  -moz-transition: -moz-transform 1.5s ease-out;</div><div class="line">  transition: transform 1.5s ease-out;*/</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>鼠标经过停止头像旋转：修改 <code>sidebar-author.styl</code> 文件，添加 CSS 样式 <code>img:hover</code> 如下代码：</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">img</span><span class="selector-pseudo">:hover</span> &#123;</div><div class="line">  <span class="comment">/* 鼠标经过停止头像旋转 */</span></div><div class="line">  <span class="attribute">-webkit-animation-play-state</span>:paused;</div><div class="line">  <span class="attribute">animation-play-state</span>:paused;</div><div class="line"></div><div class="line">  <span class="comment">/* 鼠标经过头像旋转360度 </span></div><div class="line">  -webkit-transform: rotateZ(360deg);</div><div class="line">  -moz-transform: rotateZ(360deg);</div><div class="line">  transform: rotateZ(360deg);*/</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>完整 sidebar-author.styl 文件<a href="https://github.com/ehlxr/ehlxr-Hexo/blob/master/themes/next/source/css/_common/components/sidebar/sidebar-author.styl" target="_blank" rel="external">参考地址</a>。</p>
-</li>
-</ol>
 <hr>
 ]]></content>
     
@@ -999,74 +908,53 @@
     <link href="http://ehlxr.me/2016/07/31/CentOS-%E7%B3%BB%E7%BB%9F%E4%B8%8B-GitLab-%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/"/>
     <id>http://ehlxr.me/2016/07/31/CentOS-系统下-GitLab-搭建与基本配置/</id>
     <published>2016-07-31T10:15:47.000Z</published>
-    <updated>2016-10-21T03:12:11.771Z</updated>
+    <updated>2016-10-28T04:57:25.933Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p><a href="https://about.gitlab.com/" target="_blank" rel="external">GitLab 是一个开源的版本管理系统，提供了类似于 GitHub 的源代码浏览，管理缺陷和注释等功能，你可以将代码免费托管到 GitLab.com，而且不限项目数量和成员数。最吸引人的一点是，可以在自己的服务器上搭建 GitLab CE （社区免费版）版本，方便内部团队协作开发和代码管理。</a></p>
 </blockquote>
 <p>下面介绍如何在 CentOS 服务器上搭建 GitLab CE 版本，以及一些基本的配置。</p>
-<h3 id="1-安装"><a href="#1-安装" class="headerlink" title="1. 安装"></a>1. 安装</h3><p>　GitLab 提供了两种安装方式：源码手动编译安装和软件包管理安装。</p>
-<p>　源码手动编译安装虽然配置灵活，但过程比较麻烦，不容易安装成功，所以我这里选择软件包管理安装的形式。</p>
-<ul>
-<li><h4 id="使用-GitLab-提供仓库在线安装"><a href="#使用-GitLab-提供仓库在线安装" class="headerlink" title="使用 GitLab 提供仓库在线安装"></a>使用 GitLab 提供仓库在线安装</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash</div><div class="line">yum install gitlab-ce</div></pre></td></tr></table></figure>
+<h1 id="1-安装"><a href="#1-安装" class="headerlink" title="1. 安装"></a>1. 安装</h1><p>GitLab 提供了两种安装方式：源码手动编译安装和软件包管理安装。</p>
+<p>源码手动编译安装虽然配置灵活，但过程比较麻烦，不容易安装成功，所以我这里选择软件包管理安装的形式。</p>
+<h2 id="1-1-使用-GitLab-提供仓库在线安装"><a href="#1-1-使用-GitLab-提供仓库在线安装" class="headerlink" title="1.1 使用 GitLab 提供仓库在线安装"></a>1.1 使用 GitLab 提供仓库在线安装</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash</div><div class="line">yum install gitlab-ce</div></pre></td></tr></table></figure>
 <a id="more"></a>
-<p>　　国外的 GitLab 仓库访问速度较慢，可以使用国内的站点：</p>
+<p>国外的 GitLab 仓库访问速度较慢，可以使用国内的站点：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">curl -sS http://packages.gitlab.cc/install/gitlab-ce/script.rpm.sh | sudo bash</div><div class="line">yum install gitlab-ce</div></pre></td></tr></table></figure>
+<h2 id="1-2-下载离线软件包安装"><a href="#1-2-下载离线软件包安装" class="headerlink" title="1.2 下载离线软件包安装"></a>1.2 下载离线软件包安装</h2><p>如果网络速度不理想，可以使用离线软件包 rpm 的方式进行安装，下面提供了几个站点的下载地址。</p>
 <ul>
-<li><h4 id="下载离线软件包安装"><a href="#下载离线软件包安装" class="headerlink" title="下载离线软件包安装"></a>下载离线软件包安装</h4><p>  如果网络速度不理想，可以使用离线软件包 rpm 的方式进行安装，下面提供了几个站点的下载地址。</p>
-<ul>
-<li><h5 id="GitLab-官方：https-packages-gitlab-com-gitlab-gitlab-ce-filter-rpms"><a href="#GitLab-官方：https-packages-gitlab-com-gitlab-gitlab-ce-filter-rpms" class="headerlink" title="GitLab 官方：https://packages.gitlab.com/gitlab/gitlab-ce?filter=rpms"></a>GitLab 官方：<a href="https://packages.gitlab.com/gitlab/gitlab-ce?filter=rpms" target="_blank" rel="external">https://packages.gitlab.com/gitlab/gitlab-ce?filter=rpms</a></h5></li>
-<li><h5 id="清华大学TUNA开源镜像站：https-mirrors-tuna-tsinghua-edu-cn-gitlab-ce-yum-el7"><a href="#清华大学TUNA开源镜像站：https-mirrors-tuna-tsinghua-edu-cn-gitlab-ce-yum-el7" class="headerlink" title="清华大学TUNA开源镜像站：https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/"></a>清华大学TUNA开源镜像站：<a href="https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/" target="_blank" rel="external">https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/</a></h5></li>
-<li><h5 id="浙大开源镜像站：http-mirrors-lifetoy-org-gitlab-ce-yum-el7"><a href="#浙大开源镜像站：http-mirrors-lifetoy-org-gitlab-ce-yum-el7" class="headerlink" title="浙大开源镜像站：http://mirrors.lifetoy.org/gitlab-ce/yum/el7/"></a>浙大开源镜像站：<a href="http://mirrors.lifetoy.org/gitlab-ce/yum/el7/" target="_blank" rel="external">http://mirrors.lifetoy.org/gitlab-ce/yum/el7/</a></h5></li>
+<li>GitLab 官方：<a href="https://packages.gitlab.com/gitlab/gitlab-ce?filter=rpms" target="_blank" rel="external">https://packages.gitlab.com/gitlab/gitlab-ce?filter=rpms</a></li>
+<li>清华大学TUNA开源镜像站：<a href="https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/" target="_blank" rel="external">https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/</a></li>
+<li>浙大开源镜像站：<a href="http://mirrors.lifetoy.org/gitlab-ce/yum/el7/" target="_blank" rel="external">http://mirrors.lifetoy.org/gitlab-ce/yum/el7/</a></li>
 </ul>
-</li>
-</ul>
-<p>　　下载好 rpm 软件安装包后上传到服务器指定的目录下，通过以下命令进行安装：</p>
+<p>下载好 rpm 软件安装包后上传到服务器指定的目录下，通过以下命令进行安装：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rpm -ivh　gitlab-ce-8.9.6-ce.0.el7.x86_64.rpm</div></pre></td></tr></table></figure>
-<p>　　记录一下 rpm 卸载软件安装包命令：</p>
+<p>记录一下 rpm 卸载软件安装包命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rpm -e --nodeps gitlab-ce-8.9.6-ce.0.el7.x86_64</div></pre></td></tr></table></figure>
-<h3 id="2-启动-GitLab"><a href="#2-启动-GitLab" class="headerlink" title="2. 启动 GitLab"></a>2. 启动 GitLab</h3><p>　安装完成之后，打开配置文件 <code>/etc/gitlab/gitlab.rb</code> 将 <code>external_url = &#39;http://git.example.com&#39;</code> 修改为自己的 IP 地址：<code>external_url &#39;http://ip_address&#39;</code> ，然后执行下面的命令，对 GitLab 进行编译：</p>
+<h1 id="2-启动-GitLab"><a href="#2-启动-GitLab" class="headerlink" title="2. 启动 GitLab"></a>2. 启动 GitLab</h1><p>安装完成之后，打开配置文件 <code>/etc/gitlab/gitlab.rb</code> 将 <code>external_url = &#39;http://git.example.com&#39;</code> 修改为自己的 IP 地址：<code>external_url &#39;http://ip_address&#39;</code> ，然后执行下面的命令，对 GitLab 进行编译：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl reconfigure</div></pre></td></tr></table></figure>
-<p>　完成后，使用浏览器访问：<a href="http://ip_address" target="_blank" rel="external">http://ip_address</a> 可进入 GitLab 登录页面，首次访问系统会让你重新设置管理员的密码，默认的管理员账号是 root，如果你想更改默认管理员账号，登录系统后可以修改帐号名。</p>
-<h3 id="3-GitLab-基本配置"><a href="#3-GitLab-基本配置" class="headerlink" title="3. GitLab 基本配置"></a>3. GitLab 基本配置</h3><p>　GitLab 的相关参数配置都存在 <code>/etc/gitlab/gitlab.rb</code> 文件里。自 GitLab 7.6 开始的新安装包, 已经默认将所有的参数写入到 <code>/etc/gitlab/gitlab.rb</code> 配置文件中。</p>
-<ul>
-<li><h4 id="配置端口"><a href="#配置端口" class="headerlink" title="配置端口"></a>配置端口</h4></li>
-</ul>
-<p>　　GitLab 默认使用 80 端口对外提供服务，因为 80 端口被其他服务占用，所以需要更改。打开 <code>/etc/gitlab/gitlab.rb</code> 配置文件，修改 <code>external_url &#39;http://ip_address&#39;</code> 为 <code>external_url &#39;http://ip_address:new-port&#39;</code>， </p>
-<p>　　重新编译配置：</p>
+<p>完成后，使用浏览器访问：<a href="http://ip_address" target="_blank" rel="external">http://ip_address</a> 可进入 GitLab 登录页面，首次访问系统会让你重新设置管理员的密码，默认的管理员账号是 root，如果你想更改默认管理员账号，登录系统后可以修改帐号名。</p>
+<h1 id="3-GitLab-基本配置"><a href="#3-GitLab-基本配置" class="headerlink" title="3. GitLab 基本配置"></a>3. GitLab 基本配置</h1><p>GitLab 的相关参数配置都存在 <code>/etc/gitlab/gitlab.rb</code> 文件里。自 GitLab 7.6 开始的新安装包, 已经默认将所有的参数写入到 <code>/etc/gitlab/gitlab.rb</code> 配置文件中。</p>
+<h2 id="3-1-配置端口"><a href="#3-1-配置端口" class="headerlink" title="3.1 配置端口"></a>3.1 配置端口</h2><p>GitLab 默认使用 80 端口对外提供服务，因为 80 端口被其他服务占用，所以需要更改。打开 <code>/etc/gitlab/gitlab.rb</code> 配置文件，修改 <code>external_url &#39;http://ip_address&#39;</code> 为 <code>external_url &#39;http://ip_address:new-port&#39;</code>， </p>
+<p>重新编译配置：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl reconfigure</div></pre></td></tr></table></figure>
-<p>　　这时候就可以通更改后的 IP + 端口号码进行访问了。</p>
-<ul>
-<li><h4 id="邮箱配置"><a href="#邮箱配置" class="headerlink" title="邮箱配置"></a>邮箱配置</h4></li>
-</ul>
-<p>　　以下是 163 邮箱的配置参考，打开　<code>/etc/gitlab/gitlab.rb</code> 配置文件，添加以下内容：</p>
+<p>这时候就可以通更改后的 IP + 端口号码进行访问了。</p>
+<h2 id="3-2-邮箱配置"><a href="#3-2-邮箱配置" class="headerlink" title="3.2 邮箱配置"></a>3.2 邮箱配置</h2><p>以下是 163 邮箱的配置参考，打开　<code>/etc/gitlab/gitlab.rb</code> 配置文件，添加以下内容：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">gitlab_rails[&apos;smtp_enable&apos;] = true</div><div class="line">gitlab_rails[&apos;smtp_address&apos;] = &quot;smtp.163.com&quot;</div><div class="line">gitlab_rails[&apos;smtp_port&apos;] = 25</div><div class="line">gitlab_rails[&apos;smtp_user_name&apos;] = &quot;test@163.com&quot;</div><div class="line">gitlab_rails[&apos;smtp_password&apos;] = &quot;password&quot;</div><div class="line">gitlab_rails[&apos;smtp_authentication&apos;] = &quot;login&quot;</div><div class="line">gitlab_rails[&apos;smtp_enable_starttls_auto&apos;] = true</div><div class="line">gitlab_rails[&apos;gitlab_email_from&apos;] = &quot;test@163.com&quot;</div></pre></td></tr></table></figure>
-<p>　　<strong>注意：</strong> <code>test@163.com</code> 和 <code>password</code> 更新为自己邮箱地址和密码；邮箱需要开启 SMTP 协议。</p>
-<p>　　重新编译配置即可生效：</p>
+<p><strong>注意：</strong> <code>test@163.com</code> 和 <code>password</code> 更新为自己邮箱地址和密码；邮箱需要开启 SMTP 协议。</p>
+<p>重新编译配置即可生效：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl reconfigure</div></pre></td></tr></table></figure>
-<p>　　其它邮箱的配置可参考：<a href="https://doc.gitlab.cc/omnibus/settings/smtp.html" target="_blank" rel="external">https://doc.gitlab.cc/omnibus/settings/smtp.html</a></p>
-<ul>
-<li><h4 id="头像配置"><a href="#头像配置" class="headerlink" title="头像配置"></a>头像配置</h4></li>
-</ul>
-<p>　　GitLab 默认使用的是 Gravatar 头像服务，不过现在貌似 Gravatar 国内好像访问不了，导致 GitLab 默认头像破裂，无法显示，可以替换为多说 Gravatar 服务器。打开 <code>/etc/gitlab/gitlab.rb</code> 配置文件，增加下面这一行：</p>
+<p>其它邮箱的配置可参考：<a href="https://doc.gitlab.cc/omnibus/settings/smtp.html" target="_blank" rel="external">https://doc.gitlab.cc/omnibus/settings/smtp.html</a></p>
+<h2 id="3-3-头像配置"><a href="#3-3-头像配置" class="headerlink" title="3.3 头像配置"></a>3.3 头像配置</h2><p>GitLab 默认使用的是 Gravatar 头像服务，不过现在貌似 Gravatar 国内好像访问不了，导致 GitLab 默认头像破裂，无法显示，可以替换为多说 Gravatar 服务器。打开 <code>/etc/gitlab/gitlab.rb</code> 配置文件，增加下面这一行：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab_rails[&apos;gravatar_plain_url&apos;] = &apos;http://gravatar.duoshuo.com/avatar/%&#123;hash&#125;?s=%&#123;size&#125;&amp;d=identicon&apos;</div></pre></td></tr></table></figure>
-<p>　　再分别执行以下命令即可</p>
+<p>再分别执行以下命令即可</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl reconfigure </div><div class="line">gitlab-rake cache:clear RAILS_ENV=production</div></pre></td></tr></table></figure>
-<p>　　也可以关闭 Gravatar 头像显示配置，登录 GitLab 管理员账户，进入设置界面（路径地址：<a href="http://ip:port/admin/application_settings" target="_blank" rel="external">http://ip:port/admin/application_settings</a> ），取消以下选项即可。</p>
+<p>也可以关闭 Gravatar 头像显示配置，登录 GitLab 管理员账户，进入设置界面（路径地址：<a href="http://ip:port/admin/application_settings" target="_blank" rel="external">http://ip:port/admin/application_settings</a> ），取消以下选项即可。</p>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20160731201717.png" alt=""></p>
-<ul>
-<li><h4 id="用户注册配置"><a href="#用户注册配置" class="headerlink" title="用户注册配置"></a>用户注册配置</h4></li>
-</ul>
-<p>　　管理员设置界面（路径地址：<a href="http://ip:port/admin/application_settings" target="_blank" rel="external">http://ip:port/admin/application_settings</a> ）以下选项可以控制用户注册配置，包括是否允许登录、注册和注册邮箱验证等选项。</p>
+<h2 id="3-4-用户注册配置"><a href="#3-4-用户注册配置" class="headerlink" title="3.4 用户注册配置"></a>3.4 用户注册配置</h2><p>管理员设置界面（路径地址：<a href="http://ip:port/admin/application_settings" target="_blank" rel="external">http://ip:port/admin/application_settings</a> ）以下选项可以控制用户注册配置，包括是否允许登录、注册和注册邮箱验证等选项。</p>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20160731202214.png" alt=""></p>
-<ul>
-<li><h4 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h4></li>
-</ul>
-<p>　　GitLab 服务启动、停止、状态查询、修改配置生效等命令：</p>
+<h2 id="3-5-常用命令"><a href="#3-5-常用命令" class="headerlink" title="3.5 常用命令"></a>3.5 常用命令</h2><p>GitLab 服务启动、停止、状态查询、修改配置生效等命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl start/stop/status/reconfigure  # 服务启动、停止、状态查询、修改配置生效</div></pre></td></tr></table></figure>
-<p>　　也可以查看帮助文档获取更多命令信息：</p>
+<p>也可以查看帮助文档获取更多命令信息：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gitlab-ctl --help</div></pre></td></tr></table></figure>
 <hr>
 ]]></content>
@@ -1077,12 +965,9 @@
 &lt;p&gt;&lt;a href=&quot;https://about.gitlab.com/&quot;&gt;GitLab 是一个开源的版本管理系统，提供了类似于 GitHub 的源代码浏览，管理缺陷和注释等功能，你可以将代码免费托管到 GitLab.com，而且不限项目数量和成员数。最吸引人的一点是，可以在自己的服务器上搭建 GitLab CE （社区免费版）版本，方便内部团队协作开发和代码管理。&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;下面介绍如何在 CentOS 服务器上搭建 GitLab CE 版本，以及一些基本的配置。&lt;/p&gt;
-&lt;h3 id=&quot;1-安装&quot;&gt;&lt;a href=&quot;#1-安装&quot; class=&quot;headerlink&quot; title=&quot;1. 安装&quot;&gt;&lt;/a&gt;1. 安装&lt;/h3&gt;&lt;p&gt;　GitLab 提供了两种安装方式：源码手动编译安装和软件包管理安装。&lt;/p&gt;
-&lt;p&gt;　源码手动编译安装虽然配置灵活，但过程比较麻烦，不容易安装成功，所以我这里选择软件包管理安装的形式。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;h4 id=&quot;使用-GitLab-提供仓库在线安装&quot;&gt;&lt;a href=&quot;#使用-GitLab-提供仓库在线安装&quot; class=&quot;headerlink&quot; title=&quot;使用 GitLab 提供仓库在线安装&quot;&gt;&lt;/a&gt;使用 GitLab 提供仓库在线安装&lt;/h4&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;yum install gitlab-ce&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&quot;1-安装&quot;&gt;&lt;a href=&quot;#1-安装&quot; class=&quot;headerlink&quot; title=&quot;1. 安装&quot;&gt;&lt;/a&gt;1. 安装&lt;/h1&gt;&lt;p&gt;GitLab 提供了两种安装方式：源码手动编译安装和软件包管理安装。&lt;/p&gt;
+&lt;p&gt;源码手动编译安装虽然配置灵活，但过程比较麻烦，不容易安装成功，所以我这里选择软件包管理安装的形式。&lt;/p&gt;
+&lt;h2 id=&quot;1-1-使用-GitLab-提供仓库在线安装&quot;&gt;&lt;a href=&quot;#1-1-使用-GitLab-提供仓库在线安装&quot; class=&quot;headerlink&quot; title=&quot;1.1 使用 GitLab 提供仓库在线安装&quot;&gt;&lt;/a&gt;1.1 使用 GitLab 提供仓库在线安装&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;yum install gitlab-ce&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -1102,25 +987,25 @@
     <link href="http://ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84-Git/"/>
     <id>http://ehlxr.me/2016/07/30/CentOS-7-安装最新的-Git/</id>
     <published>2016-07-30T14:12:43.000Z</published>
-    <updated>2016-10-21T03:12:06.099Z</updated>
+    <updated>2016-10-28T05:00:52.521Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>yum 源仓库里的 Git 版本更新不及时，最新版本的 Git 是 1.8.3.1，但是官方最新版本已经到了 2.9.2。想要安装最新版本的的 Git，只能下载源码进行安装。</p>
 </blockquote>
-<h3 id="1-查看-yum-源仓库的-Git-信息："><a href="#1-查看-yum-源仓库的-Git-信息：" class="headerlink" title="1. 查看 yum 源仓库的 Git 信息："></a>1. 查看 yum 源仓库的 Git 信息：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># yum info git</div></pre></td></tr></table></figure>
+<h1 id="1-查看-yum-源仓库的-Git-信息："><a href="#1-查看-yum-源仓库的-Git-信息：" class="headerlink" title="1. 查看 yum 源仓库的 Git 信息："></a>1. 查看 yum 源仓库的 Git 信息：</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># yum info git</div></pre></td></tr></table></figure>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20160730222608.png" alt=""></p>
-<p>　　可以看出，截至目前，yum 源仓库中最新的 Git 版本才 1.8.3.1，而查看最<a href="https://github.com/git/git/releases" target="_blank" rel="external">新的 Git 发布版本</a>，已经 2.9.2 了。</p>
+<p>可以看出，截至目前，yum 源仓库中最新的 Git 版本才 1.8.3.1，而查看最<a href="https://github.com/git/git/releases" target="_blank" rel="external">新的 Git 发布版本</a>，已经 2.9.2 了。</p>
 <a id="more"></a>
-<h3 id="2-依赖库安装"><a href="#2-依赖库安装" class="headerlink" title="2. 依赖库安装"></a>2. 依赖库安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel</div><div class="line"># yum install  gcc perl-ExtUtils-MakeMaker</div></pre></td></tr></table></figure>
-<h3 id="3-卸载低版本的-Git"><a href="#3-卸载低版本的-Git" class="headerlink" title="3. 卸载低版本的 Git"></a>3. 卸载低版本的 Git</h3><p>　　通过命令：<code>git –-version</code> 查看系统带的版本，Git 版本是： <code>1.8.3.1</code>，所以先要卸载低版本的 Git，命令：</p>
+<h1 id="2-依赖库安装"><a href="#2-依赖库安装" class="headerlink" title="2. 依赖库安装"></a>2. 依赖库安装</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel</div><div class="line"># yum install  gcc perl-ExtUtils-MakeMaker</div></pre></td></tr></table></figure>
+<h1 id="3-卸载低版本的-Git"><a href="#3-卸载低版本的-Git" class="headerlink" title="3. 卸载低版本的 Git"></a>3. 卸载低版本的 Git</h1><p>通过命令：<code>git –-version</code> 查看系统带的版本，Git 版本是： <code>1.8.3.1</code>，所以先要卸载低版本的 Git，命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># yum remove git</div></pre></td></tr></table></figure>
-<h3 id="4-下载新版的-Git-源码包"><a href="#4-下载新版的-Git-源码包" class="headerlink" title="4. 下载新版的 Git 源码包"></a>4. 下载新版的 Git 源码包</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># wget https://github.com/git/git/archive/v2.9.2.tar.gz</div></pre></td></tr></table></figure>
-<p>　　也可以离线下载，然后传到 CentOS 系统中指定的目录下。</p>
-<h3 id="5-解压到指定目录"><a href="#5-解压到指定目录" class="headerlink" title="5. 解压到指定目录"></a>5. 解压到指定目录</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># tar -xzvf v2.9.2.tar.gz -C ~/app/</div></pre></td></tr></table></figure>
-<h3 id="6-安装-Git"><a href="#6-安装-Git" class="headerlink" title="6. 安装 Git"></a>6. 安装 Git</h3><p>　　分别执行以下命令进行编译安装，编译过程可能比较漫长，请耐心等待完成。</p>
+<h1 id="4-下载新版的-Git-源码包"><a href="#4-下载新版的-Git-源码包" class="headerlink" title="4. 下载新版的 Git 源码包"></a>4. 下载新版的 Git 源码包</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># wget https://github.com/git/git/archive/v2.9.2.tar.gz</div></pre></td></tr></table></figure>
+<p>也可以离线下载，然后传到 CentOS 系统中指定的目录下。</p>
+<h1 id="5-解压到指定目录"><a href="#5-解压到指定目录" class="headerlink" title="5. 解压到指定目录"></a>5. 解压到指定目录</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># tar -xzvf v2.9.2.tar.gz -C ~/app/</div></pre></td></tr></table></figure>
+<h1 id="6-安装-Git"><a href="#6-安装-Git" class="headerlink" title="6. 安装 Git"></a>6. 安装 Git</h1><p>分别执行以下命令进行编译安装，编译过程可能比较漫长，请耐心等待完成。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># cd git-2.9.2</div><div class="line"># make prefix=/usr/local/git all</div><div class="line"># make prefix=/usr/local/git install</div></pre></td></tr></table></figure>
-<h3 id="7-添加到环境变量"><a href="#7-添加到环境变量" class="headerlink" title="7. 添加到环境变量"></a>7. 添加到环境变量</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># echo &quot;export PATH=$PATH:/usr/local/git/bin&quot; &gt;&gt; /etc/bashrc</div><div class="line"># source /etc/bashrc # 实时生效</div></pre></td></tr></table></figure>
-<h4 id="8-查看版本号"><a href="#8-查看版本号" class="headerlink" title="8. 查看版本号"></a>8. 查看版本号</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># git --version</div><div class="line">git version 2.9.2</div></pre></td></tr></table></figure>
+<h1 id="7-添加到环境变量"><a href="#7-添加到环境变量" class="headerlink" title="7. 添加到环境变量"></a>7. 添加到环境变量</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># echo &quot;export PATH=$PATH:/usr/local/git/bin&quot; &gt;&gt; /etc/bashrc</div><div class="line"># source /etc/bashrc # 实时生效</div></pre></td></tr></table></figure>
+<h1 id="8-查看版本号"><a href="#8-查看版本号" class="headerlink" title="8. 查看版本号"></a>8. 查看版本号</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># git --version</div><div class="line">git version 2.9.2</div></pre></td></tr></table></figure>
 <p>至此，CentOS 就安装上了最新版本的 Git。</p>
 <hr>
 ]]></content>
@@ -1130,9 +1015,9 @@
       &lt;blockquote&gt;
 &lt;p&gt;yum 源仓库里的 Git 版本更新不及时，最新版本的 Git 是 1.8.3.1，但是官方最新版本已经到了 2.9.2。想要安装最新版本的的 Git，只能下载源码进行安装。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&quot;1-查看-yum-源仓库的-Git-信息：&quot;&gt;&lt;a href=&quot;#1-查看-yum-源仓库的-Git-信息：&quot; class=&quot;headerlink&quot; title=&quot;1. 查看 yum 源仓库的 Git 信息：&quot;&gt;&lt;/a&gt;1. 查看 yum 源仓库的 Git 信息：&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;# yum info git&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&quot;1-查看-yum-源仓库的-Git-信息：&quot;&gt;&lt;a href=&quot;#1-查看-yum-源仓库的-Git-信息：&quot; class=&quot;headerlink&quot; title=&quot;1. 查看 yum 源仓库的 Git 信息：&quot;&gt;&lt;/a&gt;1. 查看 yum 源仓库的 Git 信息：&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;# yum info git&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;img src=&quot;http://oapjp6spr.bkt.clouddn.com/20160730222608.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;　　可以看出，截至目前，yum 源仓库中最新的 Git 版本才 1.8.3.1，而查看最&lt;a href=&quot;https://github.com/git/git/releases&quot;&gt;新的 Git 发布版本&lt;/a&gt;，已经 2.9.2 了。&lt;/p&gt;
+&lt;p&gt;可以看出，截至目前，yum 源仓库中最新的 Git 版本才 1.8.3.1，而查看最&lt;a href=&quot;https://github.com/git/git/releases&quot;&gt;新的 Git 发布版本&lt;/a&gt;，已经 2.9.2 了。&lt;/p&gt;
     
     </summary>
     
@@ -1152,46 +1037,28 @@
     <link href="http://ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85-Node-js/"/>
     <id>http://ehlxr.me/2016/07/30/CentOS-7-安装-Node-js/</id>
     <published>2016-07-30T08:19:03.000Z</published>
-    <updated>2016-10-21T03:12:01.219Z</updated>
+    <updated>2016-10-28T05:04:08.488Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js® is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js’ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.</a></p>
 </blockquote>
-<h3 id="1-下载源码安装文件"><a href="#1-下载源码安装文件" class="headerlink" title="1. 下载源码安装文件"></a>1. 下载源码安装文件</h3><ul>
-<li><h4 id="方式一：在线安装"><a href="#方式一：在线安装" class="headerlink" title="方式一：在线安装"></a>方式一：在线安装</h4><p>  通过以下命令下载源文件：</p>
-</li>
-</ul>
+<h1 id="1-下载源码安装文件"><a href="#1-下载源码安装文件" class="headerlink" title="1. 下载源码安装文件"></a>1. 下载源码安装文件</h1><h2 id="1-1-在线安装"><a href="#1-1-在线安装" class="headerlink" title="1.1 在线安装"></a>1.1 在线安装</h2><p>通过以下命令下载源文件：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget https://nodejs.org/dist/v4.4.7/node-v4.4.7.tar.gz</div></pre></td></tr></table></figure>
 <a id="more"></a>
-<ul>
-<li><h4 id="方法二：离线安装"><a href="#方法二：离线安装" class="headerlink" title="方法二：离线安装"></a>方法二：离线安装</h4><p>  如果网络不好，可以通过<a href="https://nodejs.org/en/download/" target="_blank" rel="external">官方网站</a>下载，然后上传到 CentOS 系统中，下载如图所示：</p>
-</li>
-</ul>
+<h2 id="1-2-离线安装"><a href="#1-2-离线安装" class="headerlink" title="1.2 离线安装"></a>1.2 离线安装</h2><p>如果网络不好，可以通过<a href="https://nodejs.org/en/download/" target="_blank" rel="external">官方网站</a>下载，然后上传到 CentOS 系统中，下载如图所示：</p>
 <p><img src="http://oapjp6spr.bkt.clouddn.com/20160730163835.png" alt=""></p>
-<p>　　我这儿官方网站是无法正常访问的，需要一些手段（大家懂得），所以在网盘备份一份，地址：<a href="http://pan.baidu.com/s/1bpIAUAz" target="_blank" rel="external">http://pan.baidu.com/s/1bpIAUAz</a></p>
-<h3 id="2-编译安装"><a href="#2-编译安装" class="headerlink" title="2. 编译安装"></a>2. 编译安装</h3><ul>
-<li><h4 id="解压文件到指定的目录"><a href="#解压文件到指定的目录" class="headerlink" title="解压文件到指定的目录"></a>解压文件到指定的目录</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tar -xzvf node-v4.4.7.tar.gz -C app/</div></pre></td></tr></table></figure>
-<ul>
-<li><h4 id="安装依赖包"><a href="#安装依赖包" class="headerlink" title="安装依赖包"></a>安装依赖包</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum install gcc gcc-c++</div></pre></td></tr></table></figure>
-<ul>
-<li><h4 id="配置安装"><a href="#配置安装" class="headerlink" title="配置安装"></a>配置安装</h4></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./configure</div></pre></td></tr></table></figure>
-<p>　　./configure 是源代码安装的第一步，主要的作用是对即将安装的软件进行配置，检查当前的环境是否满足要安装软件的依赖关系，生成 makefile文件，以便你可以用 make 和 make install 来编译和安装程序。</p>
-<ul>
-<li><h4 id="编译安装"><a href="#编译安装" class="headerlink" title="编译安装"></a>编译安装</h4><p>编译命令：</p>
-</li>
-</ul>
+<p>我这儿官方网站是无法正常访问的，需要一些手段（大家懂得），所以在网盘备份一份，地址：<a href="http://pan.baidu.com/s/1bpIAUAz" target="_blank" rel="external">http://pan.baidu.com/s/1bpIAUAz</a></p>
+<h1 id="2-编译安装"><a href="#2-编译安装" class="headerlink" title="2. 编译安装"></a>2. 编译安装</h1><h2 id="2-1-解压文件到指定的目录"><a href="#2-1-解压文件到指定的目录" class="headerlink" title="2.1 解压文件到指定的目录"></a>2.1 解压文件到指定的目录</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tar -xzvf node-v4.4.7.tar.gz -C app/</div></pre></td></tr></table></figure>
+<h2 id="2-2-安装依赖包"><a href="#2-2-安装依赖包" class="headerlink" title="2.2 安装依赖包"></a>2.2 安装依赖包</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum install gcc gcc-c++</div></pre></td></tr></table></figure>
+<h2 id="2-3-配置安装"><a href="#2-3-配置安装" class="headerlink" title="2.3 配置安装"></a>2.3 配置安装</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./configure</div></pre></td></tr></table></figure>
+<p>./configure 是源代码安装的第一步，主要的作用是对即将安装的软件进行配置，检查当前的环境是否满足要安装软件的依赖关系，生成 makefile文件，以便你可以用 make 和 make install 来编译和安装程序。</p>
+<h2 id="2-4-编译安装"><a href="#2-4-编译安装" class="headerlink" title="2.4 编译安装"></a>2.4 编译安装</h2><p>编译命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">make</div></pre></td></tr></table></figure>
-<p>　　编译的过程会花很长一段时间，等编译完成再执行安装命令：</p>
+<p>编译的过程会花很长一段时间，等编译完成再执行安装命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">make install</div></pre></td></tr></table></figure>
-<h3 id="3-检查安装"><a href="#3-检查安装" class="headerlink" title="3. 检查安装"></a>3. 检查安装</h3><p>　　运行以下命令：</p>
+<h1 id="3-检查安装"><a href="#3-检查安装" class="headerlink" title="3. 检查安装"></a>3. 检查安装</h1><p>运行以下命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">node --version</div></pre></td></tr></table></figure>
-<p>　　若输出对应的版本号，则安装成功。</p>
+<p>若输出对应的版本号，则安装成功。</p>
 <hr>
 ]]></content>
     
@@ -1200,10 +1067,7 @@
       &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js® is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js’ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&quot;1-下载源码安装文件&quot;&gt;&lt;a href=&quot;#1-下载源码安装文件&quot; class=&quot;headerlink&quot; title=&quot;1. 下载源码安装文件&quot;&gt;&lt;/a&gt;1. 下载源码安装文件&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;h4 id=&quot;方式一：在线安装&quot;&gt;&lt;a href=&quot;#方式一：在线安装&quot; class=&quot;headerlink&quot; title=&quot;方式一：在线安装&quot;&gt;&lt;/a&gt;方式一：在线安装&lt;/h4&gt;&lt;p&gt;  通过以下命令下载源文件：&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&quot;1-下载源码安装文件&quot;&gt;&lt;a href=&quot;#1-下载源码安装文件&quot; class=&quot;headerlink&quot; title=&quot;1. 下载源码安装文件&quot;&gt;&lt;/a&gt;1. 下载源码安装文件&lt;/h1&gt;&lt;h2 id=&quot;1-1-在线安装&quot;&gt;&lt;a href=&quot;#1-1-在线安装&quot; class=&quot;headerlink&quot; title=&quot;1.1 在线安装&quot;&gt;&lt;/a&gt;1.1 在线安装&lt;/h2&gt;&lt;p&gt;通过以下命令下载源文件：&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;wget https://nodejs.org/dist/v4.4.7/node-v4.4.7.tar.gz&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
@@ -1213,9 +1077,9 @@
     
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
     
-      <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
-    
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
+    
+      <category term="Node.js" scheme="http://ehlxr.me/tags/Node-js/"/>
     
   </entry>
   

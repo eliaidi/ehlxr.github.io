@@ -4,6 +4,166 @@
 
     
   <url>
+    <loc>http://ehlxr.me/2016/10/19/%E8%BD%AC-%E7%94%A8-Markdown-%E5%86%99%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%EF%BC%88Evernote%EF%BC%89/</loc>
+    <lastmod>2016-10-28T05:38:13.828Z</lastmod>
+    <data>
+        <display>
+        <title>[转]用 Markdown 写印象笔记（Evernote）</title>
+        <pubTime>2016-10-19T02:47:23.000Z</pubTime>
+        
+        <tag>Markdown</tag>
+         
+        <tag>Evernote</tag>
+         
+         
+           
+             
+              <breadCrumb title="开发工具" url="http://ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://ehlxr.me/2016/10/24/%E8%AE%BE%E7%BD%AE-Sublime-Text3-%E4%B8%BB%E9%A2%98%E9%80%8F%E6%98%8E/</loc>
+    <lastmod>2016-10-28T05:17:36.953Z</lastmod>
+    <data>
+        <display>
+        <title>设置 Sublime Text3 主题透明</title>
+        <pubTime>2016-10-24T09:30:55.000Z</pubTime>
+        
+        <tag>Sublime</tag>
+         
+         
+           
+             
+              <breadCrumb title="开发工具" url="http://ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://ehlxr.me/2016/09/06/5-%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA-Git-%E6%9C%8D%E5%8A%A1%E5%99%A8-Gogs/</loc>
+    <lastmod>2016-10-28T05:12:53.406Z</lastmod>
+    <data>
+        <display>
+        <title>5 分钟搭建 Git 服务器-Gogs</title>
+        <pubTime>2016-09-06T04:15:14.000Z</pubTime>
+        
+        <tag>Gogs</tag>
+         
+        <tag>Git</tag>
+         
+         
+           
+             
+              <breadCrumb title="Git" url="http://ehlxr.me/categories/Git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://ehlxr.me/2016/09/24/Oh-My-Zsh-%E6%9B%BF%E6%8D%A2%E4%BD%A0%E7%9A%84-Bash-Shell/</loc>
+    <lastmod>2016-10-28T05:06:59.094Z</lastmod>
+    <data>
+        <display>
+        <title>Oh My Zsh 替换你的 Bash Shell</title>
+        <pubTime>2016-09-24T04:31:21.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Zsh</tag>
+         
+        <tag>Shell</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://ehlxr.me/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85-Node-js/</loc>
+    <lastmod>2016-10-28T05:04:08.488Z</lastmod>
+    <data>
+        <display>
+        <title>CentOS 7 安装 Node.js</title>
+        <pubTime>2016-07-30T08:19:03.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>CentOS</tag>
+         
+        <tag>Node.js</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://ehlxr.me/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84-Git/</loc>
+    <lastmod>2016-10-28T05:00:52.521Z</lastmod>
+    <data>
+        <display>
+        <title>CentOS 7 安装最新的 Git</title>
+        <pubTime>2016-07-30T14:12:43.000Z</pubTime>
+        
+        <tag>Git</tag>
+         
+        <tag>Linux</tag>
+         
+        <tag>CentOS</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="http://ehlxr.me/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://ehlxr.me/2016/07/31/CentOS-%E7%B3%BB%E7%BB%9F%E4%B8%8B-GitLab-%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2016-10-28T04:57:25.933Z</lastmod>
+    <data>
+        <display>
+        <title>CentOS 系统下 GitLab 搭建与基本配置</title>
+        <pubTime>2016-07-31T10:15:47.000Z</pubTime>
+        
+        <tag>Git</tag>
+         
+        <tag>CentOS</tag>
+         
+        <tag>GitLab</tag>
+         
+         
+           
+             
+              <breadCrumb title="Git" url="http://ehlxr.me/categories/Git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://ehlxr.me/2016/07/23/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89/</loc>
     <lastmod>2016-10-27T12:53:45.540Z</lastmod>
     <data>
@@ -218,48 +378,6 @@
 
     
   <url>
-    <loc>http://ehlxr.me/2016/10/24/%E8%AE%BE%E7%BD%AE-Sublime-Text3-%E4%B8%BB%E9%A2%98%E9%80%8F%E6%98%8E/</loc>
-    <lastmod>2016-10-25T06:08:43.246Z</lastmod>
-    <data>
-        <display>
-        <title>设置 Sublime Text3 主题透明</title>
-        <pubTime>2016-10-24T09:30:55.000Z</pubTime>
-        
-        <tag>Sublime</tag>
-         
-         
-           
-             
-              <breadCrumb title="开发工具" url="http://ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://ehlxr.me/2016/10/19/%E8%BD%AC-%E7%94%A8-Markdown-%E5%86%99%E5%8D%B0%E8%B1%A1%E7%AC%94%E8%AE%B0%EF%BC%88Evernote%EF%BC%89/</loc>
-    <lastmod>2016-10-24T13:46:39.461Z</lastmod>
-    <data>
-        <display>
-        <title>[转]用 Markdown 写印象笔记（Evernote）</title>
-        <pubTime>2016-10-19T02:47:23.000Z</pubTime>
-        
-        <tag>Markdown</tag>
-         
-        <tag>Evernote</tag>
-         
-         
-           
-             
-              <breadCrumb title="开发工具" url="http://ehlxr.me/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://ehlxr.me/2016/08/22/%E8%BD%AC-Java%E7%A8%8B%E5%BA%8F%E5%91%98%E6%83%85%E4%B9%A6/</loc>
     <lastmod>2016-10-21T03:13:28.388Z</lastmod>
     <data>
@@ -300,30 +418,6 @@
 
     
   <url>
-    <loc>http://ehlxr.me/2016/09/24/Oh-My-Zsh-%E6%9B%BF%E6%8D%A2%E4%BD%A0%E7%9A%84-Bash-Shell/</loc>
-    <lastmod>2016-10-21T03:12:50.994Z</lastmod>
-    <data>
-        <display>
-        <title>Oh My Zsh 替换你的 Bash Shell</title>
-        <pubTime>2016-09-24T04:31:21.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Zsh</tag>
-         
-        <tag>Shell</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://ehlxr.me/categories/Linux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://ehlxr.me/2016/07/20/Java-List%E4%B8%8E%E6%95%B0%E7%BB%84%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BD%AC%E6%8D%A2/</loc>
     <lastmod>2016-10-21T03:12:36.555Z</lastmod>
     <data>
@@ -346,78 +440,6 @@
 
     
   <url>
-    <loc>http://ehlxr.me/2016/07/31/CentOS-%E7%B3%BB%E7%BB%9F%E4%B8%8B-GitLab-%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2016-10-21T03:12:11.771Z</lastmod>
-    <data>
-        <display>
-        <title>CentOS 系统下 GitLab 搭建与基本配置</title>
-        <pubTime>2016-07-31T10:15:47.000Z</pubTime>
-        
-        <tag>Git</tag>
-         
-        <tag>CentOS</tag>
-         
-        <tag>GitLab</tag>
-         
-         
-           
-             
-              <breadCrumb title="Git" url="http://ehlxr.me/categories/Git/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85%E6%9C%80%E6%96%B0%E7%9A%84-Git/</loc>
-    <lastmod>2016-10-21T03:12:06.099Z</lastmod>
-    <data>
-        <display>
-        <title>CentOS 7 安装最新的 Git</title>
-        <pubTime>2016-07-30T14:12:43.000Z</pubTime>
-        
-        <tag>Git</tag>
-         
-        <tag>Linux</tag>
-         
-        <tag>CentOS</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://ehlxr.me/categories/Linux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://ehlxr.me/2016/07/30/CentOS-7-%E5%AE%89%E8%A3%85-Node-js/</loc>
-    <lastmod>2016-10-21T03:12:01.219Z</lastmod>
-    <data>
-        <display>
-        <title>CentOS 7 安装 Node.js</title>
-        <pubTime>2016-07-30T08:19:03.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-        <tag>Node.js</tag>
-         
-        <tag>CentOS</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="http://ehlxr.me/categories/Linux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://ehlxr.me/2016/10/10/%E8%BD%AC-Kafka%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2016-10-21T03:11:45.772Z</lastmod>
     <data>
@@ -431,28 +453,6 @@
            
              
               <breadCrumb title="Java开发技术" url="http://ehlxr.me/categories/Java%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://ehlxr.me/2016/09/06/5-%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA-Git-%E6%9C%8D%E5%8A%A1%E5%99%A8-Gogs/</loc>
-    <lastmod>2016-10-21T03:11:31.066Z</lastmod>
-    <data>
-        <display>
-        <title>5 分钟搭建 Git 服务器-Gogs</title>
-        <pubTime>2016-09-06T04:15:14.000Z</pubTime>
-        
-        <tag>Gogs</tag>
-         
-        <tag>Git</tag>
-         
-         
-           
-             
-              <breadCrumb title="Git" url="http://ehlxr.me/categories/Git/"/>
           
         </display>
     </data>
