@@ -670,9 +670,9 @@
       <category term="Git" scheme="http://ehlxr.me/categories/Git/"/>
     
     
-      <category term="Gogs" scheme="http://ehlxr.me/tags/Gogs/"/>
-    
       <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
+    
+      <category term="Gogs" scheme="http://ehlxr.me/tags/Gogs/"/>
     
   </entry>
   
@@ -1024,9 +1024,9 @@
       <category term="Linux" scheme="http://ehlxr.me/categories/Linux/"/>
     
     
-      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
-    
       <category term="Linux" scheme="http://ehlxr.me/tags/Linux/"/>
+    
+      <category term="Git" scheme="http://ehlxr.me/tags/Git/"/>
     
       <category term="CentOS" scheme="http://ehlxr.me/tags/CentOS/"/>
     
